@@ -10,31 +10,16 @@ Thành viên:
 6. Sú Dũng Toàn 
 
 Danh mục Tổng bao gồm:
-1. Thời Trang Nam
-2. Thời Trang Nữ
-3. Điện Thoại & Phụ Kiện
-4. Mẹ & Bé
-5. Thiết Bị Điện Tử
-6. Nhà Cửa & Đời Sống
-7. Máy Tính & Laptop
-8. Sắc Đẹp
-9. Máy ảnh & Máy Quay Phim
-10. Sức Khoẻ
-11. Đồng Hồ
-12. Túi Ví Nữ
-13. Giày Dép Nam
-14. Giày Dép Nữ
-15. Thiết Bị Gia Dụng
-16. Phụ Kiện & Trang Sức Nữ
-17. Thể Thao & Du Lịch
-18. Bách Hoá Online
-19. Ô Tô & Xe Máy
-20. Nhà Sách Online
-21. Balo & Túi Ví Nam
-22. Thời Trang Trẻ Em
-23. Đồ Chơi
-24. Giặt Giũ & Chăm Sóc Nhà Cửa
-25. Châm Sóc Thú Cửa
+1. Thời Trang
+2. Điện Thoại
+3. Thiết Bị Điện Tử
+4. Nhà Cửa & Đời Sống
+5. Máy Tính & Laptop
+6. Mỹ phẩm
+7. Máy ảnh & Máy Quay Phim
+8. Đồng Hồ
+9. Giày Dép
+10. Balo & Túi Ví
 
 Loại tin tức bao gồm:
 1. Thông báo về các sản phẩm 
