@@ -112,7 +112,6 @@
             "tenDM": "Nokia",
             "trangThai": 1
         },
-        // Thiết bị điện tử "xong"
         {
             "id": "11",
             "idDMT": "3",
@@ -143,7 +142,6 @@
             "tenDM": "Linh Phụ Kiện",
             "trangThai": 1
         },
-        // Nhà cửa và Đời sống "xong"
         {
             "id": "16",
             "idDMT": "4",
@@ -174,8 +172,6 @@
             "tenDM": "Dụng Cụ",
             "trangThai": 1
         },
-        // Máy tính và Laptop
-        // Mỹ Phẩm "xong"
         {
             "id": "26",
             "idDMT": "6",
@@ -206,7 +202,6 @@
             "tenDM": "Bút Kẻ Mắt",
             "trangThai": 1
         },
-        // Máy ảnh và máy quay phim "xong"
         {
             "id": "31",
             "idDMT": "7",
@@ -237,7 +232,6 @@
             "tenDM": "Ống Kinh Máy Ảnh",
             "trangThai": 1
         },
-        // Đồng Hồ
         {
             "id": "36",
             "idDMT": "8",
@@ -249,9 +243,25 @@
             "idDMT": "8",
             "tenDM": "Đồng Hồ Seiko",
             "trangThai": 1
+        },
+        {
+            "id": "38",
+            "idDMT": "8",
+            "tenDM": "Đồng Hồ Ogival",
+            "trangThai": 1
+        },
+        {
+            "id": "39",
+            "idDMT": "8",
+            "tenDM": "Đồng Hồ Citizen",
+            "trangThai": 1
+        },
+        {
+            "id": "40",
+            "idDMT": "8",
+            "tenDM": "Apple Watch",
+            "trangThai": 1
         }
-        // Giày dép
-        // Balo và túi ví
     ],
     "sanPham": [
         {
@@ -902,6 +912,1794 @@
             "soLuong":"15",
             "moTa":"Bên cạnh sự phát triển của điện thoại thông minh thì điện thoại phổ thông cũng không hề kém cạnh khi xuất hiện ngày càng nhiều kiểu thiết kế độc đáo. Cụ thể như chiếc Nokia 5710 - máy được trang bị tai nghe không dây ngay tại mặt lưng, điều này giúp máy không chỉ dành cho nghe gọi mà còn có thể hoạt động như một thiết bị nghe nhạc.",
             "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "51",
+            "idDM": "11",
+            "tenSP": "Tai Nghe Bluetooth J12 TWS 5.0",
+            "hinhAnh":"https://chomuasamhangtot.com/image/cache/catalog/dien-tu-cong-nghe/Tai-Nghe/Tai-Nghe-Bluetooth-InPods-12-1-0x0.jpg",
+            "gia":"108000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Đặc điểm:  Điều khiển cảm ứng, không có nút bấm trên tai nghe. Chất liệu cao cấp.  Âm thanh chất lượng cao. Chip thông minh 5. Đặc điểm: - Khối lượng sản phẩm: 4-5g (mỗi tai nghe). Thời gian hoạt động: 1.5 - 3 tiếng. Thời gian ở trạng thái chờ: 100 tiếng cho một tai và 60 tiếng cho cả hai tai. Thời gian sạc: 1- 2 tiếng.  Dung lượng pin của mỗi tai nghe: 35mAh. Dung lượng pin của hộp sạc: 300mAh. Phạm vi kết nối không dây: 10m.",
+            "luotXem":"62",
+            "trangThai": 1
+        },
+        {
+            "id": "52",
+            "idDM": "11",
+            "tenSP": "Tai Nghe Gaming B6",
+            "hinhAnh":"https://cf.shopee.vn/file/41beb461c8ddb4a43ce62bb119f3b642",
+            "gia":"25000",
+            "giamGia":"20",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"195",
+            "moTa":"Tai nghe với âm thanh bass treble sống động, Không có tạp âm, thiết kế chống ồn hiệu quả, phù hợp sử dụng mọi nơi. Màng rung phức hợp sợi cacbon, đêm đến âm thanh với chất lượng hoàn hảo. Loa đôi đem đến chất lượng âm thanh tinh tế; mỗi loa đem đến cho bạn những trải nghiệm ở những âm tần khác nhau, chất lượng âm thanh cực chất, đem đến cho bạn sự trải nghiệm âm nhạc tuyệt vời. ----Nút bấm với chức năng lựa chọn bài hát, cùng với mic thông thoại chất lượng cao, điều khiển cuộc gọi điện thoại. ----Giắc cắm tiêu chuẩn 3.5mm , tương thích với mọi thiết bị có đầu cắm 3.5mm Kết nối: 3,5 mm Phân loại công nghệ: Điện dung Loại sản phẩm: Tai nghe nhét tai Chiều dài dây: 120cm Phương thức truyền: có dây Độ nhạy: 135 Nút điều khiển: Có Khử tiếng ồn chủ động: Có Kiểm soát âm lượng: Có Với micrô: Có",
+            "luotXem":"99",
+            "trangThai": 1
+        },
+        {
+            "id": "53",
+            "idDM": "11",
+            "tenSP": "Tai Nghe Mèo Bluetooth P47M",
+            "hinhAnh":"https://nguonhangonline.com/wp-content/uploads/2021/05/32d63f9029a041ea8ee0dd537c3c8036.jpg",
+            "gia":"128000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"40",
+            "moTa":"Tai Nghe Mèo Bluetooth P47M, Tai Mèo Dễ Thương Có Mic, Âm Bass Mạnh Mẽ Nghe Nhạc Cực Hay Bảo Hành 1 Năm. Một món quà tuyệt vời để tặng bạn gái, bạn bè trong mỗi dịp lễ. Tai nghe tai mèo phát sáng có bluetooth cao cấp 6 màu. Một chiếc tai nghe độc lạ khiến bạn trở nên khác biệt mỗi khi livestream hoặc trở nên cute trong mắt người ấy. Tai nghe tai mèo phát sáng và nhấp nháy tuyệt đẹp với nhiều tùy chọn màu sắc nhưng cũng có thể tắt khi không có nhu cầu dùng đèn :))) Quá xịn luôn đó ạ. Chất lượng âm thanh rất tốt , âm thanh hay trong trẻo, bass mạnh chứ không hề lùng bùng như các loại tai nghe rẻ tiền. Chất liệu nhựa cao cấp, tai nghe được bọc da đem lại cảm giác đeo cực kì mềm mại. Lực ép nhỏ nên đeo thời gian lâu không bị đau tai …Thông tin chi tiết : Tai nghe tai mèo chống ồn .Tai nghe bluetooth chụp tai có 3 chế độ kết nối : Dùng bluetooth 5.0, và dùng thẻ nhớ . Tai nghe bluetooth chụp tai có thể dùng cho mọi dòng điện thoại, máy tính bảng, laptop . Xuất xứ: HongKong. Dải tần số đáp ứng: 20-2000Hz . Nhạy cảm: 103±3db. Kết nối: bluetooth 5.0 cao cấp. Kháng: 32Ω . Delay: Không. Thời gian sạc: 1 - 2h . Thời gian chờ: 200h. Thời gian nghe nhạc: 8-10h ",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "54",
+            "idDM": "11",
+            "tenSP": "Tai Nghe Chụp Tai M6 Bluetooth",
+            "hinhAnh":"https://cf.shopee.vn/file/a5cb116e6f6252e67445e10790b945fe",
+            "gia":"85000",
+            "giamGia":"5",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"60",
+            "moTa":"Tai nghe đa năng 3 trong 1 này có thể được sử dụng như tai nghe bluetooth, máy nghe nhạc thẻ TF và tai nghe có dây, 3 chức năng trong một sản phẩm, nó không chỉ tiết kiệm tiền của bạn mà còn giảm trọng lượng khi mang theo nhiều Các thiết bị. (Chế Độ TF chỉ hỗ trợ định dạng MP3.) Bluetooth V5.0 mang đến cho bạn chất lượng âm thanh mới. Thời gian phát lại lên đến 5 giờ, thời gian đàm thoại lên đến 4 giờ và thời gian chờ lên đến 150 giờ, tuổi thọ pin rất lâu. Với khả năng tương thích nâng cao, nó hỗ trợ hầu hết tất cả các thiết bị âm thanh hỗ trợ bluetooth. Bạn cũng có thể kết nối thiết bị bằng cáp âm thanh 3,5 mm để tai nghe không bao giờ tắt. Micrô độ nét cao cho phép bạn thực hiện các cuộc gọi rõ ràng mà không cần mang điện thoại. Nó cũng là một lựa chọn hoàn hảo để nghe nhạc, xem phim, trò chuyện trực tuyến và tặng quà",
+            "luotXem":"89",
+            "trangThai": 1
+        },
+        {
+            "id": "55",
+            "idDM": "11",
+            "tenSP": "Tai nghe không dây X15 Bluetooth",
+            "hinhAnh":"https://shopuytin.vn/pictures/picfullsizes/2022/07/07/snu1657166831.jpg",
+            "gia":"240000",
+            "giamGia":"15",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Tập trung vào tai nghe Bluetooth You don’t need to ask the phone di động XXX có thể sử dụng hay không. Nó có thể được sử dụng cho bất kỳ điện thoại di động nào hỗ trợ Bluetooth chức năng, bất kể thương hiệu và chế độ.Các chức năng nút 1. Bật nguồn; Mở hộp sạc để khởi động tai nghe và bắt đầu ghép nối hoặc giữ Nút cảm ứng trong 3 giây, 2. Tắt nguồn; Đặt tai nghe vào hộp sạc hoặc giữ Nút cảm ứng trong 5 giây. 3. Phát / Tạm dừng: Chạm vào Nút Chuyển trên tai nghe để tạm dừng / tiếp tục phát bản nhạc hiện tại đang được phát. 4.Answer a cal / Treo máy: Chạm vào Nút cảm ứng trên tai nghe để trả lời cuộc gọi khi điện thoại đang đổ chuông hoặc để ngắt điện thoại. 5.Từ chối cuộc gọi: Giữ Nút cảm ứng trong 1 giây để từ chối cuộc gọi. 6.Trước: Nhấn nhanh Nút cảm ứng A 3 lần 、 7. Tiếp theo: Nhấn nhanh Nút cảm ứng B 3 lần 8. Khối lượng +; Nhấn nhanh Nút cảm ứng A 2 lần 9, Âm lượng -: Nhấn nhanh Nút cảm ứng B 2 lần 10. Sử dụng Siri: Nhấn và giữ Nút cảm ứng trong 1,5 giây khi tai nghe được kết nối với điện thoại. 11. Nhấn nhanh vào nút 4 lần để chuyển đổi giữa Chế độ trò chơi và Chế độ âm nhạc khi tai nghe được kết nối với điện thoại. 12: Thay đổi ngôn ngữ: Nút cảm ứng năm lần nhấn ở trạng thái kết nối.",
+            "luotXem":"255",
+            "trangThai": 1
+        },
+        {
+            "id": "56",
+            "idDM": "12",
+            "tenSP": "Loa bluetooth mini CHARGE 311 không dây",
+            "hinhAnh":"https://cf.shopee.vn/file/b27fbdc7cd9dd707a1eba9db503adc40",
+            "gia":"150000",
+            "giamGia":"5",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"30",
+            "moTa":"THÔNG SỐ KỸ THUẬT LOA BLUETOOTH CHARGE 311 MINI: Bộ sản phẩm loa bluetooth mini CHARGE 311 gồm: 1 loa, 1 cáp sạc – Chất liệu: nhựa, kim loại – Loa bluetooth mini CHARGE 311 có công suất: 5W – Thời gian sử dụng: 3-5giờ (tùy theo âm lượng sử dụng) – Thời gian sạc: 1.5 - 2 giờ – Kết nối: bluetooth, thẻ nhớ, USB – Trọng lượng: 0,3kg- Loa bluetooth mini CHARGE 311 đủ màu sắc: đỏ, đen, xanh dương, xanh lá. Loa Bluetooth Không Dây Charge 311 Mini Vỏ Nhôm nổi tiếng với âm bass mạnh mẽ, tạo không gian rung đập, dồn dập. Chiến mọi thể loại nhạc từ EDM, DJ, Nonstop, Remix đến những bài nhạc Pop sâu lắng, nhẹ nhàng đầy cảm xúc hay những ca khúc cải lương, nhạc Bolero, nhạc cách mạng, kinh phật... đều tốt cả nhé. Âm thanh hay vượt trội, diễn tả mọi cung bậc cảm xúc của bản nhạc mà bạn yêu thích thật sự tuyệt vời",
+            "luotXem":"60",
+            "trangThai": 1
+        },
+        {
+            "id": "57",
+            "idDM": "12",
+            "tenSP": "Loa máy tính laptop vi tính mini MC V-128 ",
+            "hinhAnh":"https://cf.shopee.vn/file/c69b1bce55a134b8faddcb01a9c852ec",
+            "gia":"120000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"60",
+            "moTa":"THÔNG TIN SẢN PHẨM - Đầu ra 3W - Tần số 25Hz - 20KHz - Đầu cắm USB, jack 3.5mm - Kích thước loa: 6 x 6 x 7,5 - Âm thanh ra 35dB - 65dB - Trọng lượng loa 0.5kg. Đặc tính sản phẩm Loa máy tính laptop vi tính mini MC V-158PRO âm Bass Trầm nổi loa di động Eagle Eye dùng cho giắc cắm âm thanh.",
+            "luotXem":"66",
+            "trangThai": 1
+        },
+        {
+            "id": "58",
+            "idDM": "12",
+            "tenSP": "Loa bluetooth Kimiso KM-S1/S2",
+            "hinhAnh":"https://cf.shopee.vn/file/8352345060103d34f06e49118b40c028",
+            "gia":"339000",
+            "giamGia":"15",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Loa được thiết kế rất bắt mắt đơn giản nhưng vẻ bề ngoài rất đẹp - Có nút điều chỉnh âm lượng trên loa rất tiện lợi cho việc điều chỉnh to ( nhỏ ) - Bass nghe to âm thanh rất êm và ấm - Rất phù hợp cho máy tính để bàn - tivi - laptop .... - Sản phẩm được bảo hành 3 tháng THÔNG SỐ KỸ THUẬT: - Độ Phân giải: 270dB - Công suất loa: 23W - Tần số: 2.4GHZ ( 2.402-2.480 ) - Kích thước: 32x5x5cm - Trọng Lượng: 850g - Loa gốm 2 jack kết nối : usb và jack 3.5.",
+            "luotXem":"96",
+            "trangThai": 1
+        },
+        {
+            "id": "59",
+            "idDM": "12",
+            "tenSP": "Loa vi tính 2.0 để bàn Leerfei E-350T",
+            "hinhAnh":"https://salt.tikicdn.com/cache/w600/ts/product/60/a5/bd/260c5f3741783612cbe195bd8484094e.jpg",
+            "gia":"160000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"60",
+            "moTa":"Loa được thiết kế rất bắt mắt đơn giản nhưng vẻ bề ngoài rất đẹp - Có nút điều chỉnh âm lượng trên loa rất tiện lợi cho việc điều chỉnh to ( nhỏ ) - Bass nghe to âm thanh rất êm và ấm - Rất phù hợp cho máy tính để bàn - tivi - laptop .... - Sản phẩm được bảo hành 3 tháng THÔNG SỐ KỸ THUẬT: - Độ Phân giải: 270dB - Công suất loa: 23W - Tần số: 2.4GHZ ( 2.402-2.480 ) - Kích thước: 32x5x5cm - Trọng Lượng: 850g - Loa gốm 2 jack kết nối : usb và jack 3.5",
+            "luotXem":"100",
+            "trangThai": 1
+        },
+        {
+            "id": "60",
+            "idDM": "12",
+            "tenSP": "Combo Soundcard V8 AQTA Chính Hãng Bluetooth",
+            "hinhAnh":"https://cf.shopee.vn/file/ec1358e5e6cc734ae3508cead83f3a8d",
+            "gia":"799000",
+            "giamGia":"20",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"25",
+            "moTa":"Combo Bộ sản phẩm bao gồm : 1. Sound card V8 Phiên Bản Quốc Tế ( Tiếng Anh ) 2. Mic Karaoke Livestream Woai Chang BM900 3. Dây 3.5mm lấy nhac,bông lọc micro và đầy đủ phụ kiện. Vài điều thú vị về sound card v8 Sound card hiểu nôm na là “Card” Âm Thanh tức là thiết bị dùng để thu nhận, xử lý và phát tín hiệu âm thanh thông qua 1 thiết bị ngoại vi khác. Âm thanh trong máy tính là ở dạng digital (kỹ thuật số) muốn truyền tốt được ra ngoài cần có một thiết bị chuyển digital qua analog (tín hiệu băng tần) vậy nên Sound card thu âm V8 giúp máy bạn thực hiện điều đó. Sound card thu âm V8 là sản phẩm card âm thanh tương thích với nhiều thiết bị như smartphone, laptop, pc, máy tính bảng. Với tính năng làm méo giọng hát, thành giọng trẻ em, người già, Khả năng chèn các hiệu ứng âm thanh vào các đoạn thu như tiếng vỗ tay, tiếng hò reo, nhạc cổ vũ, tiếng chim kêu... với 12 hiệu ứng âm thanh, sẽ đem lại cho bạn trải nghiệm thu âm vô cùng thú vị. Thông số kỹ thuật của Sound card thu âm V8.",
+            "luotXem":"55",
+            "trangThai": 1
+        },
+        {
+            "id": "61",
+            "idDM": "13",
+            "tenSP": "Tivi Xiaomi EA Pro 75 inch ram2G/16G 4K Ultra HD viền kim loại",
+            "hinhAnh":"https://cf.shopee.vn/file/42b089bbc21202e104f8681e8f467cc1",
+            "gia":"15369000",
+            "giamGia":"20",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"5",
+            "moTa":"Chi tiết sản phẩm: Màn Hình: Độ phân giải: 3840 × 2160 - Độ phân giải: 4K - Góc nhìn: 178 độ - Tốc độ làm mới: 60Hz - Gam màu rộng: Bộ vi xử lý và lưu trữ - CPU: Bộ xử lý 4 nhân 64-bit - GPU: Bộ xử lý đồ họa Mali - RAM: 2G - Bộ nhớ flash: 16G - Hệ điều hành: Android TV Cấu hình không dây. - Kích thước Tivi: Dài: 1446mm x Cao: 829mm | Khoảng cách hai chân đế: 1331mm | Độ rộng chân đế: 289mm | Độ cao từ chân đế: 893mm - Kích thước vỏ hộp: 1606mm * 176mm * 951mm - Trọng lượng cơ sở: 17,1 KG .",
+            "luotXem":"12",
+            "trangThai": 1
+        },
+        {
+            "id": "62",
+            "idDM": "13",
+            "tenSP": "Android Tivi Casper 4K 55 inch 55UG6100",
+            "hinhAnh":"https://salt.tikicdn.com/cache/w1200/ts/product/1c/6c/18/7471a21e70c81f7baa30354b4ea1dfa4.png",
+            "gia":"8990000",
+            "giamGia":"35",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"8",
+            "moTa":"Thiết kế sang trọng, khung viền thanh mảnh tinh tế.Smart Tivi Casper 4K 55 inch 55UG6100 sở hữu thiết kế màn hình tràn viền sang trọng, khung viền đen thanh mảnh mang đến vẻ đẹp tinh tế và đẳng cấp cho không gian nội thất được bố trí.Bên cạnh đó, tivi Casper có kích thước màn hình 55 inch còn sở hữu chân đế bằng nhựa bền bỉ, thích hợp bố trí ở các nơi có diện tích lớn như: phòng họp, phòng khách,...",
+            "luotXem":"35",
+            "trangThai": 1
+        },
+        {
+            "id": "63",
+            "idDM": "13",
+            "tenSP": "Smart Tivi Samsung 4K Crystal UHD 43 inch UA43AU8100",
+            "hinhAnh":"https://khodienmayonline.com/wp-content/uploads/2022/11/led-4k-samsung-ua43au8100-1.jpg",
+            "gia":"15000000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"10",
+            "moTa":"Thiết kế hiện đại, thanh lịch Smart Tivi Samsung 4K 43 inch UA43AU8100 được thiết kế Airslim không viền ba cạnh thanh lịch, màn hình tivi Samsung 43 inch có viền mỏng màu đen tinh tế. Không chỉ là sản phẩm giải trí bình thường mà còn là một vật dụng trang trí giúp làm nổi bật các không gian trưng bày như: Phòng khách, phòng ngủ,...",
+            "luotXem":"25",
+            "trangThai": 1
+        },
+        {
+            "id": "64",
+            "idDM": "13",
+            "tenSP": "Google Tivi TCL 4K 55 inch 55P635",
+            "hinhAnh":"https://bizweb.dktcdn.net/thumb/1024x1024/100/429/371/products/google-tcl-4k-55-inch-55p635-4.jpg?v=1659338628900",
+            "gia":"9990000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"15",
+            "moTa":"Google Tivi TCL 4K 55 inch 55P635 cho trải nghiệm xem tuyệt vời với thiết kế tràn viền, hình ảnh chất lượng 4K sắc nét, công nghệ HDR10 cho hình ảnh chi tiết, công nghệ Smart HDR hiển thị khung hình sống động, chế độ Game Mode giúp hiển thị các màn game mượt mà, công nghệ Dolby Audio tái tạo âm thanh mạnh mẽ, trung thực, Google Assistant hỗ trợ tiếng Việt, gọi video miễn phí qua màn hình tivi với Google Duo.  Google Tivi TCL 4K 55 inch 55P635 có vẻ ngoài sang trọng với đường viền siêu mỏng mang đến trải nghiệm xem toàn màn hình đặc sắc, cho bạn tận hưởng các nội dung giải trí đắm chìm hơn. Màn hình 55 inch, kích cỡ hoàn hảo để bạn trang trí trong các phòng khách, phòng làm việc, phòng hội nghị có diện tích vừa và rộng.",
+            "luotXem":"49",
+            "trangThai": 1
+        },
+        {
+            "id": "65",
+            "idDM": "13",
+            "tenSP": "Smart Tivi Casper 32 inch 32HX6200",
+            "hinhAnh":"https://thegioidienmayonline.com/wp-content/uploads/2021/05/smart-tivi-casper-32-inch-32hx6200-1.jpg",
+            "gia":"4390000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"10",
+            "moTa":"Thiết kế nhỏ gọn, chắc chắn: Smart Tivi Casper 32 inch 32HX6200 thiết kế lịch lãm với gam màu đen sang trọng, màn hình tràn viền 3 cạnh, cho tầm nhìn của bạn "khóa chặt" vào nội dung đang được trình chiếu, hạn chế xao nhãng khi xem tivi. Chân đế chữ V úp ngược giữ tivi đứng ổn định trên mặt bàn, kệ.Kích cỡ tivi 32 inch nhỏ gọn, bày trí phù hợp cho phòng ngủ, phòng khách, văn phòng nhỏ theo kiểu để bàn hoặc treo tường tùy theo thiết kế nội thất của ngôi nhà, công ty.",
+            "luotXem":"39",
+            "trangThai": 1
+        },
+        {
+            "id": "66",
+            "idDM": "14",
+            "tenSP": "Máy Chơi Game Cầm Tay SUP 400 In",
+            "hinhAnh":"https://salt.tikicdn.com/ts/tmp/35/aa/ab/e09bc0e1e9a45bc5c6575a509dd3ae1c.jpg",
+            "gia":"134000",
+            "giamGia":"2",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"30",
+            "moTa":"Mô tả sản phẩm : Cấu hình hoạt động của dòng máy này đủ để đảm bảo cho người chơi cảm xúc xuyên suốt từ lúc khởi đầu đến khi hoàn tất và chiến thắng vì nó được trang bị... 1. Màn hình hiển thị màu 3.0 inch. 2. 400 loại trò chơi khác nhau. 3. Gaming Loại: AVG, ACT, RPG. 4. Làm việc với pin li-ion.BL5C 5. Portable và trọng lượng nhẹ. 6. Có thể kết nối với tv, hỗ trợ av đầu ra Giờ đây mời các bạn cùng với Ad mục sở thị máy SUP MINI GAME PLAYER thần thánh này và chia sẻ cảm nhận nhé... Tính năng, đặc điểm: MÁY GAME SUP 400 In 1 Trò Chơi Cầm Tay Cổ Điển Được xây dựng trong 400 Trò chơi cổ điển: Đó là một món quà tặng cho trẻ em, bạn bè của bạn, cả nam và nữ sẽ thích nó. Màn hình màu TFT 3.0 inch: Độ nét cao. Cáp AV được kết nối với TV, để bạn có thể dễ dàng thưởng thức các trò chơi sinh động và thú vị trên màn hình lớn. Thời gian chơi lâu hơn: Pin lithium 1000mAh Hỗ trợ lên đến 6 giờ chơi trò chơi liên tục. Thiết kế cầm tay nhỏ gọn: Kích thước nhỏ gọn và trọng lượng nhẹ, thuận tiện cho việc mang theo. Giúp bạn có thể thư giãn ở bất cứ nơi nào bất cứ lúc nào..",
+            "luotXem":"99",
+            "trangThai": 1
+        },
+        {
+            "id": "67",
+            "idDM": "14",
+            "tenSP": "Máy chơi game GS5 & Game Box HDMI tay cầm không dây",
+            "hinhAnh":"https://cf.shopee.vn/file/4de02ba8cadb719870b503da4b9028a9",
+            "gia":"1290000",
+            "giamGia":"5",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"20",
+            "moTa":"Bảng điều khiển kép 2.4G -Thuận tiện, hình ảnh sắc nét - Chất lượng hàng đầu với giá tốt nhất thị trường - Trò chơi bao gồm PS1 / ATARI / MAME / SFC / FC / GBA / GB / GBC / MD - Trò chơi cổ điển bao phê - Hỗ trợ 2 người chơi tay cầm không dây - Thông số kỹ thuật: CPU: GB2 RAM SD: DDR3 256MB Crack sẵn game chỉ việc chơi không cần cài đặt gì hết. Flash: 128MB Chất liệu: ABS Trọng lượng sản phẩm: 400g Kết nối: không dây Kết nối: HDMI Trọng lượng: 0,5 (KG) Xuất xứ : Trung Quốc",
+            "luotXem":"123",
+            "trangThai": 1
+        },
+        {
+            "id": "68",
+            "idDM": "14",
+            "tenSP": "Máy Chơi Game Cổ Điển NES Classic 620 Trò Chơi ",
+            "hinhAnh":"https://cf.shopee.vn/file/1110bb6a5d2d448dfdd0105d91340315",
+            "gia":"220000",
+            "giamGia":"19",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"30",
+            "moTa":"Hãy để ký ức tuổi thơ òa về cùng bạn bè và người thân mỗi dịp cuối tuần với máy chơi điện tử 4 nút Nintendo Family Computer. Phiên bản mới nhất tích hợp 620 trò chơi khác nhau như: Contra, Mario, Ninja cứu mẹ, Tank, Bác sỹ Mario, Ninja Kage, Tiny toon, Chip & Dale, Đá bóng chưởng, Ninja Mèo…",
+            "luotXem":"48",
+            "trangThai": 1
+        },
+        {
+            "id": "69",
+            "idDM": "14",
+            "tenSP": "Tay Cầm Chơi Game Microsoft Xbox 360",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/fc923bfc8e2c7b5664584d026f3df435.jpg_720x720q80.jpg_.webp",
+            "gia":"175000",
+            "giamGia":"5",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"70",
+            "moTa":"Mô tả sản phẩm Tay cầm chơi game Xbox 360 có giây (Đen) Dành cho cả 2 hệ máy PC và Xbox360. Tay cầm có trọng lượng tương đối nhẹ, cho cảm giác sử dụng dễ chịu, thoải mái. Không cần pin, tay bấm sử dụng nguồn trực tiếp từ máy. Cổng USB của tay bấm dễ dàng kết nối với PC. Thiết bị hỗ trợ tối đa kết nối 4 tay cầm không dây vào PC. Dễ dàng sử dụng không cần cài đặt khi cắm vào pc Phù hợp với Win XP, Win Vista, Win 7 hoặc cao hơn. Hỗ trợ rung tốt với những game có chế độ rung. Dây dài 1.8m tiện lợi khi chơi trên máy Xbox360, hay PC nối ra màn hình lớn. Nếu bạn là game thủ của hệ máy Xbox thì chắc hẳn Tay cầm chơi gameXbox 360 là một thiết bị vô cùng quen thuộc. Chiếc tay cầm chơi game Microsoft Xbox 360 Controller for Windows sẽ giúp bạn nhanh chóng “phá đảo” được các trò chơi đó.Tay cầm chơi gamecó thiết kế hiện đại, khối lượng nhẹ phù hợp với mọi đối tượng mọi lứa tuổi. Hơn nữa sản phẩm còn dung được trên cả 2 hệ máy PC và Xbox 360 giúp bạn có được sự tiện lợi trong phương thức giải trí của riêng mình.",
+            "luotXem":"85",
+            "trangThai": 1
+        },
+        {
+            "id": "70",
+            "idDM": "14",
+            "tenSP": "Bao tay chơi game",
+            "hinhAnh":"https://cf.shopee.vn/file/f1ca1a0b87aac796188a64ca7a20d6be",
+            "gia":"5000",
+            "giamGia":"0",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"300",
+            "moTa":"BAO TAY CHƠI GAME CAO CẤP - Sản xuất : Theo công nghệ sợi may của Hoa Kỳ - Chất liệu: Sợi bạc 24 kim siêu dẫn điện - Độ mỏng : 0,3 mm - Màu sắc: Có nhiều màu - Trọng lượng: 10g Ưu điểm nổi bật sản phẩm - Được làm bằng chất liệu sợi bạc 24 kim siêu dẫn điện được phát triển bởi Hoa Kỳ , siêu mỏng chỉ 0,3mm - Có tác dụng chống trơn trượt, chống mồ hôi tay giúp cải thiện kỹ năng chơi game và tránh các lỗi khi chơi. - Găng tay cảm ứng với 120 điểm may cảm ứng /1 mét vuông , giúp bề mặt tiếp xúc giữa ngón tay và không khí được tăng lên 30%, diện tích thoát hơi nước tăng lên bạn sẽ cảm thấy rất thoải mái kể cả chơi một thời gian dài. - Nhẹ nhàng, nhỏ gọn có thể mang đi bất kỳ đâu - Tương thích hoàn hảo với tất cả game mobile • Thiết kế và gia công từ Sợi Carbon cao cấp siêu bền, cảm ứng nhạy • Thiết kể mỏng hơn 30% so với các loại găng tay trên thị trường • Khả năng co dãn đàn hồi cực cao, đường chỉ may tỉ mỉ chỉn chu. • Vẫn có khả năng cảm ứng nhạy trong trường hợp bị ướt • Hấp thụ mồ hôi tay hiệu quả, giúp thoáng khí • Găng tay có thể giặt lại được nhiều lần và không bị mất cảm ứng",
+            "luotXem":"360",
+            "trangThai": 1
+        },
+        {
+            "id": "71",
+            "idDM": "15",
+            "tenSP": "Loa Phóng Thanh Cầm Tay ,Bán Hàng Rong Cắm usb",
+            "hinhAnh":"https://prices.vn/storage/photo/product/loa-phong-thanh-loai-tot-co-khe-usb-va-the-nho.png",
+            "gia":"165000",
+            "giamGia":"0",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Model: MS16-004 | MS 16004 -Tần số đáp ứng: 100Hz-10KHz -Công suất: 15W -Tầm hoạt động: 100 - 200 mét -Ghi âm: 150-240 giây -Cổng cắm usb -Dùng pin: Li-ion 1500mAh/ 3.7V -Thời gian sử dụng : 10 giờ - 20 giờ ( tùy công suất phát) -Thời gian phát nhạc/cảnh báo (ghi sẵn): 2.5 giờ -Thời gian chờ: 30 giờ -Thời gian sạc pin: 5 giờ -Kích thước: 20.5 x 18 x 13 (cm) -Trọng lượng: 500g -Loa có chức năng ghi âm -Chức năng lặp bài -Chức năng nói trực tiếp -Cắm USB Cực Tiện Lợi bán hàng ,mang theo cho hướng dẫn viên du lịch",
+            "luotXem":"155",
+            "trangThai": 1
+        },
+        {
+            "id": "72",
+            "idDM": "15",
+            "tenSP": "Màng lọc micro MAONO AU-B00",
+            "hinhAnh":"https://cf.shopee.vn/file/2770a164630bc4025fb9d65445214362",
+            "gia":"290000",
+            "giamGia":"52",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"60",
+            "moTa":"Chi tiết sản phẩm: Thương hiệu: maono Phong cách: Để bàn Bộ chuyển đổi: Micrô ghi âm Sử dụng: Micrô gắn máy tính Loại sản phẩm: Bộ micro đa năng Đóng gói: Có Số model: AU-B00 Gói hàng bao gồm: 1 x Màng lọc micro",
+            "luotXem":"68",
+            "trangThai": 1
+        },
+        {
+            "id": "73",
+            "idDM": "15",
+            "tenSP": "Dây 3.5 AUX",
+            "hinhAnh":"https://nshopvn.com/wp-content/uploads/2021/06/day-cap-am-thanh-aux-3-5mm-dai-3-met-f94v-5-600x600.jpg",
+            "gia":"20000",
+            "giamGia":"0",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"90",
+            "moTa":"CDây 3.5 AUX 1 Đầu Đực 1 Đầu Cái Dễ Dàng Nối Dài Chiết Áp Dễ Dàng Nối Dài Chiết Áp Ra Ngoài Dây 1 Đầu Đực 1 Đầu Cái Dài 30cm",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "74",
+            "idDM": "15",
+            "tenSP": "Cáp USB Ra Sound Virtual 7.1 5HV2 Surround Sound",
+            "hinhAnh":"https://phongvunghean.com/wp-content/uploads/2021/11/Phong-Vu-811-56.png",
+            "gia":"59000",
+            "giamGia":"40",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"120",
+            "moTa":"CDây 3.5 AUX 1 Đầu Đực 1 Đầu Cái Dễ Dàng Nối Dài Chiết Áp Dễ Dàng Nối Dài Chiết Áp Ra Ngoài Dây 1 Đầu Đực 1 Đầu Cái Dài 30cm",
+            "luotXem":"89",
+            "trangThai": 1
+        },
+        {
+            "id": "75",
+            "idDM": "15",
+            "tenSP": "USB Bluetooth 5.0 Ugreen 80889",
+            "hinhAnh":"http://product.hstatic.net/1000369156/product/usb-bluetooth-5.0-ugreen-80889_7737f656fbba40e5a964d40abf64eb7b_grande.jpg",
+            "gia":"250000",
+            "giamGia":"30",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"60",
+            "moTa":"CDây 3.5 AUX 1 Đầu Đực 1 Đầu Cái Dễ Dàng Nối Dài Chiết Áp Dễ Dàng Nối Dài Chiết Áp Ra Ngoài Dây 1 Đầu Đực 1 Đầu Cái Dài 30cm",
+            "luotXem":"240",
+            "trangThai": 1
+        },
+        {
+            "id": "76",
+            "idDM": "16",
+            "tenSP": "Khăn lông cừu",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/35968ab745d0fe7115017400ff869d47.jpg_720x720q80.jpg_.webp",
+            "gia":"15000",
+            "giamGia":"1",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"100",
+            "moTa":"CDây 3.5 AUX 1 Đầu Đực 1 Đầu Cái Dễ Dàng Nối Dài Chiết Áp Dễ Dàng Nối Dài Chiết Áp Ra Ngoài Dây 1 Đầu Đực 1 Đầu Cái Dài 30cm",
+            "luotXem":"69",
+            "trangThai": 1
+        },
+        {
+            "id": "77",
+            "idDM": "16",
+            "tenSP": "Kệ Nhà Tắm Kệ Để Đồ Phòng ",
+            "hinhAnh":"https://cf.shopee.vn/file/31f707043cde8d35ac787e070988c920",
+            "gia":"68000",
+            "giamGia":"40",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"30",
+            "moTa":"Kệ Nhà Tắm Kệ Để Đồ Phòng-Tắm Kệ Nhà Vệ Sinh Toilet-Kệ Để Bồn Cầu 3Tầng-Kệ Để Đồ Sau Toilet-Nhà Tắm 3 Tầng 👍🏼 Mô tả sp: - Chất liệu: Nhựa PP nguyên sinh và khung inox - Kích thước gồm chân: Cao 52cm. ngang 30cm, phần gía đựng rộng 14cm, cao 16cm. - Màu sắc: ghi xám và trắng - Trọng lượng: 400g - Dán siêu chắc, bền bỉ chịu nước thoái mái",
+            "luotXem":"68",
+            "trangThai": 1
+        },
+        {
+            "id": "78",
+            "idDM": "16",
+            "tenSP": "Đầu Vòi Hoa Sen Áp Suất Cao",
+            "hinhAnh":"https://www.gumic.vn/pictures/picfullsizes/2021/08/26/hxq1629948733.jpg",
+            "gia":"65000",
+            "giamGia":"10",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"30",
+            "moTa":"Đầu vòi sen cầm tay tăng áp này hoạt động với hiệu suất tốt, tạo ra dòng nước mạnh mẽ cho bạn, làm sạch bụi bẩn nhanh chóng. Có 3 mức điều chỉnh và bạn có thể chuyển mức bằng một nút bấm, thuận tiện cho bạn trong việc vận hành và sử dụng. Loại đầu vòi này có thể tháo rời, bạn có thể dùng nó như một vòi xịt để vệ sinh toilet, nhà tắm, giúp cuộc sống của bạn trở nên tiện lợi và dễ dàng hơn. Được làm từ nhựa và bề mặt được mạ, loại sen tắm này có khả năng chống ăn mòn, chống rỉ sét và chống mài mòn, phục vụ bạn sử dụng lâu dài.",
+            "luotXem":"82",
+            "trangThai": 1
+        },
+        {
+            "id": "79",
+            "idDM": "16",
+            "tenSP": "Khăn giấy nén Hàn Quốc",
+            "hinhAnh":"https://imgcdn.thitruongsi.com/tts/rs:fill:600:0:1:1/g:sm/plain/file://product/2021/05/30/2a3f0920-c10a-11eb-b50a-6dcf39f5b2fd.jpg",
+            "gia":"2000",
+            "giamGia":"0",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"300",
+            "moTa":"1 viên khăn giấy nén Hàn Quốc thiết kế hình viên kẹo bo tròn đa năng tiện lợi - Khăn nén với kích thước chỉ bằng viên kẹo để bạn có thể bỏ túi hay ví tiện lợi, mang đi khắp mọi nơi (dùng làm khăn lau khi đi dã ngoại ngoài trời, đi phượt. Chỉ cần thủ 5, 7 viên trong túi, cần là lôi ra dùng, lại đảm bảo vệ sinh cực kỳ.Khăn nén sử dụng 100% sợi tơ tự nhiên, không mùi, không độc hại, kích thước lớn, mềm mại, sử dụng được lâu. Khăn thấm hút nước nhanh chóng, không thô ráp, không rơi sợi bông khi sử dụng và phù hợp với mọi lứa tuổi. - Viên nén được ép nén bằng kĩ thuật ép nén nhiệt độ cao nên giúp giải trừ các chất độc hại - Khăn giấy nén hình viên kẹo có thể được sử dụng dễ dàng chỉ bằng cách ngâm nước trong vòng 3 giây - Khăn nén có thể tái sử dụng: Không vứt khăn ngay sau khi sử dụng, có thể tiếp tục dùng để lau bàn, lau ghế sofa, lau cửa kính, tủ lạnh,v.v",
+            "luotXem":"165",
+            "trangThai": 1
+        },
+        {
+            "id": "80",
+            "idDM": "16",
+            "tenSP": "Bộ Nhả Kem Đánh Răng Thông Minh",
+            "hinhAnh":"https://ezmarts.vn/pictures/picfullsizes/2022/03/01/jgj1646124757.jpg",
+            "gia":"250000",
+            "giamGia":"40",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"50",
+            "moTa":"1 viên khăn giấy nén Hàn Quốc thiết kế hình viên kẹo bo tròn đa năng tiện lợi - Khăn nén với kích thước chỉ bằng viên kẹo để bạn có thể bỏ túi hay ví tiện lợi, mang đi khắp mọi nơi (dùng làm khăn lau khi đi dã ngoại ngoài trời, đi phượt. Chỉ cần thủ 5, 7 viên trong túi, cần là lôi ra dùng, lại đảm bảo vệ sinh cực kỳ.Khăn nén sử dụng 100% sợi tơ tự nhiên, không mùi, không độc hại, kích thước lớn, mềm mại, sử dụng được lâu. Khăn thấm hút nước nhanh chóng, không thô ráp, không rơi sợi bông khi sử dụng và phù hợp với mọi lứa tuổi. - Viên nén được ép nén bằng kĩ thuật ép nén nhiệt độ cao nên giúp giải trừ các chất độc hại - Khăn giấy nén hình viên kẹo có thể được sử dụng dễ dàng chỉ bằng cách ngâm nước trong vòng 3 giây - Khăn nén có thể tái sử dụng: Không vứt khăn ngay sau khi sử dụng, có thể tiếp tục dùng để lau bàn, lau ghế sofa, lau cửa kính, tủ lạnh,v.v",
+            "luotXem":"264",
+            "trangThai": 1
+        },
+        {
+            "id": "81",
+            "idDM": "17",
+            "tenSP": "Dây đèn LED RGB 2835 5V",
+            "hinhAnh":"https://cf.shopee.vn/file/07a3da5bd9e9dcde1310a11c7bddd3aa",
+            "gia":"29000",
+            "giamGia":"0",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"300",
+            "moTa":"Mô tả sản phẩm: 1.2835 không thấm nước 2. Điện áp cung cấp điện: DC5V 3. Số lượng đèn LED cho dải 1M]: 60 đèn LED / M 4. 1 triệu / 2 triệu / 3 triệu / 4 triệu / 5 triệu. Dải đèn LED 2835 (điều khiển từ xa có bộ điều khiển 3 phím / điều khiển đường dây Bluetooth / bộ điều khiển 24 IR / điều khiển Bluetooth 24 phím) 2. Đèn LED siêu sáng, cường độ cao và đáng tin cậy. 3. Tuổi thọ đèn LED hơn 50000 giờ",
+            "luotXem":"74",
+            "trangThai": 1
+        },
+        {
+            "id": "82",
+            "idDM": "17",
+            "tenSP": "Thanh đèn led RGB nháy theo nhạc ",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/a156beeeecf364314eba84bd12eb1132.png_720x720q80.jpg_.webp",
+            "gia":"130000",
+            "giamGia":"30",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"100",
+            "moTa":"Đặc trưng: 【Trực quan hóa âm nhạc sống động】 Với 32 hạt đèn LED nhiều màu sắc, chức năng đón micrô và lọc tiếng ồn có độ nhạy cao, thanh đèn mức độ âm nhạc cung cấp 8 chế độ hiển thị và hơn 60 sự kết hợp màu sắc, làm cho âm nhạc trở nên sống động một cách hoàn hảo và độc đáo. 【Chất lượng cao cấp & Khả năng sử dụng rộng rãi】 Được bao bọc bởi lớp vỏ đúc một lần bằng hợp kim nhôm, đơn giản nhưng mạnh mẽ. Một món quà tuyệt vời cho bạn bè, đồng nghiệp, người yêu âm nhạc, nhà thiết kế, v.v. 【Làm việc thư giãn & Cảm hứng lấp loé】 Đặt trên bàn văn phòng, bàn cạnh giường ngủ hoặc trong ô tô của bạn để tạo ra một bầu không khí thư giãn và tràn đầy cảm hứng. Bằng cách kích hoạt môi trường, sẽ giúp bạn giảm bớt áp lực và kích hoạt ý tưởng của mình.",
+            "luotXem":"90",
+            "trangThai": 1
+        },
+        {
+            "id": "83",
+            "idDM": "17",
+            "tenSP": "Đèn led neon hình trang trí treo tường deco",
+            "hinhAnh":"https://my-live-02.slatic.net/p/aa61a90034dec760ec1221ee37f47483.jpg",
+            "gia":"539000",
+            "giamGia":"40",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"35",
+            "moTa":"THÔNG TIN SẢN PHẨM - Sản phẩm:Đèn led neon hình trang trí treo tường decor phòng ngủ, góc làm việc 50 mẫu đẹp - Loại sản phẩm: đèn led neon hình, đèn neon treo tường, đèn neon trang trí - Bộ sản phẩm bao gồm: đèn led neon, nguồn cấp điện và băng keo 2 mặt trong suốt dán tường - Kích thước: Xem chi tiết trên góc ảnh sản phẩm - Thương hiệu: WiWi Neonsign - Xuất xứ: Việt Nam - Màu: Xanh băng, xanh dương, xanh lá, trắng, trắng ấm, vàng, cam, đỏ, tím, hồng",
+            "luotXem":"152",
+            "trangThai": 1
+        },
+        {
+            "id": "84",
+            "idDM": "17",
+            "tenSP": "Đèn Tích Điện Bóng Đèn Led Tích Điện 100W",
+            "hinhAnh":"http://bizweb.dktcdn.net/thumb/grande/100/431/426/products/b2c56b014ca93145e37ab658db8921b5.jpg?v=1640243328800",
+            "gia":"107000",
+            "giamGia":"3",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"50",
+            "moTa":"BÓNG ĐÈN TÍCH ĐIỆN BI Thông tin sản phẩm: - Bóng led bulb sạc tích điện siêu sáng - Chất liệu : nhựa Abs an toàn cho người sử dụng - Loại bóng : Led siêu sáng - Thời gian sử dụng : 4-5h sau khi sạc đầy - Tặng kèm dây sạc - Thiết kế gọn nhẹ và có kèm móc treo nên rất tiện dụng khi dùng cho trường hợp mất điện, đi du lịch cắm trại , câu cá - Sản phẩm chiếu sáng tiện lợi nhất hiện nay (an toàn, dễ sử dụng, linh động trong mọi công việc) - Sử dụng khi bị cúp điện mà không cần đến máy nổ, đèn ác quy - Thích hợp khi đi dã ngoại, đi câu cá, chợ đêm, buôn bán - Sử dụng cho hàng quán vỉa hè, hàng rong khi trời tối mà không cần phải dùng thêm thiết bị sạc phức tạp nào khác",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "85",
+            "idDM": "17",
+            "tenSP": "Đèn học chống cận GHINER GN-1902",
+            "hinhAnh":"https://noithathuykhang.com/wp-content/uploads/2022/05/den-ban-h-c-led-ch-ng-c-n-ghiner-gn-1902-pin-4500mah-600x600.jpg",
+            "gia":"250000",
+            "giamGia":"20",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"60",
+            "moTa":"BÓNG ĐÈN TÍCH ĐIỆN BI Thông tin sản phẩm: - Bóng led bulb sạc tích điện siêu sáng - Chất liệu : nhựa Abs an toàn cho người sử dụng - Loại bóng : Led siêu sáng - Thời gian sử dụng : 4-5h sau khi sạc đầy - Tặng kèm dây sạc - Thiết kế gọn nhẹ và có kèm móc treo nên rất tiện dụng khi dùng cho trường hợp mất điện, đi du lịch cắm trại , câu cá - Sản phẩm chiếu sáng tiện lợi nhất hiện nay (an toàn, dễ sử dụng, linh động trong mọi công việc) - Sử dụng khi bị cúp điện mà không cần đến máy nổ, đèn ác quy - Thích hợp khi đi dã ngoại, đi câu cá, chợ đêm, buôn bán - Sử dụng cho hàng quán vỉa hè, hàng rong khi trời tối mà không cần phải dùng thêm thiết bị sạc phức tạp nào khác",
+            "luotXem":"99",
+            "trangThai": 1
+        },
+        {
+            "id": "86",
+            "idDM": "18",
+            "tenSP": "Bản lề gập thông minh 𝐈𝐍𝐎𝐗",
+            "hinhAnh":"https://garis.vn/wp-content/uploads/2020/10/ban-le-gap-2.jpg",
+            "gia":"239000",
+            "giamGia":"5",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"120",
+            "moTa":"BẢN LỀ GẬP TREO TƯỜNG THÔNG MINH PHIÊN BẢN INOX & THÉP CHẤT LƯỢNG CAO - Ứng dung rộng rãi trong thiết kế các loại bàn gập treo tường như bàn ăn, bàn làm việc, bàn trang điểm, giá để đồ nhà tắm, bàn trang trí tiểu cảnh... - Ngoài ra giúp tiết kiệm tối đa không gian cho ngôi nhà bạn - Chất liệu: INOX hoặc Thép nhập khẩu (Chọn trong phân loại) - Khả năng chịu lực: tối đa 80-100kg - Trên mỗi bản lề có tích hợp nút bấm giúp mở và gập dễ dàng",
+            "luotXem":"62",
+            "trangThai": 1
+        },
+        {
+            "id": "87",
+            "idDM": "18",
+            "tenSP": "Bàn học làm việc gấp gọn thông minh",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/49570e9cf86dcac9c1b771354b5c2293.jpg_720x720q80.jpg_.webp",
+            "gia":"58000",
+            "giamGia":"1",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"270",
+            "moTa":"Đặc điểm nổi bật của bàn học gấp gọn thông minh có khe cắm ipad : Rất là cần cho con để con đọc sạch vở vẽ vời khi mang ra phòng khách! Cần cho bản thân khi làm việc với quyển sổ và cái laptop! Dành cho học sinh, sinh viên, công chức, các bé mẫu giáo tập tô tập viết Có khe cắm ipad, điện thoại. Gọn gàng chắc chắn. Dễ di chuyển, kể cả xếp va li mang theo cho chuyến đi học xa Nhà sắp tới",
+            "luotXem":"190",
+            "trangThai": 1
+        },
+        {
+            "id": "88",
+            "idDM": "18",
+            "tenSP": "Ghế lười Tatami Nhật Bản",
+            "hinhAnh":"https://dongtienblog.com/wp-content/uploads/2021/08/thong-tin-ghe-luoi-tatami-nhat-ban-e1632563654157.jpeg",
+            "gia":"337000",
+            "giamGia":"20",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"100",
+            "moTa":"Trong cùng là khung trục kim loại, tạo hình dáng cho ghế, có khóa , khớp để ghế có thể gập các góc độ. Lớp giữa là mút để ngăn giữa lớp khung kim loại và tạo độ êm cho ghế Lớp ngoài là vỏ ghế , chất nhung mịn, có thể tháo ra để giặt được.- Chất liệu vỏ ngoài nhung lạnh Nhật Bản tạo cảm giác mềm mại. -Ghế phù hợp cho người hay bị mỏi lưng, mỏi cổ, và đặc biệt là bà bầu hoặc phụ nữ hay phải trông con -  Có nhiều màu cho khách lựa chọn, hàng về liên tục",
+            "luotXem":"99",
+            "trangThai": 1
+        },
+        {
+            "id": "89",
+            "idDM": "18",
+            "tenSP": "Kệ đựng đồ ZicZac đa năng",
+            "hinhAnh":"https://cf.shopee.vn/file/ba47281226a37e6a2748ab1ffb406a1c",
+            "gia":"79000",
+            "giamGia":"13",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"50",
+            "moTa":"Kệ để đồ đa năng ziczac: Kệ 4 tầng hình chữ Z giúp bạn lưu trữ và quản lý giày, dép một cách gọn gàng, ngăn nắp, giữ form giày, dép luôn đẹp như mới. Kiểu dáng chắc chắn, nhỏ gọn giúp tiết kiệm được tối đa diện tích nhà bạn. Kệ 4 tầng hình chữ Z có thể dùng làm kệ để sách báo, cặp túi, gấu bông cho bé…Thiết kế cơ động, dễ dàng để lắp hoặc tháo rời. Chất liệu nhựa bền cao cấp kết hợp với nhôm không gỉ. Màu sắc/ kiểu dáng: Nhiều màu, xuất ngẫu nhiên. Kệ 4 tầng hình chữ Z thiết kế dạng lắp ghép, việc lắp vào, tháo ra rất nhanh chóng, dễ dàng di chuyển nhiều nơi, với nhiều mục đích khác nhau: giá sách, kệ để đồ, giá để giày…Sản phẩm được ưa chuộng nhờ làm bằng chất liệu nhựa cao cấp và các thanh kim loại nhôm không gỉ, chịu lực, kiểu dáng trang nhã.Kích thước : 47.5*46*19 cm",
+            "luotXem":"125",
+            "trangThai": 1
+        },
+        {
+            "id": "90",
+            "idDM": "18",
+            "tenSP": "Tủ Giày Đa Năng",
+            "hinhAnh":"https://cf.shopee.vn/file/27f519e0d325f090f2c3b823f624fea3",
+            "gia":"225000",
+            "giamGia":"1",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"78",
+            "moTa":"TỦ GIÀY GỖ -Dài 80 cm *cao 80 cm* sâu 30cm. Kệ để giầy dép tủ để giày dép bằng gỗ 5 tầng đẹp mê ly thế này nên khách mua nhiều thế là phải- *Chất liệu :gỗ công nghiệp cao cấp phủ melamin chống xước hai mặt dày 1,8 cm không co ngót, cong vênh, nứt nẻ, không độc hại tới sức khỏe của người sử dụng, thân thiện với môi trường. Thông tin chi tiết:- Chất liệu: gỗ ép công nghiệp - Kích thước tủ giầy 5 tầng: -Dài 80 cm *cao 80cm* sâu 30cm. - Trọng lượng: 18kg- Màu sắc: nâu Kích thước 80×80×30 -Gỗ MDF đã qua xử lý chống chống ẩm, chống mối một",
+            "luotXem":"255",
+            "trangThai": 1
+        },
+        {
+            "id": "91",
+            "idDM": "19",
+            "tenSP": "Miếng Dán Tường Giả Gạch 3D Chống Thấm Nước",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/28535e5beae8bd60c4bfb5d629afb7e6.jpg_720x720q80.jpg_.webp",
+            "gia":"5900",
+            "giamGia":"0",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"400",
+            "moTa":"Chất liệu: PE- Kích thước: 35x15cm- Hiệu quả giảm tiếng ồn tốt hơn. Tự làm miễn phí, dễ dàng tự thiết kế, lắp đặt, cắt dán thông thường, cắt tùy ý. Xốp mềm trang trí ba chiều, chống va chạm cho trẻ em, chăm sóc cho gia đình bạn an toàn. sống động như thật, hiệu ứng hoa văn gạch tự nhiên, phong cách đơn giản và hiện đại. an toàn và bảo vệ môi trường, không mùi độc hại, thích hợp cho gia đình an toàn Không gian.",
+            "luotXem":"340",
+            "trangThai": 1
+        },
+        {
+            "id": "92",
+            "idDM": "19",
+            "tenSP": "THẢM LAU CHÂN LÔNG LOANG  ",
+            "hinhAnh":"https://prices.vn/storage/photo/product/tham-chui-chan-tham-lau-chan-long-xu-loang-cao-cap-sieu-mem-min-de-chong-tron-truot-thiet-ke-de-ve-sinh-giao-mau-ngau-nhien.png",
+            "gia":"50000",
+            "giamGia":"20",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"100",
+            "moTa":"Thông tin sản phẩm - Kích thước: 40 x 60cm - Đế cao su chống trượt - Bề mặt sợt Sợi Polyester tổng hợp - Dễ giặt khô, có thể giặt máy - Màu sắc trang nhã, bắt mắt (SHOP GIAO MÀU NGẪU NHIÊN, KHÁCH HÀNG YÊN TÂM LA BÊN KHO TOÀN NHỮNG MÀU HOTTTT THÔI.) Thảm chùi chân lông loang với sợi lông tơ mềm mại được kết hợp từ các sợi lông công nghiệp chống bám bụi, kết cấu bền chặt, bên cạnh đó là bo viền và có lót hạt chống trơn bên dưới, tạo cho chiếc thảm lông trở lên vô cùng chắc chắn và có tính thẩm mỹ cao",
+            "luotXem":"222",
+            "trangThai": 1
+        },
+        {
+            "id": "93",
+            "idDM": "19",
+            "tenSP": "Đồng Hồ LED Để Bàn Báo Thức Điện Tử Đa Chức Năng",
+            "hinhAnh":"https://salt.tikicdn.com/ts/tmp/80/39/5b/950dc9dd1492a1fdb1b7a6f739e256c4.jpg",
+            "gia":"100000",
+            "giamGia":"40",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"80",
+            "moTa":"Đồng Hồ LED Để Bàn Báo Thức Điện Tử Đa Chức Năng Cảm Biến Đèn Nền Ban Đêm, Nhiệt Độ, Thời Gian, Lịch, Báo Thức C1019-Đồng hồ thiết kế hiện đại phù hợp với nhiều không gian. - Màn hình LCD và chữ số lớn: rất tốt cho người già sử dụng. - Đồng hồ có đèn LED cảm biến sáng liên tục để xem giờ buổi tối, không làm ảnh hưởng đến giấc ngủ- Đa chức năng: hiển thị thời gian; ngày tháng; nhiệt độ...2 chế độ thời gian: 12h/24h -Nguồn sử dụng 3 pin AAA (không bao gồm) - Báo thức chuông to 3 hồi. - Kích thước: 14 x 8 x 5 (cm) Đồng hồ điện tử để bàn nhiều màu sắc: đen, trắng, hồng, xanh dương, xanh lá Bạn có thể đặt trong nhiều không gian khác nhau: phòng ngủ, phòng khách, phòng ăn, ô tô....",
+            "luotXem":"321",
+            "trangThai": 1
+        },
+        {
+            "id": "94",
+            "idDM": "19",
+            "tenSP": "Lọ hoa thuỷ tinh đa giác",
+            "hinhAnh":"https://cf.shopee.vn/file/b5aa6d1e7e3cbbd22f4a097ab4463c86",
+            "gia":"70000",
+            "giamGia":"30",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"74",
+            "moTa":"Lọ hoa thủy tinh đa giác + Thông tin chi tiết sản phẩm lọ hoa thủy tinh đa giác Maydecor - Lh007 Chiều cao 18cm, đường kính miệng 8,3cm -LH011 Loại 1: Chiều cao 18cm, đường kính miệng 9cm Chất liệu: Thủy tinh. Bề mặt lọ hoa được đánh bóng, mang lại vẻ đẹp và sự tinh tế. Lọ hoa được làm từ chất liệu thủy tinh với nhiều màu sắc và kiểu dáng hiện đại theo phong cách châu Âu, dễ dàng phối với bất kỳ loại hoa nào",
+            "luotXem":"89",
+            "trangThai": 1
+        },
+        {
+            "id": "95",
+            "idDM": "19",
+            "tenSP": "Xương rồng đủ loại",
+            "hinhAnh":"https://salt.tikicdn.com/ts/product/5b/a2/ff/bbc0127fd0316b2056db3cd15bbcd183.jpg",
+            "gia":"60000",
+            "giamGia":"15",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"130",
+            "moTa":"Xương rồng có khả năng chịu hạn tốt nên có những cây Shop gửi đi sẽ có bầu đất hoặc không có bầu đất tùy từng loại cây. Cây xương rồng có đặc tính chịu hạn tốt, để cả tuần cả tháng vẫn oke nha. Khách nhận được cây chỉ cần trồng lại và tưới cho chúng ít nước (tưới cách gốc) thì sẽ phát triển bình thường thôi ạ. Vả lại đi đường xa cây sẽ khát nước lúc bạn trồng lại cây sẽ tập trung phát triển bộ rễ để hút nước mạnh hơn. Chăm cây khách chỉ cần nhớ tưới vừa đủ nước là có ánh sáng hợp lý là cây sẽ sống tốt thui ạ",
+            "luotXem":"95",
+            "trangThai": 1
+        },
+        {
+            "id": "96",
+            "idDM": "20",
+            "tenSP": "Ổ Cắm Điện Thông Minh Đa Năng ",
+            "hinhAnh":"https://salt.tikicdn.com/ts/product/9f/4e/b7/8ebd30704fc55dcfa3580cdf53ccaf66.png",
+            "gia":"79000",
+            "giamGia":"10",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"50",
+            "moTa":"Ổ cắm điện 6 phích cắm 3 cổng usb là dòng sản phẩm mới nhất được sản xuất trên dây truyền công nghệ cao , với 6 ổ cắm cùng 3 khe cắm USB cho phép người dùng sạc pin smartphone mà không cần tới củ sạc. Sản phẩm được tích hợp chip tự điều chỉnh và bảo vệ mạch điện mới nhất hiện nay. Đặc điểm nổi bật : – Sử dụng các linh kiện cao cấp có khả năng tự điều chỉnh sao cho phù hợp nhất với các thiết bị di động như iphone, ipad, các điện thoại di động … – Thiết kế đơn giản nhưng chắc chắn và đẹp. – Dòng điện ra của các cổng USB dao động từ 0 đến 2.0A . có khả năng tự động điều chỉnh. Bạn có nhiều thiết bị di động với quá nhiều củ sạc khác nhau, thậm chí là sạc không đủ chất lượng, gây hại cho thiết bị di động của bạn",
+            "luotXem":"99",
+            "trangThai": 1
+        },
+        {
+            "id": "97",
+            "idDM": "20",
+            "tenSP": "Bộ tua vít đa năng 31 đầu",
+            "hinhAnh":"https://chipviet.vn/wp-content/uploads/2019/12/1_BO-TO-VIT-DA-NANG-31-DAU.jpg",
+            "gia":"20000",
+            "giamGia":"2",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"30",
+            "moTa":"Đặc Điểm Nổi Bật - Bộ tô vít được làm bằng chất liệu thép không gỉ, bền bỉ với thời gian. Tay cầm được bọc một lớp nhựa dẻo rất êm tay, thiết kế chống trượt nên rất an toàn cho bạn. - Bộ sản phẩm gồm 30 đầu vít, 1 kẹp đa năng và 1 tay cầm được làm từ chất liệu thép không gỉ nên rất bền chắc. Có nhiều kiểu đầu vít khác nhau như: đầu dẹt, tam giác, lục giác, 3 cạnh, 4 cạnh, 5 cạnh và 6 cạnh, mỗi dạng đều có đủ các cỡ từ lớn đến nhỏ cho bạn thoải mái sử dụng tùy mục đích. - Bộ sản phẩm thích hợp để dùng từ sửa chữa các đồ điện tử trong gia đình, các loại máy vi tính, laptop, điện thoại di động… đến dùng cho những thợ sửa chữa điện máy. Hộp đựng nhỏ gọn, thuận tiện cho bạn trong việc cất giữ hay di chuyển. Hoàng Gia tool shop luôn đưa đến mức giá tốt nhất cho quý khách hàng",
+            "luotXem":"120",
+            "trangThai": 1
+        },
+        {
+            "id": "98",
+            "idDM": "20",
+            "tenSP": "Cuộn băng dính nano hai mặt trong suốt",
+            "hinhAnh":"https://vn-test-11.slatic.net/p/809a7905f5f78ffbcbf02fb2af413045.jpg",
+            "gia":"145000",
+            "giamGia":"10",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"60",
+            "moTa":"Mô tả:-Chất liệu chính: Nano PU Gel-Màu sắc: Như hình-Kích thước: 100 * 3 * 0.1cm (1m / bộ). Đặc điểm:-Có thể rửa sạch, có thể được tái sử dụng hơn 600 lần.- Gel siêu chắc và có thể rửa sạch và tái sử dụng. Công thức gel có vô số công dụng tiềm năng.- Dễ dàng dán và tháo, và sẽ không làm hỏng tường hoặc bề mặt của bạn - Keo hai mặt và có thể rửa sạch để sử dụng- Giữ các vật dụng đúng vị trí mà không bị trượt.",
+            "luotXem":"167",
+            "trangThai": 1
+        },
+        {
+            "id": "99",
+            "idDM": "20",
+            "tenSP": "Bộ lục giác đa năng ",
+            "hinhAnh":"https://muasam365.net/pictures/picfullsizes/2021/12/10/nmw1639106177.jpg",
+            "gia":"73000",
+            "giamGia":"8",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"50",
+            "moTa":"Chất liệu thép CR-V6150_vanadi , chịu lực tốt, độ bền cao, chống gỉ sét. Sử dụng vặn cac loại ốc titan, ốc cr ,ốc đĩa bành trước. Bộ lục giác 9 cây KÍCH THƯỚC ĐẦU SAO : T10, T15, T20, T25, T27, T30, T40, T45, T50. Gồm 9 cây với kích thước khác nhau, phù hợp với nhu cầu sử dụng của nhiều người. Thân lục giác bọc trong vỉ nhựa, dễ bảo quản, tránh thất lạc. Bộ lục giác gồm 9 cây: T10, T15, T20, T25, T27,T30, T40, T45, T50 Trọng lượng nhẹ, hoạt động linh hoạt đem lại hiệu quả cao trong công việc. Làm từ thép mạ crom với công nghệ xử lý nhiệt chuyên nghiệp Thiết kế dạng chữ L dễ dàng cầm nắm, thao tác.",
+            "luotXem":"155",
+            "trangThai": 1
+        },
+        {
+            "id": "100",
+            "idDM": "20",
+            "tenSP": "Keo siêu dính dán chắc như đóng đinh",
+            "hinhAnh":"https://cf.shopee.vn/file/4c8480dc943f5b9195b98262374f173d",
+            "gia":"19000",
+            "giamGia":"0",
+            "ngayNhap":"7/11/2022",
+            "soLuong":"70",
+            "moTa":"THÔNG TIN CHI TIẾT SẢN PHẨM -Keo là dòng keo siêu cứng khi khô bám dính cực tốt trên mọi loại bề mặt từ kim loại, nhựa hay tường. -Sử dụng keo siêu dính khi bạn muốn dán cái gì đó lên tường mà không muốn khoan đục hay đóng đinh. -Keo khô trong thời gian từ 3-4 tiếng (Để càng lâu càng cứng). -Có thể dùng keo siêu dính dán vá vỏ xe hơi, xe máy không tốn tiền ra thợ sửa. -Dễ dùng, không hóa chất độc hại. -Khối lượng tịnh: 60g - Dùng dán được cả trăm lần.",
+            "luotXem":"98",
+            "trangThai": 1
+        },
+        {
+            "id": "126",
+            "idDM": "26",
+            "tenSP": "Son lì Chioture Hazy Mirror Matte Lip",
+            "hinhAnh":"https://cf.shopee.vn/file/1c876b61b1aedf7f3e73cfaf1fcc329e",
+            "gia":"280000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Son thỏi với thiết kế vỏ ngoài sang trọng quý phái, vỏ son và nắp son cực chắc chắn, chất son mỏng mịn giúp đôi môi tươi tắn, mượt môi không lộ vân môi, không gây khô môi, dễ lên màu và giữ màu chuẩn, với bảng màu phong phú",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "127",
+            "idDM": "26",
+            "tenSP": "Son Kem Lì Merzy The First Velvet Tint",
+            "hinhAnh":"https://cf.shopee.vn/file/sg-11134201-22100-h0nzlg2wtriv09",
+            "gia":"350000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Son Kem Lì Merzy Another Me The First Velvet Tint 4,5g là son kem lì có xuất xứ từ Hàn Quốc, sản phẩm có chất kem cực mịn cộng với bảng màu son lên màu cực chuẩn, hứa hẹn đem đến cho bạn đôi môi xinh xắn quyến rũ trong suốt nhiều giờ.",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "128",
+            "idDM": "26",
+            "tenSP": "Son môi Focallure Jasmine Meets Rose",
+            "hinhAnh":"https://cf.shopee.vn/file/a3c2099f43e36b51a3a16c6190942c3e",
+            "gia":"180000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Focallure hoa --- Một thỏi son với tinh dầu hoa hồng và hoa nhài tự nhiên sắp ra mắt 【Kết thúc tự nhiên】 Tinh dầu hoa nhài kết hợp cùng hoa hồng được thêm vào son, chọn những cánh hoa hồng và hoa nhài tự nhiên đem chưng cất thành tinh dầu, chất son được ép qua công nghệ cẩn thận, thêm tinh dầu, làm cho son có hương hoa hồng và hoa nhài. Đồng thời, cả hoa hồng và hoa nhài đều có công dụng dưỡng ẩm và làm dịu da, có tác dụng bảo vệ môi khi thoa son, không những không làm khô môi mà còn giúp môi mềm mại hơn. 【Siêu mượt】 Có thể thoa đều và duy trì hiệu ứng lì như lụa, lì nhưng không khô, rất dễ chịu sau khi thoa, dù có phủ thế nào cũng không bị vón cục, không bết dính, nhẹ và không bị bết môi, cũng sẽ không có nếp nhăn ở môi 【Màu cao】 Màu lì giàu sắc tố, bạn có thể sở hữu đôi môi quyến rũ bằng mọi cách, không dễ phai 【Chống thấm nước】 Thêm công thức chống thấm nước, có chức năng chống thấm nước, có thể đáp ứng nhu cầu trang điểm không bị trôi màu cả ngày, giữ lớp son lâu trôi. Son có hơi chuyển màu một chút nhưng màu sẽ bám trên môi cả ngày.",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "129",
+            "idDM": "26",
+            "tenSP": "Son kem Perfect Diary",
+            "hinhAnh":"https://cf.shopee.vn/file/4d07ca30dc7f9a894d755e49e9fad1b2",
+            "gia":"300000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Thành phần:
+
+            1. Octyldodecanol
+            
+            2. Caprylic/ CAPRIC TRIGLYCERIDE
+            
+            3. Sáp tổng hợp, SILICA
+            
+            4. Các thành phần khác",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "130",
+            "idDM": "26",
+            "tenSP": "Son thỏi siêu lì Merzy The First Lipstick",
+            "hinhAnh":"https://cf.shopee.vn/file/5dde4827ac42d34944ab20ea10ade8f2",
+            "gia":"240000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Merzy The First Lipstick. Một thỏi son với tinh dầu hoa hồng và hoa nhài tự nhiên sắp ra mắt 【Kết thúc tự nhiên】 Tinh dầu hoa nhài kết hợp cùng hoa hồng được thêm vào son, chọn những cánh hoa hồng và hoa nhài tự nhiên đem chưng cất thành tinh dầu, chất son được ép qua công nghệ cẩn thận, thêm tinh dầu, làm cho son có hương hoa hồng và hoa nhài. Đồng thời, cả hoa hồng và hoa nhài đều có công dụng dưỡng ẩm và làm dịu da, có tác dụng bảo vệ môi khi thoa son, không những không làm khô môi mà còn giúp môi mềm mại hơn. 【Siêu mượt】 Có thể thoa đều và duy trì hiệu ứng lì như lụa, lì nhưng không khô, rất dễ chịu sau khi thoa, dù có phủ thế nào cũng không bị vón cục, không bết dính, nhẹ và không bị bết môi, cũng sẽ không có nếp nhăn ở môi 【Màu cao】 Màu lì giàu sắc tố, bạn có thể sở hữu đôi môi quyến rũ bằng mọi cách, không dễ phai 【Chống thấm nước】 Thêm công thức chống thấm nước, có chức năng chống thấm nước, có thể đáp ứng nhu cầu trang điểm không bị trôi màu cả ngày, giữ lớp son lâu trôi. Son có hơi chuyển màu một chút nhưng màu sẽ bám trên môi cả ngày.",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "131",
+            "idDM": "27",
+            "tenSP": "Nước Hoa Nam Zya Bad Boy",
+            "hinhAnh":"https://cf.shopee.vn/file/c04663cabb3c96284254abb3c4cc770a",
+            "gia":"185000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Sản phẩm Nước hoa cho nam Zya Bad Boy là dòng sản phẩm mang phong cách nam tính, mạnh mẽ mà bất kỳ cánh mày râu nào cũng nên 1 lần sở hữu. Đối với các cặp đôi đang yêu hay chưa yêu, cặp đôi nước hoa Bad Boy & Good Girl sẽ là món quà ý nghĩa dành tặng cho nửa kia của mình.",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "132",
+            "idDM": "27",
+            "tenSP": "Nước hoa nam Bleu De Chanel",
+            "hinhAnh":"https://cf.shopee.vn/file/31c61ecda29098aa50d88c81bca792af",
+            "gia":"300000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Mùi hương gỗ đặc trưng kết hợp với các hương liệu như gỗ đàn hương, gừng, bạc hà giúp giải thoát giác quan và khẳng định bản thân. Hãy cùng khám phá những điều bất ngờ chứ đựng trong mùi hương nước hoa chanel nam tính này.",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "133",
+            "idDM": "27",
+            "tenSP": "Nước hoa nam giới THE PARIS & THE MIAMI",
+            "hinhAnh":"https://cf.shopee.vn/file/d4f2793a5c1fcdd819aadb64f1b9cb08",
+            "gia":"500000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"The Paris: Quyến rũ, ngọt ngào nhưng đầy tinh tế và nồng nàn của một Quý ông Pháp. The Paris mang hương Gỗ trầm ấm, kết hợp cùng hoa cúc La Mã dịu nhẹ, đặc biệt phù hợp cho những buổi tối nồng nàn đắm chìm trong cảm xúc. The Miami: Hoang dại, mát mẻ và độc đáo như thiên đường Miami rực rỡ. The Miami như mở ra một bãi biển nhiệt đới lấp lánh cát mịn, mời gọi một cách dễ chịu và trong lành, với hương thơm dịu mát, chắc chắn sẽ làm partner của bạn ấn tượng khó quên. ",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "134",
+            "idDM": "27",
+            "tenSP": "Nước Hoa Ultra Male",
+            "hinhAnh":"https://product.hstatic.net/1000340570/product/nuoc-hoa-ultra-male_0032a5baaf88448b90566d8c1a36eabc_master.jpg",
+            "gia":"350000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Ultra Male thấm đẫm sự ngọt ngào đầy 'nhục dục'. Nhiều người hay nói đùa rằng lên đồ để đi chơi, nhưng nếu mặc lên người mùi của Ultra Male thì khác gì đang không mặc đồ. Điều điên rồ nhất ở anh chàng này đó là nó khiến cho đối phương cảm thấy tò mò một cách thái quá, nghiền ngẫm suy nghĩ bằng những thái độ bất thường và soi mói gã Ultra Male với ánh mắt thèm khát.",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "135",
+            "idDM": "27",
+            "tenSP": "Nước Hoa Versace",
+            "hinhAnh":"https://cf.shopee.vn/file/01d92a8e88968e97f168936ea739419c",
+            "gia":"350000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"- Giới tính: Nam - Năm ra mắt: 1966 - Độ lưu hương: Lâu - 3 giờ đến 5 giờ - Độ toả hương: Gần - Toả hương trong vòng một cánh tay - Thời điểm khuyên dùng: Ngày, Đêm, Xuân, Hạ, Thu",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "136",
+            "idDM": "28",
+            "tenSP": "Sữa rửa mặt Cafuné",
+            "hinhAnh":"https://cf.shopee.vn/file/8fa6f9874c96d660667f7c1501cb1f58",
+            "gia":"118000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Sữa rửa mặt Ginger Deep Cleansing Foaming Face Wash tạo bọt nhẹ làm sạch sâu lỗ chân lông và giúp cân bằng cho da, đồng thời nhẹ nhàng loại bỏ bã nhờn dư thừa và bụi bẩn trên da mà không làm mất đi độ ẩm cần thiết của da. Với thành phần chiết xuất Gừng các hoạt chất Terpene và Phenolic có khả năng chống oxi hoá, giúp da giảm viêm và kháng khuẩn hiệu quả. Công thức từ nhiên nhiên phù hợp với mọi làn da (kể cả làn da nhạy cảm). Đặc biệt, sản phẩm không chứa hóa chất gây hại cho da, hương liệu nhân tạo, phẩm màu nhân tạo, xà phòng, cồn, dầu khoáng, paraben hạn chế làm da khô - căng rát hay kích ứng.",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "137",
+            "idDM": "28",
+            "tenSP": "Sữa rửa mặt Cerave Foaming Facial Cleanser",
+            "hinhAnh":"https://cf.shopee.vn/file/sg-11134201-22100-t3qitl3z8fivce",
+            "gia":"400000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Sữa rửa mặt cerave foaming facial cleanser da dầu da khô 236ml Sản phẩm có chứa các thành phần - Ceramides giữ ẩm, giúp duy trì lớp màng bảo vệ da khỏe mạnh để làn da có thể chống lại những tác hại từ môi trường bên ngoài, hạn chế được tình trạng vi khuẩn xâm nhập vào da, tránh tình trạng gây mụn và kích ứng, da sạch nhưng vẫn mềm mịn. - Hyaluronic acid có tác dụng giữ được độ ẩm tự nhiên, tránh các dấu hiệu lão hóa sớm cho da. - Niacinamide giúp da tự sản sinh thêm ceramides và các acid béo cần thiết để tự duy trì và phục hồi màng bảo vệ da.",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "138",
+            "idDM": "28",
+            "tenSP": "Gel Rửa Mặt Cosrx Tràm Trà",
+            "hinhAnh":"https://cf.shopee.vn/file/1326909b88e82051e0a3ea04c67b9a9b",
+            "gia":"200000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Gel Rửa Mặt Cosrx Tràm Trà, 0.5% BHA Có Độ pH Thấp 150ml là dòng sữa rửa mặt đến từ thương hiệu mỹ phẩm Cosrx của Hàn Quốc, với độ pH lý tưởng 4.5 - 5.5 sản phẩm an toàn và dịu nhẹ trên mọi làn da ngay cả làn da nhạy cảm và da mụn. Gel rửa mặt chứa 0,5% BHA tự nhiên và chiết xuất tràm trà làm sạch sâu lỗ chân lông, hỗ trợ kháng khuẩn, làm sạch mụn đồng thời tẩy da chết nhẹ nhàng. ",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "139",
+            "idDM": "28",
+            "tenSP": "SVR SEBIACLEAR Gel Moussant 55ml",
+            "hinhAnh":"https://cf.shopee.vn/file/bb01e63a41e98a71220adbd1b79f50ff",
+            "gia":"140000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"SVR SEBIACLEAR Gel Moussant (Gel rửa mặt) là một sản phẩm làm sạch không chứa xà phòng giúp làm sạch, nhẹ nhàng làm thông thoáng làn da. Khả năng tạo bọt mịn giúp loại trừ các chất bẩn và lượng bã nhờn dư thừa mà không làm khô da. Có thể rửa sạch dễ dàng, mang lại một làn da sạch, tươi mát và khô thoáng. Da được làm sạch: 100% * Loại bỏ lượng bã nhờn dư thừa: 100% * Giảm tắc nghẽn lỗ chân lông: 100% * Da mềm mại: 100% *",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "140",
+            "idDM": "28",
+            "tenSP": "Sữa rửa mặt nghệ Hưng Yên Cocoon",
+            "hinhAnh":"https://cf.shopee.vn/file/45486c2b2bbaed9adfa2ee0bb8bcf8a6",
+            "gia":"295000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Thành phần chính
+
+            • Chiết xuất nghệ: tạo ra từ dịch chiết củ nghệ có tác dụng ngừa oxy hóa.
+            
+            • AHA 4%: hàm lượng vừa đủ trong hệ rửa trôi, cấp ẩm và đưa pH da xuống thấp hơn giúp bước toner (nước nghệ 5% AHA) tiếp theo phát huy hiệu quả tốt hơn. AHA gồm Lactic Acid được lên men từ đường và Glycolic Acid được chiết xuất từ mía đường, là những phân tử nhỏ dễ dàng thẩm thấu, làm bong những lớp tế bào sừng già cỗi xỉn màu thông qua việc làm yếu đi liên kết desmosome giữa các tế bào, giúp da trở nên mềm mịn và sáng hơn, giảm các vết nhăn và cải thiện bề mặt da.
+            
+            • Chiết xuất cà rốt : giàu beta carotene có tác dụng giúp bảo vệ và nuôi dưỡng làn da.
+            
+            • Betaine: Là hoạt chất dưỡng ẩm được chiết xuất từ củ cải đường, có tác dụng bảo vệ tế bào da khỏi căng thẳng từ môi trường bên ngoài và tăng khả năng giữ ẩm cho da dưới tác động của nhiệt độ. 
+            
+            • Allantoin: có tác dụng cải thiện khả năng duy trì độ ẩm của da.",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "141",
+            "idDM": "29",
+            "tenSP": "Nước hoa nữ Narciso Poudree",
+            "hinhAnh":"https://cf.shopee.vn/file/sg-11134201-22100-i26bp7yf1eivbc",
+            "gia":"1155000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Là một trong những phiên bản đắt hàng nhất của 𝗡𝗮𝗿𝗶𝘀𝗰𝗼, 𝗡𝗮𝗿𝗰𝗶𝘀𝗼 𝗣𝗼𝘂𝗱𝗿𝗲́𝗲 trong chai thủy tinh vuông vức màu hồng phấn ngọt ngào. Thời gian gần đây, Narcis0..Rodriguez là thương hiệu nước hoa được săn lùng nhiều nhất, review tràn ngập trên mọi diễn đàn, bàn tán rôm rả xem mùi nào MUST HAVE ...!!!",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "142",
+            "idDM": "29",
+            "tenSP": "Nước hoa Nữ Lancome La Vie Est Belle",
+            "hinhAnh":"https://cf.shopee.vn/file/d39398635a450d3fa6291f3b570fbc14",
+            "gia":"595000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhóm nước hoa: Hoa cỏ - Trái cây - Thực phẩm Giới tính: Nữ Độ tuổi khuyên dùng: Trên 25 Năm ra mắt: 2012 Nồng độ: EDP Nhà pha chế: Olivier Polge Độ lưu hương: Lâu - 7 giờ đến 12 giờ Độ toả hương: Xa - Toả hương trong vòng bán kính 2 mét Thời điểm khuyên dùng: Ngày, Đêm, Thu, Đông Phong cách: Nữ tính , Sành điệu , Tươi trẻ Hương Đầu: Quả lý chua đen, Quả lê Hương giữa: Hoa diên vĩ, Hoa nhài, Hoa cam Hương cuối: Cây hoắc hương, Đậu Tonka, Hương Va ni, Kẹo nhân hạt",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "143",
+            "idDM": "29",
+            "tenSP": "Nước hoa nam nữ Le Labo Another 13 ",
+            "hinhAnh":"https://cf.shopee.vn/file/67678de73ed1f25c8ff122f29ba5a355",
+            "gia":"1000000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Nước hoa nữ Le Labo Another 13 EDP 100ml vẻn vẹn tối giản 13 note mùi. Trong veo, dễ gần, xong lại khó đoán, và “hút hàng”. Xoay vần quanh note mùi chính là ambrox, thứ mùi mang hơi hướng gỗ, khô ráo, tĩnh lặng, ngọt theo lối thanh tao. Mùi hương không nanh vuốt bao trùm, nuốt trọn mọi thứ xung quanh, đầy tự nhiên, hiện diện theo lối tự nhiên thỏ thẻ nhỏ nhẹ nói khẽ cười duyên. Không phân tán, không chìm nghỉm. Không quyền lực khẳng định, mà hiện diện tự nhiên tự nguyện, và đóng đinh vào tâm trí đối phương.",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "144",
+            "idDM": "29",
+            "tenSP": "Nước hoa nữ Bright Crystal EDT",
+            "hinhAnh":"https://cf.shopee.vn/file/sg-11134201-22110-szt4rly2jijv81",
+            "gia":"1000000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Mùi hương mở ra bằng nốt hương ngon ngọt từ Lựu, một chút vị thanh chua của trái Yuzu được ngâm mình trong làn nước mát lạnh, tôi tin chắc rằng các bạn sẽ bị hấp dẫn bởi hương vị này ngay từ lần chạm mũi đầu tiên. Hoa Sen, Hoa Mẫu Đơn, cùng với Hoa Mộc Lan là sự kết hợp vô cùng mượt mà tạo nên hương thơm nhẹ nhàng nhưng đầy nổi bật. Kết thúc bằng nốt Xạ hương và một chút Gỗ như một cú dứt điểm tròn trịa và mang tính nhớ nhung cao. ",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "145",
+            "idDM": "29",
+            "tenSP": "Nước hoa Nữ Dolce & Gabbana-L'imperatrice 3",
+            "hinhAnh":"https://cf.shopee.vn/file/505155a3c5bf5d9ee98946d32cac210b",
+            "gia":"1250000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Là một hương mùa hè đúng nghĩa luôn á khách.Mùi trái cây mọng nước hấp dẫn thanh thanh như nước ép trái cây giải nhiệt ấy,sảng khoái.Mùi ổi chín gợi nhớ quê hương,mát mẻ vô cùng. Hè nắng nóng đến phát rồ mà được bao quanh bởi mùi hương các lợi quả giúp hạ nhiệt thế này thì còn gì bằng ạ. Các bạn nào thích nước hoa có tính kamf mát mùa hè mà có hương trái cây thì đây ạ,xin mời hốt e í về.Dùng DG3 cứ như được thưởng thức sinh tố trái cây tổng hợp bằng mùi hương đấy chị em ạ.",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "146",
+            "idDM": "30",
+            "tenSP": "Bút kẻ mắt FOCALLURE",
+            "hinhAnh":"https://cf.shopee.vn/file/d74e371597d6acd3c30090bb0c0b82dd",
+            "gia":"130000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":" Tên sản phẩm: Bút kẻ mắt FOCALLURE giữ màu bền lâu 
+
+            Mỹ phẩm chuyên dụng: Không
+          
+            Loại sản phẩm: Bút kẻ mắt
+          
+            Chống nước: Có
+          
+            Loại thông số chi tiết: Bình thường
+          
+            Công dụng: trang điểm mắt, không thấm nước
+          
+            Loại da thích hợp: mọi loại da
+          
+            Hạn sử dụng: 3 năm
+          
+            Hướng dẫn bảo quản: Nơi thoáng mát, tránh ánh nắng trực tiếp",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "147",
+            "idDM": "30",
+            "tenSP": "Bút kẻ mắt SACE LADY",
+            "hinhAnh":"https://cf.shopee.vn/file/fa90d9d7da8ddeaa1e7601c3ce03551d",
+            "gia":"85000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"1. Cải thiện mắt một mí và tạo hiệu ứng đôi mắt to.
+
+            2. Định hình đôi mắt của bạn với màu sắc đẹp lưu giữ đến 24 giờ với màu sắc rạng rỡ không bị nhòe. Hiệu ứng chống nhòe, lâu trôi, giữ được sự tự nhiên và quyến rũ. 
+            
+            3. Khô nhanh với màu đen đậm. Lớp phủ không thấm nước, không phai màu, công thức lâu trôi với lớp màu bóng mịn, tinh tế, lý tưởng để tạo độ sâu phía trên đường mi và làm nổi bật đôi mắt.
+            
+            4. Bút kẻ mắt nước với đầu cọ chính xác mang lại độ nét chính xác chỉ trong một nét vẽ.
+            
+            5. Đầu nhọn có độ đàn hồi cao rất dễ sử dụng và tạo một đường kẻ mỏng đến đậm ấn tượng với công nghệ cấp nước trước, đột phá, khóa nước.
+            
+            6. Không bị nhòe màu, đều màu và tự nhiên.",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "148",
+            "idDM": "30",
+            "tenSP": "Bút Kẻ mắt LAMEILA",
+            "hinhAnh":"https://cf.shopee.vn/file/992184e9f7bee4c9091238de73b3b961",
+            "gia":"15000",
+            "giamGia":"10",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Khô nhanh, lâu trôi, dễ lên màu, không thấm nước, giúp mắt trông to tròn hơn.",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "149",
+            "idDM": "30",
+            "tenSP": "Bút kẻ mắt PINKFLASH",
+            "hinhAnh":"https://cf.shopee.vn/file/da34cfb29f15a614c711b5af53954cf3",
+            "gia":"35000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"KẺ MẮT NƯỚC CHỐNG THẤM NƯỚC: Kẻ mắt nước lót không thấm nước, không bị lem và bám chặt vào da!Đầu bút dạ mỏng dễ sử dụng ngay cả đối với những người ít sử dụng nhất. Công thức có sắc tố cao mang đến cho bạn một đường kẻ mắt đậm, đều, không để lại vệt trong một nét kẻ duy nhất. ",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "150",
+            "idDM": "30",
+            "tenSP": "Bút kẻ mắt COCUTE",
+            "hinhAnh":"https://cf.shopee.vn/file/e1d6579f93d11d08042f73b2e10b2b9e",
+            "gia":"50000",
+            "giamGia":"15",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Bút kẻ mắt có tác dụng 2 trong 1: Đầu kẻ màu đen dạng lỏng cho bước cơ bản Đầu kẻ hình dạng tem dặm trang điểm đuôi mắt Bút kẻ mắt tạo nét đẹp kỹ lưỡng, làm cho đôi mắt của bạn trông đẹp hơn, công thức chống thấm nước, sẽ không phai khi chớp mắt và đổ mồ hôi, không cần phải lo lắng và bối rối bởi những tình huống bất ngờ, có thể được sử dụng nhiều lần.",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "151",
+            "idDM": "31",
+            "tenSP": "SONY ALPHA A7C BODY",
+            "hinhAnh":"https://didgahstore.ir/wp-content/uploads/2020/09/سونی-آلفا-A7C.jpg",
+            "gia":"38990000",
+            "giamGia":"15",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Máy chỉ nặng 509 gam
+            - Kích thước 124mm x 71,1mm x 59,7mm ( W x H x D )
+            - Cảm biến Full-frame BSI 24,2 MP
+            - Chống rung 5 trục – 5 stop
+            - ISO 100-51200 (mở rộng lên đến 204800)
+            - 15 stop dynamic range
+            - 10 fps với AF/AE
+            - 693 điểm lấy nét chiếm 93% cảm biến
+            - Real-time EyeAF lấy nét mắt tự động người/động vật, real-time tracking
+            - 4K HDR, S-log2, S-log3,…",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "152",
+            "idDM": "31",
+            "tenSP": "SONY A7R MARK III BODY",
+            "hinhAnh":"https://th.bing.com/th/id/OIP.f-WTH0W2gJr6j6U0YmghVAHaFW?pid=ImgDet&rs=1",
+            "gia":"57990000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Bộ cảm biến FullFrame Back-illuminated CMOS 42.4 MP
+            - Chip BIONZ X xử lý nhanh và mạnh hơn 1,8 lần
+            - Chống rung 5 trục trong thân máy
+            - Độ nhạy sáng cao ISO 100 - 32.000 (mở rộng lên 102.000)
+            - Tốc độ màn trập 1/8000 - 30s
+            - Tốc độ ăn đèn 1/250s
+            - Hệ thống đo sáng thông minh DRO
+            - Quay phim chuẩn 4K không cần thiết bị ngoại vi
+            - Thêm chế độ Hybrid Log-Gamma cho phép quay phim HDR
+            - Đa dạng màu sắc với chức năng Picture Effect
+            - 2 khe thẻ nhớ, trong đó có 1 khe chuẩn UHS - II
+            - Pin tương thích NP-FZ100",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "153",
+            "idDM": "31",
+            "tenSP": "SONY ALPHA A7R MARK IV BODY",
+            "hinhAnh":"https://fotomorgenegg.ch/wp-content/uploads/2019/07/Sony-Alpha-a7R-Mark-IV-Body-Front.jpg",
+            "gia":"75490000",
+            "giamGia":"5",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Bộ cảm biến FullFrame Back-illuminated CMOS 42.4 MP
+            - Chip BIONZ X xử lý nhanh và mạnh hơn 1,8 lần
+            - Chống rung 5 trục trong thân máy
+            - Độ nhạy sáng cao ISO 100 - 32.000 (mở rộng lên 102.000)
+            - Tốc độ màn trập 1/8000 - 30s
+            - Tốc độ ăn đèn 1/250s
+            - Hệ thống đo sáng thông minh DRO",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "154",
+            "idDM": "31",
+            "tenSP": "SONY ALPHA A7R MARK III BODY",
+            "hinhAnh":"https://colorwood.nl/wp-content/uploads/2019/01/sony_ilce7rm2_b_alpha_a7r_iii_mirrorless_1369441.jpg",
+            "gia":"58990000",
+            "giamGia":"15",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Bộ cảm biến FullFrame Back-illuminated CMOS 42.4 MP
+            - Chip BIONZ X xử lý nhanh và mạnh hơn 1,8 lần
+            - Chống rung 5 trục trong thân máy
+            - Độ nhạy sáng cao ISO 100 - 32.000 (mở rộng lên 102.000)
+            - Tốc độ màn trập 1/8000 - 30s
+            - Tốc độ ăn đèn 1/250s
+            - Hệ thống đo sáng thông minh DRO
+            - Quay phim chuẩn 4K không cần thiết bị ngoại vi
+            - Thêm chế độ Hybrid Log-Gamma cho phép quay phim HDR
+            - Đa dạng màu sắc với chức năng Picture Effect
+            - 2 khe thẻ nhớ, trong đó có 1 khe chuẩn UHS - II
+            - Pin tương thích NP-FZ100",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "155",
+            "idDM": "31",
+            "tenSP": "SONY CYBER-SHOT DSC-RX100 MARK VI",
+            "hinhAnh":"https://th.bing.com/th/id/R.56e90773ecb75a2843e6357d87500e05?rik=Ig19f2L1DWRoRw&pid=ImgRaw&r=0",
+            "gia":"26850000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":" Bộ xử lý: BIONZ X, chip ngoại vi front-end LSI
+            - Ống kính: ZEISS 9-72mm (quy đổi 24-200mm) f/2.8-4.5
+            - Chống rung trên ống kính
+            - Thẻ nhớ: 1 khe SD, UHS-I
+            - Pin: NP-BX1
+            - Kích thước: 101.6 x 58.1 × 42.8 mm",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "156",
+            "idDM": "32",
+            "tenSP": "CANON EOS 5DS BODY",
+            "hinhAnh":"https://www.digibroadcast.com/images/products/1530608158-57959000.jpg",
+            "gia":"598000000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Bộ cảm biến 50.6MP Full-Frame CMOS
+            + Màn hình LCD 3.2 Clear View độ phân giải cao
+            + DIGIC 5 + xử lý hình ảnh
+            + Bao gồm cổng Wi-Fi và kết nối GPS - 61 điểm AF cùng với Cross Loại điểm
+            + Mở rộng ISO Phạm vi 6400, 5.0 fps
+            + Chế độ HDR và nhiều chế độ phơi sáng",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "157",
+            "idDM": "32",
+            "tenSP": "CANON EOS R5",
+            "hinhAnh":"https://i1.wp.com/www.fotodiscountworld.co.za/wp-content/uploads/2020/02/CANON-EOS-R5.jpg",
+            "gia":"118000000",
+            "giamGia":"15",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến CMOS full-frame 45MP
+            - Ổn định hình ảnh 5 trục (IBIS)
+            - Chụp liên tiếp 12 fps với màn trập cơ, 20 fps với màn trập điện tử
+            - Quay video 8K @ 30 fps, 4K @ 120 fps, 4K @ 60 fps
+            - Trang bị 2 khe thẻ nhớ
+            - Tích hợp WiFi 5GHz
+            - Không có touch bar M-Fn",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "158",
+            "idDM": "32",
+            "tenSP": "CANON EOS 7D MARK II BODY",
+            "hinhAnh":"https://th.bing.com/th/id/OIP.Mf3WGY7jaDD6izpX8ehCVgD6D6?pid=ImgDet&rs=1",
+            "gia":"37500000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến CMOS độ phân giải 24.2 Megapixels
+            - Sở hữu 2 bộ xử lý ảnh tiên tiến Dual Canon Digic V
+            - Độ nhạy sáng ISO lên tới 25.600
+            - Tốc độ chụp liên tục tới 10 hình/ giây
+            - Hệ thống lấy nét 19 điểm và đo sáng 63 vùng iFCL
+            - Hệ thống làm sạch cảm biến tự động cao cấp
+            - Quay phim Full HD với các chức năng tùy chỉnh
+            - Màn hình 3' với chức năng Live View",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "159",
+            "idDM": "32",
+            "tenSP": "CANON EOS 5DS R BODY",
+            "hinhAnh":"https://www.digibroadcast.com/images/products/1530608158-57959000.jpg",
+            "gia":"64500000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến CMOS fullframe độ phân giải 50.6 Mpx
+            - Hai bộ xử lý DIGIC 6
+            - Dải nhạy sáng ISO gốc 100-6400
+            - Tốc độ chụp liên tục 5 khung hình / giây
+            - Hệ thống lấy nét 61 điểm , có hỗ trợ EOS iTR AF
+            - Hệ thống đo sáng bằng cảm biến RGB + IR 150.000 pixel
+            - Chế độ Picture Style mới có tên ' fine detail '
+            - Chế độ crop 1.3x và 1.6x",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "160",
+            "idDM": "32",
+            "tenSP": "CANON EOS 5DS R BODY",
+            "hinhAnh":"https://www.digibroadcast.com/images/products/1530608158-57959000.jpg",
+            "gia":"21850000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến CMOS fullframe độ phân giải 50.6 Mpx
+            - Hai bộ xử lý DIGIC 6
+            - Dải nhạy sáng ISO gốc 100-6400
+            - Tốc độ chụp liên tục 5 khung hình / giây
+            - Hệ thống lấy nét 61 điểm , có hỗ trợ EOS iTR AF
+            - Hệ thống đo sáng bằng cảm biến RGB + IR 150.000 pixel
+            - Chế độ Picture Style mới có tên ' fine detail '
+            - Chế độ crop 1.3x và 1.6x",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "161",
+            "idDM": "33",
+            "tenSP": "Máy quay 4K HDR FDR-AX700 ",
+            "hinhAnh":"https://th.bing.com/th/id/R.9f3a0eb315a1b7552e6d8d04104261b9?rik=RGLh89%2blSEmQ8A&pid=ImgRaw&r=0",
+            "gia":"44990000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Quay chuyên nghiệp và đa dạng
+            - Phạm vi lấy nét tự động rộng
+            - Phản hồi lấy nét tự động nhanh
+            - Ghi video 4K HDR
+            - Tự động lấy nét theo pha 273 điểm
+            - Ống kính Zeiss Vario Sonnar T *",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "162",
+            "idDM": "33",
+            "tenSP": "Máy quay SONY FDR-AX100 - 4K",
+            "hinhAnh":"https://s3.amazonaws.com/ee8b60cd-b93d-4b29-a882-badb82adc2a0/ItemDetailImages/5f7fc1e4-360e-46f5-8250-9306afcd97d5.jpg",
+            "gia":"25900000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến ảnh: CMOS Exmor R 14.2 MP kích thước 1' (13.2 x 8.8 mm)
+            + Ảnh chụp kích thước 20.0 MP (nội suy)
+            + Bộ xử lý hình ảnh: BIONZ X
+            + Ống kính: Carl Zeiss Vario-Sonnar T* zoom 12X (9,3 - 111,6mm) khẩu f/2.8, ND filter
+            + Clear Image Zoom: mở rộng tương đương 18X
+            + Màn hình: LCD cảm ứng, 3,5 inch, 921k điểm ảnh, lật và xoay",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "163",
+            "idDM": "33",
+            "tenSP": "Máy quay SONY FDR-AXP55E - 4K",
+            "hinhAnh":"https://th.bing.com/th/id/R.8b37e07b4f8f2283baa172e5963caf02?rik=4GFRm713OH3VwQ&riu=http%3a%2f%2flaorlaorcamerashop.com%2fContent%2fUpload%2fItemImage%2f1913c6e9-4806-49c9-9a0f-c88ed432378a.jpg&ehk=tozh9XKU5OfZzwbQoohfOpb90LVFCfCIau6OB8oytJ0%3d&risl=&pid=ImgRaw&r=0",
+            "gia":"25290000",
+            "giamGia":"15",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"MÁY QUAY PHIM 4K VỚI MÁY CHIẾU TÍCH HỢP 50lm (màn hình lên tới 200inch)
+            + Đinh dạng ghi hình: XAVC S 4K, XAVC S HD, AVCHD, MP4
+            + Cảm biến hình ảnh: 1/2.5 type(7.20mm) back-illuminated Exmor R CMOS Sensor
+            + Độ phân giải ảnh tĩnh: 8.29 MP
+            + Bộ nhớ trong: Flash Memory 64GB
+            + Bộ xử lý hình ảnh: BIONZ X",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "164",
+            "idDM": "33",
+            "tenSP": "Máy quay SONY FDR-AX100E 4K ULTRA HD",
+            "hinhAnh":"https://th.bing.com/th/id/R.67c4ea99c06309adefe5a84e463f3674?rik=2E965JwmKXuQdA&riu=http%3a%2f%2fcamerastorestorage.blob.core.windows.net%2f70dbf2066dcc4220bfa96dbe9f4a86c9%2fImages%2fProducts6648-1000x1000--2029741715.jpg&ehk=JSbtv9hgKqOaQAjcjVhjN%2fWJmi42Suu2NxzIyCDgZy4%3d&risl=&pid=ImgRaw&r=0",
+            "gia":"295000000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến Exmor R® CMOS 1.0 inch
+            Bộ xử lý ảnh BIONZ X 14.2 megapixel
+            Ống kính ZEISS Vario-Sonnar góc rộng 26,8mm
+            Chống rung quang học SteadyShot
+            Kính ngắm điện tử OLED 1,0 cm
+            Zoom quang học 12x, zoom số 160x
+            Màn hình 3.5inch cảm ứng (xoay lật)
+            Quay phim 4K Ultra HD (3840 x 2160)
+            Chức năng Night shot (hồng ngoại)
+            Ghi hình với âm thanh vòm 5.1ch
+            Bộ lọc ND tích hợp 1/4, 1/16, 1/64
+            Kích thước bộ lọc ø62mm
+            Thẻ nhớ tương thích SDHC/ SDXC
+            Tích hợp Wifi/ NFC
+            Trọng lượng 790g (thân máy)
+            Pin tương thích FV50/ 70/ 90/ 100",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "165",
+            "idDM": "33",
+            "tenSP": "Máy quay SONY HANDYCAM HDR-PJ440",
+            "hinhAnh":"https://th.bing.com/th/id/R.3bb36eec76ee5c1a00c32b1ee4cb2cae?rik=WmATWlUS%2bsH3aA&pid=ImgRaw&r=0",
+            "gia":"8990000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":" Phân giải: 9.2 Mega
+
+            + Ghi định dạng cao XAVC S tốc độ 50Mbps cho cảnh quay ngoạn mục bằng hình ảnh rõ nét
+            + Ổn định hình ảnh Optical SteadyShot hiệu chỉnh rung lắc để luôn ghi được hình ảnh mịn màng và ổn định
+            + Cảm biến Exmor R CMOS cho chất lượng hình ảnh tuyệt đẹp ngay cả trong môi trường thiếu sáng
+            + Tích hợp máy chiếu 13lm cho phép kết nối nguồn phát bên ngoài, dễ mang theo",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "166",
+            "idDM": "34",
+            "tenSP": "Panasonic AG-CX350",
+            "hinhAnh":"https://th.bing.com/th/id/R.4164d71176053c85ff5b65bae86e5316?rik=dZh2awBG4WoiMg&pid=ImgRaw&r=0",
+            "gia":"99000000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến MOS 1 inch
+            - Zoom quang học 20x, Zoom thông minh 32x
+            - UHD 4K, 1080p
+            - 2 x Khe cắm thẻ nhớ, Ghi âm HLG
+            - Màn hình LCD 3.2 ', Kính ngắm OLED
+            - TC vào / ra, 3G-SDI, đầu ra HDMI
+            - USB 3.0, Cổng USB 2.0, Cổng LAN
+            - Tùy chọn truyền tệp không dây",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "167",
+            "idDM": "34",
+            "tenSP": "PANASONIC HC-X2000GC",
+            "hinhAnh":"https://www.digidirect.com.au/media/catalog/product/h/c/hc-x2000_3_.jpg",
+            "gia":"64500000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến ảnh : Cảm biến MOS 1 / 2,5 inch
+
+            Tiêu cự ống kính 25 đến 600mm (tương đương định dạng 35 mm)
+            
+            Zoom quang học 24x
+            
+            Zoom kỹ thuật số 48x
+            
+            Khẩu độ tối đa f / 1.8 đến 4
+            
+            Thiết kế quang học 14 phần tử trong 11 nhóm
+            
+            Phương tiện ghi âm Thẻ nhớ SDHC / SDXC
+            
+            Định dạng ghi âm MOV, MP4, AVCHD
+            
+            Đầu vào 2 kênh XLR
+            
+            Ghi hình 4K",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "168",
+            "idDM": "34",
+            "tenSP": "PANASONIC AU-EVA1 5,7K",
+            "hinhAnh":"https://lvrusa.com/wp-content/uploads/2018/11/Rent-Panasonic-EF-Handheld-Cinema-Camera-in-Nyc-and-Brooklyn-1.jpg",
+            "gia":"159000000",
+            "giamGia":"15",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến Super 35mm 5.7K
+            - Tiêu chuẩn ISO kép
+            - Nắp ống kính EF
+            - Ghi 4K lên đến 60 khung hình / giây
+            - Ghi lại 2K đến 240 khung hình / giây
+            - Bộ mã 10-Bit, 4: 2: 2
+            - Ghi vào thẻ SD
+            - V-Log và V-Gamut Capture
+            - Đầu ra video SDI và HDMI",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "169",
+            "idDM": "34",
+            "tenSP": "PANASONIC AG-AS9000EN",
+            "hinhAnh":"https://kyma.vn/storedata/images/product/panasonic-agas9000-1.jpg",
+            "gia":"35000000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến 1/2.33' MOS Full HD
+            + Ghi hình Full HD 60p
+            + Ống kính zoom quang học 20x với chức năng zoom thông minh lên 50x
+            + Công nghệ chống rung 5 trục Hybrid O.I.S.+
+            + Màn hình cảm ứng LCD 3' 16:9
+            + Hai khe cắm thẻ nhớ SD/SDHC/SDXC",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "170",
+            "idDM": "34",
+            "tenSP": "PANASONIC AG-DVX200EN8",
+            "hinhAnh":"https://kyma.vn/storedata/images/product/panasonic-agdvx200-2.jpg",
+            "gia":"105000000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Cảm biến Single 4/3 MOS Sensor with 12 Stops DR
+            - Quay video DCI 4K 24P, UHD 4K Up to 60p
+            - Khung hình 120 FPS in FHD
+            - Khẩu độ F2.8
+            - Định dạng video MP4 / MOV Recording in 4K
+            - Khe cắm thẻ 2 x SD Cards Slots (U3 Compatible)
+            - Cổng kết nối HDMI 2.0, 3G-SDI Output
+            - Kích thước: 19.1 x 14.8 x 11.2
+            - Trọng lượng: 5.7kg
+            Phụ kiện đi kèm: Pin, Sạc pin, Cáp kết nối, Phiếu bảo hành chính hãng, HDSD",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "171",
+            "idDM": "35",
+            "tenSP": "ỐNG KÍNH CANON RF24-105MM F4 L IS USM",
+            "hinhAnh":"https://admin.binhminhdigital.com/StoreData/images/Product/ong-kinh-canon-rf-24-105mm-f4-l-is-usm.jpg",
+            "gia":"29990000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Khẩu độ tối đa: f/4 - f/22
+            - Cấu tạo quang học: 18 thấu kính / 14 nhóm
+            - Khoảng cách lấy nét tối thiểu: 1,48 '/45 cm
+            - Hệ thống lấy nét tự động NANO USM
+            - Ổn định hình ảnh quang học
+            - 9 lá khẩu tròn, Đường kính filter: φ77mm
+            - Kích thước: 83,5 x 107,3 mm
+            - Trọng lượng: 700g",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "172",
+            "idDM": "35",
+            "tenSP": "ỐNG KÍNH CANON RF28-70MM F2 L USM",
+            "hinhAnh":"https://binhminhdigital.com/StoreData/images/Product/ong-kinh-canon-rf-28-70mm-f2-l-usm-hang-nhap-khau4.jpg",
+            "gia":"72000000",
+            "giamGia":"15",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Định dạng Full-Frame / Ngàm F
+            - Khẩu độ tối đa: f/2 - f/22
+            - Cấu tạo quang học: 19 thấu kính / 13 nhóm
+            - Nhóm thấu kính UD tán xạ thấp
+            - Góc nhìn: 75 ° - 34 °
+            - Khoảng cách lấy nét tối thiểu: 39cm
+            - Hệ thống Motor lấy nét siêu âm Ring-Type AF
+            - Vòng điều khiển tùy chỉnh
+            - 9 lá khẩu tròn
+            - Đường kính filter: φ95mm
+            - Kích thước: φ103.8 × 139.8 mm
+            - Trọng lượng: 1430g",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "173",
+            "idDM": "35",
+            "tenSP": "Ống Kính Canon RF 70-200mm f/4L IS USM",
+            "hinhAnh":"https://static.digiworldhanoi.vn/cache/catalog/ Kardon ONYX STUDIO  5 /Diamon A1/1604443681_1601518-600x600.jpg",
+            "gia":"50990000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Dãi Tiêu cự: 70–200 mm
+            - Ngàm ống kính: Canon RF
+            - Khẩu độ tối đa: F4,
+            - Khẩu độ tối thiểu: F32
+            - Khoảng cách lấy nét gần nhất: 0,6 m
+            - Tỉ lệ Độ phóng đại tối đa: 0,28X
+            - Cấu tạo ống kính: 16 thấu kính/11 nhóm
+            - Số lá khẩu: 9
+            - Bộ truyền động AF Nano USM kép
+            - Đường kính kính lọc: 77 mm
+            - Kích thước:  83,5 x 119,3 mm
+            - Trọng lượng nặng: 695 g ",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "174",
+            "idDM": "35",
+            "tenSP": "ỐNG KÍNH CANON RF 70-200MM F2.8 L IS USM",
+            "hinhAnh":"https://yentamcamera.vn/wp-content/uploads/2020/02/ong-kinh-canon-rf-70-200mm-f-2.8l-is-usm-1.jpg",
+            "gia":"76000000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":" Tiêu cự: 70-200mm
+            - Khẩu độ: f/2.8
+            - Dùng cho máy ảnh mirrorless full frame ngàm RF Canon
+            - Kích thước: 88.8 x 199 mm
+            - Trọng lượng: 1490Gr",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "175",
+            "idDM": "35",
+            "tenSP": "ỐNG KÍNH CANON EF70-200MM F2.8 L IS III USM",
+            "hinhAnh":"https://tokyocamera.vn/wp-content/uploads/2020/07/canon-ef-70200mm-f28l-is-iii.jpg",
+            "gia":"68500000",
+            "giamGia":"10",
+            "ngayNhap":"5/11/2022",
+            "soLuong":"50",
+            "moTa":"Phạm vi khẩu độ: f/2.8 đến f/32
+            - Hệ thống AF động cơ siêu âm kiểu vòng
+            - Ổn định hình ảnh quang học
+            - Tập trung nội bộ, giới hạn phạm vi tiêu điểm
+            - Thiết kế thời tiết kín, Fluorine Coating
+            - Có thể tháo rời, xoay cổ chân máy
+            - Filter: 77mm
+            - Dành cho máy ảnh Full Frame",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "176",
+            "idDM": "36",
+            "tenSP": "ORIENT RE-AV0B03B00B",
+            "hinhAnh":"https://cdn.watchstore.vn/uploads/images/orient-re-av0b03b00b-1.jpeg",
+            "gia":"25750000",
+            "giamGia":"15",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Orient
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic
+            Kích cỡ: 41 mm
+            Độ dày: 13.6mm
+            Chất liệu vỏ: Thép không gỉ 316L
+            Chất liệu dây: Thép không gỉ 316L
+            Chất liệu kính: Kính Sapphire
+            Độ chịu nước: 100M
+            Chức năng khác: Open heart, dạ quang, kim đo năng lượng
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "177",
+            "idDM": "36",
+            "tenSP": "ORIENT RA-AG0026E10B",
+            "hinhAnh":"https://24kara.com/files/sanpham/2333/1/jpg/dong-ho-nam-orient-ra-ag0026e10b.jpg",
+            "gia":"10100000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Orient
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic
+            Kích cỡ: 40,5 mm
+            Chất liệu vỏ: Thép
+            Chất liệu dây: Thép
+            Chất liệu kính: Kính cứng
+            Độ chịu nước: 30M
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "178",
+            "idDM": "36",
+            "tenSP": "ORIENT RA-AG0026E10B",
+            "hinhAnh":"https://marioauthentic.com/wp-content/uploads/2022/07/7F143B20-7FB5-40E1-BFD8-A73E7CAAC981.jpeg",
+            "gia":"13480000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Orient
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic (Tự động)
+            Kích cỡ: 42.5 mm
+            Độ dày: 14 mm
+            Chất liệu vỏ: Thép không gỉ 316L/ Mạ vàng hồng PVD
+            Chất liệu dây: Dây da
+            Chất liệu kính: Kính Sapphire
+            Độ chịu nước: 50m
+            Chức năng khác: Lịch ngày. lịch thứ, lịch sun and moon
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "179",
+            "idDM": "36",
+            "tenSP": "ORIENT RE-AV0113S00B",
+            "hinhAnh":"https://maczone.vn/wp-content/uploads/2021/06/1600-01_1200x1200.jpg",
+            "gia":"24880000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Orient
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic
+            Kích cỡ: 41 mm
+            Độ dày: 12mm
+            Chất liệu vỏ: Thép không gỉ 316L
+            Chất liệu dây: Thép không gỉ 316L
+            Chất liệu kính: Kính Sapphire
+            Độ chịu nước: 100M
+            Chức năng khác: Open heart, dạ quang, kim đo năng lượng
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "180",
+            "idDM": "36",
+            "tenSP": "ORIENT RE-AT0004S00B",
+            "hinhAnh":"https://donghoorient.com/wp-content/uploads/2019/11/dong-ho-Orient-RE-AT0004S00B.jpg",
+            "gia":"20580000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Orient Star
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic
+            Kích cỡ: 39.3 mm
+            Độ dày: 12mm
+            Chất liệu vỏ: Thép không gỉ 316L/Mạ PVD
+            Chất liệu dây: Thép không gỉ 316L / Mạ PVD
+            Chất liệu kính: Kính Sapphire
+            Độ chịu nước: 100 m
+            Chức năng khác: Open heart, lên cót tay, kim đo năng lượng
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 2 năm
+            Giới tính: Nam",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "181",
+            "idDM": "37",
+            "tenSP": "SEIKO SSA425J1",
+            "hinhAnh":"https://th.bing.com/th/id/R.2182863080b02ef5c237d06b4ef728b1?rik=soCy33%2bndzW0lw&pid=ImgRaw&r=0",
+            "gia":"15500000",
+            "giamGia":"15",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Seiko
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic (Máy cơ)
+            Kích cỡ: 40.8 mm
+            Độ dày: 12.8 mm
+            Chất liệu vỏ: Thép không gỉ
+            Chất liệu dây: Thép không gỉ
+            Chất liệu kính: Kính cứng
+            Độ chịu nước: 50 m
+            Chức năng khác: Openheart, đồng hồ 24H
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "182",
+            "idDM": "37",
+            "tenSP": "SEIKO SSA411J1",
+            "hinhAnh":"https://www.firstclasswatches.co.uk/thumbnails/images/products/product60326-1894_cropped.jpg.thumb_FFFCFA_628x1000.jpg",
+            "gia":"14200000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Seiko
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic
+            Kích cỡ: 38.3 mm
+            Độ dày: 11.2mm
+            Chất liệu vỏ: Thép không gỉ 316L
+            Chất liệu dây: Thép không gỉ 316L
+            Chất liệu kính: Kính Sapphire
+            Độ chịu nước: 30 m
+            Chức năng khác: Open Heart, Caliber 4R38, 24 chân kính, trữ cót 41h, dừng kim giây
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "183",
+            "idDM": "37",
+            "tenSP": "SEIKO SRPG25J1",
+            "hinhAnh":"https://th.bing.com/th/id/R.a4e48773844c88cc1d9d5f17c1124674?rik=YEGFNmFGHMDuzA&pid=ImgRaw&r=0",
+            "gia":"12700000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Seiko
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic
+            Kích cỡ: 41.7 mm
+            Độ dày: 11.7mm
+            Chất liệu vỏ: Thép không gỉ 316L
+            Chất liệu dây: Dây da
+            Chất liệu kính: Kính Sapphire
+            Độ chịu nước: 30 m
+            Chức năng khác: Lịch ngày
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "184",
+            "idDM": "37",
+            "tenSP": "SEIKO SSA443J1",
+            "hinhAnh":"https://th.bing.com/th/id/R.b7be62aadd1eec0037aeb9d7849c5c73?rik=DshzKAuoTcD%2bAg&riu=http%3a%2f%2fd7ujeqwvh5yf8.cloudfront.net%2fproducts%2fmain%2f100039831%2fmain%2fSSA343J1.jpg&ehk=z%2bsKRkutO5yBlk0ag9KmIp%2bUM4YhnPhsFn2EE0fnIfw%3d&risl=&pid=ImgRaw&r=0",
+            "gia":"14400000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Seiko
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic (Máy cơ)
+            Kích cỡ: 41.8 mm
+            Độ dày: 12.5 mm
+            Chất liệu vỏ: Thép không gỉ
+            Chất liệu dây: Thép không gỉ
+            Chất liệu kính: Kính Sapphire
+            Độ chịu nước: 30 m
+            Chức năng khác: Openheart, đồng hồ 24H
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"40",
+            "trangThai": 1
+        },
+        {
+            "id": "185",
+            "idDM": "37",
+            "tenSP": "SEIKO SSA412J1",
+            "hinhAnh":"https://www.thewatchpages.com/app/uploads/2020/07/seiko-presage-ssa412j1.jpg",
+            "gia":"16200000",
+            "giamGia":"10",
+            "ngayNhap":"6/11/2022",
+            "soLuong":"50",
+            "moTa":"Nhãn hiệu: Seiko
+            Nguồn gốc: Nhật Bản
+            Kiểu máy: Automatic (Máy cơ)
+            Kích cỡ: 38.3 mm
+            Độ dày: 11.2 mm
+            Chất liệu vỏ: Thép không gỉ
+            Chất liệu dây: Thép không gỉ
+            Chất liệu kính: Kính sapphire
+            Độ chịu nước: 30 m
+            Chức năng khác: Openheart
+            Bảo hiểm: 5 năm cả lỗi người dùng tại Xwatch
+            Bảo hành quốc tế: 1 năm
+            Giới tính: Nam",
+            "luotXem":"40",
             "trangThai": 1
         },
     ]
