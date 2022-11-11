@@ -1,0 +1,590 @@
+{
+    "danhMucTong": [
+        {
+            "id": "1",
+            "tenDMT": "Thời Trang",
+            "trangThai": 1
+        },
+        {
+            "id": "2",
+            "tenDMT": "Điện Thoại",
+            "trangThai": 1
+        },
+        {
+            "id": "3",
+            "tenDMT": "Thiết Bị Điện Tử",
+            "trangThai": 1
+        },
+        {
+            "id": "4",
+            "tenDMT": "Nhà Cửa & Đời Sống",
+            "trangThai": 1
+        },
+        {
+            "id": "5",
+            "tenDMT": "Máy Tính & Laptop",
+            "trangThai": 1
+        },
+        {
+            "id": "6",
+            "tenDMT": "Mỹ Phẩm",
+            "trangThai": 1
+        },
+        {
+            "id": "7",
+            "tenDMT": "Máy Ảnh & Máy Quay Phim",
+            "trangThai": 1
+        },
+        {
+            "id": "8",
+            "tenDMT": "Đồng Hồ",
+            "trangThai": 1
+        },
+        {
+            "id": "9",
+            "tenDMT": "Giày Dép",
+            "trangThai": 1
+        },
+        {
+            "id": "10",
+            "tenDMT": "Balo & Túi Ví",
+            "trangThai": 1
+        }
+    ],
+    "danhMuc": [
+        //Thời Trang "Xong"
+        {
+            "id": "1",
+            "idDMT": "1",
+            "tenDM": "Áo",
+            "trangThai": 1
+        },
+        {
+            "id": "2",
+            "idDMT": "1",
+            "tenDM": "Quần",
+            "trangThai": 1
+        },
+        {
+            "id": "3",
+            "idDMT": "1",
+            "tenDM": "Mũ & Nón",
+            "trangThai": 1
+        },
+        {
+            "id": "4",
+            "idDMT": "1",
+            "tenDM": "Phụ Kiện",
+            "trangThai": 1
+        },
+        {
+            "id": "5",
+            "idDMT": "1",
+            "tenDM": "Kính",
+            "trangThai": 1
+        },
+        //Điện Thoại "Xong"
+        {
+            "id": "6",
+            "idDMT": "2",
+            "tenDM": "SamSung",
+            "trangThai": 1
+        },
+        {
+            "id": "7",
+            "idDMT": "2",
+            "tenDM": "Iphone",
+            "trangThai": 1
+        },
+        {
+            "id": "8",
+            "idDMT": "2",
+            "tenDM": "Realme",
+            "trangThai": 1
+        },
+        {
+            "id": "9",
+            "idDMT": "2",
+            "tenDM": "Oppo",
+            "trangThai": 1
+        },
+        {
+            "id": "10",
+            "idDMT": "2",
+            "tenDM": "Nokia",
+            "trangThai": 1
+        },
+        // Thiết bị điện tử "xong"
+        {
+            "id": "11",
+            "idDMT": "3",
+            "tenDM": "Tai Nghe",
+            "trangThai": 1
+        },
+        {
+            "id": "12",
+            "idDMT": "3",
+            "tenDM": "Loa",
+            "trangThai": 1
+        },
+        {
+            "id": "13",
+            "idDMT": "3",
+            "tenDM": "Tivi",
+            "trangThai": 1
+        },
+        {
+            "id": "14",
+            "idDMT": "3",
+            "tenDM": "Console",
+            "trangThai": 1
+        },
+        {
+            "id": "15",
+            "idDMT": "3",
+            "tenDM": "Linh Phụ Kiện",
+            "trangThai": 1
+        },
+        // Nhà cửa và Đời sống "xong"
+        {
+            "id": "16",
+            "idDMT": "4",
+            "tenDM": "Đồ Dùng Phòng Tắm",
+            "trangThai": 1
+        },
+        {
+            "id": "17",
+            "idDMT": "4",
+            "tenDM": "Đèn",
+            "trangThai": 1
+        },
+        {
+            "id": "18",
+            "idDMT": "4",
+            "tenDM": "Đồ Nội Thất",
+            "trangThai": 1
+        },
+        {
+            "id": "19",
+            "idDMT": "4",
+            "tenDM": "Trang Trí Nhà",
+            "trangThai": 1
+        },
+        {
+            "id": "20",
+            "idDMT": "4",
+            "tenDM": "Dụng Cụ",
+            "trangThai": 1
+        },
+        // Máy tính và Laptop
+        // Mỹ Phẩm "xong"
+        {
+            "id": "26",
+            "idDMT": "6",
+            "tenDM": "Son Môi",
+            "trangThai": 1
+        },
+        {
+            "id": "27",
+            "idDMT": "6",
+            "tenDM": "Nước Hoa Nam",
+            "trangThai": 1
+        },
+        {
+            "id": "28",
+            "idDMT": "6",
+            "tenDM": "Sữa Rửa Mặt",
+            "trangThai": 1
+        },
+        {
+            "id": "29",
+            "idDMT": "6",
+            "tenDM": "Nước Hoa Nữ",
+            "trangThai": 1
+        },
+        {
+            "id": "30",
+            "idDMT": "6",
+            "tenDM": "Bút Kẻ Mắt",
+            "trangThai": 1
+        },
+        // Máy ảnh và máy quay phim "xong"
+        {
+            "id": "31",
+            "idDMT": "7",
+            "tenDM": "Máy Ảnh SONY",
+            "trangThai": 1
+        },
+        {
+            "id": "32",
+            "idDMT": "7",
+            "tenDM": "Máy Ảnh CANNON",
+            "trangThai": 1
+        },
+        {
+            "id": "33",
+            "idDMT": "7",
+            "tenDM": "Máy Quay Phim Thông Dụng",
+            "trangThai": 1
+        },
+        {
+            "id": "34",
+            "idDMT": "7",
+            "tenDM": "Máy Quay Phim Chuyên Nghiệp",
+            "trangThai": 1
+        },
+        {
+            "id": "35",
+            "idDMT": "7",
+            "tenDM": "Ống Kinh Máy Ảnh",
+            "trangThai": 1
+        },
+        // Đồng Hồ
+        {
+            "id": "36",
+            "idDMT": "8",
+            "tenDM": "Đồng Hồ Orient",
+            "trangThai": 1
+        },
+        {
+            "id": "37",
+            "idDMT": "8",
+            "tenDM": "Đồng Hồ Seiko",
+            "trangThai": 1
+        }
+        // Giày dép
+        // Balo và túi ví
+    ],
+    "sanPham": [
+        // Áo
+        {
+            "id": "1",
+            "idDM": "1",
+            "tenSP": "Áo Khoác Bomber NEW YORK",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/387bdf1adc4098ed19e2e8076fdddd22.jpg_720x720q80.jpg_.webp",
+            "gia":"150000",
+            "giamGia":"0",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Kiểu dáng: Hàn Quốc do những nhà thiết kế chuyên nghiệp được đào tạo trực tiếp từ xứ sở thời trang.Tính năng khác biệt: Mùa đông ấm áp, mùa hè thoáng mát, thấm hút mồ hôi cực tốt, chất liệu vải khó bám bẩn.Giá không thể hợp lý hơn.Chất liệu nỉ của áo giúp tăng khả năng giữ ấm, cách nhiệt cho cơ thể.Chống nắng, chống gió tốt.Giá thành của sản phẩm không quá cao so với mặt bằng chung.Khả năng co giãn tốt, giúp người mặc luôn cảm thấy thoải mái.Có khả năng thấm hút mồ hôi, chống bí bách, ẩm ướt, khó chịu.",
+            "luotXem":"60",
+            "trangThai": 1
+        },
+        {
+            "id": "2",
+            "idDM": "1",
+            "tenSP": "Áo thun UNISEX CREWZ",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/49370c92dcbd98442e215f30fbf9c58f.jpg_720x720q80.jpg_.webp",
+            "gia":"200000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Áo thun nam nữ oversize sử dụng chất vải cotton 65/35 co giãn 4 chiều. Là loại vải có đặc điểm mềm mịn, độ co giãn cao, khả năng thấm hút tốt và được dệt hoàn toàn từ sợi cây bông tự nhiên. Chất vải cotton cực kỳ thân thiện với làn da. - Áo thun nam nữ form rộng cổ tròn thoải mái - Áo phông unisex form rộng dễ phối đồ. Bạn có thể phối với quần jean, chân váy, … kết hợp với một đôi sneaker cho bạn tự tin xuống phố",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "3",
+            "idDM": "1",
+            "tenSP": "Áo cộc tay Noressy",
+            "hinhAnh":"https://bizweb.dktcdn.net/thumb/grande/100/392/299/products/ao-coc-6.jpg?v=1637740944127",
+            "gia":"990000",
+            "giamGia":"10",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"30",
+            "moTa":"Áo thun nam dáng đứng, phong cách trẻ trung năng động và đầy cá tính - Thiết kế fom áo thoải mái tự tin khi đi chơi hay mặc ở nhà , vận động ngoài trời - Chất Thun cotton 4 chiều tạo cảm giác cực kỳ thoải mái khi mặc, đặc biệt không gây dị ứng cho da - Co dãn mềm mại giặt tay hay giặt máy đều không hề bai dão hay phai màu - Hàng siêu hot với chất liệu được làm từ 60% Thun kết hợp 40% Cotton tạo nên sự Co giãn 4 chiều cực mát và mịn giúp người mặc cảm giác thoải mái",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "4",
+            "idDM": "1",
+            "tenSP": "Áo thể thao SPORT ngắn tay cổ tròn",
+            "hinhAnh":"https://bosiquanao.vn/wp-content/uploads/2022/06/ao-thun-the-thao-sport-caro-1-600x600.jpg",
+            "gia":"55000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Chất liệu và kiểu dáng: Sản phẩm áo thể thao nam được làm từ vải thun cotton, thun lạnh giúp thấm hút mồ hôi và co giãn cực tốt. Chất vải còn mượt mà, mát mẻ và chống nhăn rất tiện dụng khi mặc. Áo được may tỉ mỉ, thiết kế năng động, nhiều màu sắc và thời trang sẽ giúp bạn cảm thấy thoải mái và tự tin hơn khi tham gia các hoạt động thể dục thể thao.",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "5",
+            "idDM": "1",
+            "tenSP": "Áo thun gân tay dài Cổ caov",
+            "hinhAnh":"https://vn-live-05.slatic.net/p/c6b72e736585bd00a8bbefd92165ff3d.jpg_525x525q80.jpg",
+            "gia":"89500",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Chất vải thun gân, vải mềm, vải mịn, co giãn tốt, độ dày vừa phải, không nhão khi giặt nhiều lần -Đường may chuẩn chỉnh, tỉ mỉ, chắc chắn. -Thiết kế hiện đại, trẻ trung, cá tính. -Cực kỳ phù hợp cho công sở, đi chơi, cà phê, dạo phố, dự tiệc,...",
+            "luotXem":"11",
+            "trangThai": 1
+        },
+        // Quần
+        {
+            "id": "6",
+            "idDM": "2",
+            "tenSP": "Quần Short unisex nam nữ",
+            "hinhAnh":"https://cf.shopee.vn/file/7c807a8278b9119f3a4f06511e28e503",
+            "gia":"169000",
+            "giamGia":"10",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"65",
+            "moTa":"Chất Liệu Vải : cotton cao cấp 100%, co giãn 4 chiều, vải mềm, mịn, thoáng mát, không xù lông. Kĩ thuật may: Đường may chuẩn chỉnh, tỉ mỉ, chắc chắn Hình in: Công nghệ in tiên tiến đảm bảo độ bền màu và hình in ngay cả khi giặt máy. Kiểu Dáng :Form Rộng Thoải Mái  Full size nam nữ : 40 - 85 kg",
+            "luotXem":"25",
+            "trangThai": 1
+        },
+        {
+            "id": "7",
+            "idDM": "2",
+            "tenSP": "Quần jean nam màu đen",
+            "hinhAnh":"https://sieuthijean.vn/images/thumbs/2020/08/quan-jean-nam-659-828-slide-5f4cd7bc7cf36.jpg",
+            "gia":"180000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"QUẦN JEANS NAM CAO CẤP được thiết kế mang hơi hướng cổ điển đơn giản toát lên vẻ sang trong và thanh lịch cho người mặc. Các gam màu được lựa chọn kỹ lưỡng nhằm làm hài hoà các màu sắc khác giúp bạn dễ dàng phối đồ.",
+            "luotXem":"45",
+            "trangThai": 1
+        },
+        {
+            "id": "8",
+            "idDM": "2",
+            "tenSP": "Quần bò ống côn nam rách gối sọc trắng",
+            "hinhAnh":"https://cf.shopee.vn/file/0515a614c270d89962cd39b9b1aa0bf1",
+            "gia":"190000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Quần Jean Nam Size 28 (Từ 43 - 50kg Cao Dưới 1m65) Vòng bụng 79cm Size 29 (Từ 50 - 55kg Cao Dưới 1m65) Vòng bụng 80cm Size 30 (Từ 55 - 59kg Cao Dưới 1m70) Vòng bụng 81cm Size 31 ( Từ 60- 64kg Cao Dưới 1m75) Vòng bụng 83cm Size 32 (Từ 65 - 70kg Cao Dưới 1m78) Vòng bụng 85cm. QUẦN JEANS NAM CAO CẤP được thiết kế mang hơi hướng cổ điển đơn giản toát lên vẻ sang trong và thanh lịch cho người mặc. Các gam màu được lựa chọn kỹ lưỡng nhằm làm hài hoà các màu sắc khác giúp bạn dễ dàng phối đồ.",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "9",
+            "idDM": "2",
+            "tenSP": "Quần đùi nam thể thao",
+            "hinhAnh":"https://lzd-img-global.slatic.net/g/p/e10b0b59f33a8eebcf3d1cc129cf1491.jpg_720x720q80.jpg_.webp",
+            "gia":"50000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Được may từ chất liệu vải dù cao cấp bên trong lót cotton, tạo cảm giác nhẹ thoáng mát khi mặc. Trên quần có dập logo, đường may chắc chắn, mềm mịn, tạo cảm giác thoải mái trong mọi vận động. Giặt thoải mái không sợ ra màu. Có túi mổ 2 bên, rộng và sâu để chứa các vật dụng cá nhân tiện lợi. Đặc biệt không gây cộm, khó chịu cho người mặc, tuy chứa đồ nhưng nhìn vào vẫn thấy form quần đẹp như không chứa gì trong đó. Quần short nam cao cấp với form chuẩn, kiểu dáng đẹp, thiết kế tinh tế cho phong cách năng động. Phù hợp cho các bạn mặc ở nhà, đi chơi đều rất dễ chịu. Giúp bạn trở nên năng động, khỏe khoắn và thu hút mọi ánh nhìn. Hàng Việt Nam chất lượng cao, những khách hàng mua đồ bên mình sẽ biết chất lượng từ vải, đường may....",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "10",
+            "idDM": "2",
+            "tenSP": "Quần Short Nam Chất Tổ Ong Logo REALLIFE",
+            "hinhAnh":"https://cf.shopee.vn/file/adcd8b1fac88ac3b1d0e702f91ea4b17",
+            "gia":"140000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Tên SP: QUẦN SHORT UNISEX - Xuất xứ: Việt Nam - Chất liệu: chất Tổ Ong thấm hút mồ hôi tốt, thoáng mát - Đường may tỉ mỉ chắc chắc - Thiết kế: hiện đại, trẻ trung, dễ phối - Đủ size: M - L - XL (các bạn tham khảo tại bảng size nhé) Size M : 40-50 kg, cao 1m50 – 1m57 | dài 48cm, đùi 57cm Size L : 51- 70 kg, cao 1m58 – 1m70 | dài 50,5cm, đùi 58cm Size XL : 71 - 85 kg, cao 1m71 – 1m83 | dài 53cm, đùi 60cm",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        // Mũ và nón
+        {
+            "id": "11",
+            "idDM": "3",
+            "tenSP": "Mũ lưỡi trai",
+            "hinhAnh":"https://file.hstatic.net/1000376461/file/non_26f67fe9cf1749249ca3c34451a9fde5_grande.jpeg",
+            "gia":"45000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Chất liệu: Cotton, Nỉ • Nguồn gốc: Việt Nam • Nơi sản xuất: Tp. HCM • Form dáng chuẩn, chắc chắn • Thiết kế may thêu tinh tế, sắc sảo hợp thời trang • Kiểu dáng: phù hợp cả nam và nữ. Đa phong cách, gọn nhẹ, năng động • Mùa sử dụng: xuân, hạ, thu, đông thích hợp đi chơi, dã ngoại, du lịch và đi học • Đối tượng sử dụng: người lớn và trẻ nhỏ",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "12",
+            "idDM": "3",
+            "tenSP": "Mũ bucket lông thỏ NOVSET",
+            "hinhAnh":"https://cf.shopee.vn/file/9bc1c76f0c33b19c6a9cfc1878801136",
+            "gia":"75000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Mũ bucket lông cừu là sản phẩm được các giới trẻ ưu thích thích hợp cho các buổi dã ngoại đi chơi. Nón lông cừu được may và thêu với đường may tỉ mỉ. Nón lông cừu được được làm từ chất liệu : Lông cừu tây tạ Màu sắc của mũ lông: Nhiều màu sắc khác nhau. Mũ bucket lông cừu được thiết kế thời trang mang đậm phong cách vintage Chất vải dày dặn, mềm mại, ấm áp, an toàn cho người sử dụng Màu sắc pastel nhẹ nhàng, nhã nhặn Mũ là phụ kiện thời trang không thể thiếu vào mùa đông. Với chiếc mũ này, bạn có thể phối với nhiều trang phục khác nhau và giúp giữ ấm cho bạn",
+            "luotXem":"50",
+            "trangThai": 1
+        },
+        {
+            "id": "13",
+            "idDM": "3",
+            "tenSP": "Mũ dạ nón cói vành",
+            "hinhAnh":"https://cf.shopee.vn/file/1cbea9f8feebcf144131bc67ef82ce02",
+            "gia":"199000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Mũ dạ vành nhỏ đi biển đai dio đen viền ngọc sang chảnh sang mùa hè thì shop bán thêm loại mũ cói nhé Có dây rút điều chỉnh vòng đầu Mũ vành nhỏ đi biển. đi chơi du lịch dạo phố Vẫn là ....Mũ tiểu thư dầy hơn, và được thắt đai dây dio đai ngọc trắng cực xinh Va  - Mã MCTT221..... Quá đẹp Màu sắc: Trắng, Kem, Vàng, Nâu Kích thước 32 x 18 x 10 cm, vòng đầu 565mm Phụ kiện thời trang tuyệt vời cho các bạn nữ đi dạo phố, du lịch, chụp ảnh",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "14",
+            "idDM": "3",
+            "tenSP": "Mũ tai gấu",
+            "hinhAnh":"https://product.hstatic.net/200000382533/product/2fffab2dc5e44799ab6ed944176f4435_ee9951ca010046199c2afd6eafa13784_1024x1024.jpg",
+            "gia":"85000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Mũ tai gấu chất liệu vải lông rất dễ thương, giúp bạn trở nên thật nổi bật và bắt mắt hơn. Và chiếc mũ vải lông này có khả năng giữ ấm tốt, có thể giữ ấm cho bạn trong thời tiết lạnh giá. Có một sợi dây điều chỉnh bên trong có thể được sử dụng để điều chỉnh chu vi. Được làm từ chất liệu lông nhung cao cấp, mũ rất mềm mại và thoải mái khi đội. Có một kích thước phù hợp với hầu hết mọi người. Chiếc mũ này phù hợp cho các bữa tiệc, hẹn hò, ngoài trời,",
+            "luotXem":"25",
+            "trangThai": 1
+        },
+        {
+            "id": "15",
+            "idDM": "3",
+            "tenSP": "Mũ bảo hiểm nửa đầu kính phi công",
+            "hinhAnh":"https://shopuytin.vn/pictures/picfullsizes/2022/02/07/ucq1644201847.jpg",
+            "gia":"180000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Mũ dạ vành nhỏ đi biển đai dio đen viền ngọc sang chảnh sang mùa hè thì shop bán thêm loại mũ cói nhé Có dây rút điều chỉnh vòng đầu Mũ vành nhỏ đi biển. đi chơi du lịch dạo phố Vẫn là ....Mũ tiểu thư dầy hơn, và được thắt đai dây dio đai ngọc trắng cực xinh Va  - Mã MCTT221..... Quá đẹp Màu sắc: Trắng, Kem, Vàng, Nâu Kích thước 32 x 18 x 10 cm, vòng đầu 565mm Phụ kiện thời trang tuyệt vời cho các bạn nữ đi dạo phố, du lịch, chụp ảnh",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        // Phụ Kiện
+        {
+            "id": "16",
+            "idDM": "4",
+            "tenSP": "Dây chuyền bạc đính đá Ocean đơn giản Asimi",
+            "hinhAnh":"https://cf.shopee.vn/file/59e8c614da0fb45776b499ebaf1c6286",
+            "gia":"230000",
+            "giamGia":"10",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Thương hiệu: Asimi Jewelry • Chất liệu: Bạc 925 cao cấp, không xi mạ pha tạp, không han gỉ, không dị ứng, dễ làm sáng. • Kiểu dáng: Loại dây xích mảnh, dây chuyền mặt đính đá xanh Ocean to, đính kèm bên cạnh đá Cz thanh lịch • Kích thước dây: Dây chuyền bạc dài 40+ 5cm • Sản xuất: Trực tiếp tại Việt Nam • Quy cách sản phẩm: Đi kèm hộp đựng trang sức cao cấp và khăn lau bạc chuyên dụng.",
+            "luotXem":"55",
+            "trangThai": 1
+        },
+        {
+            "id": "17",
+            "idDM": "4",
+            "tenSP": "Dây chuyền nam nữ Xích Cuban",
+            "hinhAnh":"https://tnj.vn/29814-large_default/day-chuyen-bac-nam-dinh-da-dck0027.jpg",
+            "gia":"99000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"50",
+            "moTa":"Titanium steel: ( Thép titan )Là một kim loại titan mới gần đây đã xuất hiện trong ngành công nghiệp trang sức. Trên thực tế, nó là một thuật ngữ dùng để chỉ một loại thép không gỉ ( Stainless steel ) THÔNG TIN SẢN PHẨM:  Chiều dài vòng cổ: 45cm, 50cm, 55cm, 60cm ,Chiều rộng mắt xích: 4mm , 6mm, 8mm, 10mm, 12mm, 14mm. Chất liệu: Thép Titan Không Han Gỉ",
+            "luotXem":"10",
+            "trangThai": 1
+        },
+        {
+            "id": "18",
+            "idDM": "4",
+            "tenSP": "Vòng Tay Lắc Tay Charm Đính Đá",
+            "hinhAnh":"https://ladigi.vn/wp-content/uploads/2020/04/pnj-162395.jpg",
+            "gia":"220000",
+            "giamGia":"15",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"40",
+            "moTa":"Chất liệu : Hợp kim mạ bạc, hạt đính đá nhân tạo - Kích thước tầm 15 - 16cm - Sản phẩm có chốt mở dễ dàng - Nhiều mẫu nhiều màu cho các nàng lựa chọn.Sản phẩm chất lượng, 100% như hình ảnh. LƯU Ý KHI SỬ DỤNG TRANG SỨC BẠC: Không tiếp xúc với chất tẩy rửa. Hạn chế tiếp xúc với mỹ phẩm các loại. Vệ sinh sấy khô và cất vào túi zip khi không sử dụng.",
+            "luotXem":"15",
+            "trangThai": 1
+        },
+        {
+            "id": "19",
+            "idDM": "4",
+            "tenSP": "Nhẫn mạ bạc 17KM hinh rắn đính đá pha lê độc đáo",
+            "hinhAnh":"https://cf.shopee.vn/file/2d77bc482bad4fec9dfabda80e7d1e9b",
+            "gia":"25000",
+            "giamGia":"0",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"100",
+            "moTa":"Tên sản phẩm: Nhẫn mở 17KM bằng bạc hình rắn đính đá pha lê cho nữ Chất liệu: Pha lê + hợp kim. Màu sắc: như hình. Kiểu dáng: Đơn giản, thời trang. Dành cho dịp: Quà tặng sinh nhật. Gói hàng bao gồm: 1 chiếc nhẫn",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        {
+            "id": "20",
+            "idDM": "4",
+            "tenSP": "Bông tai nữ dáng dài, tròn",
+            "hinhAnh":"https://cf.shopee.vn/file/d849595820035fef82700c671d237379",
+            "gia":"24000",
+            "giamGia":"5",
+            "ngayNhap":"3/11/2022",
+            "soLuong":"120",
+            "moTa":"Sản phẩm mới 100%, chất lượng cao cấp - Tên sản phẩm: Bông tai nữ dáng dài, tròn phong cách Hàn Quốc sang trọng lấp lánh, khuyên tai hoa tai giá rẻ đẹp - Tên và địa chỉ của tổ chức/cá nhân chịu trách nhiệm về sản phẩm: The 22 Jewelry - Số 39 Đường số 10, Khu phố 2, Phường Phú Hữu, TP. Thủ Đức, TP.HCM - Xuất xứ: Trung Quốc - Chất liệu: Hợp kim cao cấp, không gỉ bền đẹp với thời gian, không gây kích ứng, an toàn cho làn da. - Loại trang sức: Khuyên tai - hoa tai - bông tai - Số lượng: 1 đôi hoa tai - Đóng gói: khuyên tai được đóng hộp cute xinh xắn 8x8x8 cm để đảm bảo chất lượng khuyên tai khi vận chuyển",
+            "luotXem":"30",
+            "trangThai": 1
+        },
+        // Kính
+        {
+            "id": "21",
+            "idDM": "5",
+            "tenSP": "Mắt kính unisex hot trend thời trang",
+            "hinhAnh":"https://cf.shopee.vn/file/7979a9ac618c122939c16f15bbba60bc",
+            "gia":"29000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"100",
+            "moTa":"Thông tin sản phẩm -Gọng kính: Nhựa cứng chuyên dụng, không gây khó chịu khi đeo -Tròng kính: Tròng Plastic giúp hạn chế tia UV, Chống chói, chống bụi -Kiểu dáng: Form vuông vát cạnh cực kì cá tính -Màu sắc: 7 màu, 7 sự lựa chọn cho bạn -Phù hợp với phần lớn tất cả các gương mặt (Tròn, trái xoan, to, nhỏ, …) -Thích hợp cho việc sử dụng khi đi đường, dã ngoại… để tránh được bụi bặm hoặc ánh nắng mặt trời, giúp bảo vệ đôi mắt của bạn. -Form kính ôm vào sống mũi làm nổi bật mũi cao. -Thiết kế vừa vặn với khuôn mặt của bạn và mang lại cảm giác dễ chịu khi sử dụng. - Xuất xứ: Quảng Châu",
+            "luotXem":"120",
+            "trangThai": 1
+        },
+        {
+            "id": "22",
+            "idDM": "5",
+            "tenSP": "Kính mát gọng vuông không viền phong cách Thug Life vui nhộn",
+            "hinhAnh":"https://salt.tikicdn.com/ts/tmp/b5/f0/26/b4661065bbf25a1cf04285dd7a867322.jpg",
+            "gia":"19000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"100",
+            "moTa":"Mắt kính Thug Life 6 chấm là trào lưu rất nổi tiếng ở nước ngoài, người có các pha lên đồng trong game hay các pha hành động không tưởng ngoài đời thực khiến người khác phải kinh ngạc. – Đây là phụ kiện cho các bạn Gamer để thể hiện cá tính trước bạn bè khi chơi game hoặc có những pha không tưởng ngoài cuộc sống sẽ được chiếc kính này “phụ họa” khiến mọi người không thể không chú ý",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "23",
+            "idDM": "5",
+            "tenSP": "Kính Giả Cận thời trang VIỀN 805",
+            "hinhAnh":"https://cf.shopee.vn/file/46a7ed686d202e3bdb97dd2dc54c2ef2",
+            "gia":"46000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"50",
+            "moTa":"Phù hợp với cả nam và nữ - Màu sắc: ĐEN - Gọng kính: Nhựa cứng chuyên dụng, không gây khó chịu khi đeo - Tròng kính: Tròng kính 0 độ - Kiểu dáng: form dáng chữ nhật nhiều màu - Phù hợp với phần lớn tất cả các gương mặt (Tròn, trái xoan, to, nhỏ, …) - Thích hợp cho việc sử dụng khi đi đường để tránh được bụi bặm hoặc ánh nắng mặt trời, giúp bảo vệ đôi mắt của bạn. - Form kính ôm vào sống mũi làm nổi bật mũi cao. - Thiết kế vừa vặn với khuôn mặt của bạn và mang lại cảm giác dễ chịu khi sử dụng.",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "24",
+            "idDM": "5",
+            "tenSP": "Kính mát chống ánh sáng xanh cho nữ",
+            "hinhAnh":"https://vietanoptic.com/wp-content/uploads/2019/06/x-8049-1-15347566273111016898652.jpg",
+            "gia":"19000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"100",
+            "moTa":"Chất liệu: Khung nhựa, Tròng kính Polycarbonate, Lớp phủ chống tia cực tím Chiều rộng ống kính: 57 mm. Chiều cao ống kính: 52 mm Chiều rộng mũi: 15 mm. Chiều dài đền: 152 mm.",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "25",
+            "idDM": "5",
+            "tenSP": "Kính Râm oversized Nhiều Màu Sắc Vui Nhộn",
+            "hinhAnh":"https://cf.shopee.vn/file/d4a741743153f378342b3ce06cd19203",
+            "gia":"30000",
+            "giamGia":"5",
+            "ngayNhap":"4/11/2022",
+            "soLuong":"100",
+            "moTa":"Kính râm với thiết kế mắt siêu lớn vui nhộn và độc đáo Đặc điểm: 100% thương hiệu mới và sản phẩm chất lượng cao. Thiết kế đặc biệt và phong cách độc đáo Kính cường lực và chú hề vui nhộn Có thể làm cho bạn trở nên bí ẩn Nổi bật giữa đám đông tại một bữa tiệc hoặc lễ hội hóa trang Cũng là đạo cụ tuyệt vời cho trẻ em để chơi trò chơi hàng ngày Kiểu dáng thời trang, hợp thời trang phù hợp với hầu hết các hình dạng và kích thước khuôn mặt",
+            "luotXem":"20",
+            "trangThai": 1
+        },
+    ]
+}
