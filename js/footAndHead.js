@@ -74,7 +74,7 @@ let humberger = `
                 </ul>
             </div>
             <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Đăng nhập</a>
+                <a href="./login.html"><i class="fa fa-user"></i> Đăng nhập</a>
             </div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">

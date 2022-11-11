@@ -797,7 +797,7 @@ ol {
 	position: absolute;
 	left: -35px;
 	top: 50%;
-	-webkit-transform: translateY(-35px);
+	--webkit-transform: translateY(-35px);
 	background: #ffffff;
 }
 
@@ -3190,7 +3190,7 @@ ol {
 		position: relative;
 		left: 0;
 		top: 0;
-		-webkit-transform: translateY(0);
+		--webkit-transform: translateY(0);
 	}
 	.categories__slider.owl-carousel .owl-nav button.owl-next {
 		right: -10px;
@@ -3465,4 +3465,11 @@ ol {
 	.blog__details__hero__text h2 {
 		font-size: 24px;
 	}
+}
+
+
+.shadow{
+	display: fixed !important;
+	top: 0 !important;
+	
 }
