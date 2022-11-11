@@ -111,7 +111,7 @@ let header = `
 <div class="header__top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 text-white">
                         <div class="header__top__left">
                             <ul>
                                 <li><i class="fa fa-envelope"></i> SilkRoad@gmail.com</li>
