@@ -11,7 +11,7 @@ const product = new FireBaseService();
       for (const [key, value] of Object.entries(data)) {
         console.log(value);
         if (value) {
-          if (value.luotXem > 50) {
+          if (value.giamGia > 10) {
             content += `
             <div class="col-lg-3 col-md-4 col-sm-6 mix oranges ${value.idDM}">
                     <div class="featured__item">
@@ -25,7 +25,8 @@ const product = new FireBaseService();
                         </div>
                         <div class="featured__item__text">
                         <h6><a href="single.html?id=${key}">${value.tenSP}</a></h6>
-                            <h5>${value.gia - (value.gia / value.giamGia)} VNĐ</h5>
+                            <p style="text-decoration: line-through;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia)} </p>
+                            <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
                         </div>
                     </div>
                 </div>

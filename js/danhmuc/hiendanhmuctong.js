@@ -1,4 +1,4 @@
-import { FireBaseService } from "./firebaseService.js";
+import { FireBaseService } from "../API/firebaseService.js";
 const brand = new FireBaseService();
 
 async function showBrand() {
@@ -12,7 +12,7 @@ async function showBrand() {
       for (const [key, value] of Object.entries(data)) {
         if (value) {
           content += `
-          <li><a href="categories.html?id=${key}">${value.tenLoai}</a></li>
+          <li><a href="shop-grid.html?id=${value.id}">${value.tenDMT}</a></li>
           
           `;
         }
