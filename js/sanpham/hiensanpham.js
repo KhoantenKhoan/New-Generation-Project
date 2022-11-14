@@ -5,11 +5,11 @@ const product = new FireBaseService();
     let response=await product.getAll('sanPham');
     
     let data = await response.json();
-    console.log(data);
+    // console.log(data);
     let content = ``;
     if (data) {
       for (const [key, value] of Object.entries(data)) {
-        console.log(value);
+        // console.log(value);
         if (value) {
           if (value.giamGia > 10) {
             content += `
