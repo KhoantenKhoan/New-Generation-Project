@@ -199,4 +199,6 @@ let header = `
 document.querySelector("#footer").innerHTML += footer;
 document.querySelector("#humberger").innerHTML += humberger;
 document.querySelector("#header").innerHTML += header;
-// document.querySelector("#heroPage").innerHTML += heroPage;
+
+document.querySelector("#heroPage").innerHTML += heroPage;
+
