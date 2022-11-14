@@ -1,0 +1,9 @@
+.change_password{
+    display: none;
+    margin-top: 10px;
+}
+
+table tbody tr td img{
+    height: 60px;
+    width: auto;
+}
