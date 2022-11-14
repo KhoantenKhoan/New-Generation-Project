@@ -6,7 +6,7 @@ async function showBrand() {
     let response=await brand.getAll('danhMucTong');
     
     let data = await response.json();
-    console.log(data);
+    // console.log(data);
     let content = ``;
     if (data) {
       for (const [key, value] of Object.entries(data)) {
