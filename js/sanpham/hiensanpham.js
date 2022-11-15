@@ -24,7 +24,7 @@ const product = new FireBaseService();
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                        <h6><a href="single.html?id=${key}">${value.tenSP}</a></h6>
+                        <h6><a href="shop-details.html?id=${key}">${value.tenSP}</a></h6>
                             <p style="text-decoration: line-through;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia)} </p>
                             <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
                         </div>
