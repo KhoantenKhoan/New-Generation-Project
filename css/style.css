@@ -542,7 +542,7 @@ ol {
 }
 
 .hero__categories ul {
-	border: 1px solid #ebebeb;
+	border: 1px solid #000;
 	padding-left: 40px;
 	padding-top: 10px;
 	padding-bottom: 12px;
@@ -557,6 +557,12 @@ ol {
 	color: #1c1c1c;
 	line-height: 39px;
 	display: block;
+}
+
+.hero__categories ul li a:hover {
+	color: #003049;
+	text-decoration: underline;
+	font-weight: 600;
 }
 
 .hero__search {
@@ -978,14 +984,14 @@ ol {
 
 .breadcrumb__text h2 {
 	font-size: 46px;
-	color: #ffffff;
+	color: #000;
 	font-weight: 700;
 }
 
 .breadcrumb__option a {
 	display: inline-block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #000;
 	font-weight: 700;
 	margin-right: 20px;
 	position: relative;
@@ -997,14 +1003,14 @@ ol {
 	top: 13px;
 	height: 1px;
 	width: 10px;
-	background: #ffffff;
+	background: #000;
 	content: "";
 }
 
 .breadcrumb__option span {
 	display: inline-block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #000;
 }
 
 /*---------------------
@@ -2065,7 +2071,7 @@ ol {
 	border: 1px solid #ebebeb;
 	padding-left: 20px;
 	font-size: 16px;
-	color: #b2b2b2;
+	color: #000;
 	border-radius: 4px;
 }
 
@@ -2130,7 +2136,6 @@ ol {
 }
 
 .checkout__order {
-	background: #000;
 	padding: 40px;
 	padding-top: 30px;
 }
