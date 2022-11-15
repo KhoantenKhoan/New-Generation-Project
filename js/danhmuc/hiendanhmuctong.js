@@ -12,7 +12,15 @@ async function showBrand() {
       for (const [key, value] of Object.entries(data)) {
         if (value) {
           content += `
-          <li><a href="shop-grid.html?id=${value.id}">${value.tenDMT}</a></li>
+          <li class="rightmenu">
+            <a href="shop-grid.html?id=${value.id}">${value.tenDMT}</a>
+            <ul class="nav-menu" id="navmenu">
+              <li><a href="#">qqqaaaaaaaaaaaaaaaaaaa</a></li>
+              <li>ccc</li>
+              <li>vvv</li>
+            </ul>
+          
+          </li>
           
           `;
         }
