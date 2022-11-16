@@ -181,9 +181,9 @@
     maxamount.val('$' + rangeSlider.slider("values", 1));
 
     /*--------------------------
-        Select
+        Select $("select").niceSelect();
     ----------------------------*/
-    $("select").niceSelect();
+   
 
     /*------------------
 		Single Product

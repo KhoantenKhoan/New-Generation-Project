@@ -19,16 +19,6 @@ const response = await fetch(
               <img class="product__details__pic__item--large"
                   src="${product.hinhAnh}" alt="">
           </div>
-          <div class="product__details__pic__slider owl-carousel">
-              <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                  src="img/product/details/thumb-1.jpg" alt="">
-              <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                  src="img/product/details/thumb-2.jpg" alt="">
-              <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                  src="img/product/details/thumb-3.jpg" alt="">
-              <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                  src="img/product/details/thumb-4.jpg" alt="">
-          </div>
       </div>
   </div>
   <div class="col-lg-6 col-md-6">
@@ -47,12 +37,12 @@ const response = await fetch(
           <div class="product__details__quantity">
               <div class="quantity">
                   <div class="pro-qty">
-                      <input type="text" value="1">
+                      <input type="number" value="1">
                   </div>
               </div>
           </div>
-          <a href="#" class="primary-btn">Thêm vào giỏ hàng</a>
-          <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+          <a href="#" onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn">Thêm vào giỏ hàng</a>
+          <a href="#" style="color:white" class="heart-icon"><span class="icon_heart_alt"></span></a>
           <ul>
               <li><b>Tình trạng</b> <span>Còn hàng</span></li>
               <li><b>Vận chuyển</b> <span>trong ngày khu vực HCM.</span></li>

@@ -11,13 +11,14 @@ async function showBrand() {
     if (data) {
       for (const [key, value] of Object.entries(data)) {
         if (value) {
-          console.log(value)
+          console.log(value);
           content += `
             <option value="${value.id}">${value.khuyenMai}</option>
           `;
         }
       }
     }
-    document.getElementById('km').innerHTML = content;
+    document.querySelector('#km').innerHTML = content;
+    //document.getElementById('km').value=value;
   }
   showBrand();
