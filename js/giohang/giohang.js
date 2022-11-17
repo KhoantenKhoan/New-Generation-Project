@@ -7,7 +7,7 @@ if (cart) cart.forEach( (sp,index) => {
             <h5>${sp.tenSP}</h5>
         </td>
         <td class="shoping__cart__price">
-        ${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(sp.gia)}
+        ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫
         </td>
         <td class="shoping__cart__quantity">
             <div class="quantity">
@@ -18,7 +18,7 @@ if (cart) cart.forEach( (sp,index) => {
             </div>
         </td>
         <td class="shoping__cart__total"  >
-                <div class="tien"> ${Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(sp.gia)}</div>
+                <div class="tien">  ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫	</div>
             
         </td>
         <td class="shoping__cart__item__close">
@@ -30,7 +30,7 @@ if (cart) cart.forEach( (sp,index) => {
 })
 function tinhtien(gia, soluong, i){
     let tien = gia*soluong;
-    document.getElementsByClassName("tien")[i].innerText = (tien).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '') + " ₫";
+    document.getElementsByClassName("tien")[i].innerText = (tien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '') + " ₫";
     tinhtongtien();
 }
 function tinhtongtien(){
@@ -40,9 +40,9 @@ function tinhtongtien(){
         console.log(t);
         tongtien +=  parseInt(t.innerText);
     }
-    document.getElementById("tongtien").innerText = (tongtien).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
+    document.getElementById("tongtien").innerText = (tongtien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
 
-    document.getElementById("tientong").innerText = (tongtien).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
+    document.getElementById("tientong").innerText = (tongtien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
     let tientong = (tongtien+(tongtien/10));
     localStorage.setItem("tientong", tientong);
 }

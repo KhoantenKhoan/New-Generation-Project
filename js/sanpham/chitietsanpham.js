@@ -23,7 +23,7 @@ const response = await fetch(
   </div>
   <div class="col-lg-6 col-md-6">
       <div class="product__details__text">
-          <h3>${product.tenSP}</h3>
+          <h3>${product.tenSP.toUpperCase()}</h3>
           <div class="product__details__rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
