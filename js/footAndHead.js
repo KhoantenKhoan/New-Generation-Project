@@ -130,10 +130,10 @@ let header = `
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Trang chủ</a></li>
-                            <li><a href="./shop-grid.html">Sản phẩm</a></li>
-                            <li><a href="./blog.html">Tin tức</a></li>
-                            <li><a href="./contact.html">Liên hệ</a></li>
+                            <li class="active"><a class="nav__link" href="./index.html">Trang chủ</a></li>
+                            <li><a class="nav__link" href="./shop-grid.html">Sản phẩm</a></li>
+                            <li><a class="nav__link" href="./blog.html">Tin tức</a></li>
+                            <li><a class="nav__link" href="./contact.html">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>

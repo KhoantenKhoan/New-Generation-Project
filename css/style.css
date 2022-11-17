@@ -803,11 +803,19 @@ ol {
 }
 
 .featured__item__pic {
-	height: 270px;
 	position: relative;
+	width: 262px;
+	height: 270px;
+	/* background-position: center center; */
 	overflow: hidden;
-	background-position: center center;
 }
+
+.featured__item__pic a img:hover{
+    width: 100%;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+}
+
 
 .featured__item__pic__hover {
 	position: absolute;
@@ -823,6 +831,8 @@ ol {
 }
 
 .featured__item__pic__hover li {
+	border: 1px solid #003049;
+	border-radius: 50%;
 	list-style: none;
 	display: inline-block;
 	margin-right: 6px;
@@ -834,7 +844,7 @@ ol {
 
 .featured__item__pic__hover li:hover a {
 	background: #003049;
-	border-color: #003049;
+	border: none;
 }
 
 .featured__item__pic__hover li:hover a i {
@@ -938,6 +948,7 @@ ol {
 .latest-product__item__pic {
 	float: left;
 	margin-right: 26px;
+	width: 100px;
 }
 
 .latest-product__item__pic img {
