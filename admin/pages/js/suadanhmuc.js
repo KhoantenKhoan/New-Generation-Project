@@ -2,10 +2,10 @@ let params = new URLSearchParams(location.search);
 let id = params.get('id');
 btnluu = document.querySelector("#btnluu");
 btnluu.onclick = function(){
-  url=`http://localhost:3000/danhmuc/${id}`;
+  url=`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMuc/${id}.json`;
   
   sp={
-    TenDM: document.querySelector("#ten").value.trim(),
+    tenDM: document.querySelector("#ten").value.trim(),
     
   }
   options = {
@@ -29,11 +29,11 @@ btnluu.onclick = function(){
 //     `;
 //   })
 // })
-url = `http://localhost:3000/danhmuc/${id}`;
+url = `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMuc/${id}.json`;
 fetch(url)
 .then(res => res.json())
 .then(sp  =>{
-    document.getElementById('ten').value = sp.TenDM;
+    document.getElementById('ten').value = sp.tenDM;
    
     
 })
