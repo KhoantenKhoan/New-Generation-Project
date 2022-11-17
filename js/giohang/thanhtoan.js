@@ -25,7 +25,11 @@ document.getElementById("btn-datHang").onclick = function() {
     diaChi = document.getElementById("diaChi").value.trim();
     ghiChu = document.getElementById("ghiChu").value.trim();
     phuongThucTT = document.getElementById("phuongThucTT").value.trim();
-    if(hoTen=="") {alert("Chưa nhập họ và tên"); return;}
+    if(hoTen=="") {
+        $('.msg-error.all').html('Vui lòng điền đẩy đủ thông tin !');
+        // alert("Chưa nhập họ và tên"); 
+        return;
+    }
     if(email=="") {alert("Chưa nhập Email"); return;}
     if(sdt=="") {alert("Chưa nhập số điện thoại"); return;}
     if(diaChi=="") {alert("Chưa nhập địa chỉ"); return;}

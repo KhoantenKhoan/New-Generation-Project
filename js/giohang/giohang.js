@@ -18,7 +18,7 @@ if (cart) cart.forEach( (sp,index) => {
             </div>
         </td>
         <td class="shoping__cart__total"  >
-                <div class="tien"> ${(sp.gia).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫</div>
+                <div class="tien"> ${Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(sp.gia)}</div>
             
         </td>
         <td class="shoping__cart__item__close">
