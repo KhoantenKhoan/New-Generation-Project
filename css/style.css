@@ -564,8 +564,10 @@ ol {
 }
 
 .hero__categories ul li a:hover {
-	color: #003049;
-	text-decoration: underline;
+	background-color: #003049;
+	color: white;
+	/* text-decoration: underline; */
+	/* border-bottom: 4px solid #000; */
 	font-weight: 600;
 }
 
@@ -796,6 +798,10 @@ ol {
 
 .featured__item {
 	margin-bottom: 50px;
+}
+
+.featured__item__pic  {
+	border: 1px solid #b2b2b2;
 }
 
 .featured__item:hover .featured__item__pic .featured__item__pic__hover {
