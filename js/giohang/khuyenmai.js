@@ -3,25 +3,22 @@ const brand = new FireBaseService();
 
 async function showBrand() {
   
-    let response=await brand.getAll('danhMucTong');
+    let response=await brand.getAll('khuyenMai');
     
     let data = await response.json();
-    // console.log(data);
+    
     let content = ``;
     if (data) {
       for (const [key, value] of Object.entries(data)) {
         if (value) {
+          console.log(value);
           content += `
-          <li class="rightmenu">
-            <a href="shop-grid.html?id=${value.id}">${value.tenDMT}</a>
-          </li>
+            <option value="${value.id}">${value.khuyenMai}</option>
           `;
         }
       }
     }
-    document.getElementById('mainmenu').innerHTML = content;
+    document.querySelector('#km').innerHTML = content;
+    //document.getElementById('km').value=value;
   }
   showBrand();
-  // <ul class="nav-menu" id="navmenu">
-              
-  //           </ul>

@@ -2905,7 +2905,7 @@
         {
             "id": "196",
             "idDM": "40",
-            "tenSP": "Apple Watch Ultra GPS ",
+            "tenSP": "Apple Watch Ultra GPS",
             "hinhAnh": "https://i5.walmartimages.com/asr/6cfc0a4d-9d7f-4677-bc2e-ab1f6f40f7c8_1.c623235467c519d7d921b46a36a506f3.jpeg",
             "gia": "23990000",
             "giamGia": "15",
@@ -3623,6 +3623,7 @@
             "idKM":"1",
             "idKH": "1",
             "tenKH": "ABC",
+            "email": "ABC@gmail.com",
             "diaChi": "ABC",
             "sdt": "0123456789",
             "ghiChuKH": "ABC",

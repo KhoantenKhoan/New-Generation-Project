@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -74,81 +75,83 @@
         <div class="container">
             <div class="checkout__form">
                 <h4>Thông tin chi tiết</h4>
-                <form action="#">
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-12">
                                     <div class="checkout__input">
-                                        <p>Tên<span>*</span></p>
-                                        <input type="text" placeholder="Nhập tên">
+                                        <p>Họ và Tên<span>*</span></p>
+                                        <input id="hoTen" type="text" placeholder="Nhập họ và tên">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
                                     <div class="checkout__input">
-                                        <p>Họ<span>*</span></p>
-                                        <input type="text" placeholder="Nhập họ">
+                                        <input id="" type="hidden" placeholder="Nhập họ và tên">
                                     </div>
                                 </div>
                             </div>
                             <div class="checkout__input">
                                 <p>Địa chỉ<span>*</span></p>
-                                <input type="text" placeholder="Địa chỉ" class="checkout__input__add">
+                                <input id="diaChi" type="text" placeholder="Địa chỉ" class="checkout__input__add">
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>Số điện thoại<span>*</span></p>
-                                        <input type="number" placeholder="nhập Số điện thoại">
+                                        <input id="sdt" type="number" placeholder="nhập Số điện thoại">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>Email<span>*</span></p>
-                                        <input type="email" placeholder="Nhập email">
+                                        <input id="email" type="email" placeholder="Nhập email">
                                     </div>
                                 </div>
                             </div>
                             <div class="checkout__input">
-                                <p>Order notes<span>*</span></p>
-                                <input type="text"
-                                    placeholder="Notes about your order, e.g. special notes for delivery.">
+                                <p>Ghi chú<span>*</span></p>
+                                <input id="ghiChu" type="text"
+                                    placeholder="Ghi chú của khách hàng">
+                            </div>
+                            <div class="col-lg-6">
+                                    <h5>Mã giảm giá:</h5>
+                                    <select id="km" >
+                                        
+                                      </select>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="checkout__order">
                                 <h4>Đơn hàng của bạn</h4>
                                 <div class="checkout__order__products">Sản phẩm <span>Giá</span></div>
-                                <ul>
-                                    <li>Vegetable’s Package <span>$75.99</span></li>
-                                    <li>Fresh Vegetable <span>$151.99</span></li>
-                                    <li>Organic Bananas <span>$53.99</span></li>
+                                <ul id="sanpham">
                                 </ul>
-                                <div class="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
-                                <div class="checkout__order__total">Total <span>$750.99</span></div>
-                                
+                                <Hr></Hr>
+                                <div style="display:none" class="checkout__order__subtotal">Subtotal <span id="tongtien"></span></div>
+                                <div class="checkout__order__total" >Total <span id="tientong"></span></div>
                                 <p>
                                     Chọn phương thức thanh toán
                                 </p>
                                 <div class="checkout__input__checkbox">
-                                    <label for="payment">
-                                        Chuyển khản
-                                        <input type="radio" name="pay"  id="payment">
+                                    <label>
+                                        Chuyển khoản
+                                        <input type="radio" name="phuongThucTT"  id="phuongThucTT" value="0">
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
                                 <div class="checkout__input__checkbox">
-                                    <label for="paypal">
+                                    <label>
                                         Thanh toán trực tiếp
-                                        <input type="radio" name="pay" id="paypal">
+                                        <input type="radio" name="phuongThucTT" id="phuongThucTT" value="1">
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
-                                <button type="submit" class="site-btn">Thanh toán</button>
+                                <button id="btn-datHang" class="site-btn">Thanh toán</button>
                             </div>
                         </div>
                     </div>
-                </form>
             </div>
         </div>
     </section>
@@ -172,6 +175,8 @@
 
     <!-- JS -->
     <script src="js/footAndHead.js"></script>
+    <script src="./js/giohang/khuyenmai.js" defer type="module"></script>
+    <Script src="./js/giohang/thanhtoan.js"></Script>
 
 </body>
 

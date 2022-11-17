@@ -15,19 +15,19 @@ const product = new FireBaseService();
             content += `
             <div class="col-lg-3 col-md-4 col-sm-6 mix oranges ${value.idDM}">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="${value.hinhAnh}">
-                        <img src="${value.hinhAnh}" alt="">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                        <h6><a href="single.html?id=${key}">${value.tenSP}</a></h6>
-                            <p style="text-decoration: line-through;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia)} </p>
-                            <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
-                        </div>
+                          <div class="featured__item__pic set-bg" data-setbg="${value.hinhAnh}">
+                          <a  href="shop-details.html?id=${key}">
+                          <img src="${value.hinhAnh}" alt="">
+                          </a>
+                              <ul class="featured__item__pic__hover">
+                                  <li><a  onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" href=""><i class="fa fa-shopping-cart"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="featured__item__text">
+                          <h6><a href="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
+                              <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
+                              <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
+                          </div>
                     </div>
                 </div>
               `;

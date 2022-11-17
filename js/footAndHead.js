@@ -7,9 +7,9 @@ let footer = `
                             <a href="./index.html"><img src="img/logo.png" alt=""></a>
                         </div>
                         <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: SilkRoad@gmail.com</li>
+                            <li>Địa chỉ: Lô 24 CVPM Quang Trung, P.Tân Chánh Hiệp, Q.12, TP.HCM</li>
+                            <li>SĐT: +08 390 8585</li>
+                            <li>Email: admination@silkroad.su</li>
                         </ul>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ let humberger = `
         </div>
         <div class="humberger__menu__contact">
             <ul>
-                <li><i class="fa fa-envelope"></i> SilkRoad@gmail.com</li>
+                <li><i class="fa fa-envelope"></i>admination@silkroad.su</li>
             </ul>
         </div>
 `;
@@ -106,7 +106,7 @@ let header = `
                     <div class="col-lg-6 col-md-6 text-white">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> SilkRoad@gmail.com</li>
+                                <li><i class="fa fa-envelope"></i>admination@silkroad.su</li>
                             </ul>
                         </div>
                     </div>
