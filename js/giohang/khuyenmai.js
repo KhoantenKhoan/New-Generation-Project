@@ -11,10 +11,12 @@ async function showBrand() {
     if (data) {
       for (const [key, value] of Object.entries(data)) {
         if (value) {
-          console.log(value);
+          // console.log(value);
           content += `
-            <option value="${value.id}">${value.khuyenMai}</option>
-          `;
+            <option value="${value.id}">
+              ${value.khuyenMai}     |     <span class="discount__number">${value.giamGia}%</span>
+            </option>
+            `;
         }
       }
     }
