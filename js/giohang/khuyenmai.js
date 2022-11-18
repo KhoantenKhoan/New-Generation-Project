@@ -13,8 +13,10 @@ async function showBrand() {
         if (value) {
           // console.log(value);
           content += `
-            <option value="${value.id}">${value.khuyenMai}</option>
-          `;
+            <option value="${value.id}">
+              ${value.khuyenMai}     |     <span class="discount__number">${value.giamGia}%</span>
+            </option>
+            `;
         }
       }
     }
