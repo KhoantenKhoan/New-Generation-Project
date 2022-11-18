@@ -12,24 +12,12 @@ async function showProduct() {
     let data = await response.json();
     let data1 = await response1.json();
 
-    let maindata = [''];
-    for(const [key1, value1] of Object.entries(data1)){
-        
-        console.log(id_item);
-        console.log(value1.idDMT);
-        console.log(value1.id);
-
-        if(id_item == value1.idDMT){
-            maindata += value1;
-        }
-    }
-    
-    console.log(maindata);
-
     let content = ``;
 
-    if (maindata) {
-      for (const [key, value] of Object.entries(maindata)) {
+if (data , data1) {
+    for (const [key, value] of Object.entries(data)) {
+        console.log(value);
+        if(id_item == value.idDMT )
         if (value) {
             content += `
             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -43,15 +31,15 @@ async function showProduct() {
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a ref="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
+                        <h6><a ref="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
                             <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
                             <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
                     </div>
                 </div>
             </div>
             `;
-        }
-      }
+    }
+    }
     }
     document.getElementById('locsanpham').innerHTML = content;
   }

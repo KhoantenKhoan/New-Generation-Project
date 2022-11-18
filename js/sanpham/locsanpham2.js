@@ -4,19 +4,22 @@ const product = new FireBaseService();
 async function showProduct() {
     let params = new URLSearchParams(location.search);
     let id_item = params.get("idDMT");
+    let id_item1 = params.get("idDM");
 
     let response=await product.getAll('sanPham');
     let response1=await product.getAll('danhMuc');
     
     let data = await response.json();
     let data1 = await response1.json();
-    
-    console.log(data);
+
     let content = ``;
-    if (data, data1) {
-      for (const [key, value] of Object.entries(data)) {
+
+if (data , data1) {
+    for (const [key, value] of Object.entries(data)) {
+      console.log(id_item1);
+      if( id_item == value.idDMT && id_item1 == value.idDM){
+          console.log(value);
         if (value) {
-          if(id_item == value.idDM){
             content += `
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product__item">
@@ -29,16 +32,16 @@ async function showProduct() {
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a ref="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
+                        <h6><a ref="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
                             <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
                             <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
                     </div>
                 </div>
             </div>
             `;
-          }
-        }
-      }
+    }
+  }
+    }
     }
     document.getElementById('locsanpham').innerHTML = content;
   }
