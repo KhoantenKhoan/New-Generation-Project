@@ -1,22 +1,21 @@
-var url = "http://localhost:3000/binhluan";
+var url = "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/binhLuan.json";
 fetch(url)
   .then((data) => data.json())
   .then((loai) => {
     loai.forEach((cat) => {
 		document.querySelector("#tt").innerHTML += ` 
 		<tr>
-                                        <td>${cat.id}</td>
-                                        <td>${cat.idKH}</td>
-                                        <td>${cat.idSP==0?"":"Có"}</td>
-                                        <td>${cat.idTT==0?"":"Có"}</td>
-                                        <td>${cat.NoiDung}</td>
-                                        <td>${cat.ThoiGian}</td>
-                                        
-                                        <td>
-                                           
-                                            <button class="badge badge-danger xoa button" onclick="xoasp('${cat.id}')">Xóa</button>
-                                        </td>
-                                    </tr>
+        <td>${cat.id}</td>
+        <td>${cat.idKH}</td>
+        <td>${cat.idSP}</td>
+        <td>${cat.ngay}</td>
+        <td>${cat.noiDung}</td>
+        
+        <td>
+            
+            <button class="badge badge-danger xoa button" onclick="xoasp('${cat.id}')">Xóa</button>
+        </td>
+    </tr>
 		`;
     });
   });
