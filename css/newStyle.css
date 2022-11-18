@@ -94,3 +94,9 @@
 .checkout_order_total {
     padding-left: 32px;
 }
+
+.show__comment,
+.w-100.form__comment {
+    padding-left: 30px;
+}
+
