@@ -125,8 +125,13 @@ let header = `
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a class="nav__link" href="./index.html">Trang chủ</a></li>
+<<<<<<< Updated upstream
                             <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Sản phẩm</a></li>
                             <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Về Chúng tôi</a></li>
+=======
+                            <li><a class="nav__link" href="shop-grid.html?idDMT=1">Sản phẩm</a></li>
+                            <li><a class="nav__link" href="./blog.html">Về chúng tôi</a></li>
+>>>>>>> Stashed changes
                             <li><a class="nav__link" href="./contact.html">Liên hệ</a></li>
                         </ul>
                     </nav>

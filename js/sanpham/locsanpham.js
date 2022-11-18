@@ -16,8 +16,13 @@ async function showProduct() {
 
 if (data , data1) {
     for (const [key, value] of Object.entries(data)) {
+<<<<<<< Updated upstream
         // console.log(value);
         if(id_item == value.idDMT )
+=======
+        console.log(value);
+        if(id_item == value.idDMT)
+>>>>>>> Stashed changes
         if (value) {
             content += `
             <div class="col-lg-4 col-md-6 col-sm-6 cover__product">
