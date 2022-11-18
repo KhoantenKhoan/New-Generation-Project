@@ -13,15 +13,8 @@ async function showBrand() {
         if (value) {
           content += `
           <li class="rightmenu">
-            <a href="shop-grid.html?id=${value.id}">${value.tenDMT}</a>
-            <ul class="nav-menu" id="navmenu">
-              <li><a href="#">qqqaaaaaaaaaaaaaaaaaaa</a></li>
-              <li>ccc</li>
-              <li>vvv</li>
-            </ul>
-          
+            <a class="nav__link" href="shop-grid.html?idDMT=${value.id}">${value.tenDMT}</a>
           </li>
-          
           `;
         }
       }
@@ -29,4 +22,6 @@ async function showBrand() {
     document.getElementById('mainmenu').innerHTML = content;
   }
   showBrand();
-  // <li><a href="categories.html?id=${key}">${value.tenLoai}</a></li>
+  // <ul class="nav-menu" id="navmenu">
+              
+  //           </ul>
