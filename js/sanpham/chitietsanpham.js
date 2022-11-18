@@ -1,5 +1,8 @@
 import { FireBaseService } from "../API/firebaseService.js";
 const product = new FireBaseService();
+const product2 = new FireBaseService();
+const comment = new FireBaseService();
+const member = new FireBaseService();
 (async () => {
 let params = new URLSearchParams(location.search);
 let id_item = params.get("id");
@@ -61,47 +64,63 @@ const response = await fetch(
     }
 })();
 
-async function comment() {
-  
-    let response=await product.getAll('binhLuan');
+async function renderComment() {
+    let params = new URLSearchParams(location.search);
+    // let id = params.get("id");
+    // console.log(id);
+
+    let id = 1;
+    // let idMember = 1;
+    let response1 = await product2.getAll('sanPham');
+    let response2 = await member.getAll('khachHang');
       
     let data = await response.json();
-      console.log(data);
+    let data1 = await response1.json();
+    let data2 = await response2.json();
+
+    console.log(data2);
+
     let content = ``;
-    if (data) {
-        for (const [key, value] of Object.entries(data)) {
-            console.log(value);
-            if (value) {
-                content += `
-                    <div class="card text-dark">
-                        <div class="card-body p-4">
-                            <h4 class="mb-0">Bình luận, đánh giá sản phẩm</h4>
-                            <p class="fw-light mb-4 pb-2">Đánh giá của những người khác</p>
 
-                            <div class="d-flex flex-start">
-                                <img class="rounded-circle shadow-1-strong me-3"
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp" alt="avatar"
-                                    width="60" height="60" />
-                                <div class="show__comment">
-                                    <h6 class="fw-bold mb-1">Maggie Marsh</h6>
-                                    <div class="d-flex align-items-center mb-3">
-                                        <p class="mb-0">
-                                            ${value.ngay}
-                                        </p>
-                                    </div>
-                                    <p class="mb-0">
-                                        ${value.noiDung}
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+    let response = await fetch(
+        `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/binhLuan.json?orderBy="product_id"&"member_id"&equalTo=${id}`
+    )
+    
 
-                        <hr class="my-0" />
-                    </div>
-                `;
-            }
-        }
-    }
+    // if (data) {
+    //     for (const [key, value] of Object.entries(data)) {
+    //         console.log(value);
+    //         if (value) {
+    //             content += `
+    //                 <div class="card text-dark">
+    //                     <div class="card-body p-4">
+    //                         <h4 class="mb-0">Bình luận, đánh giá sản phẩm</h4>
+    //                         <p class="fw-light mb-4 pb-2">Đánh giá của những người khác</p>
+
+    //                         <div class="d-flex flex-start">
+    //                             <img class="rounded-circle shadow-1-strong me-3"
+    //                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp" alt="avatar"
+    //                                 width="60" height="60" />
+    //                             <div class="show__comment">
+    //                                 <h6 class="fw-bold mb-1">Maggie Marsh</h6>
+    //                                 <div class="d-flex align-items-center mb-3">
+    //                                     <p class="mb-0">
+    //                                         ${value.ngay}
+    //                                     </p>
+    //                                 </div>
+    //                                 <p class="mb-0">
+    //                                     ${value.noiDung}
+    //                                 </p>
+    //                             </div>
+    //                         </div>
+    //                     </div>
+
+    //                     <hr class="my-0" />
+    //                 </div>
+    //             `;
+    //         }
+    //     }
+    // }
       document.getElementById('comment').innerHTML += content;
 }
-comment();
+renderComment();
