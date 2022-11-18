@@ -51,6 +51,7 @@
     border-radius: 10px;
 }
 
+.product__item__name,
 .featured__item__text .featured__item_name{
     height: 45px;
     overflow: hidden;
@@ -66,8 +67,7 @@
     border-radius: 10px;
     box-shadow:  0 0 5px #000;
 }
-
-
+.shop__menu li a::after,
 .header__menu > ul > li >.nav__link::after{
     content: '';
     display: block;
@@ -76,6 +76,7 @@
     background: #003049; 
     transition: width .3s;
 }
+.shop__menu li a:hover::after,
 .header__menu > ul > li >.nav__link:hover::after{
     width: 100%;
     transition: width .3s;
@@ -83,7 +84,8 @@
 
 .discount{
     margin-top: 25px;
-    width: 10rem;
+    width: 35rem;
+    height: 45px;
 }
 
 .checkout__order__name{
@@ -100,3 +102,20 @@
     padding-left: 30px;
 }
 
+.product__item{
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.hero__search__phone.col-lg-3.box_icon {
+    padding: 15px 0;
+}
+
+.discount__number{
+    padding-left: 10px;
+}
+/* 
+.shop__menu li a:hover{
+    color: #003049;
+} */

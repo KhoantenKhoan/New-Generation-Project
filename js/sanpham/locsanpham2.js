@@ -18,7 +18,7 @@ if (data , data1) {
     for (const [key, value] of Object.entries(data)) {
       console.log(id_item1);
       if( id_item == value.idDMT && id_item1 == value.idDM){
-          console.log(value);
+        //   console.log(value);
         if (value) {
             content += `
             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -32,9 +32,15 @@ if (data , data1) {
                             </ul>
                         </div>
                         <div class="product__item__text">
-                        <h6><a ref="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
-                            <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
-                            <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
+                            <div class="product__item__name">
+                                <h6><a ref="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
+                            </div>
+                            <div class="product__item__old_price">
+                                <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
+                            </div>
+                            <div class="product__item__price">
+                                <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -44,5 +50,5 @@ if (data , data1) {
     }
     }
     document.getElementById('locsanpham').innerHTML = content;
-  }
+}
   showProduct();

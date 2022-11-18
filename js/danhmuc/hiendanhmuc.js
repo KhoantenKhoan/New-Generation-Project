@@ -14,7 +14,7 @@ async function showBrand() {
         if (value) {
           if(id_item == value.idDMT){
             content += `
-              <li><a href="shop-grid-2.html?idDMT=${value.idDMT}&idDM=${value.id}">${value.tenDM}</a></li>
+              <li><a class="nav__link" href="shop-grid-2.html?idDMT=${value.idDMT}&idDM=${value.id}">${value.tenDM}</a></li>
             `;
           }
         }
