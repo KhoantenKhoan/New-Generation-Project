@@ -2184,10 +2184,13 @@ ol {
 }
 
 .checkout__order ul li {
-	font-size: 16px;
-	color: #6f6f6f;
-	line-height: 40px;
-	list-style: none;
+	display: flex;
+    font-size: 16px;
+    color: #6f6f6f;
+    line-height: 40px;
+    height: 45px;
+    margin: 20px 0;
+    list-style: none;
 }
 
 .checkout__order ul li span {
@@ -2219,8 +2222,9 @@ ol {
 	color: #1c1c1c;
 	font-weight: 700;
 	border-bottom: 1px solid #e1e1e1;
-	padding-bottom: 15px;
-	margin-bottom: 25px;
+	border-top: 1px solid #e1e1e1;
+	padding: 15px 0;
+	margin: 60px 0 25px 0;
 }
 
 .checkout__order .checkout__order__total span {

@@ -1,7 +1,19 @@
 var cart = JSON.parse(localStorage.getItem("cart"));
 if (cart) cart.forEach( (sp,index) => {
   document.querySelector("#sanpham").innerHTML += `
-        <li>${sp.tenSP} x ${sp.soluong} <span class="tien" style="display: none;">${sp.gia*sp.soluong} </span><span >${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(sp.gia*sp.soluong)} </span></li>
+        <li>
+            <div class="checkout__order__name">
+                ${sp.tenSP} x ${sp.soluong}
+            </div>
+            <div class="checkout_order_total">
+                <span class="tien" style="display: none;">
+                    ${sp.gia*sp.soluong} 
+                </span>
+                <span >
+                    ${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(sp.gia*sp.soluong)} 
+                </span>
+            </div>
+        </li>
   `
 })
 

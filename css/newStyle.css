@@ -80,3 +80,17 @@
     width: 100%;
     transition: width .3s;
 }
+
+.discount{
+    margin-top: 25px;
+    width: 10rem;
+}
+
+.checkout__order__name{
+    width: 270px;
+    text-overflow: ellipsis;
+}
+
+.checkout_order_total {
+    padding-left: 32px;
+}

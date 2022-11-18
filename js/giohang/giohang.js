@@ -37,7 +37,7 @@ function tinhtongtien(){
     arrTien = document.getElementsByClassName("tien");
     tongtien=0;
     for(let t of arrTien){
-        console.log(t);
+        // console.log(t);
         tongtien +=  parseInt(t.innerText);
     }
     document.getElementById("tongtien").innerText = (tongtien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";

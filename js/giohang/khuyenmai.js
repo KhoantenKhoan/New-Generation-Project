@@ -11,7 +11,7 @@ async function showBrand() {
     if (data) {
       for (const [key, value] of Object.entries(data)) {
         if (value) {
-          console.log(value);
+          // console.log(value);
           content += `
             <option value="${value.id}">${value.khuyenMai}</option>
           `;

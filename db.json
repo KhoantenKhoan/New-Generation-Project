@@ -3679,6 +3679,18 @@
             "khuyenMai": "CHAOMUNG",
             "giamGia":"20",
             "trangThai": 1
+        },
+        {
+            "id": "2",
+            "khuyenMai": "HELLO",
+            "giamGia":"20",
+            "trangThai": 1
+        },
+        {
+            "id": "3",
+            "khuyenMai": "SILKROAD",
+            "giamGia":"20",
+            "trangThai": 1
         }
     ],
     "binhLuan": [
