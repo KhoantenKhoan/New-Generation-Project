@@ -86,12 +86,6 @@ let humberger = `
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
-        <div class="header__top__right__social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        </div>
         <div class="humberger__menu__contact">
             <ul>
                 <li><i class="fa fa-envelope"></i>admination@silkroad.su</li>
@@ -100,7 +94,7 @@ let humberger = `
 `;
 
 let header = `
-<div class="header__top">
+        <div class="header__top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 text-white">
@@ -120,7 +114,7 @@ let header = `
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container header__down">
             <div class="row">
                 <div class="col-lg-3 box_logo">
                     <div class="header__logo">
@@ -130,13 +124,18 @@ let header = `
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Trang chủ</a></li>
-                            <li><a href="./shop-grid.html">Sản phẩm</a></li>
-                            <li><a href="./blog.html">Tin tức</a></li>
-                            <li><a href="./contact.html">Liên hệ</a></li>
+                            <li class="active"><a class="nav__link" href="./index.html">Trang chủ</a></li>
+                            <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Sản phẩm</a></li>
+                            <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Về Chúng tôi</a></li>
+                            <li><a class="nav__link" href="./contact.html">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>
+                <div class="hero__search__phone col-lg-3 box_icon">
+                                <div class="hero__search__phone__text">
+                                    <a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i></a> 
+                                </div>
+                            </div>
             </div>
             <div class="humberger__open">
                 <i class="fa fa-bars"></i>

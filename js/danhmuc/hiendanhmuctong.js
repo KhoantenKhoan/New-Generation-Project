@@ -13,7 +13,7 @@ async function showBrand() {
         if (value) {
           content += `
           <li class="rightmenu">
-            <a href="shop-grid.html?id=${value.id}">${value.tenDMT}</a>
+            <a class="nav__link" href="shop-grid.html?idDMT=${value.id}">${value.tenDMT}</a>
           </li>
           `;
         }

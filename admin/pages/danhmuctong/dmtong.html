@@ -30,13 +30,13 @@
         <!-- partial:partials/_navbar.html -->
         <!-- nav ngnag -->
         <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row" id="navbar">
-  
+
         </nav>
 
         <div class="container-fluid page-body-wrapper">
             <!-- nav dọc -->
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
-               
+
             </nav>
             <!-- end nav dọc -->
 
@@ -44,45 +44,30 @@
             <div class="main-panel">
                 <div class="content-wrapper">
                     <div class="row">
-                        <div class="col-md-6 grid-margin stretch-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Thêm bài viết</h4>
-                                    <form class="forms-sample">
-                                        <div class="form-group">
-                                            <label for="exampleInputUsername1">Tiêu đề bài viết</label>
-                                            <input type="text" class="form-control" id="tieude"
-                                                placeholder="Tiêu đề bài viết">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputUsername1">Tác giả</label>
-                                            <input type="text" class="form-control" id="tacgia"
-                                                placeholder="Tác giả">
-                                        </div>
-                                        <div class="row mg-t-20">
-                                            <label class="col-sm-4 form-control-label">Hình: <span class="tx-danger">*</span></label>
-                                            <input id="hinh" type="text" class="form-control" placeholder="Enter">
-                                          </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputPassword1">Ngày nhập</label>
-                                            <input type="date" class="form-control" id="ngaynhap"
-                                                placeholder="Ngày nhập">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputUsername1">Tóm tắt</label>
-                                            <input type="text" class="form-control" id="tomtat"
-                                                placeholder="Tóm tắt">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputConfirmPassword1">Mô tả</label>
-                                            <textarea class="description" id="mota"
-                                                placeholder="Mô tả bài viết"></textarea>
-                                        </div>
-                                        <button id="btnluu" type="submit" class="btn btn-primary sua me-2">Submit</button>
-                                        <button class="btn btn-danger xoa">Cancel</button>
-                                    </form>
-                                </div>
-                            </div>
+                        <h4 class="card-title">Bordered table</h4>
+                        <p class="card-description">
+                            Add class <code>.table-bordered</code>
+                        </p>
+                        <div class="table-responsive pt-3">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Tên</th>
+                                        <th>Hành động</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="brand">
+                                    <!-- <tr>
+                                        <td>1</td>
+                                        <td>Herman Beck</td>
+                                        <td>
+                                            <button class="badge badge-primary sua button">Sửa</button>
+                                            <button class="badge badge-danger xoa button">Xóa</button>
+                                        </td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -118,7 +103,7 @@
     <!-- End custom js for this page-->
     <script src="../../component/nav2.js"></script>
     <script src="../../component/navbar2.js"></script>
-    <script src="../js/news.js"></script>
+    <Script src="../js/dmtong.js"></Script>
 </body>
 
 </html>

@@ -7,17 +7,18 @@ if (cart) cart.forEach( (sp,index) => {
             <h5>${sp.tenSP}</h5>
         </td>
         <td class="shoping__cart__price">
-            ${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(sp.gia)} 
+        ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫
         </td>
         <td class="shoping__cart__quantity">
             <div class="quantity">
                 <div class="pro-qty">
-                    <input value="${sp.soluong}" type="text" onkeyup="tinhtien(${sp.gia},this.value, ${index})" >
+                    <input value="${sp.soluong}" type="number" onchange="tinhtien(${sp.gia},this.value, ${index})" >
                 </div>
+                
             </div>
         </td>
         <td class="shoping__cart__total"  >
-                <div class="tien"> ${sp.soluong*sp.gia} </div>
+                <div class="tien">  ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫	</div>
             
         </td>
         <td class="shoping__cart__item__close">
@@ -29,18 +30,19 @@ if (cart) cart.forEach( (sp,index) => {
 })
 function tinhtien(gia, soluong, i){
     let tien = gia*soluong;
-    document.getElementsByClassName("tien")[i].innerText = tien+" VNĐ";
+    document.getElementsByClassName("tien")[i].innerText = (tien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '') + " ₫";
     tinhtongtien();
 }
 function tinhtongtien(){
     arrTien = document.getElementsByClassName("tien");
     tongtien=0;
     for(let t of arrTien){
+        // console.log(t);
         tongtien +=  parseInt(t.innerText);
     }
-    document.getElementById("tongtien").innerText = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(tongtien);
+    document.getElementById("tongtien").innerText = (tongtien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
 
-    document.getElementById("tientong").innerText = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(tongtien);
+    document.getElementById("tientong").innerText = (tongtien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
     let tientong = (tongtien+(tongtien/10));
     localStorage.setItem("tientong", tientong);
 }
