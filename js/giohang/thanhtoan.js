@@ -95,6 +95,7 @@ function luuChiTietDonHang(maDH) {
         .then(d =>{
             localStorage.setItem("cart",JSON.stringify([]));
             localStorage.setItem("tientong",0);
+            toastr.success("Đặt hàng thành công!");
             document.location="index.html";
         })
     })
