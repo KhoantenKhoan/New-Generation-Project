@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Admin - JS</title>
+    <meta content="Admin Dashboard" name="description" />
+    <meta content="ThemeDesign" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body class="fixed-left">
+
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu" id="leftSibar">
+            
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- Start right Content here -->
+
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+
+                <!-- Top Bar Start -->
+                <div class="topbar" id="topBar">
+
+                </div>
+                <!-- Top Bar End -->
+                <div class="page-content-wrapper">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card m-b-30">
+                                <div class="card-body">
+
+                                    <h4 class="mt-0 header-title">Thêm sản phẩm</h4>
+                                    <div class="form">
+                                        <div class="form-group">
+                                            <label>Danh mục sản phẩm</label>
+                                            <select name="category" id="category" class="form-control">
+                                                <option value="1">Hạt Mix/Tổng Hợp</option>
+                                                <option value="2">Hạt Dinh Dưỡng</option>
+                                                <option value="3">Hạt Sống</option>
+                                                <option value="4">Trái Cây Sấy</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Tên sản phẩm</label>
+                                            <input type="text" class="form-control" id="nameproduct" name="name" required="" placeholder="Tên sản phẩm...">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Giá</label>
+                                            <input type="number" class="form-control" id="price" name="price" required="" placeholder="Giá...">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Ảnh</label>
+                                            <img src="" alt="" id="image" width="200px">
+                                            <input type="file" class="form-control" required name="image" id="imagenew">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Mô tả</label>
+                                            <textarea name="description" id="description" class="form-control" cols="30" rows="5"></textarea>
+                                        </div>
+
+                                        <label for="" class="m-r-15">Trạng thái: </label>
+                                        <label class="btn btn-outline-success waves-effect waves-light m-r-10">
+                                            <input type="radio" name="stt" id="stt1" value="1">
+                                            Hiện
+                                    </label>
+                                        <label class="btn btn-outline-danger waves-effect waves-light">
+                                            <input type="radio" name="stt" id="stt2" value="0">
+                                            Ẩn
+                                    </label>
+                                        <div class="form-group">
+                                            <div>
+                                                <button type="submit" class="btn btn-primary waves-effect waves-light btn-update-prod">
+                                            Cập nhật
+                                            </button>
+                                                <a href="">
+                                                    <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                                Cancel
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Page content Wrapper -->
+
+            </div>
+            <!-- content -->
+
+            <footer class="footer">
+                © 2022 <b>Phatt</b> <span class="d-none d-sm-inline-block"> - With <i class="mdi mdi-heart text-danger"></i> by Phat - Javascript Advanced.</span>
+            </footer>
+
+        </div>
+        <!-- End Right content here -->
+
+    </div>
+    <!-- END wrapper -->
+
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/detect.js"></script>
+    <script src="assets/js/fastclick.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/jquery.blockUI.js"></script>
+    <script src="assets/js/waves.js"></script>
+    <script src="assets/js/jquery.nicescroll.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+    <script src="assets/plugins/skycons/skycons.min.js"></script>
+
+    <script src="assets/plugins/peity/jquery.peity.min.js"></script>
+
+
+    <!-- App js -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/component/left-side.js"></script>
+    <script src="assets/component/topbar.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/javascript/product.js" type="module"></script>
+
+
+</body>
+
+</html>
