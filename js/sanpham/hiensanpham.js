@@ -16,7 +16,7 @@ const product = new FireBaseService();
             <div class="col-lg-3 col-md-4 col-sm-6 mix oranges ${value.idDM}">
                     <div class="featured__item">
                           <div class="featured__item__pic set-bg">
-                            <a  href="shop-details.html?id=${key}">
+                            <a  href="shop-details.html?id=${key}&idDM=${value.idDM}">
                               <img src="${value.hinhAnh}" alt="">
                             </a>
                             <ul class="featured__item__pic__hover">
@@ -26,7 +26,7 @@ const product = new FireBaseService();
 
                           <div class="featured__item__text">
                             <div class="featured__item_name">
-                              <h6><a href="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
+                              <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a></h6>
                             </div>
                             <div class="featured__item_old_price">
                               <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>

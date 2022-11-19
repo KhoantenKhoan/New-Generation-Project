@@ -24,17 +24,17 @@ if (data , data1) {
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product__item">
                     <div class="product__item__pic set-bg" data-setbg="${value.hinhAnh}">
-                        <a  href="shop-details.html?id=${key}">
-                        <img src="${value.hinhAnh}" alt="">
-                        </a>
+                    <a  href="shop-details.html?id=${key}&idDM=${value.idDM}">
+                    <img src="${value.hinhAnh}" alt="">
+                  </a>
                             <ul class="product__item__pic__hover">
                             <li><a  onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" href=""><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <div class="product__item__name">
-                                <h6><a ref="shop-details.html?id=${key}">${(value.tenSP).toUpperCase()}</a></h6>
-                            </div>
+                        <div class="featured__item_name">
+                        <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a></h6>
+                      </div>
                             <div class="product__item__old_price">
                                 <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
                             </div>
