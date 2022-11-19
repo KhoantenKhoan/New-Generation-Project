@@ -50,6 +50,7 @@ tinhtongtien();
 
 function deletecart(id){
     let cart = JSON.parse(localStorage.getItem('cart'));
+    toastr.success("Xóa giỏ hàng thành công");
     for (let i = 0; i < cart.length; i++) {
         if (cart[i].id == id) {
             cart.splice(i, 1);
