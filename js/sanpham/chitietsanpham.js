@@ -1,6 +1,5 @@
 import { FireBaseService } from "../API/firebaseService.js";
 const product = new FireBaseService();
-const product2 = new FireBaseService();
 const comment = new FireBaseService();
 const member = new FireBaseService();
 (async () => {
@@ -63,7 +62,6 @@ const response = await fetch(
     }
 }
 )();
-
 async function renderComment() {
     let params = new URLSearchParams(location.search);
     let id = params.get("id");
