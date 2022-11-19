@@ -7,11 +7,11 @@ fetch(url)
         <tr>
             <td>${kh.id}</td>
             <td>${kh.tenKH}</td>
-            <td class="img"><img src="${kh.hinhAnh}" alt=""></td>
-            <td>${kh.email}</td>
             <td>${kh.matKhau}</td>
-            <td>${kh.sdt}</td>
+            <td class="img"><img src="${kh.hinhAnh}" alt=""></td>
             <td class="des">${kh.diaChi}</td>
+            <td>${kh.email}</td>
+            <td>${kh.sdt}</td>
             <td> <label class="badge badge-warning">${kh.idKH==0?"Admin":"Khách hàng"}</label> </td>
             <td>
                 <button class="badge badge-primary sua button">Sửa</button>
@@ -19,5 +19,6 @@ fetch(url)
             </td>
         </tr>
 		`;
+
     });
   });

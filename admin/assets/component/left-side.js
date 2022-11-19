@@ -30,6 +30,13 @@ let leftSibar = `
                         </li>
 
                         <li>
+                            <a href="dmTong.html" class="waves-effect">
+                                <i class="dripicons-meter"></i>
+                                <span> Danh mục tổng <span class="badge badge-success badge-pill float-right"></span></span>
+                            </a>
+                        </li>
+
+                        <li>
                             <a href="category.html" class="waves-effect">
                                 <i class="dripicons-meter"></i>
                                 <span> Danh mục <span class="badge badge-success badge-pill float-right"></span></span>
@@ -37,9 +44,16 @@ let leftSibar = `
                         </li>
 
                         <li>
-                            <a href="#" class="waves-effect">
+                            <a href="oder.html" class="waves-effect">
                                 <i class="dripicons-meter"></i>
                                 <span> Đơn hàng <span class="badge badge-success badge-pill float-right"></span></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="thongBao.html" class="waves-effect">
+                                <i class="dripicons-meter"></i>
+                                <span> Thông báo <span class="badge badge-success badge-pill float-right"></span></span>
                             </a>
                         </li>
 

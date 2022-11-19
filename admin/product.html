@@ -69,42 +69,14 @@
                                                         <th>Giá</th>
                                                         <th>Giảm giá</th>
                                                         <th>Ngày nhập</th>
+                                                        <th>Số lượng</th>
                                                         <th>Trạng thái</th>
                                                         <th>Action</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="renderProduct">
-                                                    <!-- render -->
-                                                    <tr>
-                                                        <td>${count++}</td>
-                                                            <td>${row.tenSP}</td>
-                                                            <td>
-                                                                <img src="./assets/images/hatbixanh.jpg" alt="" width="150px" height="150px">
-                                                            </td>
-                                                            <td>${row.gia}</td>
-                                                            <td>${row.giamGia}</td>
-                                                            <td>${row.ngayNhap}</td>
-                                                            <td><span class="btn btn-primary">Hiện</span><span class="btn btn-danger">Ẩn</span></td>
-                                                            <td>
-                                                              <a href="./update-product.html?id=${key}"> <span class="btn btn-info">Sửa</span></a> 
-                                                              <span onclick="xoa('${key}')" class="btn btn-danger btn-del">Xóa</span>
-                                                            </td>
-                                                      </tr>
-                                                      <tr>
-                                                        <td>${count++}</td>
-                                                            <td>${row.tenSP}</td>
-                                                            <td>
-                                                                <img src="./assets/images/hatbixanh.jpg" alt="" width="150px" height="150px">
-                                                            </td>
-                                                            <td>${row.gia}</td>
-                                                            <td>${row.giamGia}</td>
-                                                            <td>${row.ngayNhap}</td>
-                                                            <td><span class="btn btn-primary">Hiện</span><span class="btn btn-danger">Ẩn</span></td>
-                                                            <td>
-                                                              <a href="./update-product.html?id=${key}"> <span class="btn btn-info">Sửa</span></a> 
-                                                              <span onclick="xoa('${key}')" class="btn btn-danger btn-del">Xóa</span>
-                                                            </td>
-                                                      </tr>
+                                                <tbody class="renderProduct" id="sp">
+                                                  
+                                                    
                                                 </tbody>
                                             </table>
                                         </div>
@@ -166,6 +138,9 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/javascript/products.js"></script>
 
+    
+
 </body>
 
 </html>
+

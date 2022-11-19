@@ -15,6 +15,7 @@
           <tr>
           <td> ${count++}</td>
           <td>${row.tenDM}</td>
+          <td>${row.trangThai}</td>
           <td>
             <a href="suadanhmuc.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
             <button class="badge badge-danger xoa button" onclick="xoasp('${key}')">Xóa</button>
