@@ -3,356 +3,416 @@
         {
             "id": "1",
             "tenDMT": "Thời Trang",
+            "thuTu": "1",
             "trangThai": 1
         },
         {
             "id": "2",
             "tenDMT": "Điện Thoại",
+            "thuTu": "2",
             "trangThai": 1
         },
         {
             "id": "3",
             "tenDMT": "Thiết Bị Điện Tử",
+            "thuTu": "3",
             "trangThai": 1
         },
         {
             "id": "4",
             "tenDMT": "Nhà Cửa & Đời Sống",
+            "thuTu": "4",
             "trangThai": 1
         },
         {
             "id": "5",
             "tenDMT": "Máy Tính & Laptop",
+            "thuTu": "5",
             "trangThai": 1
         },
         {
             "id": "6",
             "tenDMT": "Mỹ Phẩm",
+            "thuTu": "6",
             "trangThai": 1
         },
         {
             "id": "7",
             "tenDMT": "Máy Ảnh & Máy Quay Phim",
+            "thuTu": "7",
             "trangThai": 1
         },
         {
             "id": "8",
             "tenDMT": "Đồng Hồ",
+            "thuTu": "8",
             "trangThai": 1
         },
         {
             "id": "9",
             "tenDMT": "Giày Dép",
+            "thuTu": "9",
             "trangThai": 1
         },
         {
             "id": "10",
             "tenDMT": "Balo & Túi Ví",
+            "thuTu": "10",
             "trangThai": 1
         }
-    ],
-    "danhMuc": [
-        {
-            "id": "1",
-            "idDMT": "1",
-            "tenDM": "Áo",
-            "trangThai": 1
-        },
-        {
-            "id": "2",
-            "idDMT": "1",
-            "tenDM": "Quần",
-            "trangThai": 1
-        },
-        {
-            "id": "3",
-            "idDMT": "1",
-            "tenDM": "Mũ & Nón",
-            "trangThai": 1
-        },
-        {
-            "id": "4",
-            "idDMT": "1",
-            "tenDM": "Phụ Kiện",
-            "trangThai": 1
-        },
-        {
-            "id": "5",
-            "idDMT": "1",
-            "tenDM": "Kính",
-            "trangThai": 1
-        },
-        {
-            "id": "6",
-            "idDMT": "2",
-            "tenDM": "SamSung",
-            "trangThai": 1
-        },
-        {
-            "id": "7",
-            "idDMT": "2",
-            "tenDM": "Iphone",
-            "trangThai": 1
-        },
-        {
-            "id": "8",
-            "idDMT": "2",
-            "tenDM": "Realme",
-            "trangThai": 1
-        },
-        {
-            "id": "9",
-            "idDMT": "2",
-            "tenDM": "Oppo",
-            "trangThai": 1
-        },
-        {
-            "id": "10",
-            "idDMT": "2",
-            "tenDM": "Nokia",
-            "trangThai": 1
-        },
-        {
-            "id": "11",
-            "idDMT": "3",
-            "tenDM": "Tai Nghe",
-            "trangThai": 1
-        },
-        {
-            "id": "12",
-            "idDMT": "3",
-            "tenDM": "Loa",
-            "trangThai": 1
-        },
-        {
-            "id": "13",
-            "idDMT": "3",
-            "tenDM": "Tivi",
-            "trangThai": 1
-        },
-        {
-            "id": "14",
-            "idDMT": "3",
-            "tenDM": "Console",
-            "trangThai": 1
-        },
-        {
-            "id": "15",
-            "idDMT": "3",
-            "tenDM": "Linh Phụ Kiện",
-            "trangThai": 1
-        },
-        {
-            "id": "16",
-            "idDMT": "4",
-            "tenDM": "Đồ Dùng Phòng Tắm",
-            "trangThai": 1
-        },
-        {
-            "id": "17",
-            "idDMT": "4",
-            "tenDM": "Đèn",
-            "trangThai": 1
-        },
-        {
-            "id": "18",
-            "idDMT": "4",
-            "tenDM": "Đồ Nội Thất",
-            "trangThai": 1
-        },
-        {
-            "id": "19",
-            "idDMT": "4",
-            "tenDM": "Trang Trí Nhà",
-            "trangThai": 1
-        },
-        {
-            "id": "20",
-            "idDMT": "4",
-            "tenDM": "Dụng Cụ",
-            "trangThai": 1
-        },
-        {
-            "id": "21",
-            "idDMT": "5",
-            "tenDM": "Máy tính bàn",
-            "trangThai": 1
-        },
-        {
-            "id": "22",
-            "idDMT": "5",
-            "tenDM": "Màn hình",
-            "trangThai": 1
-        },
-        {
-            "id": "23",
-            "idDMT": "5",
-            "tenDM": "Laptop",
-            "trangThai": 1
-        },
-        {
-            "id": "24",
-            "idDMT": "5",
-            "tenDM": "Phụ kiện máy tính",
-            "trangThai": 1
-        },
-        {
-            "id": "25",
-            "idDMT": "5",
-            "tenDM": "Gaming",
-            "trangThai": 1
-        },
-        {
-            "id": "26",
-            "idDMT": "6",
-            "tenDM": "Son Môi",
-            "trangThai": 1
-        },
-        {
-            "id": "27",
-            "idDMT": "6",
-            "tenDM": "Nước Hoa Nam",
-            "trangThai": 1
-        },
-        {
-            "id": "28",
-            "idDMT": "6",
-            "tenDM": "Sữa Rửa Mặt",
-            "trangThai": 1
-        },
-        {
-            "id": "29",
-            "idDMT": "6",
-            "tenDM": "Nước Hoa Nữ",
-            "trangThai": 1
-        },
-        {
-            "id": "30",
-            "idDMT": "6",
-            "tenDM": "Bút Kẻ Mắt",
-            "trangThai": 1
-        },
-        {
-            "id": "31",
-            "idDMT": "7",
-            "tenDM": "Máy Ảnh SONY",
-            "trangThai": 1
-        },
-        {
-            "id": "32",
-            "idDMT": "7",
-            "tenDM": "Máy Ảnh CANNON",
-            "trangThai": 1
-        },
-        {
-            "id": "33",
-            "idDMT": "7",
-            "tenDM": "Máy Quay Phim Thông Dụng",
-            "trangThai": 1
-        },
-        {
-            "id": "34",
-            "idDMT": "7",
-            "tenDM": "Máy Quay Phim Chuyên Nghiệp",
-            "trangThai": 1
-        },
-        {
-            "id": "35",
-            "idDMT": "7",
-            "tenDM": "Ống Kinh Máy Ảnh",
-            "trangThai": 1
-        },
-        {
-            "id": "36",
-            "idDMT": "8",
-            "tenDM": "Đồng Hồ Orient",
-            "trangThai": 1
-        },
-        {
-            "id": "37",
-            "idDMT": "8",
-            "tenDM": "Đồng Hồ Seiko",
-            "trangThai": 1
-        },
-        {
-            "id": "38",
-            "idDMT": "8",
-            "tenDM": "Đồng Hồ Ogival",
-            "trangThai": 1
-        },
-        {
-            "id": "39",
-            "idDMT": "8",
-            "tenDM": "Đồng Hồ Citizen",
-            "trangThai": 1
-        },
-        {
-            "id": "40",
-            "idDMT": "8",
-            "tenDM": "Apple Watch",
-            "trangThai": 1
-        },
-        {
-            "id": "41",
-            "idDMT": "9",
-            "tenDM": "Giày Nike",
-            "trangThai": 1
-        },
-        {
-            "id": "42",
-            "idDMT": "9",
-            "tenDM": "Giày Adidas",
-            "trangThai": 1
-        },
-        {
-            "id": "43",
-            "idDMT": "9",
-            "tenDM": "Giày Vans",
-            "trangThai": 1
-        },
-        {
-            "id": "44",
-            "idDMT": "9",
-            "tenDM": "Giày MLB",
-            "trangThai": 1
-        },
-        {
-            "id": "45",
-            "idDMT": "9",
-            "tenDM": "Giày Xvessel",
-            "trangThai": 1
-        },
-        {
-            "id": "46",
-            "idDMT": "10",
-            "tenDM": "Balo",
-            "trangThai": 1
-        },
-        {
-            "id": "47",
-            "idDMT": "10",
-            "tenDM": "Túi đeo chéo",
-            "trangThai": 1
-        },
-        {
-            "id": "48",
-            "idDMT": "10",
-            "tenDM": "Túi thời trang nữ",
-            "trangThai": 1
-        },
-        {
-            "id": "49",
-            "idDMT": "10",
-            "tenDM": "Giày",
-            "trangThai": 1
-        },
-        {
-            "id": "50",
-            "idDMT": "10",
-            "tenDM": "Túi & Ví",
-            "trangThai": 1
-        }
-    ],
+        ],
+        "danhMuc": [
+            {
+                "id": "1",
+                "idDMT": "1",
+                "tenDM": "Áo",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "2",
+                "idDMT": "1",
+                "tenDM": "Quần",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "3",
+                "idDMT": "1",
+                "tenDM": "Mũ & Nón",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "4",
+                "idDMT": "1",
+                "tenDM": "Phụ Kiện",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "5",
+                "idDMT": "1",
+                "tenDM": "Kính",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "6",
+                "idDMT": "2",
+                "tenDM": "SamSung",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "7",
+                "idDMT": "2",
+                "tenDM": "Iphone",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "8",
+                "idDMT": "2",
+                "tenDM": "Realme",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "9",
+                "idDMT": "2",
+                "tenDM": "Oppo",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "10",
+                "idDMT": "2",
+                "tenDM": "Nokia",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "11",
+                "idDMT": "3",
+                "tenDM": "Tai Nghe",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "12",
+                "idDMT": "3",
+                "tenDM": "Loa",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "13",
+                "idDMT": "3",
+                "tenDM": "Tivi",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "14",
+                "idDMT": "3",
+                "tenDM": "Console",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "15",
+                "idDMT": "3",
+                "tenDM": "Linh Phụ Kiện",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "16",
+                "idDMT": "4",
+                "tenDM": "Đồ Dùng Phòng Tắm",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "17",
+                "idDMT": "4",
+                "tenDM": "Đèn",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "18",
+                "idDMT": "4",
+                "tenDM": "Đồ Nội Thất",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "19",
+                "idDMT": "4",
+                "tenDM": "Trang Trí Nhà",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "20",
+                "idDMT": "4",
+                "tenDM": "Dụng Cụ",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "21",
+                "idDMT": "5",
+                "tenDM": "Máy tính bàn",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "22",
+                "idDMT": "5",
+                "tenDM": "Màn hình",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "23",
+                "idDMT": "5",
+                "tenDM": "Laptop",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "24",
+                "idDMT": "5",
+                "tenDM": "Phụ kiện máy tính",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "25",
+                "idDMT": "5",
+                "tenDM": "Gaming",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "26",
+                "idDMT": "6",
+                "tenDM": "Son Môi",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "27",
+                "idDMT": "6",
+                "tenDM": "Nước Hoa Nam",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "28",
+                "idDMT": "6",
+                "tenDM": "Sữa Rửa Mặt",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "29",
+                "idDMT": "6",
+                "tenDM": "Nước Hoa Nữ",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "30",
+                "idDMT": "6",
+                "tenDM": "Bút Kẻ Mắt",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "31",
+                "idDMT": "7",
+                "tenDM": "Máy Ảnh SONY",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "32",
+                "idDMT": "7",
+                "tenDM": "Máy Ảnh CANNON",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "33",
+                "idDMT": "7",
+                "tenDM": "Máy Quay Phim Thông Dụng",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "34",
+                "idDMT": "7",
+                "tenDM": "Máy Quay Phim Chuyên Nghiệp",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "35",
+                "idDMT": "7",
+                "tenDM": "Ống Kinh Máy Ảnh",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "36",
+                "idDMT": "8",
+                "tenDM": "Đồng Hồ Orient",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "37",
+                "idDMT": "8",
+                "tenDM": "Đồng Hồ Seiko",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "38",
+                "idDMT": "8",
+                "tenDM": "Đồng Hồ Ogival",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "39",
+                "idDMT": "8",
+                "tenDM": "Đồng Hồ Citizen",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "40",
+                "idDMT": "8",
+                "tenDM": "Apple Watch",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "41",
+                "idDMT": "9",
+                "tenDM": "Giày Nike",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "42",
+                "idDMT": "9",
+                "tenDM": "Giày Adidas",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "43",
+                "idDMT": "9",
+                "tenDM": "Giày Vans",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "44",
+                "idDMT": "9",
+                "tenDM": "Giày MLB",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "45",
+                "idDMT": "9",
+                "tenDM": "Giày Xvessel",
+                "thuTu": "5",
+                "trangThai": 1
+            },
+            {
+                "id": "46",
+                "idDMT": "10",
+                "tenDM": "Balo",
+                "thuTu": "1",
+                "trangThai": 1
+            },
+            {
+                "id": "47",
+                "idDMT": "10",
+                "tenDM": "Túi đeo chéo",
+                "thuTu": "2",
+                "trangThai": 1
+            },
+            {
+                "id": "48",
+                "idDMT": "10",
+                "tenDM": "Túi thời trang nữ",
+                "thuTu": "3",
+                "trangThai": 1
+            },
+            {
+                "id": "49",
+                "idDMT": "10",
+                "tenDM": "Giày",
+                "thuTu": "4",
+                "trangThai": 1
+            },
+            {
+                "id": "50",
+                "idDMT": "10",
+                "tenDM": "Túi & Ví",
+                "thuTu": "5",
+                "trangThai": 1
+            }
+        ],
     "sanPham": [
         {
             "id": "1",
@@ -1775,7 +1835,7 @@
             "tenSP": "HP AIO ProOne 240 G9 i5 1235U/8GB/512GB/23.8",
             "hinhAnh":"http://dtex.vn/Image/Picture/HP/PC/HP_ProOne_240_G9_AIO_6M3T0PA_DTEX.jpg",
             "gia":"19190000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"11/11/2022",
             "soLuong":"10",
             "moTa":"Máy tính để bàn HP AIO ProOne 240 G9 i5 (6M3V2PA) chinh phục người dùng là dân văn phòng hay thiết kế khi sở hữu một ngoại hình sang trọng, bắt mắt cùng cấu hình mạnh mẽ đến từ bộ vi xử lý Intel Gen 12, đảm bảo không làm bạn thất vọng.",
@@ -1789,7 +1849,7 @@
             "tenSP": "Máy tính đồng bộ DELL chính hãng DELL 1151 PENTIUM G6400",
             "hinhAnh":"https://maytinhvanphong.com.vn/wp-content/uploads/2021/07/Dell_BH_12_T_Startup-1.jpg",
             "gia":"9500000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"11/11/2022",
             "soLuong":"10",
             "moTa":"Main Mainboard DELL Thế hệ 10 Cpu CPU Intel® Pentium® G6400 (4M, 4.00GHz) Ram Ram 4GB DDR4 VGA VGA onboard Intel® UHD Graphics 610 SSD Ổ cứng SSD ...",
@@ -1831,7 +1891,7 @@
             "tenSP": "Màn hình đồ họa 20 inch HP E201 LED Mỏng",
             "hinhAnh":"https://product.hstatic.net/200000316561/product/man-hinh-hp-v22v_34191c8885be479a894f4e3c32f39aed_grande.jpg",
             "gia":"700000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"11/11/2022",
             "soLuong":"10",
             "moTa":"Góc nhìn linh hoạt - Nhiều cổng kết nối khác nhau - Hình ảnh cực kì trong trẻo - Màu sắc sống động - Thiết kế mỏng phù hợp với mọi nơi làm việc và gia đình - Chất liệu chế tạo thân thiện với môi trường - Tiết kiệm điện tốt",
@@ -1929,7 +1989,7 @@
             "tenSP": "Laptop Gaming Acer Aspire 7",
             "hinhAnh":"https://maytinhthaihoc.com/wp-content/uploads/2022/07/acer_aspire_7_a715-75g-56zl_710ca2d33b1d4078bb1d926dc824dd65_master-600x600-2.jpg",
             "gia":"15500000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"11/11/2022",
             "soLuong":"10",
             "moTa":"Acer Aspire 7 2020 A715 42G tích hợp card đồ họa NVIDIA GTX1650 4GB GDDR6, là laptop chơi game tốt nhất phân khúc. Không chỉ vậy, phiên bản này còn mang thiết kế mới gọn gàng và sexy hơn.",
@@ -1943,7 +2003,7 @@
             "tenSP": "Laptop gaming MSI Crosshair 17",
             "hinhAnh":"http://bizweb.dktcdn.net/thumb/grande/100/372/934/products/crosshair-17.jpg?v=1664676623573",
             "gia":"40650000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"11/11/2022",
             "soLuong":"10",
             "moTa":"GeForce RTX 30 Series mạnh mẽ:Card đồ họa GeForce RTX 30 Series hoạt động trên nền tảng Ampere, kiến trúc RTX thế hệ thứ 2 của NVIDIA với nhân RT, nhân Tensor và bộ đa xử lý phát trực tuyến mới, cung cấp đồ họa dò tia chân thực nhất và các tính năng AI tiên tiến. Từ đó đảm bảo hiệu năng cho các game thủ, tận hưởng những tựa game đồ họa cao với chất lượng tốt nhất.",
@@ -2627,7 +2687,7 @@
             "idDM": "33",
             "idDMT":"7",
             "tenSP": "Máy quay SONY FDR-AXP55E - 4K",
-            "hinhAnh": "https://th.bing.com/th/id/R.8b37e07b4f8f2283baa172e5963caf02?rik=4GFRm713OH3VwQ&riu=http%3a%2f%2flaorlaorcamerashop.com%2fContent%2fUpload%2fItemImage%2f1913c6e9-4806-49c9-9a0f-c88ed432378a.jpg&ehk=tozh9XKU5OfZzwbQoohfOpb90LVFCfCIau6OB8oytJ0%3d&risl=&pid=ImgRaw&r=0",
+            "hinhAnh": "https://s.yimg.com/zp/images/4E26D5FE28321C8394ADCEA385857347F07DDC17",
             "gia": "25290000",
             "giamGia": "15",
             "ngayNhap": "5/11/2022",
@@ -3161,7 +3221,7 @@
             "tenSP": "AIR FORCE 1",
             "hinhAnh":"https://images.complex.com/complex/images/c_fill,g_center,w_1200/fl_lossy,pg_1/iot1dbjmzr7z6kfkoxrb/nike-air-force-1-lead-1",
             "gia":"3300000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Nike Air Force 1 Ra mắt vào năm 1982 bởi nhà thiết kế Bruce Kilgore, ngay lập tức mẫu giày Nike Air Force 1 (AF1) đã trở thành một hit mạnh trên khắp thế giới khi sold out ngay trong ngày đầu trình làng.Thiết kế mẫu giày Nike Air Force 1 được xem là đôi giày mang tính cách mạng trong thế giới sneaker khi mà các nhà thiết kế kết hợp với các nhà khoa học cho ra mẫu giày có công nghệ Air - một túi khí ở gót chân để đệm hỗ trợ.",
@@ -3175,7 +3235,7 @@
             "tenSP": "JORDAN 1 MID TUFT ORANGE",
             "hinhAnh":"https://famenestmedia.s3.amazonaws.com/upload/photos/2020/10/ZMnmOKZmQVaMiIhddyjS_30_4f00d1c8f3b250f0f365a3f4deccbe5c_image.jpg",
             "gia":"5800000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Nike Air Jordan 1 được cho là đôi giày thể thao quan trọng nhất trong lịch sử giày dép, đánh dấu bước ngoặc trong doanh số của Nike, ánh hào quang không có đôi giày nào có được, được các SneakerHead trên thế giới sưu tập nâng niu nhiều nhất.",
@@ -3189,7 +3249,7 @@
             "tenSP": "BLAZER LOW JUMBO ORANGE",
             "hinhAnh":"https://th.bing.com/th/id/OIP.MyNfPCageZUvP5lby2a_WAHaHa?pid=ImgDet&rs=1",
             "gia":"3200000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Chất liệu: da, cao su Thiết kế theo phong cách cổ điển đặc trưng Phần thân trên được làm bằng da Chi tiết Swooshes quá khổ 2 bên tạo điểm nhấn Dây buộc jumbo và gót sau đàn hồi Đế ngoài bằng cao su chống trượt tạo cảm giác linh hoạt khi di chuyển. Kiểu dáng nổi bật mang trải nghiệm tuyệt vời cho phong cách của bạn",
@@ -3203,7 +3263,7 @@
             "tenSP": "NIKE AIR MAX EXCEE",
             "hinhAnh":"https://myshoes.vn/image/cache/catalog/2022/nike2/8.11/giay-nike-air-max-excee-nu-trang-xanhl-04-550x550.jpg",
             "gia":"2490000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Lấy cảm hứng từ Nike Air Max 90, Nike Air Max Excee là sự tôn vinh nét cổ điển thông qua lăng kính mới. Các đường nét kéo dài và tỷ lệ méo mó ở mặt trên mang vẻ ngoài của những năm 90 mà bạn yêu thích vào một không gian mới, hiện đại.",
@@ -3215,9 +3275,9 @@
             "idDM": "41",
             "idDMT":"9",
             "tenSP": "Nike Air Griffey Max 1 Sweetest Swing DJ5188-100",
-            "hinhAnh":"https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-1.png 900w, https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-1-200x200.png 200w, https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-1-100x100.png 100w, https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-1-64x64.png 64w, https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-1-600x600.png 600w, https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-1-150x150.png 150w, https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-1-768x768.png 768w",
+            "hinhAnh":"https://i2.wp.com/sneakerdaily.vn/wp-content/uploads/2021/07/giay-nike-air-griffey-max-1-sweetest-swing-dj5188-100-4.jpg?fit=900%2C900&ssl=1&is-pending-load=1",
             "gia":"6890000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Mua Giày Nike Air Griffey Max 1 Sweetest Swing DJ5188-100 chính hãng 100% có sẵn tại Silkroad. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
@@ -3231,7 +3291,7 @@
             "tenSP": "Adidas Yeezy Foam RNR Onyx Black HP8739",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/adidas-yeezy-foam-rnnr-onyx-prod_a915c6a02ec643c4a1dc8253a0d05c28.png",
             "gia":"5900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Mua Giày Adidas Yeezy Foam RNR Onyx 'Black' HP8739 chính hãng 100% có sẵn tại Silkroad. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
@@ -3245,7 +3305,7 @@
             "tenSP": "Adidas Yeezy Boost 350 V2 'Slate' HP7870",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/adidas-yeezy-boost-350-v2-slate_edfd23bce1054f13bb391c915624d747.png",
             "gia":"7900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Mua Giày Adidas Yeezy Boost 350 V2 Slate HP7870 chính hãng 100% có sẵn tại Silkroad. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
@@ -3259,7 +3319,7 @@
             "tenSP": "Adidas BAPE x Superstar 80s 'ABC Camo' GZ8981",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/764475_01.jpg_677a59ae7c844428ba_d062cccd2f804197903bc7e53429edca.png",
             "gia":"7300000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Mua Giày Adidas BAPE x Superstar 80s 'ABC Camo' GZ8981 chính hãng 100% có sẵn tại Silkroad. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
@@ -3273,7 +3333,7 @@
             "tenSP": "Adidas D.O.N. Issue 1 'Spider-Man' EF2400",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/ef2400_d834ad1439ad4af2ad851a091c29b788_c640cfa10a0e4e379450bf7a3a68c037.jpeg",
             "gia":"4200000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Mua Giày Adidas D.O.N. Issue 1 'Spider-Man' EF2400 chính hãng 100% có sẵn tại Silkroad. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
@@ -3287,7 +3347,7 @@
             "tenSP": "Adidas EQT Bask ADV 'Cloud White' BD7772",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/bd7772.png_7018074f9ff2415bbaf80_b953b931471a4c979932ada3d139dd7b.png",
             "gia":"3500000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Mua Giày Adidas UltraBoost 4.0 DNA 'Black White' FY9318 chính hãng 100% có sẵn tại Silkroad. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. Mua ngay!",
@@ -3301,10 +3361,10 @@
             "tenSP": "Vans Era Classic 'Colorful' VN0A5EFN420",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/vans-era-vn0a5efn420_5054cdc15ab_2be3e6786af74ffcbbea6513bf1db51c.png",
             "gia":"2900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua Giày Vans Era Classic 'Colorful' VN0A5EFN420 chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. Mua ngay!",
+            "moTa":"Mua Giày Vans Era Classic 'Colorful' VN0A5EFN420 chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. Mua ngay!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3314,7 +3374,7 @@
             "tenSP": "Vans X Skate Old Skool 'Frog LTD' VN0A5HF33LT",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/ld-skool-frog-skateboards-vn0a5hf33lt_2e0705b425884cf8b87ded7e18728bf0_8da0c914a6ff4a52b79717a1619cfbeb.png",
             "gia":"4000000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
             "moTa":"Mua Giày Vans X Skate Old Skool 'Frog  LTD' VN0A5HF33LT chính hãng 100% có sẵn tại Jordan Viet Nam. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY !",
@@ -3327,10 +3387,10 @@
             "tenSP": "Vans Authentic 44 DX 'Anaheim Factory' White VN0A38ENMR4",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/vn0a38enmr4.png_49c151d861034301aaa428ea0568fc07_5c63e4a2d1464936b9774b83ccc0c899.png",
             "gia":"2900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mã giày: VN0A38ENMR4 Phối màu: Classic White Phát hành: TBC Nhà thiết kế: Paul Van Doren Thương hiệu: Vans Danh mục: Authentic",
+            "moTa":"Mã giày: VN0A38ENMR4 <br />Phối màu: Classic White <br />Phát hành: TBC <br />Nhà thiết kế: Paul Van Doren <br />Thương hiệu: Vans <br />Danh mục: Authentic",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3341,10 +3401,10 @@
             "tenSP": "Vans Authentic 44 DX 'Anaheim Factory - Racing Red' VN0A38ENMR9",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/vn0a38enmr9.png_493e841e1a0c4e13a331703611ef99cb_2198ba36525e49feb3eb3f3748b507c0.png",
             "gia":"2800000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mã sản phẩm: VN0A38ENMR9 Phối màu: Racing Red Ngày phát hành: Ngày 16 tháng 7 năm 2017 Thương hiệu:  Vans Nhà thiết kế: Paul Van Doren Danh mục: Authentic 44 DX",
+            "moTa":"Mã sản phẩm: VN0A38ENMR9 <br />Phối màu: Racing Red <br />Ngày phát hành: Ngày 16 tháng 7 năm 2017 <br />Thương hiệu:  Vans <br />Nhà thiết kế: Paul Van Doren <br />Danh mục: Authentic 44 DX",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3355,10 +3415,10 @@
             "tenSP": "Vans Era 'Tiger Patchwork' VN0A4U391IO",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/674037_01.jpg_d392e9c038404b3f8cc3be0dfe605360_5d77a5cc33ef416b9739aaf3ae524d9f.jpeg",
             "gia":"2900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mã giày: VN0A4U391IO Phối màu: Black/True White Phát hành: TBCNhà thiết kế: Tony Alva Thương hiệu: Vans Danh mục: Era",
+            "moTa":"Mã giày: VN0A4U391IO <br />Phối màu: Black/True White <br />Phát hành: TBC <br />Nhà thiết kế: Tony Alva <br />Thương hiệu: Vans <br />Danh mục: Era",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3369,10 +3429,10 @@
             "tenSP": "MLB Big Ball Chunky LA Dodgers 32SHCD111-07I",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/thiet_ke_khong_ten__24__ec83b50a_dcb415ffd2564ae28fe559e3c5a39336.png",
             "gia":"3500000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua Giày MLB Big Ball Chunky LA Dodgers 32SHCD111-07I chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. Mua ngay!",
+            "moTa":"Mua Giày MLB Big Ball Chunky LA Dodgers 32SHCD111-07I chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. Mua ngay!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3382,10 +3442,10 @@
             "tenSP": "MLB Big Ball Chunky Gloves Boston 'Red Sox' 32SHCP111-43L",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/ellesse_campo_leather_af_615913__2__9f50e404a05a42c7bf015908179eac24.png",
             "gia":"3500000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua Giày MLB Big Ball Chunky Gloves Boston 'Red Sox' 32SHCP111-43L chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
+            "moTa":"Mua Giày MLB Big Ball Chunky Gloves Boston 'Red Sox' 32SHCP111-43L chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3395,10 +3455,10 @@
             "tenSP": "MLB Playball Paisley New York Yankees Black 3ACVVP12N-50BKS",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/4577_634x634___2022_06_07t114052_eecd2718cff44161a2e4430b1af127ec.png",
             "gia":"2900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua Giày MLB Playball Paisley New York Yankees Black 3ACVVP12N-50BKS chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
+            "moTa":"Mua Giày MLB Playball Paisley New York Yankees Black 3ACVVP12N-50BKS chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3408,10 +3468,10 @@
             "tenSP": "MLB Playball Paisley LA Dodgers Bandana Print 3ACVVP12N-07IVS",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/4576_634x634___2022_06_07t113910_8d19713e9de74875b899b9c7b630416b.png",
             "gia":"2900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua Giày MLB Playball Paisley LA Dodgers Bandana Print 3ACVVP12N-07IVS chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
+            "moTa":"Mua Giày MLB Playball Paisley LA Dodgers Bandana Print 3ACVVP12N-07IVS chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3421,10 +3481,10 @@
             "tenSP": "MLB Playball New York Yankees White Mono 3ACVVMS2N-50WHS",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/screenshot_2022-03-23_095931_2c0_84e036af5a0b4832887d9674e03b1133.png",
             "gia":"2900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua Giày MLB Playball New York Yankees White Mono 3ACVVMS2N-50WHS chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
+            "moTa":"Mua Giày MLB Playball New York Yankees White Mono 3ACVVMS2N-50WHS chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh giày trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3435,10 +3495,10 @@
             "tenSP": "Xvessel G.O.P Highs Navy",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/1821604036550_.pic_hd_1024x1024_441986567ca042ac9937eb890a13f62f_abd19581faeb4795ad4d294221287274.png",
             "gia":"9900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua giày Xvessel G.O.P Highs Navy chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
+            "moTa":"Mua giày Xvessel G.O.P Highs Navy chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3448,10 +3508,10 @@
             "tenSP": "Xvessel G.O.P 2.0 Marshmallow Lows 'Black' S22X42B",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/screenshot_2022.09.15_11.30.31.4_7fed996a358e49c3be666d8f612443c3.png",
             "gia":"7900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua Giày Xvessel G.O.P 2.0 Marshmallow Lows 'Black' S22X42B chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
+            "moTa":"Mua Giày Xvessel G.O.P 2.0 Marshmallow Lows 'Black' S22X42B chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3461,10 +3521,10 @@
             "tenSP": "Xvessel G.O.P.HIGHS Khaki",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/3946-2afd-4886-9692-0ed57f823687_900x_d1a0e90613ed4e4f89aca04f931f9faf_00a0f34c471d4b12abf08d60619527df.png",
             "gia":"8900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua giày Xvessel G.O.P.HIGHS Khaki chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
+            "moTa":"Mua giày Xvessel G.O.P.HIGHS Khaki chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3474,10 +3534,10 @@
             "tenSP": "Xvessel Peace By Piece Crimson Red xVESSEL x AMG",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/521593666701_.pic_hd_900x_d1cee3ae6fe6460398f34007a220f1d6_b34d9b19c894405ca265d59be2c84fda.png",
             "gia":"8900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua giày Xvessel Peace By Piece Crimson Red xVESSEL x AMG chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
+            "moTa":"Mua giày Xvessel Peace By Piece Crimson Red xVESSEL x AMG chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3487,10 +3547,10 @@
             "tenSP": "Xvessel G.O.P. Highs for Yohji Yamamoto BLACK",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/ji-x-vessel-hi-top-sneak-0007-layer-1_5a683e7b001a4281bfc010565e439610_33bbf5683ce84f498f9c1b7765150763.png",
             "gia":"23900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"8/11/2022",
             "soLuong":"20",
-            "moTa":"Mua giày Xvessel G.O.P. Highs for Yohji Yamamoto BLACK chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
+            "moTa":"Mua giày Xvessel G.O.P. Highs for Yohji Yamamoto BLACK chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. FREE vệ sinh trọn đời. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3501,10 +3561,10 @@
             "tenSP": "Balo Daily Y Nguyên Bản Ver9",
             "hinhAnh":"https://cdn2.yame.vn/pimg/balo-small-y-nguyen-ban-ver9-0021530/644c2ff9-8f17-aa01-4d2c-001989516a3c.jpg?w=800",
             "gia":"257000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Balo Daily Y Nguyên Bản Ver9 Chất liệu: 900D PU Đen Lót 210PU Đen logo chữ Y mặt trái Phối Simily PVC Việt Á Châu Nâu PE foam 5mm/8mm chống sốc tuyệt đối Đai 25mm Đen/Xám - Viền 23/25mm Khóa chặn 25mm Dây kéo YKK #5/8 - Đầu kéo #5 May đắp Logo Y2010 + nhãn Y2010 Thiết kế nhiều ngăn tiện dụng Kích thước: 40x30x12cm",
+            "moTa":"Balo Daily Y Nguyên Bản Ver9 <br />Chất liệu: 900D PU Kem <br />Lót 210PU Đen logo chữ Y mặt trái <br />Phối Simily PVC Việt Á Châu Nâu <br />PE foam 5mm/8mm chống sốc tuyệt đối <br />Đai 25mm Đen/Xám - Viền 23/25mm <br />Khóa chặn 25mm <br />Dây kéo YKK #5/8 - Đầu kéo #5 <br />May đắp Logo Y2010 + nhãn Y2010 <br />Thiết kế nhiều ngăn tiện dụng <br />Kích thước: 40x30x12cm",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3515,10 +3575,10 @@
             "tenSP": "Balo Morden Thần Cổ Đại Anubis Ver1",
             "hinhAnh":"https://cdn2.yame.vn/pimg/balo-y2010-h67-0019632/c3a05a42-c99c-8d00-78b8-00172158df35.jpg?w=800",
             "gia":"450000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Balo Morden Thần Cổ Đại Anubis Ver1  Bộ sản phẩm bao gồm: Balo Anubis 45 x 30 x 11 cm Box đựng thông minh Bộ tag và thẻ treo Box đựng thông minh Kích thước: 45x36x14 cm Mặt sau thiết kế thông minh thuận tiện trong quá trình vận chuyểnMặt trước logo Anubis Hông trái thông tin chi tiết sản phẩm balo Hông phải giải thích ý nghĩa logo Anubis Bộ thẻ treo Zip tie màu sắc trẻ trung Card logo Anubis cực ngầu Chất liệu: vải chính 1000D Cordura trượt nước ",
+            "moTa":"Balo Morden Thần Cổ Đại Anubis Ver1 <br />- Bộ sản phẩm bao gồm: <br />+ Balo Anubis 45 x 30 x 11 cm <br />+ Box đựng thông minh <br />+ Bộ tag và thẻ treo <br />- Box đựng thông minh <br />+ Kích thước: 45x36x14 cm <br />+ Mặt sau thiết kế thông minh thuận tiện trong quá trình vận chuyển <br />+ Mặt trước logo Anubis <br />+ Hông trái thông tin chi tiết sản phẩm balo <br />+ Hông phải giải thích ý nghĩa logo Anubis <br />- Bộ thẻ treo <br />+ Zip tie màu sắc trẻ trung <br />+ Card logo Anubis cực ngầu <br />- Chất liệu: vải chính 1000D Cordura trượt nước",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3529,10 +3589,10 @@
             "tenSP": "Balo Morden Thần Cổ Đại Khepri Ver2",
             "hinhAnh":"https://cdn2.yame.vn/pimg/balo-fit-linh-vat-bbuff-ver5-0020856/aeabcbaf-5a35-f800-6eea-00191a8b25e7.jpg?w=800",
             "gia":"325000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Balo Morden Thần Cổ Đại Khepri Ver2Chất liệu:Vải chính 900HD + Lót 210PUPE foam 5mm/8mm chống sốc tuyệt đối+ Đầu kéo - Dây kéo YKK #5/8+ Nhãn dệt Y2010+ Nhãn dệt Nhà của Gu+ Logo TPR Y2010- Thiết kế nhiều ngăn tiện dụng- Kích thước: 42 x 30 x 14cm",
+            "moTa":"Balo Morden Thần Cổ Đại Khepri Ver2 <br />Chất liệu: <br />Vải chính 900HD + Lót 210PU <br />PE foam 5mm/8mm chống sốc tuyệt đối <br />+ Đầu kéo - Dây kéo YKK #5/8 <br />+ Nhãn dệt Y2010 <br />+ Nhãn dệt Nhà của Gu <br />+ Logo TPR Y2010 <br />- Thiết kế nhiều ngăn tiện dụng <br />- Kích thước: 42 x 30 x 14cm",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3540,13 +3600,13 @@
             "id": "229",
             "idDM": "46",
             "idDMT":"10",
-            "tenSP": "Balo Morden Thần Cổ Đại Khepri Ver2",
-            "hinhAnh":"https://cdn2.yame.vn/pimg/balo-fit-than-co-ai-khepri-ver2-0020857/e246612b-4d94-0901-74b7-00191a8b4b79.jpg?w=800",
+            "tenSP": "Balo Morden Thiên Nhiên Kì Vĩ Darkness Hunters Ver2",
+            "hinhAnh":"https://cdn2.yame.vn/pimg/balo-b-darkness-hunters-ver2-0020221/24bb1f59-1a4a-0400-c87b-0018cfe976f6.jpg?w=540&h=756",
             "gia":"325000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Balo Morden Thần Cổ Đại Khepri Ver2 Chất liệu: Vải chính 900HD + Lót 210PU PE foam 5mm/8mm chống sốc tuyệt đối + Đầu kéo - Dây kéo YKK #5/8 + Nhãn dệt Y2010 + Nhãn dệt Nhà của Gu + Logo TPR Y2010 - Thiết kế nhiều ngăn tiện dụng - Kích thước: 42 x 30 x 14cm",
+            "moTa":"Balo Morden Thiên Nhiên Kì Vĩ Darkness Hunters Ver2 <br />- Chất liệu: 900HD PU in chuyển nhiệt + Lót 210HD Đen <br />- Bên trong lưng balo là 1 tấm EVA chống sốc <br />- Đệm quai đeo Air mesh êm <br />- PE foam 5mm chống sốc tuyệt đối <br />- Dây kéo + Đầu kéo YKK #5 - #8 <br />- Logo TPR chữ Y <br />- Họa tiết thêu <br />- Thiết kế: Nhiều ngăn tiện dụng: <br />Kích thước: 42 x 30 x 12.5 cm",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3557,10 +3617,10 @@
             "tenSP": "Balo Morden Đặc Biệt H52",
             "hinhAnh":"https://product.hstatic.net/200000336005/product/6d011a92-ff8b-0100-6b4c-001772d9af23_f6e9e12dd5b3452c999ef366c452604b.jpg",
             "gia":"450000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Balo Morden Đặc Biệt H52 Thiết kế bắt mắt với đai dù mix khoen nhựa lạ mắt. Màu: Đen cá tính. - Vải chính: 840HD Đen+ Lót 210D - Nylex Đen+ PVC mesh+ Airmesh+ PE foam 5mm+ EVA 3mm - Dây kéo YKK#5 - YKK#8 - Phản quang đầu kéo - Logo nhựa chữ Y - In lụa siêu bền - Thiết kế ngăn chính rộng với sức chứa lớn. - Ngăn trong: Ngăn lưới dây kéo tiện dụng - Ngăn laptop chống shock. - Ngăn phụ bên ngoài rộng và tiện dụng càng làm tăng thêm thể tích khủng. - Kích thước: 46x32x12 cm",
+            "moTa":"-Balo Morden Đặc Biệt H52 <br />Thiết kế bắt mắt với đai dù mix khoen nhựa lạ mắt. <br />Màu: Đen cá tính.  <br />- Vải chính: 840HD Đen+ Lót 210D  <br />- Nylex Đen+ PVC mesh+ Airmesh+ PE foam 5mm+ EVA 3mm  <br />- Dây kéo YKK#5 - YKK#8  <br />- Phản quang đầu kéo  <br />- Logo nhựa chữ Y  <br />- In lụa siêu bền  <br />- Thiết kế ngăn chính rộng với sức chứa lớn.  <br />- Ngăn trong: Ngăn lưới dây kéo tiện dụng  <br />- Ngăn laptop chống shock.  <br />- Ngăn phụ bên ngoài rộng và tiện dụng càng làm tăng thêm thể tích khủng.  <br />- Kích thước: 46x32x12 cm",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3571,10 +3631,10 @@
             "tenSP": "Túi Đeo Morden Y Nguyên Bản Ver3",
             "hinhAnh":"https://cdn2.yame.vn/pimg/tui-eo-y-nguyen-ban-ver3-0020996/505f622f-1f2a-3e01-9051-001936b973e2.jpg?w=800",
             "gia":"250000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Túi Đeo Y Nguyên Bản Ver3 - Chất liệu 900HD in chuyển nhiệt + 900Hd PU Đen + Lót 210PU Đen - PE foam 5mm chống sốc tuyệt đối - Dây kéo + Đầu kéo YKK #5 - Nhãn dệt 2010 + In lụa ORIGINAL/2010 - Thiết kế nhiều ngăn tiện dụng - Kích thước: 40 x 15 x 7cm (cạnh đáy 20cm)",
+            "moTa":"-Túi Đeo Y Nguyên Bản Ver3  <br />- Chất liệu 900HD in chuyển nhiệt + 900Hd PU Đen + Lót 210PU Đen  <br />- PE foam 5mm chống sốc tuyệt đối  <br />- Dây kéo + Đầu kéo YKK #5  <br />- Nhãn dệt 2010 + In lụa ORIGINAL/2010  <br />- Thiết kế nhiều ngăn tiện dụng  <br />- Kích thước: 40 x 15 x 7cm (cạnh đáy 20cm)",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3585,10 +3645,10 @@
             "tenSP": "Túi Đeo Vintage Y Nguyên Bản Ver2",
             "hinhAnh":"https://cdn2.yame.vn/pimg/tui-eo-on-gian-y-nguyen-ban-ver2-0020386/7a4e8d75-3ddd-3601-51c3-0018910ed029.jpg?w=800",
             "gia":"399000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Túi Đeo Đơn Giản Y Nguyên Bản Ver2 Chất liệu: 80% vải bố + 20% trang trí microfiber Lót 210D + Eva lót 4mm Dây đeo có miếng đệm êm Dây móc khóa: tiện dụng treo khóa xe, khóa nhà không bị thất lạc Nhiều ngăn tiện dụng Kích thước: Cao 26 x Dài 41 x Rộng 10cm",
+            "moTa":"Túi Đeo Đơn Giản Y Nguyên Bản Ver2  <br />Chất liệu: 80% vải bố + 20% trang trí microfiber  <br />Lót 210D + Eva lót 4mm  <br />Dây đeo có miếng đệm êm  <br />Dây móc khóa: tiện dụng treo khóa xe, khóa nhà không bị thất lạc  <br />Nhiều ngăn tiện dụng  <br />Kích thước: Cao 26 x Dài 41 x Rộng 10cm",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3599,10 +3659,10 @@
             "tenSP": "Túi Đeo Daily Y Nguyên Bản Ver6",
             "hinhAnh":"https://cdn2.yame.vn/pimg/tui-eo-y-nguyen-ban-ver6-0021320/4031d11e-2e74-4901-c1f1-00196db8f12f.jpg?w=800",
             "gia":"297000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Túi Đeo Y Nguyên Bản Ver6 - Chất liệu: Simily PU Trắng/Đen - Lót 210PU Đen - PE foam 5mm chống sốc tuyệt đối - Dây kéo YKK #5 - Đầu kéo YKK #5 tay dài - Đai poly 38mm đen - viền 25mm - May đắp Logo nhựa #Y2010 - Kích thước: 25x15x6.5cm",
+            "moTa":"Túi Đeo Y Nguyên Bản Ver6  <br />- Chất liệu: Simily PU Trắng/Đen  <br />- Lót 210PU Đen  <br />- PE foam 5mm chống sốc tuyệt đối  <br />- Dây kéo YKK #5  <br />- Đầu kéo YKK #5 tay dài  <br />- Đai poly 38mm đen  <br />- viền 25mm  <br />- May đắp Logo nhựa #Y2010  <br />- Kích thước: 25x15x6.5cm",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3613,10 +3673,10 @@
             "tenSP": "Túi Đeo Daily Nguyên Bản B32",
             "hinhAnh":"https://cdn2.yame.vn/pimg/tui-eo-y2010-b32-0019712/0315ac09-61c7-da00-290a-001716484d9c.jpg?w=800",
             "gia":"249000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Túi Đeo Y2010 B32 CHẤT LIỆU - Vải chính 840HD + Lót 210D    - Đệm PE Foam 5mm chống sốc tối ưu - Dây kéo 2 chiều êm mượt - Dây kéo YKK #5 - Logo nhựa trong THIẾT KẾ - Ngăn chính siêu rộng đựng được rất nhiều vật dụng cá nhân: ví - kính - điện thoại..v.v.. - Ngăn phụ bên ngoài và trên quai tiện dụng - Có 2 khoen để thay đổi bên đeo - Kích thước: 30x18x8 cm", 
+            "moTa":"Túi Đeo Y2010 B32 <br />CHẤT LIỆU <br />- Vải chính 840HD + Lót 210D <br />- Đệm PE Foam 5mm chống sốc tối ưu <br />- Dây kéo 2 chiều êm mượt <br />- Dây kéo YKK #5 <br />- Logo nhựa trong <br />THIẾT KẾ <br />- Ngăn chính siêu rộng đựng được rất nhiều vật dụng cá nhân: ví - kính - điện thoại..v.v.. <br />- Ngăn phụ bên ngoài và trên quai tiện dụng <br />- Có 2 khoen để thay đổi bên đeo <br />- Kích thước: 30x18x8 cm", 
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3627,10 +3687,10 @@
             "tenSP": "Túi Đeo Morden Ngân Hà Space Ver1",
             "hinhAnh":"https://cdn2.yame.vn/pimg/tui-eo-ngan-ha-space-ver1-0020994/db39f0f1-b673-9500-b8c5-00192b103ff3.jpg?w=800",
             "gia":"257000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Túi Đeo Ngân Hà Space Ver1 Chất liệu: - Vải chính 900HD in chuyển nhiệt + 900HD PU Đen + Lót 210PU Đen - PE foam 5mm chống sốc tuyệt đối - Dây kéo + Đầu kéo YKK #5 - Logo TPR Y2010 - Thiết kế nhiều ngăn tiện dụng - Kích thước: 24 x 15 x 6.5cm",
+            "moTa":"-Túi Đeo Ngân Hà Space Ver1 <br />Chất liệu: <br />- Vải chính 900HD in chuyển nhiệt + 900HD PU Đen + Lót 210PU Đen <br />- PE foam 5mm chống sốc tuyệt đối <br />- Dây kéo + Đầu kéo YKK #5 <br />- Logo TPR Y2010 <br />- Thiết kế nhiều ngăn tiện dụng <br />- Kích thước: 24 x 15 x 6.5cm",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3641,10 +3701,10 @@
             "tenSP": "Túi Dolce & Gabbana Small DG Daily Tote Bag With 'Tiger Print' BB7023B5937HE3QL",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/bb7023b5937_he3ql_0-removebg-pre_6edcf07bbf67418fbf15c4c9f8b173f5.png",
             "gia":"69900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Mua Túi Dolce & Gabbana Small DG Daily Tote Bag With 'Tiger Print' BB7023B5937HE3QL chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
+            "moTa":"Mua Túi Dolce & Gabbana Small DG Daily Tote Bag With 'Tiger Print' BB7023B5937HE3QL chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3655,10 +3715,10 @@
             "tenSP": "Túi Dolce & Gabbana Medium Printed Elaphe Sicily Bag 'Pink' BB7117AY0528E098",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/bb7117ay052_8e098_0-removebg-pre_ec19814be8a64b07986b8237572066fd.png",
             "gia":"115900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Mua Túi Dolce & Gabbana Medium Printed Elaphe Sicily Bag 'Pink' BB7117AY0528E098 chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
+            "moTa":"Mua Túi Dolce & Gabbana Medium Printed Elaphe Sicily Bag 'Pink' BB7117AY0528E098 chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3669,10 +3729,10 @@
             "tenSP": "Túi Chanel Printed Fabric Metal 'Multicolor' AS2896-B06996-NF993",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/ld-tone-metal-packshot-artistiqu__3__c23695bd8f5442258cdbd6126f340a5b.png",
             "gia":"131000000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Mua Túi Chanel Printed Fabric Metal 'Multicolor' AS2896-B06996-NF993 chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
+            "moTa":"Mua Túi Chanel Printed Fabric Metal 'Multicolor' AS2896-B06996-NF993 chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3683,10 +3743,10 @@
             "tenSP": "Túi Chanel Tweed Mini Flap Bag 'Blue' A69900-B05238-NB427",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/old-tone-metal-packshot-default__1__4c4f14ea341f4727897cdf7463f9e15b.png",
             "gia":"150000000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Mua Túi Chanel Tweed Mini Flap Bag 'Blue' A69900-B05238-NB427 chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
+            "moTa":"Mua Túi Chanel Tweed Mini Flap Bag 'Blue' A69900-B05238-NB427 chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3697,10 +3757,10 @@
             "tenSP": "Túi Chanel Small Hobo Bag 'Black' AS2503-B05543-94305",
             "hinhAnh":"https://product.hstatic.net/200000384421/product/old-tone-metal-packshot-default_b3fd865a116b43cfb52a5c1c81487feb.png",
             "gia":"125000000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Mua Túi Chanel Small Hobo Bag 'Black' AS2503-B05543-94305 chính hãng 100% có sẵn tại Jordan 1. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
+            "moTa":"Mua Túi Chanel Small Hobo Bag 'Black' AS2503-B05543-94305 chính hãng 100% có sẵn tại SILKROAD. Giao hàng miễn phí trong 1 ngày. Cam kết đền tiền X5 nếu phát hiện Fake. Đổi trả miễn phí size. MUA NGAY!",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3711,10 +3771,10 @@
             "tenSP": "Ví cầm tay da thật VD027",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2022/11/18607058643_1070846132.jpg",
             "gia":"450000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Chất liệu: Da bò lớp trên cùng Mã sản phẩm: Ví cầm tay VD027 Vải lót: polyester Khối lượng tịnh: 0,15kg Kích thước: chiều dài 19,5cm* rộng 9cm*cao 2cm Kiểu dáng: ví dài, clutch Dung lượng: tiền giấy, thẻ ngân hàng, điện thoại,…",
+            "moTa":"Chất liệu: Da bò lớp trên cùng <br />Mã sản phẩm: Ví cầm tay VD027 <br />Vải lót: polyester <br />Khối lượng tịnh: 0,15kg <br />Kích thước: chiều dài 19,5cm* rộng 9cm*cao 2cm <br />Kiểu dáng: ví dài, clutch <br />Dung lượng: tiền giấy, thẻ ngân hàng, điện thoại,…",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3725,10 +3785,10 @@
             "tenSP": "Ví da bò gấp ba siêu mỏng gọn VD1036",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2022/10/O1CN01lMOHps1XA0CUWbVeE_990252882-0-cib.jpg",
             "gia":"350000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Kích thước: 7.2*1.5*9.3cm  Mã sản phẩm: Ví da bò VD1036 6 khe cắm thẻ, 1 ngăn để tiền mặt, 1 ngăn ảnh và 1 ngăn dây kéo. Chất liệu: da bò thật, da sáp",
+            "moTa":"– Kích thước: 7.2*1.5*9.3cm <br />– Mã sản phẩm: Ví da bò VD1036 <br />– 6 khe cắm thẻ, 1 ngăn để tiền mặt, 1 ngăn ảnh và 1 ngăn dây kéo. <br />– Chất liệu: da bò thật, da sáp", 
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3739,10 +3799,10 @@
             "tenSP": "Ví da dáng gập tiện lợi VD8617",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2022/10/11080032670_2136689497.jpg",
             "gia":"400000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Kích thước: Dáng ngang: 9.5*12.5*2.5cm Dáng dọc: 14*10*1.5cm – Mã sản phẩm: Ví da VD8617 – 2 ngăn chính để tiền mặt, 9 ngăn để thẻ kèm 2 ngăn phụ. – Chất liệu: da bò thật, da mềm – Sức chứa: tiền mặt, tiền xu, thẻ và các vật dụng nhỏ khác.",
+            "moTa":"-Kích thước: Dáng ngang: 9.5*12.5*2.5cm Dáng dọc: 14*10*1.5cm <br />– Mã sản phẩm: Ví da VD8617 <br />– 2 ngăn chính để tiền mặt, 9 ngăn để thẻ kèm 2 ngăn phụ. <br />– Chất liệu: da bò thật, da mềm <br />– Sức chứa: tiền mặt, tiền xu, thẻ và các vật dụng nhỏ khác.",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3753,10 +3813,10 @@
             "tenSP": "Ví da mini đựng thẻ, tiền xu VD2060",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2022/10/11853928518_759492865.jpg",
             "gia":"900000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Kích thước: 8*12*1cm – Mã sản phẩm: Ví da mini VD2060 – 1 ngăn chính, 1 ngăn phụ khóa kéo – Chất liệu: da bò thật, da mềm – Sức chứa: tiền mặt, tiền xu, thẻ và các vật dụng nhỏ khác.",
+            "moTa":"-Kích thước: 8*12*1cm <br />– Mã sản phẩm: Ví da mini VD2060 <br />– 1 ngăn chính, 1 ngăn phụ khóa kéo <br />– Chất liệu: da bò thật, da mềm <br />– Sức chứa: tiền mặt, tiền xu, thẻ và các vật dụng nhỏ khác.",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3767,10 +3827,10 @@
             "tenSP": "Túi nam cầm tay da bò tiện dụng Mã vd8697",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2021/12/Vi-cam-tay-vd8697144.jpg",
             "gia":"690000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Chất liệu : Da bò thật 100% – Kích thước :17 x 27 x 2cm (Chiều cao x chiều rộng x độ dày ) -Màu sắc :Màu Nâu Đậm, ĐEN -Xuất xứ : Hong Kong",
+            "moTa":"-Chất liệu : Da bò thật 100% <br />– Kích thước :17 x 27 x 2cm (Chiều cao x chiều rộng x độ dày ) <br />-Màu sắc :Màu Nâu Đậm, ĐEN <br />-Xuất xứ : Hong Kong",
             "luotXem":"99",
             "trangThai": 1
         },
@@ -3781,10 +3841,10 @@
             "tenSP": "VÍ NỮ CẦM TAY DA BÒ THỜI TRANG TIỆN LỢI VD2072",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2021/01/Vi-Da-VD20722.jpg",
             "gia":"550000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Chất liệu : Da bò thật 100% – Kích thước :19x 10 x 3cm (chiều dài x chiều rộng x độ dày ) – Trọng lượng: 0.12kg -Màu sắc :Màu Nâu Đậm, ĐEN -Xuất xứ : Hong Kong",
+            "moTa":"-Chất liệu : Da bò thật 100% <br />– Kích thước :19x 10 x 3cm (chiều dài x chiều rộng x độ dày ) <br />– Trọng lượng: 0.12kg <br />-Màu sắc :Màu Nâu Đậm, ĐEN <br />-Xuất xứ : Hong Kong",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3792,12 +3852,12 @@
             "idDM": "50",
             "idDMT":"10",
             "tenSP": "Ví ngắn nữ da bò mini Mã BD950",
-            "hinhAnh":"https://balotot.com/wp-content/uploads/2020/11/11266887081_759492865.jpg 800w, https://balotot.com/wp-content/uploads/2020/11/11266887081_759492865-300x300.jpg 300w, https://balotot.com/wp-content/uploads/2020/11/11266887081_759492865-768x768.jpg 768w, https://balotot.com/wp-content/uploads/2020/11/11266887081_759492865-150x150.jpg 150w, https://balotot.com/wp-content/uploads/2020/11/11266887081_759492865-600x600.jpg 600w, https://balotot.com/wp-content/uploads/2020/11/11266887081_759492865-100x100.jpg 100w",
+            "hinhAnh":"https://balotot.com/wp-content/uploads/2020/11/11266887081_759492865.jpg",
             "gia":"250000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi– Kích thước: 10 cm (dài) x 8cm (rộng) x 2.5cm (dầy)   – Chất liệu: Làm từ lớp đầu tiên của da bò.– Trọng lượng: 0.06 KG",
+            "moTa":"-Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi<br />– Kích thước: 10 cm (dài) x 8cm (rộng) x 2.5cm (dầy)   <br />– Chất liệu: Làm từ lớp đầu tiên của da bò.<br />– Trọng lượng: 0.06 KG",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3805,12 +3865,12 @@
             "idDM": "50",
             "idDMT":"10",
             "tenSP": "VÍ MÓC KHÓA MINI DA BÒ THẬT VD01 Mã BD951",
-            "hinhAnh":"",
+            "hinhAnh":"https://balotot.com/wp-content/uploads/2020/11/Vi-moc-chia-khoa-MINI-VD0122.jpg",
             "gia":"250000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi– Chất liệu: Làm từ lớp đầu tiên của da bò.– Kích thước: 10 cm (dài) x 6cm (rộng) x 5.5cm (dầy)– Trọng lượng: 0.06 KG– Màu sắc: Nhiều màu",
+            "moTa":"-Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi<br />– Chất liệu: Làm từ lớp đầu tiên của da bò.<br />– Kích thước: 10 cm (dài) x 6cm (rộng) x 5.5cm (dầy)<br />– Trọng lượng: 0.06 KG<br />– Màu sắc: Nhiều màu",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3820,10 +3880,10 @@
             "tenSP": "VÍ DA BÒ MINI Handmade ĐỰNG THẺ VD03 Mã BD953",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2020/11/vi-da-bo-mini-VD0382.jpg",
             "gia":"250000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi – Kích thước: 10.5 cm (dài) x 7cm (rộng) x 0.5cm (dầy) – Chất liệu: Làm da bò.– Trọng lượng: 0.03 KG",
+            "moTa":"-Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi <br />– Kích thước: 10.5 cm (dài) x 7cm (rộng) x 0.5cm (dầy) <br />– Chất liệu: Làm da bò.<br />– Trọng lượng: 0.03 KG",
             "luotXem":"99",
             "trangThai": 1
         },{
@@ -3833,10 +3893,10 @@
             "tenSP": "VÍ Ngắn nữ Da Bò MINI Thời trang VD04 Mã BD954",
             "hinhAnh":"https://balotot.com/wp-content/uploads/2020/11/Vi-Da-bo-MINI-VD0415.jpg",
             "gia":"250000",
-            "giamGia":"0",
+            "giamGia":"10",
             "ngayNhap":"9/11/2022",
             "soLuong":"30",
-            "moTa":"Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi – Kích thước: 10.5 cm (dài) x 7cm (rộng) x 0.5cm (dầy) – Chất liệu: Làm da bò. – Cam kết: Chúng tôi sẽ hoàn tiền lại nếu túi không phải là da và không giống như hình chụp. – Màu sắc: Nhiều màu",
+            "moTa":"– Sử dụng: Đựng thẻ. đựng tiền các loại nhỏ gọn tiện lợi <br />– Kích thước: 10.5 cm (dài) x 7cm (rộng) x 0.5cm (dầy) <br />– Chất liệu: Làm da bò. <br />– Cam kết: Chúng tôi sẽ hoàn tiền lại nếu túi không phải là da và không giống như hình chụp. <br />– Màu sắc: Nhiều màu",
             "luotXem":"99",
             "trangThai": 1
         }
