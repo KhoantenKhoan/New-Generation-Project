@@ -8,6 +8,7 @@ let params = new URLSearchParams(location.search);
 let id_item = params.get("id");
 
 var table = document.querySelector("#product_detail");
+let response1=await product.getAll('danhMuc');
           
 const response = await fetch(
     `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham/${id_item}.json`
