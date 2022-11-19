@@ -3,6 +3,7 @@ fetch(url)
   .then((res) => res.json())
   .then((listDH) => {
     listDH.forEach((dh) => {
+      if(dh)
       document.querySelector("#dh").innerHTML += `
         <tr>
             <td>${dh.id}</td>
