@@ -7,7 +7,6 @@ fetch(url)
 		<tr>
 			<td>${cat.id}</td>
 			<td>${cat.tenDMT}</td>
-      <td>${cat.trangThai}</td>
 			<td>
 				<a href="suadanhmuc.html?id=${cat.id}"><button  class="badge badge-primary sua button">Sửa</button></a>
 				<button class="badge badge-danger xoa button" onclick="xoasp('${cat.id}')">Xóa</button>

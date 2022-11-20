@@ -1,5 +1,6 @@
 import { FireBaseService } from "../API/firebaseService.js";
 const product = new FireBaseService();
+
 async function showProduct() {
     let params = new URLSearchParams(location.search);
     let id_item = params.get("idDMT");
@@ -16,9 +17,9 @@ async function showProduct() {
 if (data , data1) {
     for (const [key, value] of Object.entries(data)) {
       console.log(id_item1);
-        if( id_item == value.idDMT && id_item1 == value.idDM){
+      if( id_item == value.idDMT && id_item1 == value.idDM){
         //   console.log(value);
-            if (value) {
+        if (value) {
             content += `
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product__item">
@@ -44,10 +45,10 @@ if (data , data1) {
                 </div>
             </div>
             `;
-            }
-        }
     }
-}
+  }
+    }
+    }
     document.getElementById('locsanpham').innerHTML = content;
 }
   showProduct();
