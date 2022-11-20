@@ -1,8 +1,10 @@
 function giohang(id, ten, gia, hinh){
+    
     var cart = JSON.parse(localStorage.getItem("cart"));
     if (cart==null) {
         cart=[];
         cart.push({id:id,tenSP:ten,gia:gia,hinhAnh:hinh,soluong:1});
+        toastr.success("Thêm thành công");
     }else{
         var item = cart.find(item => item.id === id );
         if(item) item.soluong++ ;

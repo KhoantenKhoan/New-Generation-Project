@@ -38,13 +38,12 @@ document.getElementById("btn-datHang").onclick = function() {
     ghiChu = document.getElementById("ghiChu").value.trim();
     phuongThucTT = document.getElementById("phuongThucTT").value.trim();
     if(hoTen=="") {
-        $('.msg-error.all').html('Vui lòng điền đẩy đủ thông tin !');
-        // alert("Chưa nhập họ và tên"); 
+        toastr.warning("Bạn chưa nhập Họ và Tên");
         return;
     }
-    if(email=="") {alert("Chưa nhập Email"); return;}
-    if(sdt=="") {alert("Chưa nhập số điện thoại"); return;}
-    if(diaChi=="") {alert("Chưa nhập địa chỉ"); return;}
+    if(email=="") {toastr.warning("Bạn chưa nhập email"); return;}
+    if(sdt=="") {toastr.warning("Bạn chưa nhập số điện thoại"); return;}
+    if(diaChi=="") {toastr.warning("Bạn chưa nhập Địa chỉ"); return;}
     let donHang = {
         "idKM":"1",
         "idKH": "1",
@@ -58,6 +57,7 @@ document.getElementById("btn-datHang").onclick = function() {
         "ngayDH": new Date().toISOString().slice(0,10),
         "trangThaiDH": "Chờ xác nhận"
     }
+    toastr.success("Đặt hàng thành công");
     url = "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/donHang.json";
     options = {
         method: "POST",
@@ -95,6 +95,7 @@ function luuChiTietDonHang(maDH) {
         .then(d =>{
             localStorage.setItem("cart",JSON.stringify([]));
             localStorage.setItem("tientong",0);
+            toastr.success("Đặt hàng thành công!");
             document.location="index.html";
         })
     })
