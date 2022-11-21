@@ -2,7 +2,7 @@ let topBar = `
 <div class="topbar-left	d-none d-lg-block">
                         <div class="text-center">
 
-                            <a href="index.html" class="logo"><img src="assets/images/logo.png" height="20" alt="logo"></a>
+                            <a href="index.html" class="logo"><img src="../img/logo.png" height="50px" alt="logo"></a>
                         </div>
                     </div>
 
