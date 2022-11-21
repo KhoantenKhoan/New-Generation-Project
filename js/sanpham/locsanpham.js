@@ -1,6 +1,33 @@
 import { FireBaseService } from "../API/firebaseService.js";
 const product = new FireBaseService();
 
+    let currentPage = 1;
+    let perPage = 6;
+    let totalPage =0;
+    let item = [];
+
+async function showPageNumber() {
+    let params = new URLSearchParams(location.search);
+    let id_item = params.get("idDMT");
+    
+    let response=await product.getAll('sanPham');
+    
+    let data = await response.json();
+    // for (const [key, value] of Object.entries(data)) {
+    // if(id_item == value.idDMT ){
+    totalPage = 25 / perPage
+    for (let i = 1; i < totalPage; i++) {
+        document.getElementById("page").innerHTML += `<a onclick="handlePageNumber(${i})">${i}</p>`;
+    }
+    // }    
+// }
+}
+
+function handlePageNumber(num) {
+    currentPage=num
+    console.log(currentPage);
+}
+
 async function showProduct() {
     let params = new URLSearchParams(location.search);
     let id_item = params.get("idDMT");
@@ -13,10 +40,14 @@ async function showProduct() {
     let data1 = await response1.json();
 
     let content = ``;
+        
+        item= data.slice(
+            (currentPage - 1)*perPage,
+            (currentPage - 1)*perPage+perPage
+        )
 
-if (data , data1) {
-    for (const [key, value] of Object.entries(data)) {
-        // console.log(value);
+if (data , data1, item) {
+    for (const [key, value] of Object.entries(item)) {
         if(id_item == value.idDMT )
         if (value) {
             content += `
@@ -54,3 +85,4 @@ if (data , data1) {
     document.getElementById('locsanpham').innerHTML = content;
   }
   showProduct();
+  showPageNumber();

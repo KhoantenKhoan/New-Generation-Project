@@ -13,7 +13,7 @@ const response = await fetch(
     `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham/${id_item}.json`
   );
   const product = await response.json();
-    console.log(product);
+    // console.log(product);
     if(product) {
       table.innerHTML += `
     <div class="col-lg-6 col-md-6">
@@ -43,16 +43,16 @@ const response = await fetch(
                         </div>
                     </div>
                 </div>
-                <a href="#" onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn">Thêm vào giỏ hàng</a>
+                <a  onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn">Thêm vào giỏ hàng</a>
                 <ul>
                     <li><b>Tình trạng</b> <span>${product.trangThai=="1"?"Còn hàng":"Hết hàng"}</span></li>
                     <li><b>Vận chuyển</b> <span>trong ngày khu vực HCM.</span></li>
                     <li><b>Share on</b>
                         <div class="share">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a ><i class="fa fa-facebook"></i></a>
+                            <a ><i class="fa fa-twitter"></i></a>
+                            <a ><i class="fa fa-instagram"></i></a>
+                            <a ><i class="fa fa-pinterest"></i></a>
                         </div>
                     </li>
                 </ul>
@@ -80,10 +80,10 @@ async function renderComment() {
     if (data1, data2) {
         for (const [key1, value1] of Object.entries(data1)) 
             for (const [key2, value2] of Object.entries(data2)){
-                console.log(value1.idSP);
-                console.log(value1.idSP-"1");
+                // console.log(value1.idSP);
+                // console.log(value1.idSP-"1");
                 if (value1.idSP-"1" == id) {
-                    console.log(value2);
+                    // console.log(value2);
                     content += `
                     <div class="card text-dark">
                         <div class="card-body p-4">

@@ -66,9 +66,9 @@ document.getElementById("btn-datHang").onclick = function() {
     }
     fetch(url,options).then( res => res.json())
     .then(data =>{
-        console.log(data);
+        // console.log(data);
         maDH = data.name;
-        console.log(maDH);
+        // console.log(maDH);
         luuChiTietDonHang(maDH);
     })
 }
