@@ -150,8 +150,12 @@ async function showProduct() {
                             </ul>
                         </div>
                         <div class="product__item__text">
-                        <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a></h6>
-                        <div class="featured__item_old_price">
+                            <div class="product__item__name ">
+                                <h6>
+                                    <a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a>
+                                </h6>
+                            </div>
+                            <div class="featured__item_old_price">
                               <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
                             </div>
                             <div class="featured__item_new_price">
