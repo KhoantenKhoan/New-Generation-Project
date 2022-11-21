@@ -950,7 +950,7 @@ ol {
 .latest-product__item__pic {
 	float: left;
 	margin-right: 26px;
-	width: 100px;
+	width: 60px;
 }
 
 .latest-product__item__pic img {
@@ -967,10 +967,11 @@ ol {
 	color: #252525;
 	/* height: 45px !important; */
 	margin-bottom: 8px;
+	font-size: 15px;
 }
 
 .latest-product__item__text span {
-	font-size: 18px;
+	font-size: 15px;
 	display: block;
 	color: #252525;
 	font-weight: 700;

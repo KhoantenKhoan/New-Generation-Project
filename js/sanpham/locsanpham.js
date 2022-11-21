@@ -35,7 +35,7 @@ if (data , data1) {
                             </ul>
                         </div>
                         <div class="product__item__text">
-                        <div class="featured__item_name">
+                        <div class="product__item__name">
                         <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a></h6>
                       </div>
                             <div class="product__item__old_price">
