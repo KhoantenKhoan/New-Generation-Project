@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>Admin SilkRoad</title>
+    <title>Admin - JS</title>
     <meta content="Admin Dashboard" name="description" />
     <meta content="ThemeDesign" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="shortcut icon" href="../img/favicon/Silkroad.png">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -21,7 +21,7 @@
 
 
 <body class="fixed-left">
-<img src="../img/logo.png" alt="">
+
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -57,8 +57,15 @@
                                     <h4 class="mt-0 header-title">Danh mục</h4>
                                     <div class="form">
                                         <div class="form-group">
+                                            <label>Tên danh mục tổng</label>
+                                            <select name="category" id="category" class="form-control">
+                                                
+
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
                                             <label>Tên danh mục</label>
-                                            <input type="text" class="form-control" name="name" required="" placeholder="Tên sản phẩm...">
+                                            <input type="text" class="form-control" name="name" required="" placeholder="Tên danh mục...">
                                         </div>
                                         <label for="" class="m-r-15">Trạng thái: </label>
                                         <label class="btn btn-outline-success waves-effect waves-light m-r-10">
@@ -91,6 +98,11 @@
 
             </div>
             <!-- content -->
+
+            <footer class="footer">
+                © 2022 <b>Phatt</b> <span class="d-none d-sm-inline-block"> - With <i class="mdi mdi-heart text-danger"></i> by Phat - Javascript Advanced.</span>
+            </footer>
+
         </div>
         <!-- End Right content here -->
 

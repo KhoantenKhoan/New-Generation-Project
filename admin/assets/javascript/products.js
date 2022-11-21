@@ -1,5 +1,5 @@
   let count =1;
-  let table = document.querySelector("#renderProduct");
+  let table = document.querySelector("#sp");
       (async () => {
         const response = await fetch(
           "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham.json"
@@ -7,11 +7,11 @@
         const data = await response.json();
         Object.keys(data).forEach((key) => {
           const row = data[key];
-          // console.log(row);
-          // console.log(key);
+          console.log(row);
+          console.log(key);
           table.innerHTML += `
           <tr>
-            <td>${count++}</td>
+                <td>${count++}</td>
                 <td>${row.tenSP}</td>
                 <td>
                     <img src="${row.hinhAnh}" alt="" width="150px" height="150px">
@@ -19,6 +19,7 @@
                 <td>${row.gia}</td>
                 <td>${row.giamGia}</td>
                 <td>${row.ngayNhap}</td>
+                <td>${row.soLuong}</td>
                 <td>${row.trangThai == 1 ? '<span class="btn btn-primary">Hiện</span>' : '<span class="btn btn-danger">Ẩn</span>'}</td>
                 <td>
                   <a href="./update-product.html?id=${key}"> <span class="btn btn-info">Sửa</span></a> 
