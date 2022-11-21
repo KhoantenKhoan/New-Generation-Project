@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>Admin SilkRoad</title>
+    <title>Admin - JS</title>
     <meta content="Admin Dashboard" name="description" />
     <meta content="ThemeDesign" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="shortcut icon" href="../img/favicon/Silkroad.png">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -58,19 +58,23 @@
                                 <div class="card m-b-30">
                                     <div class="card-body">
                                         <h4 class="mt-0 header-title">Thành viên</h4>
+                                        <a href="add-product.html" class="btn btn-primary waves-effect waves-light m-b-10">Thêm thành viên +</a>
                                         <div class="table-responsive">
                                             <table class="table mb-0">
                                                 <thead>
                                                     <tr>
                                                         <th>#</th>
-                                                        <th>Tên</th>
+                                                        <th>Tên người dùng</th>
+                                                        <th>Mật khẩu</th>
+                                                        <th>Hình ảnh</th>
                                                         <th>Địa chỉ</th>
                                                         <th>Email</th>
-                                                        <th>Trạng thái</th>
+                                                        <th>SĐT</th>
+                                                        <th>Vai trò</th>
                                                         <th>Action</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="renderMember">
+                                                <tbody class="renderMember" id="kh">
 
                                                 </tbody>
                                             </table>
@@ -90,6 +94,10 @@
 
             </div>
             <!-- content -->
+
+            <footer class="footer">
+                © 2022 <b>Phatt</b> <span class="d-none d-sm-inline-block"> - With <i class="mdi mdi-heart text-danger"></i> by Phat - Javascript Advanced.</span>
+            </footer>
 
         </div>
         <!-- End Right content here -->
@@ -129,7 +137,8 @@
     <script src="assets/component/topbar.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/users.js"></script>
+    <script src="assets/js/product.js"></script>
+    <script src="assets/javascript/users.js"></script>
 
 
 </body>

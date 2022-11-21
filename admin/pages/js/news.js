@@ -6,6 +6,7 @@ fetch(url)
       document.querySelector("#tt").innerHTML += `
         <tr>
             <td>${tt.id}</td>
+            <td>${tt.idKM}</td>
             <td>${tt.idLT}</td>
             <td>${tt.ngayDang}</td>
             <td> <label class="badge badge-warning">Hiện</label> </td>
