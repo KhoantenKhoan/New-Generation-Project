@@ -14,7 +14,7 @@ const product = new FireBaseService();
           if (value.giamGia = 15) {
             content += `
                 <div class="latest-prdouct__slider__item">
-                    <a href="#" class="latest-product__item">
+                    <a  class="latest-product__item">
                         <div class="latest-product__item__pic">
                             <img src="${value.hinhAnh}" alt="">
                         </div>

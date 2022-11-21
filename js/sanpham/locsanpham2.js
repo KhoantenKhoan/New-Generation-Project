@@ -16,7 +16,7 @@ async function showProduct() {
 
 if (data , data1) {
     for (const [key, value] of Object.entries(data)) {
-      console.log(id_item1);
+      // console.log(id_item1);
       if( id_item == value.idDMT && id_item1 == value.idDM){
         //   console.log(value);
         if (value) {
