@@ -1,0 +1,8 @@
+.renderProduct tr .img img{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+table thead{
+    font-size: 12px;
+}
