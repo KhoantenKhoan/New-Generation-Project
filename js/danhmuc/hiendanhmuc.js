@@ -13,7 +13,7 @@ async function showBrand() {
     let content = ``;
     if (data) {
       for (const [key, value] of Object.entries(data)) {
-        if (value) {
+        if (value && value.trangThai== 1 ) {
           if(id_item == value.idDMT ){
             content += `
               <li><a class="nav__link" href="shop-grid-2.html?idDMT=${value.idDMT}&idDM=${value.id}">${value.tenDM}</a></li>
