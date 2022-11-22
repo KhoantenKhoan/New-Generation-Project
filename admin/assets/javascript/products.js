@@ -7,16 +7,16 @@
         const data = await response.json();
         Object.keys(data).forEach((key) => {
           const row = data[key];
-          console.log(row);
-          console.log(key);
+          // console.log(row);
+          // console.log(key);
           table.innerHTML += `
           <tr>
                 <td>${count++}</td>
                 <td>${row.tenSP}</td>
                 <td>
-                    <img src="${row.hinhAnh}" alt="" width="150px" height="150px">
+                    <img src="${row.hinhAnh}" alt="" width="100px" height="100px">
                 </td>
-                <td>${row.gia}</td>
+                <td>${row.gia} VNĐ</td>
                 <td>${row.giamGia}</td>
                 <td>${row.ngayNhap}</td>
                 <td>${row.soLuong}</td>

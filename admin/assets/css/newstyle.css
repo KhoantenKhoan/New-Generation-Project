@@ -1,0 +1,20 @@
+.renderProduct tr .img img{
+    width: 100px !important;
+}
+
+.renderProduct tr td{
+    font-size: 12px;
+}
+
+table thead{
+    font-size: 12px;
+}
+
+.renderMember tr .img img{
+    width: 100%;
+}
+
+.xoa,
+.sua{
+    border: none;
+}

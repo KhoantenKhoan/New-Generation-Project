@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>Admin - JS</title>
+    <title>Admin SilkRoad</title>
     <meta content="Admin Dashboard" name="description" />
     <meta content="ThemeDesign" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="../img/favicon/Silkroad.png">
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -34,7 +34,7 @@
 
         <!-- ========== Left Sidebar Start ========== -->
         <div class="left side-menu" id="leftSibar">
-            
+
         </div>
         <!-- Left Sidebar End -->
 
@@ -47,7 +47,7 @@
                 <!-- Top Bar Start -->
                 <div class="topbar" id="topBar">
 
-                    
+
                 </div>
                 <!-- Top Bar End -->
                 <div class="page-content-wrapper">
@@ -61,58 +61,63 @@
                                         <div class="form-group">
                                             <label>Danh mục tổng</label>
                                             <select name="category" id="category" class="form-control">
-                                                
+
 
                                             </select>
                                         </div>
                                         <div class="form-group">
                                             <label>Danh mục sản phẩm</label>
                                             <select name="category" id="category" class="form-control">
-                                                
+
 
                                             </select>
                                         </div>
-                                        
+
 
                                         <div class="form-group">
                                             <label>Tên sản phẩm</label>
-                                            <input type="text" class="form-control" id="sp" name="name" required="" placeholder="Tên sản phẩm...">
+                                            <input type="text" class="form-control" id="sp" name="name" required=""
+                                                placeholder="Tên sản phẩm...">
                                         </div>
                                         <div class="form-group">
                                             <label>Giá</label>
-                                            <input type="number" class="form-control" id="price" name="price" required="" placeholder="Giá...">
+                                            <input type="number" class="form-control" id="price" name="price"
+                                                required="" placeholder="Giá...">
                                         </div>
                                         <div class="form-group">
                                             <label>Số lượng</label>
-                                            <input type="number" class="form-control" id="" name="" required="" placeholder="">
+                                            <input type="number" class="form-control" id="" name="" required=""
+                                                placeholder="">
                                         </div>
                                         <div class="form-group">
                                             <label>Ảnh</label>
                                             <input type="text" class="form-control" id="" name="" required="">
-                                            
+
                                         </div>
                                         <div class="form-group">
                                             <label>Mô tả</label>
-                                            <textarea name="description" id="description" class="form-control" cols="30" rows="5"></textarea>
+                                            <textarea name="description" id="description" class="form-control" cols="30"
+                                                rows="5"></textarea>
                                         </div>
 
                                         <label for="" class="m-r-15">Trạng thái: </label>
                                         <label class="btn btn-outline-success waves-effect waves-light m-r-10">
                                             <input type="radio" name="stt" id="stt1" value="1" checked>
                                             Hiện
-                                    </label>
+                                        </label>
                                         <label class="btn btn-outline-danger waves-effect waves-light">
                                             <input type="radio" name="stt" id="stt2" value="0">
                                             Ẩn
-                                    </label>
+                                        </label>
                                         <div class="form-group">
                                             <div>
-                                                <button type="submit" class="btn btn-primary waves-effect waves-light btn-add-product">
-                                            Thêm
-                                            </button>
+                                                <button type="submit"
+                                                    class="btn btn-primary waves-effect waves-light btn-add-product">
+                                                    Thêm
+                                                </button>
                                                 <a href="">
                                                     <button type="reset" class="btn btn-secondary waves-effect m-l-5">
-                                                Cancel
+                                                        Cancel
                                                     </button>
                                                 </a>
                                             </div>
@@ -127,11 +132,6 @@
 
                 </div>
                 <!-- content -->
-
-                <footer class="footer">
-                    © 2022 <b>Phatt</b> <span class="d-none d-sm-inline-block"> - With <i class="mdi mdi-heart text-danger"></i> by Phat - Javascript Advanced.</span>
-                </footer>
-
             </div>
             <!-- End Right content here -->
 
@@ -167,6 +167,7 @@
         <script src="assets/pages/dashboard.js"></script>
 
         <!-- App js -->
+        <script src="../js/toastr.min.js"></script>
         <script src="assets/component/left-side.js"></script>
         <script src="assets/component/topbar.js"></script>
         <script src="assets/js/app.js"></script>

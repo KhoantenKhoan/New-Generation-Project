@@ -17,7 +17,7 @@
           <td>${row.tenDM}</td>
           <td>${row.trangThai}</td>
           <td>
-            <a href="suadanhmuc.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
+            <a href="update-category.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
             <button class="badge badge-danger xoa button" onclick="xoasp('${key}')">Xóa</button>
           </td>
         </tr>
@@ -34,6 +34,7 @@
               method: "DELETE",
             }
           );
+          toastr.success("Xóa thành công!")
           window.location.reload();
         })();
       };
