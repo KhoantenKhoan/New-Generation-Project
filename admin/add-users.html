@@ -26,6 +26,7 @@
     <div id="preloader">
         <div id="status">
             <div class="spinner"></div>
+            <div></div>
         </div>
     </div>
 
@@ -54,63 +55,39 @@
                         <div class="col-lg-12">
                             <div class="card m-b-30">
                                 <div class="card-body">
-
-                                    <h4 class="mt-0 header-title">Thêm sản phẩm</h4>
+                                    <h4 class="mt-0 header-title">Thành viên</h4>
                                     <div class="form">
                                         <div class="form-group">
-                                            <label>Danh mục tổng</label>
-                                            <select name="category" id="dmt" class="form-control">
-                                                
-
-                                            </select>
+                                            <label>Tên thành viên</label>
+                                            <input type="text" class="form-control" name="name" required="" placeholder="Tên thành viên...">
                                         </div>
                                         <div class="form-group">
-                                            <label>Danh mục sản phẩm</label>
-                                            <select name="category" id="dm" class="form-control">
-                                                
+                                            <label>Email</label>
+                                            <input type="text" class="form-control" name="name" required="" placeholder="Email...">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Mật khẩu</label>
+                                            <input type="text" class="form-control" name="name" required="" placeholder="Mật khẩu...">
+                                        </div>
 
-                                            </select>
+                                        <div class="form-group">
+                                            <label>Hình ảnh</label>
+                                            <input type="file" class="form-control" name="name" required="" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Địa chỉ</label>
+                                            <input type="text" class="form-control" name="name" required="" placeholder="Địa chỉ...">
                                         </div>
                                         
                                         <div class="form-group">
-                                            <label>Tên sản phẩm</label>
-                                            <input type="text" class="form-control" id="ten" name="name" required="" placeholder="Tên sản phẩm...">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Giá</label>
-                                            <input type="number" class="form-control" id="gia" name="price" required="" placeholder="Giá...">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Giảm giá</label>
-                                            <input type="number" class="form-control" id="giamgia" name="price" required="" placeholder="Giảm giá...">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Ngày nhập</label>
-                                            <input type="date" class="form-control" id="ngay" name="" required="" placeholder="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Số lượng</label>
-                                            <input type="number" class="form-control" id="soluong" name="" required="" placeholder="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Ảnh</label>
-                                            <input type="text" class="form-control" id="hinh" name="" required="">
-                                            
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Mô tả</label>
-                                            <textarea name="description" id="mota" class="form-control" cols="30" rows="5"></textarea>
+                                            <label>Số điện thoại</label>
+                                            <input type="text" class="form-control" name="name" required="" placeholder="Số điện thoại...">
                                         </div>
 
-                                        <label for="" class="m-r-15">Trạng thái: </label>
-                                        <div id="div_anHien">
-                                            
-                                        </div>
-                                        
                                         <div class="form-group">
                                             <div>
-                                                <button id="btnluu" type="submit" class="btn btn-primary waves-effect waves-light btn-update-prod">
-                                            Cập nhật
+                                                <button type="submit" class="btn btn-primary waves-effect waves-light btn-category">
+                                            Thêm
                                             </button>
                                                 <a href="">
                                                     <button type="reset" class="btn btn-secondary waves-effect m-l-5">
@@ -153,19 +130,28 @@
     <script src="assets/js/jquery.nicescroll.js"></script>
     <script src="assets/js/jquery.scrollTo.min.js"></script>
 
+    <!-- skycons -->
     <script src="assets/plugins/skycons/skycons.min.js"></script>
 
+    <!-- skycons -->
     <script src="assets/plugins/peity/jquery.peity.min.js"></script>
 
+    <!--Morris Chart-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="assets/plugins/morris/morris.min.js"></script>
+    <script src="assets/plugins/raphael/raphael-min.js"></script>
+
+    <!-- dashboard -->
+    <script src="assets/pages/dashboard.js"></script>
 
     <!-- App js -->
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="assets/component/left-side.js"></script>
     <script src="assets/component/topbar.js"></script>
+    <script src="assets/javascript/category.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/javascript/product.js"></script>
-    <script src="assets/javascript/suasp.js" ></script>
+
 
 </body>
 
