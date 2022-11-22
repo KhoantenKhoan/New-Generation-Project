@@ -1,11 +1,11 @@
 btnluu = document.querySelector("#btnluu");
   
 btnluu.onclick = function(){
-  url="https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMuc.json";
+  url="https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMucTong.json";
   
   danhMuc={
-    tenDM: document.querySelector("#ten").value.trim(),
-  
+    tenDMT: document.querySelector("#ten").value.trim(),
+    
   }
   options = {
     method: "POST",
@@ -14,6 +14,6 @@ btnluu.onclick = function(){
   }
   fetch(url, options).then(res => res.json())
   .then(data =>{
-    document.location="brand.html";
+    document.location="dmTong.html";
   })
 }
