@@ -43,7 +43,7 @@ const response = await fetch(
                         </div>
                     </div>
                 </div>
-                <a  onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn">Thêm vào giỏ hàng</a>
+                <a  onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn text-white">Thêm vào giỏ hàng</a>
                 <ul>
                     <li><b>Tình trạng</b> <span>${product.trangThai=="1"?"Còn hàng":"Hết hàng"}</span></li>
                     <li><b>Vận chuyển</b> <span>trong ngày khu vực HCM.</span></li>
@@ -138,29 +138,29 @@ async function showProduct() {
         if (value) {
             content += `
             <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="">
-                        <a  href="shop-details.html?id=${key}&idDM=${value.idDM}">
-                              <img src="${value.hinhAnh}" alt="">
+                        <div class="product__item">
+                                <div class="product__item__pic set-bg">
+                                <a  href="shop-details.html?id=${key}&idDM=${value.idDM}">
+                                <img src="${value.hinhAnh}" alt="">
                             </a>
-                            <ul class="product__item__pic__hover">
-                                <a  onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" href="">
-                                <i class="fa fa-shopping-cart"></i>
-                                </a>
-                            </ul>
+                                <ul class="product__item__pic__hover">
+                                    <li>
+                                        <a  onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" href="">
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                            <div class="product__item__name">
+                            <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a></h6>
                         </div>
-                        <div class="product__item__text">
-                            <div class="product__item__name ">
-                                <h6>
-                                    <a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a>
-                                </h6>
-                            </div>
-                            <div class="featured__item_old_price">
-                              <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
-                            </div>
-                            <div class="featured__item_new_price">
-                              <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
-                            </div>
+                                <div class="product__item__old_price">
+                                    <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
+                                </div>
+                                <div class="product__item__price">
+                                    <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
+                                </div>
                         </div>
                     </div>
                 </div>
