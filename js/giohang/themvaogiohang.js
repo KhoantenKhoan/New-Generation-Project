@@ -4,11 +4,15 @@ function giohang(id, ten, gia, hinh){
     if (cart==null) {
         cart=[];
         cart.push({id:id,tenSP:ten,gia:gia,hinhAnh:hinh,soluong:1});
-        toastr.success("Thêm thành công");
+        alert("ádasd")
     }else{
+        
         var item = cart.find(item => item.id === id );
-        if(item) item.soluong++ ;
-        else cart.push({id:id,tenSP:ten,gia:gia,hinhAnh:hinh,soluong:1});
+        if(item) { item.soluong++ ;
+        }
+        else {cart.push({id:id,tenSP:ten,gia:gia,hinhAnh:hinh,soluong:1})
+    
+    };
     }
     localStorage.setItem("cart", JSON.stringify(cart));
     let soluong = 0;
@@ -17,7 +21,11 @@ function giohang(id, ten, gia, hinh){
                 soluong += Number(item.soluong);
             })
             localStorage.setItem("soluong", soluong);
+
+
         }else{
             localStorage.setItem("soluong", soluong);
+
+
         }
 }

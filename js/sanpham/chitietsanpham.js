@@ -43,7 +43,7 @@ const response = await fetch(
                         </div>
                     </div>
                 </div>
-                <a  onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn text-white">Thêm vào giỏ hàng</a>
+                <a id="addToCart" onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn text-white">Thêm vào giỏ hàng</a>
                 <ul>
                     <li><b>Tình trạng</b> <span>${product.trangThai=="1"?"Còn hàng":"Hết hàng"}</span></li>
                     <li><b>Vận chuyển</b> <span>trong ngày khu vực HCM.</span></li>
@@ -145,7 +145,7 @@ async function showProduct() {
                             </a>
                                 <ul class="product__item__pic__hover">
                                     <li>
-                                        <a  onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" href="">
+                                        <a onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" href="">
                                             <i class="fa fa-shopping-cart"></i>
                                         </a>
                                     </li>

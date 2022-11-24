@@ -302,11 +302,21 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="./js/toastr.min.js"></script>
+
 
     <!-- JS -->
     <script src="js/footAndHead.js"></script>
     <script src="./js/sanpham/chitietsanpham.js" defer type="module"></script>
     <Script src="./js/giohang/themvaogiohang.js"></Script>
+    <script>
+        onclick = function addToCart(){
+            let cart = document.querySelector("#addToCart");
+            console.log(cart);
+            toastr.success("Thêm");
+        }
+       
+    </script>
 
 </body>
 
