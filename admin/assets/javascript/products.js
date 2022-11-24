@@ -7,8 +7,9 @@
         const data = await response.json();
         Object.keys(data).forEach((key) => {
           const row = data[key];
-          // console.log(row);
-          // console.log(key);
+          console.log(row);
+          console.log(key);
+          if(row){
           table.innerHTML += `
           <tr>
                 <td>${count++}</td>
@@ -20,7 +21,7 @@
                 <td>${row.giamGia}</td>
                 <td>${row.ngayNhap}</td>
                 <td>${row.soLuong}</td>
-                <td>${row.trangThai == 1 ? '<span class="btn btn-primary">Hiện</span>' : '<span class="btn btn-danger">Ẩn</span>'}</td>
+                <td>${row.trangThai == 1 ? '<span class="btn btn-primary">Còn</span>' : '<span class="btn btn-danger">Hết</span>'}</td>
                 <td>
                   <a href="./update-product.html?id=${key}"> <span class="btn btn-info">Sửa</span></a> 
                   <span onclick="xoa('${key}')" class="btn btn-danger btn-del">Xóa</span>
@@ -28,6 +29,7 @@
           </tr>
                 
             `;
+          }
         });
       })();
 

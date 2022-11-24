@@ -1,4 +1,4 @@
-url = "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/tinTuc.json";
+url = "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/thongBao.json";
 fetch(url)
   .then((res) => res.json())
   .then((listTT) => {
@@ -6,8 +6,11 @@ fetch(url)
       document.querySelector("#tt").innerHTML += `
         <tr>
             <td>${tt.id}</td>
-            <td>${tt.idLT}</td>
+            <td>${tt.idKM}</td>
             <td>${tt.ngayDang}</td>
+            <td> 
+                <img src="${tt.hinhAnh}" alt="" width="150px" height="150px">
+            </td>
             <td> <label class="badge badge-warning">Hiện</label> </td>
             <td>
                 <a href="suatintuc.html?id=${tt.id}"><button class="badge badge-primary sua button">Sửa</button></a>
@@ -19,7 +22,7 @@ fetch(url)
   });
   btnluu = document.querySelector("#btnluu");
   btnluu.onclick = function(){
-    url="http://localhost:3000/tintuc";
+    url="https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/thongBao.json";
     
     danhmuc={
       TieuDe: document.querySelector("#tieude").value.trim(),
@@ -43,7 +46,7 @@ fetch(url)
   function xoasp(id){
     const hoi = confirm("Bạn có muốn xóa không?")
     if (hoi==false) return;
-    url=`http://localhost:3000/tintuc/${id}`;
+    url=`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/thongBao/${id}`;
     fetch(url,{method:"delete"})
     .then(res => res.json())
     .then(data => {

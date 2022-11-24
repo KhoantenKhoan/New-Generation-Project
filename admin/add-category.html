@@ -59,14 +59,14 @@
                                     <div class="form">
                                         <div class="form-group">
                                             <label>Tên danh mục tổng</label>
-                                            <select name="category" id="category" class="form-control">
-
+                                            <select name="category" id="idloai" class="form-control">
+                                                
 
                                             </select>
                                         </div>
                                         <div class="form-group">
                                             <label>Tên danh mục</label>
-                                            <input type="text" class="form-control" name="name" required=""
+                                            <input id="ten" type="text" class="form-control" name="name" required=""
                                                 placeholder="Tên danh mục...">
                                         </div>
                                         <label for="" class="m-r-15">Trạng thái: </label>
@@ -80,10 +80,9 @@
                                         </label>
                                         <div class="form-group">
                                             <div>
-                                                <button type="submit"
-                                                    class="btn btn-primary waves-effect waves-light btn-category">
-                                                    Thêm
-                                                </button>
+                                                <button id="btnluu" type="submit" class="btn btn-primary waves-effect waves-light btn-category">
+                                            Thêm
+                                            </button>
                                                 <a href="">
                                                     <button type="reset" class="btn btn-secondary waves-effect m-l-5">
                                                         Cancel
@@ -142,6 +141,7 @@
     <script src="assets/javascript/category.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/main.js"></script>
+    
 
 
 </body>
