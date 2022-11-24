@@ -14,7 +14,7 @@ const response = await fetch(
   );
   const product = await response.json();
     // console.log(product);
-    if(product) {
+    if( product && product.trangThai == 1 ) {
       table.innerHTML += `
     <div class="col-lg-6 col-md-6">
         <div class="product__details__pic">

@@ -49,7 +49,7 @@ async function showProduct() {
 if (data , data1) {
     for (const [key, value] of Object.entries(data)) {
         if(id_item == value.idDMT )
-        if (value) {
+        if (value && value.trangThai== 1 ) {
             content += `
             <div class="col-lg-4 col-md-6 col-sm-6 cover__product">
                 <div class="product__item">

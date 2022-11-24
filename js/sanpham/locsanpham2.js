@@ -19,7 +19,7 @@ if (data , data1) {
       // console.log(id_item1);
       if( id_item == value.idDMT && id_item1 == value.idDM){
         //   console.log(value);
-        if (value) {
+        if (value && value.trangThai== 1 ) {
             content += `
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="product__item">
