@@ -632,7 +632,7 @@ ol {
 }
 
 .hero__search__phone {
-	float: right;
+	padding: 15px 0;
 }
 
 .hero__search__phone__text,

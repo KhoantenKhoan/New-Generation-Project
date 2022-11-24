@@ -107,7 +107,10 @@ let header = `
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
                             <div class="header__top__right__auth">
-                                <a href="./login.html"><i class="fa fa-user"></i> Đăng nhập</a>
+                                <a href="./login.html"><i class="fa fa-user"></i> Đăng nhập / </a>
+                            </div>
+                            <div class="header__top__right__auth">
+                                <a href="./resigter.html"><i class="fa fa-user"></i> Đăng ký</a>
                             </div>
                         </div>
                     </div>
@@ -121,17 +124,18 @@ let header = `
                         <a href="./index.html"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a class="nav__link" href="./index.html">Trang chủ</a></li>
                             <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Sản phẩm</a></li>
                             <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Về Chúng tôi</a></li>
+                            <li><a class="nav__link" href="./blog.html">Tin tức</a></li>
                             <li><a class="nav__link" href="./contact.html">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="hero__search__phone col-lg-3 box_icon">
+                <div class="hero__search__phone col-lg-1 box_icon">
                                 <div class="hero__search__phone__text">
                                     <a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i></a> 
                                 </div>
