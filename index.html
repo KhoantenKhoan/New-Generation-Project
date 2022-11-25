@@ -32,6 +32,49 @@
         <div class="loader"></div>
     </div>
 
+    <!-- Popup -->
+    <section class="popup">
+        <div class="contentBox">
+            <div class="close"></div>
+            <div class="img-popup">
+                <img src="./img/banner/banner-4.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Giảm giá "So deep"</h3>
+                <h2>69<sup>%</sup><span> OFF</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Odit quidem deserunt est itaque incidunt! 
+                    Beatae aut excepturi laudantium cupiditate saepe!
+                </p>
+                <a href="./shop-grid.html?idDMT=1">Mua ngay!</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        const popup = document.querySelector('.popup');
+        const close = document.querySelector('.close');
+        
+        // $(document).ready(function () {
+    
+        // $(".popup").hide().fadeIn(1000);
+        // //close the POPUP if the button with id="close" is clicked
+        // $(".close").on("click", function (e) {
+        //     e.preventDefault();
+        //     $(".popup").fadeOut(1000);
+        // });
+        
+        window.onload = function(){
+            setTimeout(function(){
+                popup.style.display = "block";
+            }, 2000)
+        }
+
+        close.addEventListener('click', () => {
+            popup.style.display="none";
+        })
+        
+    </script>
+
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper" id="humberger">
@@ -444,7 +487,7 @@
     <script src="./js/footAndHead.js"></script>
     <script src="./js/script.js"></script>
     <Script src="./js/giohang/themvaogiohang.js"></Script>
-
+    <!-- <script src="./js/popup.js"></script> -->
 </body>
 
 </html>

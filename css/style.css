@@ -29,10 +29,17 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 html,
 body {
+	/* min-height: 100vh; */
+	/* background: rgba(0, 0, 0, 0.445); */
 	height: 100%;
+	/* background: #f3f3f3; */
 	/* font-family: "Cairo", sans-serif; */
 	/* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 	/* -webkit-font-smoothing: antialiased; */
@@ -157,6 +164,7 @@ ol {
 .text-white a {
 	color: #fff;
 }
+
 
 /* buttons */
 
