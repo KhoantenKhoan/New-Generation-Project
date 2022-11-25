@@ -81,38 +81,40 @@
 					<form>
 						<div class="form-outline mb-4">
 							<label class="form-label" for="form1Example13">Họ và tên<span style="color:#ff0000">*</span></label>
-							<input type="email" id="form1Example13" class="form-control form-control-lg"
+							<input type="email" id="fullname" class="form-control form-control-lg"
 								placeholder="Nhập họ và tên" />
 						</div>
 						<div class="form-outline mb-4">
 							<label class="form-label" for="form1Example13">Email<span style="color:#ff0000">*</span></label>
-							<input type="email" id="form1Example13" class="form-control form-control-lg"
+							<input type="email" id="email" class="form-control form-control-lg"
 								placeholder="Nhập email" />
 						</div>
 						<!-- Email input -->
 						<div class="form-outline mb-4">
 							<label class="form-label" for="form1Example13">Số điện thoại<span style="color:#ff0000">*</span></label>
-							<input type="number" id="form1Example13" class="form-control form-control-lg"
+							<input type="number" id="phone" class="form-control form-control-lg"
 								placeholder="Nhập số điện thoại" />
 						</div>
 
 						<!-- Password input -->
 						<div class="form-outline mb-4">
 							<label class="form-label" for="form1Example23">Mật khẩu<span style="color:#ff0000">*</span></label>
-							<input type="password" id="form1Example23" class="form-control form-control-lg"
+							<input type="password" id="password" class="form-control form-control-lg"
 								placeholder="Nhập mật khẩu" />
 						</div>
 						<div class="form-outline mb-4">
 							<label class="form-label" for="form1Example23">Xác nhận mật khẩu<span style="color:#ff0000">*</span></label>
-							<input type="password" id="form1Example23" class="form-control form-control-lg"
+							<input type="password" id="repassword" class="form-control form-control-lg"
 								placeholder="Nhập mật khẩu" />
 						</div>
 						<div class="d-flex justify-content-around align-items-center mb-4">
 							<a href="./login.html">Đã có tài khoản </a>
 						</div>
-
+						<div class="form-group">
+							<p id="erros"></p>
+						</div>
 						<!-- Submit button -->
-						<button type="submit" class="btn btn-primary btn-lg btn-block">Đăng ký</button>
+						<button type="submit" id="dangky" class="btn btn-primary btn-lg btn-block">Đăng ký</button>
 						<a class="btn btn-primary btn-lg btn-block" 
 						style="background-color: #ee5a55" href="#!" role="button">
 							<i class="fa fa-google me-2"></i> Đăng ký với Google</a>
@@ -132,6 +134,7 @@
 
 	<!-- Js Plugins -->
 	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="./js/toastr.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
@@ -139,9 +142,13 @@
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
 
 	<!-- JS -->
 	<script src="js/footAndHead.js"></script>
+	<script src="js/user/dangky.js" defer type="module"></script>
 
 
 </body>
