@@ -67,7 +67,6 @@ const response = await fetch(
 async function renderComment() {
     let params = new URLSearchParams(location.search);
     let id = params.get("id");
-    console.log(id);
 
     let response1 = await comment.getAll('binhLuan');
     let response2 = await member.getAll('khachHang');
@@ -134,7 +133,7 @@ async function showProduct() {
     
     if (data2) {
         for (const [key, value] of Object.entries(data2) ) {
-            if( value.idDM == id_item1 && key != id_item){
+            if( value.idDM == id_item1 && key != id_item && value.trangThai == 1){
         if (value) {
             content += `
             <div class="col-lg-3 col-md-4 col-sm-6">

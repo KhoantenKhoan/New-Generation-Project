@@ -123,3 +123,112 @@
 #erros{
     color: red;
 }
+/* popup */
+
+/* body .popup{
+	background:rgba(0, 0, 0, 0.5);
+} */
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+	z-index: 1000;
+    box-shadow: 20px 17px 20px 0px rgb(0 0 0 / 10%);
+}
+
+.popup::before{
+
+}
+
+.contentBox{
+    position: relative;
+    height: 400px;
+    width: 600px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contentBox .img-popup{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox .img-popup img{
+    position: relative;
+    max-width: 250px;
+    z-index: 1;
+}
+
+.contentBox .content{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentBox .content h3{
+    color: #2b2b2b;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: em;
+    margin-bottom: 10px;
+}
+
+.contentBox .content h2{
+    font-size: 24px;
+    color: #ff4d54;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contentBox .content p{
+    font-weight: 300;
+}
+
+.contentBox .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #003049;
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.contentBox .content a:hover{
+    /* transition: ; */
+    background:#ff4d54;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #f3f3f3 url(/img/close.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    /* transform: translate(-50%, -50%); */
+}
+
+/* .close:hover{
+    background: #ff4d54 url(/img/close.png);
+} */

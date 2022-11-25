@@ -91,3 +91,4 @@ async function insertRegister(data) {
 }
 
 register();
+
