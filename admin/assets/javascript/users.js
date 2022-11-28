@@ -1,24 +1,44 @@
-url = "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/khachHang.json";
-fetch(url)
-  .then((res) => res.json())
-  .then((list) => {
-    list.forEach((kh) => {
-      document.querySelector("#kh").innerHTML += `
-        <tr>
-            <td>${kh.id}</td>
-            <td>${kh.tenKH}</td>
-            <td>${kh.matKhau}</td>
-            <td class="img"><img src="${kh.hinhAnh}" alt=""></td>
-            <td class="des">${kh.diaChi}</td>
-            <td>${kh.email}</td>
-            <td>${kh.sdt}</td>
-            <td> <label class="badge badge-warning">${kh.idKH==0?"Admin":"Khách hàng"}</label> </td>
-            <td>
-                <button class="badge badge-primary sua button">Sửa</button>
-                <button class="badge badge-danger xoa button">Xóa</button>
-            </td>
-        </tr>
-		`;
 
-    });
-  });
+  let count =1;
+  var table = document.querySelector("#kh");
+      (async () => {
+        const response = await fetch(
+          "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/khachHang.json"
+        );
+        const data = await response.json();
+        Object.keys(data).forEach((key) => {
+          const row = data[key];
+          console.log(row);
+          console.log(key);
+          if(row){
+          table.innerHTML += `
+          <tr>
+          <td>${count++}</td>
+          <td>${row.tenKH}</td>
+          <td>${row.matKhau}</td>
+          <td class="img"><img src="${row.hinhAnh}" alt=""></td>
+          <td class="des">${row.diaChi}</td>
+          <td>${row.email}</td>
+          <td>${row.sdt}</td>
+          <td> <label class="badge badge-warning">${row.vaiTro==1?"Admin":"Khách hàng"}</label> </td>
+          <td>
+            <a href="update-user.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
+            <button class="badge badge-danger xoa button" onclick="xoa('${key}')">Xóa</button>
+          </td>
+        </tr>
+            `;}
+        });
+      })();
+
+      const xoa = (id) => {
+        console.log(id);
+        (async () => {
+          await fetch(
+            `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/khachHang/${id}.json`,
+            {
+              method: "DELETE",
+            }
+          );
+          window.location.reload();
+        })();
+      };

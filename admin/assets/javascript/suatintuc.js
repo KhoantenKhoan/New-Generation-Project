@@ -3,6 +3,7 @@ let id = params.get('id');
 btnluu = document.querySelector("#btnluu");
 btnluu.onclick = function(){
   url=`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/thongBao/${id}.json`;
+
   var check = document.getElementsByClassName('anHien');
   for (var i = 0; i < check.length; i++) {
     if (check[i].checked === true) {
@@ -17,6 +18,7 @@ btnluu.onclick = function(){
     trangThai:anHien
    
    
+
   }
   options = {
     method: "PUT",
