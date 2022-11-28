@@ -56,24 +56,43 @@
                             <div class="card m-b-30">
                                 <div class="card-body">
 
-                                    <h4 class="mt-0 header-title">Thêm danh mục</h4>
+                                    <h4 class="mt-0 header-title">Sửa Users</h4>
                                     <div class="form">
                                         <div class="form-group">
-                                            <label>Tên danh mục</label>
-                                            <input type="text" class="form-control" id="namecat" name="name" required="" placeholder="Tên sản phẩm...">
+                                            <label>Tên thành viên</label>
+                                            <input type="text" class="form-control" id="tenKH" name="name" required="" placeholder="Tên sản phẩm...">
                                         </div>
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input type="text" class="form-control" id="email" name="name" required="" placeholder="Email...">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Mật khẩu</label>
+                                            <input type="text" class="form-control" id="matKhau" name="name" required="" placeholder="Mật khẩu...">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Hình ảnh</label>
+                                            <input type="text" class="form-control" id="hinhAnh" name="name" required="" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Địa chỉ</label>
+                                            <input type="text" class="form-control" id="diaChi" name="name" required="" placeholder="Địa chỉ...">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label>Số điện thoại</label>
+                                            <input type="text" class="form-control" id="sdt" name="name" required="" placeholder="Số điện thoại...">
+                                        </div>
+
                                         <label for="" class="m-r-15">Trạng thái: </label>
-                                        <label class="btn btn-outline-success waves-effect waves-light m-r-10">
-                                            <input type="radio" name="stt" id="stt1" value="1">
-                                            Hiện
-                                    </label>
-                                        <label class="btn btn-outline-danger waves-effect waves-light">
-                                            <input type="radio" name="stt" id="stt2" value="0">
-                                            Ẩn
-                                    </label>
+                                        <div id="div_anHien">
+                                            
+                                        </div>
+                                        
                                         <div class="form-group">
                                             <div>
-                                                <button type="submit" class="btn btn-primary waves-effect waves-light btn-update">
+                                                <button id="btnluu" type="submit" class="btn btn-primary waves-effect waves-light btn-update">
                                             Cập nhật
                                             </button>
                                                 <a href="">
@@ -132,7 +151,8 @@
         <script src="assets/component/topbar.js"></script>
         <script src="assets/js/app.js"></script>
         <script src="assets/js/main.js"></script>
-        <script src="assets/javascript/category.js"></script>
+        <script src="assets/javascript/suauser.js"></script>
+
 </body>
 
 </html>
