@@ -26,14 +26,14 @@
     <link rel="stylesheet" href="css/newStyle.css" type="text/css">
 </head>
 
-<body>
+<body id="body">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
     <!-- Popup -->
-    <section class="popup">
+    <section class="popup" id="popup">
         <div class="contentBox">
             <div class="close"></div>
             <div class="img-popup">
@@ -47,8 +47,9 @@
             </div>
         </div>
     </section>
-    <script>
+    <!-- <script>
         const popup = document.querySelector('.popup');
+        const body = document.querySelector('#popup');
         const close = document.querySelector('.close');
         
         // $(document).ready(function () {
@@ -62,6 +63,7 @@
         
         window.onload = function(){
             setTimeout(function(){
+                body.style.background = "#000";
                 popup.style.display = "block";
             }, 4000)
         }
@@ -70,7 +72,7 @@
             popup.style.display="none";
         })
         
-    </script>
+    </script> -->
 
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
@@ -479,12 +481,12 @@
     <script src="./js/toastr.min.js"></script>
 
     <!-- JS -->
+    <script src="./js/popup.js"></script>
     <script src="./js/sanpham/hiensanpham.js" defer type="module"></script>
     <script src="./js/danhmuc/hiendanhmuctong.js" defer type="module"></script>
     <script src="./js/footAndHead.js"></script>
     <script src="./js/script.js"></script>
     <Script src="./js/giohang/themvaogiohang.js"></Script>
-    <!-- <script src="./js/popup.js"></script> -->
 </body>
 
 </html>
