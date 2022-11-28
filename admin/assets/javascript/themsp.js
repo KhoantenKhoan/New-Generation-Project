@@ -2,12 +2,12 @@ btnluu = document.querySelector("#btnluu");
 btnluu.onclick = function(){
   url="https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham.json";
   var check = document.getElementsByClassName('anHien');
-    for (var i = 0; i < check.length; i++) {
-      if (check[i].checked === true) {
-        anHien = check[i].value;
-        console.log(anHien);
+      for (var i = 0; i < check.length; i++) {
+        if (check[i].checked === true) {
+          anHien = check[i].value;
+          console.log(anHien);
+        }
       }
-    }
   sp={
     idDMT : document.querySelector("#dmt").value.trim(),
     idDM : document.querySelector("#dm").value.trim(),

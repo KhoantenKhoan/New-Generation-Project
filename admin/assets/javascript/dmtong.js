@@ -16,6 +16,9 @@
           <td>${count++}</td>
           <td>${row.tenDMT}</td>
           <td>
+          ${row.trangThai=="1"?"Còn hàng":"Hết hàng"}
+          </td>
+          <td>
             <a href="suadanhmuc.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
             <button class="badge badge-danger xoa button" onclick="xoasp('${key}')">Xóa</button>
           </td>
@@ -28,7 +31,7 @@
         console.log(id);
         (async () => {
           await fetch(
-            `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMucTong.json`,
+            `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMucTong/${id}.json`,
             {
               method: "DELETE",
             }
