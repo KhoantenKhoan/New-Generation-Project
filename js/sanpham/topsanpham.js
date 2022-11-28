@@ -20,7 +20,7 @@ const product = new FireBaseService();
                         </div>
                         <div class="latest-product__item__text">
                             <h6>${value.tenSP}</h6>
-                            <span>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} VNĐ</span>
+                            <span>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - value.gia * (value.giamGia/100))} VNĐ</span>
                         </div>
                     </a>
                 </div>

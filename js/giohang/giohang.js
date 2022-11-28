@@ -33,6 +33,13 @@ function tinhtien(gia, soluong, i){
     document.getElementsByClassName("tien")[i].innerText = (tien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '') + " ₫";
     tinhtongtien();
 }
+    let km = 0;
+    let khuyenmai = document.getElementById("km")
+    let maKhuyenMai = document.getElementById("khuyenMai")
+    khuyenmai.onclick = function KhuyenMai() {
+        km = khuyenmai.value.trim();
+        tinhtongtien()
+    };
 function tinhtongtien(){
     arrTien = document.getElementsByClassName("tien");
     tongtien=0;
@@ -40,10 +47,11 @@ function tinhtongtien(){
         // console.log(t);
         tongtien +=  parseInt(t.innerText);
     }
+    tienTT = tongtien - (km != 0 ?(tongtien * (km/100)):0);
     document.getElementById("tongtien").innerText = (tongtien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
-
-    document.getElementById("tientong").innerText = (tongtien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
-    let tientong = (tongtien+(tongtien/10));
+    document.getElementById("giamgia").innerText = (km)+ " %";
+    document.getElementById("tientong").innerText = (tienTT).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')+ " ₫";
+    let tientong = (tienTT+(tienTT *(10/100)));
     localStorage.setItem("tientong", tientong);
 }
 tinhtongtien();

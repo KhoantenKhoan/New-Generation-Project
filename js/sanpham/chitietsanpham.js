@@ -58,9 +58,43 @@ const response = await fetch(
                 </ul>
             </div>
         </div>
-        
+        <input type="hidden" id="idDMT" value="${product.idDMT}">
+      <input type="hidden" id="idDM" value="${product.idDM}">
+      <input type="hidden" id="tenSP" value="${product.tenSP}">
+      <input type="hidden" id="moTa" value="${product.moTa}">
+      <input type="hidden" id="hinhAnh" value="${product.hinhAnh}">
+      <input type="hidden" id="ngayNhap" value="${product.ngayNhap}">
+      <input type="hidden" id="gia" value="${product.gia}">
+      <input type="hidden" id="giamGia" value="${product.giamGia}">
+      <input type="hidden" id="soLuong" value="${product.soLuong}">
+      <input type="hidden" id="trangThai" value="${product.trangThai}">
+      <input type="hidden" id="luotXem" value="${product.luotXem + 1}">
         `;
     }
+    let sp={
+        idDMT : document.querySelector("#idDMT").value.trim(),
+        idDM : document.querySelector("#idDM").value.trim(),
+        tenSP: document.querySelector("#tenSP").value.trim(),
+        moTa: document.querySelector("#moTa").value.trim(),
+        hinhAnh: document.querySelector("#hinhAnh").value.trim(),
+        ngayNhap: document.querySelector("#ngayNhap").value.trim(),
+        gia: document.querySelector("#gia").value.trim(),
+        giamGia:document.querySelector("#giamGia").value.trim(),
+        soLuong: document.querySelector("#soLuong").value.trim(),
+        trangThai : document.querySelector("#trangThai").value.trim(),
+        luotXem: document.querySelector("#luotXem").value.trim(),
+      }
+      console.log(sp);
+    // let options = {
+    //   method: "PUT",
+    //   body: JSON.stringify(sp),
+    //   headers: {'Content-Type':'application/json'}
+    // }
+    // fetch(`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham/${id_item}.json`, options).then(res => res.json())
+    // .then(data =>{
+    //     console.log(data);
+    // //   document.location="product.html";
+    // })
 }
 )();
 
@@ -144,7 +178,7 @@ async function showProduct() {
                             </a>
                                 <ul class="product__item__pic__hover">
                                     <li>
-                                        <a onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" href="">
+                                        <a onclick="giohang(${key},'${value.tenSP}',${value.gia - value.gia * (value.giamGia/100)},'${value.hinhAnh}')" href="">
                                             <i class="fa fa-shopping-cart"></i>
                                         </a>
                                     </li>
@@ -158,7 +192,7 @@ async function showProduct() {
                                     <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
                                 </div>
                                 <div class="product__item__price">
-                                    <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
+                                    <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - value.gia * (value.giamGia/100))} </h5>
                                 </div>
                         </div>
                     </div>
