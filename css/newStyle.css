@@ -135,12 +135,12 @@
     transform: translate(-50%, -50%);
     display: none;
 	z-index: 1000;
-    box-shadow: 20px 17px 20px 0px rgb(0 0 0 / 10%);
+    /* box-shadow: 20px 17px 20px 0px rgba(0, 0, 0, 0.842); */
 }
-
+/* 
 .popup::before{
-
-}
+background: ;
+} */
 
 .contentBox{
     position: relative;

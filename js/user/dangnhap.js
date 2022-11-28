@@ -4,7 +4,7 @@
 
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
     import { getDatabase } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js";
-    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";
+    import { getAuth, GoogleAuthProvider, signInWithRedirect , signInWithPopup, getRedirectResult} from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";
     // TODO: Add SDKs for Firebase products that you want to use
     // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -23,76 +23,63 @@
 
   // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    // const database = getDatabase(app);
-    // const auth = getAuth();
+    const database = getDatabase(app);
+    const auth = getAuth();
     const Auth = new FireBaseService();
 
-    const signIn = document.getElementById("login");
     let erros = document.getElementById("erros");
-    
-    
-    
-    const email = document.getElementById("email");
-    const password = document.getElementById("password");
-    // login.addEventListener('click', (e) => {
-
-    //     createUserWithEmailAndPassword(auth, email, password)
-    //     .then((userCredential) => {
-    //         // Signed in 
-    //         const user = userCredential.user;
-    //         alert("dsadsad");
-    //         // ...
-    //     })
-    //     .catch((error) => {
-    //         const errorCode = error.code;
-    //         const errorMessage = error.message;
-    //         // ..
-    //     });
-    // })
-
 
     
-function login() {
-    signIn.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        if (email.value == '' || password.value == '') {
-            erros.innerHTML ='<span class="erro">Vui lòng điền đẩy đủ thông tin !</span>';
-        } else if (password.value.length < 6 || password.value.length > 30) {
-            erros.innerHTML ='<span class="erro">Mật khẩu vui lòng lớn hơn 6 kí tự !</span>';
-        } else {
-            loginMember(email,password);
-            
 
-        }
-    })
-}
+    function login() {
+        $(document).on('click', '#login', function(e) {
+            e.preventDefault();
+            let email = $('#email').val().trim();
+            let password = $('#password').val().trim();
+            // console.log(email);
+            // console.log(password);
+            let hashpassword = sha256(password);
+            // console.log(hashpassword);
+            if (email == '' || password == '') {
+                erros.innerHTML ='<span class="erro">Vui lòng điền đẩy đủ thông tin !</span>';
+            // } else if (!validateEmail(email)) {
+            //     $('.msg-error-login.email').html('Email không đúng định dạng !');
+            //     $('.msg-error-login.password').html('');
+            } else if (password.length < 6 || password.length > 30) {
+                erros.innerHTML ='<span class="erro">Mật khẩu vui lòng lớn hơn 6 kí tự !</span>';
+            } else {
+                loginMember(email,hashpassword);
+            }
+        })
+    }
+    
+    
+    async function loginMember(email, hashpassword) {
+        // console.log(localStorage.getItem("checkLoginCart"));
+        let response = await Auth.getAll('khachHang');
+        let data = await response.json();
+        Object.keys(data).forEach((e) => {
+            if (email != data[e].email) {
+                console.log(data);
+                console.log(data[e].email);
+                erros.innerHTML = '<span class="erro">Tài khoản không tồn tại !</span>';
+            } else if (hashpassword != data[e].password) {
+                console.log(data[e].password);
+                erros.innerHTML = '<span class="erro">Mật khẩu không đúng !</span>';     
+            // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
+            //     sessionStorage.setItem("member", email);
+            //     sessionStorage.removeItem("checkLoginCart");
+            //     window.location.href = 'checkout.html';
+    
+            } else {
+
+                sessionStorage.setItem("member", email);
+                // window.location.href = 'index.html';
+            }
+        })
+    }
+
+login()
 
 
-async function loginMember(email, password) {
-    // console.log(localStorage.getItem("checkLoginCart"));
-    let response = await Auth.getAll('khachHang');
-    let data = await response.json();
-    Object.keys(data).forEach((e) => {
-        if (email.value != data[e].email) {
-            erros.innerHTML = '<span class="erro">Tài khoản không tồn tại !</span>';
-            toastr.warning("Đăng nhập thành công")
-            
-        } else if (password.value != data[e].matKhau) {
 
-            erros.innerHTML = '<span class="erro">Mật khẩu không đúng !</span>';
-        // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
-        //     sessionStorage.setItem("member", email);
-        //     sessionStorage.removeItem("checkLoginCart");
-        //     window.location.href = 'checkout.html';
-
-        } else {
-            // erros.innerHTML =('');
-            toastr.success("Đăng nhập thành công")
-            sessionStorage.setItem("member", email);
-            // window.location.href = 'index.html';
-        }
-    })
-}
-
-login();
