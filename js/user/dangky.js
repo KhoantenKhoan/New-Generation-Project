@@ -70,15 +70,18 @@ function register() {
         } else {
             let data = {
                 tenKH: fullname,
-                password: hashpassword,
+                matKhau: hashpassword,
                 email: email,
-                vaiTro: 1
-                
+                sdt: phone,
+                hinhAnh: " ",
+                diaChi: " ",
+                vaiTro: "0"
             }
             insertRegister(data);
             // $('.msg-success.all').html('Đăng ký thành công !!')
             toastr.success("Đăng ký thành công")
             erros.innerHTML ="Đăng ký thành công";
+            
             // $('.msg-error.all').html('');
             // $('.msg-error.password').html('');
             // $('.msg-error.email').html('');

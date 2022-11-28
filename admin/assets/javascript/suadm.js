@@ -3,7 +3,7 @@ let id = params.get('id');
 btnluu = document.querySelector("#btnluu");
 btnluu.onclick = function(){
   
-  url=`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMucTong/${id}.json`;
+  url=`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMuc/${id}.json`;
   var check = document.getElementsByClassName('anHien');
   for (var i = 0; i < check.length; i++) {
     if (check[i].checked === true) {
@@ -12,7 +12,8 @@ btnluu.onclick = function(){
     }
   }
   sp={
-    tenDMT: document.querySelector("#ten").value.trim(),
+    tenDM: document.querySelector("#ten").value.trim(),
+    idDMT : document.querySelector("#dmt").value.trim(),
     trangThai : anHien
   }
   options = {
@@ -22,7 +23,7 @@ btnluu.onclick = function(){
   }
   fetch(url, options).then(res => res.json())
   .then(data =>{
-    document.location="dmTong.html";
+    document.location="category.html";
   })
 }
 
@@ -36,11 +37,12 @@ btnluu.onclick = function(){
 //     `;
 //   })
 // })
-url = `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMucTong/${id}.json`;
+url = `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMuc/${id}.json`;
 fetch(url)
 .then(res => res.json())
 .then(sp  =>{
-    document.getElementById('ten').value = sp.tenDMT;
+    document.getElementById('ten').value = sp.tenDM;
+    document.getElementById("dmt").value= sp.idDMT,
     document.getElementById('div_anHien').innerHTML = `
     <label class="btn btn-outline-success waves-effect waves-light m-r-10">
     <input type="radio" name="anHien" value="1" class="anHien" ${sp.trangThai=="1" ? "checked" :""}>Còn hàng
@@ -52,3 +54,18 @@ fetch(url)
 
     
 })
+var table1 = document.querySelector("#dmt");
+      (async () => {
+        const response = await fetch(
+          "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMucTong.json"
+        );
+        const data = await response.json();
+        Object.keys(data).forEach((key) => {
+          const row = data[key];
+          console.log(row);
+          console.log(key);
+          table1.innerHTML += `
+          <option value="${key}">${row.tenDMT}</option>
+            `;
+        });
+      })();
