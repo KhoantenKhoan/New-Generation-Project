@@ -233,3 +233,37 @@ background: ;
 /* .close:hover{
     background: #ff4d54 url(/img/close.png);
 } */
+
+/* Search */
+.search{
+    /* display: none; */
+    z-index: 1;
+    margin-top: 2%;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #000;
+}
+.search .latest-product__item{
+    height: auto;
+    margin-bottom:0 !important;
+    margin-top: 1% !important;
+    border-bottom: 1px solid #000;
+}
+.search .latest-product__item .latest-product__item__pic{
+    width: 25%;
+    margin-left: 1% !important;
+}
+.search .latest-product__item .latest-product__item__pic .img-search{
+    width: auto;
+    height: 130px !important;
+}
+/* .search .latest-product__item .latest-product__item__text{
+    
+} */
+#search-item{
+    color: #000;
+    font-size: 25px;
+}
+

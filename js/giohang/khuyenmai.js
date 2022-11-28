@@ -13,7 +13,7 @@ async function showBrand() {
         if (value) {
           // console.log(value);
           content += `
-            <option value="${value.id}">
+            <option id="khuyenMai" value="${value.giamGia}">
               ${value.khuyenMai}     |     <span class="discount__number">${value.giamGia}%</span>
             </option>
             `;
@@ -21,6 +21,5 @@ async function showBrand() {
       }
     }
     document.querySelector('#km').innerHTML = content;
-    //document.getElementById('km').value=value;
   }
   showBrand();

@@ -20,7 +20,7 @@ const product = new FireBaseService();
                               <img src="${value.hinhAnh}" alt="">
                             </a>
                             <ul class="featured__item__pic__hover">
-                              <li><a  onclick="giohang(${key},'${value.tenSP}',${value.gia - (value.gia / value.giamGia)},'${value.hinhAnh}')" ><i class="fa fa-shopping-cart"></i></a></li>
+                              <li><a  onclick="giohang(${key},'${value.tenSP}',${value.gia - value.gia * (value.giamGia/100)},'${value.hinhAnh}')" ><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                           </div>
 
@@ -32,7 +32,7 @@ const product = new FireBaseService();
                               <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
                             </div>
                             <div class="featured__item_new_price">
-                              <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - (value.gia / value.giamGia))} </h5>
+                              <h5 style="color:red;">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - value.gia * (value.giamGia/100))} </h5>
                             </div>
                           </div>
                       </div>
