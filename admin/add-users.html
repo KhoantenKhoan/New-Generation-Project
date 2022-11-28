@@ -59,36 +59,45 @@
                                     <div class="form">
                                         <div class="form-group">
                                             <label>Tên thành viên</label>
-                                            <input type="text" class="form-control" name="name" required="" placeholder="Tên thành viên...">
+                                            <input type="text" class="form-control" id="tenKH" name="name" required="" placeholder="Tên thành viên...">
                                         </div>
                                         <div class="form-group">
                                             <label>Email</label>
-                                            <input type="text" class="form-control" name="name" required="" placeholder="Email...">
+                                            <input type="text" class="form-control" id="email" name="name" required="" placeholder="Email...">
                                         </div>
                                         <div class="form-group">
                                             <label>Mật khẩu</label>
-                                            <input type="text" class="form-control" name="name" required="" placeholder="Mật khẩu...">
+                                            <input type="text" class="form-control" id="matKhau" name="name" required="" placeholder="Mật khẩu...">
                                         </div>
 
                                         <div class="form-group">
                                             <label>Hình ảnh</label>
-                                            <input type="file" class="form-control" name="name" required="" placeholder="">
+                                            <input type="file" class="form-control" id="hinhAnh" name="name" required="" placeholder="">
                                         </div>
                                         <div class="form-group">
                                             <label>Địa chỉ</label>
-                                            <input type="text" class="form-control" name="name" required="" placeholder="Địa chỉ...">
+                                            <input type="text" class="form-control" id="diaChi" name="name" required="" placeholder="Địa chỉ...">
                                         </div>
                                         
                                         <div class="form-group">
                                             <label>Số điện thoại</label>
-                                            <input type="text" class="form-control" name="name" required="" placeholder="Số điện thoại...">
+                                            <input type="text" class="form-control" id="sdt" name="name" required="" placeholder="Số điện thoại...">
                                         </div>
-
+                                        <label for="" class="m-r-15">Vai trò: </label>
+                                        <label class="btn btn-outline-success waves-effect waves-light m-r-10">
+                                            <input type="radio" name="stt" id="anHien" value="1" checked>
+                                            Admin
+                                        </label>
+                                        <label class="btn btn-outline-danger waves-effect waves-light">
+                                            <input type="radio" name="stt" id="anHien" value="0">
+                                            User
+                                        </label>
+                                        
                                         <div class="form-group">
                                             <div>
-                                                <button type="submit" class="btn btn-primary waves-effect waves-light btn-category">
+                                                <button id="btnluu" type="submit" class="btn btn-primary waves-effect waves-light btn-category">
                                             Thêm
-                                            </button>
+                                                </button>
                                                 <a href="">
                                                     <button type="reset" class="btn btn-secondary waves-effect m-l-5">
                                                 Cancel
@@ -148,9 +157,10 @@
     <!-- App js -->
     <script src="assets/component/left-side.js"></script>
     <script src="assets/component/topbar.js"></script>
-    <script src="assets/javascript/category.js"></script>
+    <script src="assets/javascript/add-users.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/main.js"></script>
+    
 
 
 </body>

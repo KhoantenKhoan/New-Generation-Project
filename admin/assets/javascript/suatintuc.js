@@ -2,17 +2,11 @@ let params = new URLSearchParams(location.search);
 let id = params.get('id');
 btnluu = document.querySelector("#btnluu");
 btnluu.onclick = function(){
-  url=`http://localhost:3000/tintuc/${id}`;
+  url=`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/thongBao/${id}.json`;
   
   sp={
-    TieuDe: document.querySelector("#tieude").value.trim(),
-      TacGia: document.querySelector("#tacgia").value.trim(),
-      HinhAnh: document.querySelector("#hinh").value.trim(),
-      NgayDang: document.querySelector("#ngaynhap").value.trim(),
-      NoiDung: document.querySelector("#mota").value.trim(),
-      TomTat: document.querySelector("#tomtat").value.trim(),
-      LuotXem:0
-    
+      hinhAnh: document.querySelector("#hinh").value.trim(),
+      ngayDang: document.querySelector("#ngaynhap").value.trim(),
   }
   options = {
     method: "PUT",
