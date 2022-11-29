@@ -54,23 +54,16 @@ function register() {
             erros.innerHTML ="Vui lòng điền đầy đủ thông tin"
         } else if (!validateEmail(email)) {
             erros.innerHTML ="Email không đúng định dạng"
-            // alert("Vui lognf didenf email");
-            // $('.msg-error.email').html('Email không đúng định dạng !');
-            // $('.msg-error.all').html('');
         }else if(phone == ''){
             erros.innerHTML = "Nhập số điện thoại";
         } else if (password.length < 6 || password.length > 30) {
             erros.innerHTML ="Mật khẩu từ 6 tới 30 kí tự"
-            // $('.msg-error.all').html('');
-            // $('.msg-error.email').html('');
         } else if (!(password === repassword)) {
-            erros.innerHTML ="2 mật khẩu không khớp"
-            // $('.msg-error.password').html('');
-            // $('.msg-error.email').html('');
+            erros.innerHTML ="2 mật khẩu không khớp";
         } else {
             let data = {
                 tenKH: fullname,
-                matKhau: hashpassword,
+                password: hashpassword,
                 email: email,
                 sdt: phone,
                 hinhAnh: " ",
@@ -78,13 +71,8 @@ function register() {
                 vaiTro: "0"
             }
             insertRegister(data);
-            // $('.msg-success.all').html('Đăng ký thành công !!')
-            toastr.success("Đăng ký thành công")
+            toastr.success("Đăng ký thành công");
             erros.innerHTML ="Đăng ký thành công";
-            
-            // $('.msg-error.all').html('');
-            // $('.msg-error.password').html('');
-            // $('.msg-error.email').html('');
         }
     })
 }

@@ -26,58 +26,52 @@
     const database = getDatabase(app);
     const auth = getAuth();
     const Auth = new FireBaseService();
-
+    const signIn = document.querySelector("#login");
+    const email = document.querySelector("#email");
+    const password = document.querySelector("#password");
     let erros = document.getElementById("erros");
+    let hashpassword = sha256(password);
 
-    
+ 
+function login() {
+    signIn.addEventListener('click', function(e) {
+        // alert("123")
+        e.preventDefault();
 
-    function login() {
-        $(document).on('click', '#login', function(e) {
-            e.preventDefault();
-            let email = $('#email').val().trim();
-            let password = $('#password').val().trim();
-            // console.log(email);
-            // console.log(password);
-            let hashpassword = sha256(password);
-            // console.log(hashpassword);
-            if (email == '' || password == '') {
-                erros.innerHTML ='<span class="erro">Vui lòng điền đẩy đủ thông tin !</span>';
-            // } else if (!validateEmail(email)) {
-            //     $('.msg-error-login.email').html('Email không đúng định dạng !');
-            //     $('.msg-error-login.password').html('');
-            } else if (password.length < 6 || password.length > 30) {
-                erros.innerHTML ='<span class="erro">Mật khẩu vui lòng lớn hơn 6 kí tự !</span>';
-            } else {
-                loginMember(email,hashpassword);
-            }
-        })
-    }
-    
-    
-    async function loginMember(email, hashpassword) {
-        // console.log(localStorage.getItem("checkLoginCart"));
-        let response = await Auth.getAll('khachHang');
-        let data = await response.json();
-        Object.keys(data).forEach((e) => {
-            if (email != data[e].email) {
-                console.log(data);
-                console.log(data[e].email);
-                erros.innerHTML = '<span class="erro">Tài khoản không tồn tại !</span>';
-            } else if (hashpassword != data[e].password) {
-                console.log(data[e].password);
-                erros.innerHTML = '<span class="erro">Mật khẩu không đúng !</span>';     
-            // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
-            //     sessionStorage.setItem("member", email);
-            //     sessionStorage.removeItem("checkLoginCart");
-            //     window.location.href = 'checkout.html';
-    
-            } else {
+        if (email.value == '' || password.value == '') {
+            erros.innerHTML ='<span class="erro">Vui lòng điền đẩy đủ thông tin !</span>';
+        } else if (password.value.length < 6 || password.value.length > 30) {
+            erros.innerHTML ='<span class="erro">Mật khẩu vui lòng lớn hơn 6 kí tự !</span>';
+        } else {
+            loginMember(email,hashpassword);
 
-                sessionStorage.setItem("member", email);
-                // window.location.href = 'index.html';
-            }
-        })
-    }
+        }
+    })
+}
+
+
+async function loginMember(email, hashpassword) {
+    // console.log(localStorage.getItem("checkLoginCart"));
+    let response = await Auth.getAll('khachHang');
+    let data = await response.json();
+    Object.keys(data).forEach((e) => {
+        if (email.value != data[e].email) {
+            erros.innerHTML = '<span class="erro">Tài khoản không tồn tại !</span>';
+        } else if (hashpassword != data[e].password) {
+
+            erros.innerHTML = '<span class="erro">Mật khẩu không đúng !</span>';
+        // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
+        //     sessionStorage.setItem("member", email);
+        //     sessionStorage.removeItem("checkLoginCart");
+        //     window.location.href = 'checkout.html';
+
+        } else {
+            erros.innerHTML =('đăng nhập thành công');
+            sessionStorage.setItem("member", email);
+            // window.location.href = 'index.html';
+        }
+    })
+}
 
 login()
 
