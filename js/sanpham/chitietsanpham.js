@@ -71,6 +71,8 @@ const response = await fetch(
       <input type="hidden" id="luotXem" value="${product.luotXem + 1}">
         `;
     }
+    let luotXem = document.querySelector("#luotXem").value.trim();
+    let lx = Number.parseFloat(luotXem);
     let sp={
         idDMT : document.querySelector("#idDMT").value.trim(),
         idDM : document.querySelector("#idDM").value.trim(),
@@ -82,19 +84,17 @@ const response = await fetch(
         giamGia:document.querySelector("#giamGia").value.trim(),
         soLuong: document.querySelector("#soLuong").value.trim(),
         trangThai : document.querySelector("#trangThai").value.trim(),
-        luotXem: document.querySelector("#luotXem").value.trim(),
+        luotXem: lx,
       }
-      console.log(sp);
-    // let options = {
-    //   method: "PUT",
-    //   body: JSON.stringify(sp),
-    //   headers: {'Content-Type':'application/json'}
-    // }
-    // fetch(`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham/${id_item}.json`, options).then(res => res.json())
-    // .then(data =>{
-    //     console.log(data);
-    // //   document.location="product.html";
-    // })
+    let options = {
+      method: "PUT",
+      body: JSON.stringify(sp),
+      headers: {'Content-Type':'application/json'}
+    }
+    fetch(`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham/${id_item}.json`, options).then(res => res.json())
+    .then(data =>{
+    //   document.location="product.html";
+    })
 }
 )();
 

@@ -18,6 +18,7 @@ let btn = document.getElementById("btn-search");
     render(searchData);
   };
 })();
+
 function render(array) {
   for (const [key, value] of Object.entries(array)) {
     if (value && value.trangThai == 1) {
