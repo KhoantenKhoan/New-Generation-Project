@@ -59,7 +59,13 @@ function register() {
         } else if (password.length < 6 || password.length > 30) {
             erros.innerHTML ="Mật khẩu từ 6 tới 30 kí tự"
         } else if (!(password === repassword)) {
+<<<<<<< Updated upstream
             erros.innerHTML ="2 mật khẩu không khớp";
+=======
+            erros.innerHTML ="Mật khẩu không trùng khớp"
+            // $('.msg-error.password').html('');
+            // $('.msg-error.email').html('');
+>>>>>>> Stashed changes
         } else {
             let data = {
                 tenKH: fullname,

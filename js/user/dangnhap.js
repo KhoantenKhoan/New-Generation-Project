@@ -56,12 +56,21 @@ async function loginMember(email, password) {
     let data = await response.json();
     Object.keys(data).forEach((e) => {
         if (email.value != data[e].email) {
+<<<<<<< Updated upstream
             console.log(data);
             console.log(data[e].email);
             erros.innerHTML = '<span class="erro">Tài khoản không tồn tại !</span>';
         } else if (password.value != data[e].password) {
             console.log(data[e].password);
             erros.innerHTML = '<span class="erro">Mật khẩu không đúng !</span>';
+=======
+            erros.innerHTML = '<span class="erro">Tài khoản không tồn tại</span>';
+            toastr.warning("Đăng nhập thành công")
+            
+        } else if (password.value != data[e].matKhau) {
+
+            erros.innerHTML = '<span class="erro">Mật khẩu không đúng</span>';
+>>>>>>> Stashed changes
         // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
         //     sessionStorage.setItem("member", email);
         //     sessionStorage.removeItem("checkLoginCart");
