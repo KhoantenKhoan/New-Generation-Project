@@ -57,12 +57,6 @@ let leftSibar = `
                             </a>
                         </li>
 
-                        <li>
-                        <a href="khuyenmai.html" class="waves-effect">
-                            <i class="dripicons-meter"></i>
-                            <span> Khuyến mãi<span class="badge badge-success badge-pill float-right"></span></span>
-                        </a>
-                    </li>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
