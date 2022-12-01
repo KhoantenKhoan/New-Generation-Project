@@ -49,7 +49,7 @@ function register() {
         console.log(email);
         console.log(phone);
         console.log(password);
-        let hashpassword = sha256(password);
+        // let hashpassword = sha256(password);
         if (fullname == '' || email == '' || password == '') {
             erros.innerHTML ="Vui lòng điền đầy đủ thông tin"
         } else if (!validateEmail(email)) {
@@ -63,7 +63,7 @@ function register() {
         } else {
             let data = {
                 tenKH: fullname,
-                password: hashpassword,
+                password: password,
                 email: email,
                 sdt: phone,
                 hinhAnh: " ",

@@ -30,7 +30,7 @@
     const email = document.querySelector("#email");
     const password = document.querySelector("#password");
     let erros = document.getElementById("erros");
-    let hashpassword = sha256(password);
+    // let hashpassword = sha256(password);
 
  
 function login() {
@@ -43,22 +43,24 @@ function login() {
         } else if (password.value.length < 6 || password.value.length > 30) {
             erros.innerHTML ='<span class="erro">Mật khẩu vui lòng lớn hơn 6 kí tự !</span>';
         } else {
-            loginMember(email,hashpassword);
+            loginMember(email,password);
 
         }
     })
 }
 
 
-async function loginMember(email, hashpassword) {
+async function loginMember(email, password) {
     // console.log(localStorage.getItem("checkLoginCart"));
     let response = await Auth.getAll('khachHang');
     let data = await response.json();
     Object.keys(data).forEach((e) => {
         if (email.value != data[e].email) {
+            console.log(data);
+            console.log(data[e].email);
             erros.innerHTML = '<span class="erro">Tài khoản không tồn tại !</span>';
-        } else if (hashpassword != data[e].password) {
-
+        } else if (password.value != data[e].password) {
+            console.log(data[e].password);
             erros.innerHTML = '<span class="erro">Mật khẩu không đúng !</span>';
         // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
         //     sessionStorage.setItem("member", email);
