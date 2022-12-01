@@ -26,17 +26,6 @@ btnluu.onclick = function(){
     document.location="category.html";
   })
 }
-
-// url="http://localhost:3000/DanhMuc";
-// fetch(url)
-// .then(res => res.json())
-// .then(listLoai =>{
-//   listLoai.forEach(loai =>{
-//     document.getElementById("idloai").innerHTML +=`
-//       <option value="${loai.id}">${loai.id}-${loai.TenDM}</option>
-//     `;
-//   })
-// })
 url = `https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMuc/${id}.json`;
 fetch(url)
 .then(res => res.json())

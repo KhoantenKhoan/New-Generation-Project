@@ -15,9 +15,8 @@
           <tr>
           <td>${count++}</td>
           <td>${row.tenDMT}</td>
-          <td>${row.trangThai}</td>
           <td>
-          ${row.trangThai=="1"?"Còn hàng":"Hết hàng"}
+          ${row.trangThai=="1"?'<span class="btn btn-primary">Còn Hàng</span>' : '<span class="btn btn-danger">Hết Hàng</span>'}
           </td>
           <td>
             <a href="suadanhmuc.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
