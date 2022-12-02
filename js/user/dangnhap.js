@@ -68,8 +68,8 @@ async function loginMember(email, password) {
         //     window.location.href = 'checkout.html';
 
         } else {
-            erros.innerHTML =('đăng nhập thành công');
-            sessionStorage.setItem("member", email);
+            erros.innerHTML ='<span class="success">đăng nhập thành công</span>';
+            localStorage.setItem("member", JSON.stringify(data));
             // window.location.href = 'index.html';
         }
     })
