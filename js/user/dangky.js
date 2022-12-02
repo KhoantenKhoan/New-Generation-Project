@@ -24,11 +24,7 @@
   // Initialize Firebase
     const app = initializeApp(firebaseConfig);
 
-    const Auth = new FireBaseService();
-    let erros = document.getElementById("erros");
-
-
-    
+    const Auth = new FireBaseService();    
 const validateEmail = (email) => {
     return String(email)
         .toLowerCase()
@@ -51,15 +47,15 @@ function register() {
         console.log(password);
         // let hashpassword = sha256(password);
         if (fullname == '' || email == '' || password == '') {
-            erros.innerHTML ="Vui lòng điền đầy đủ thông tin"
+            toastr.warning("Vui lòng điền đầy đủ thông tin")
         } else if (!validateEmail(email)) {
-            erros.innerHTML ="Email không đúng định dạng"
+            toastr.warning("Email không đúng định dạng")
         }else if(phone == ''){
-            erros.innerHTML = "Nhập số điện thoại";
+            toastr.warning( "Nhập số điện thoại");
         } else if (password.length < 6 || password.length > 30) {
-            erros.innerHTML ="Mật khẩu từ 6 tới 30 kí tự"
+            toastr.warning("Mật khẩu từ 6 tới 30 kí tự")
         } else if (!(password === repassword)) {
-            erros.innerHTML ="2 mật khẩu không khớp";
+            toastr.warning("2 mật khẩu không khớp");
         } else {
             let data = {
                 tenKH: fullname,
@@ -72,7 +68,8 @@ function register() {
             }
             insertRegister(data);
             toastr.success("Đăng ký thành công");
-            erros.innerHTML ="Đăng ký thành công";
+            window.location.href = 'login.html';
+
         }
     })
 }

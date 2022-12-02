@@ -1,4 +1,15 @@
 var cart = JSON.parse(localStorage.getItem("cart"));
+
+function checkMemberExist() {
+    if(localStorage.getItem("member") == null){
+        localStorage.setItem('checkLoginCart', 0);
+        toastr.warning('Bạn phải đăng nhập mới được thanh toán!')
+        window.location.href = './login.html';
+    }
+}
+
+checkMemberExist();
+
 if (cart) cart.forEach( (sp,index) => {
   document.querySelector("#sanpham").innerHTML += `
         <li>
