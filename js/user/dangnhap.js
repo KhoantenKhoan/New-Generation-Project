@@ -66,6 +66,11 @@ async function loginMember(email, password) {
             localStorage.setItem("member", JSON.stringify(data[e].email));
             localStorage.removeItem("checkLoginCart");
             window.location.href = 'checkout.html';
+            
+        // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
+        //     sessionStorage.setItem("member", email);
+        //     sessionStorage.removeItem("checkLoginCart");
+        //     window.location.href = 'checkout.html';
 
         } else {
             toastr.success("Đăng nhập thành công");

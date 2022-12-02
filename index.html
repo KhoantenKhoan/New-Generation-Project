@@ -33,6 +33,7 @@
     </div>
 
     <!-- Popup -->
+<<<<<<< Updated upstream
     <section class="popup" id="popup">
         <div class="contentBox">
             <div class="close"></div>
@@ -51,9 +52,42 @@
         const popup = document.querySelector('.popup');
         const body = document.querySelector('#popup');
         const close = document.querySelector('.close');
+=======
+        <section class="popup">
+            <div class="contentBox">
+                <div class="close"></div>
+                <div class="img-popup">
+                    <img src="./img/banner/banner-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giảm giá "So deep"</h3>
+                    <h2>69<sup>%</sup><span> OFF</span></h2>
+                    from.
+                    <a href="./shop-grid.html?idDMT=1">Mua ngay!</a>
+                </div>
+            </div>
+        </section>
+        <script>
+            const popup = document.querySelector('.popup');
+            const close = document.querySelector('.close');
+            
+            // $(document).ready(function () {
+>>>>>>> Stashed changes
         
-        // $(document).ready(function () {
+            // $(".popup").hide().fadeIn(1000);
+            // //close the POPUP if the button with id="close" is clicked
+            // $(".close").on("click", function (e) {
+            //     e.preventDefault();
+            //     $(".popup").fadeOut(1000);
+            // });
+            
+            window.onload = function(){
+                setTimeout(function(){
+                    popup.style.display = "block";
+                }, 4000)
+            }
     
+<<<<<<< Updated upstream
         // $(".popup").hide().fadeIn(1000);
         // //close the POPUP if the button with id="close" is clicked
         // $(".close").on("click", function (e) {
@@ -73,6 +107,13 @@
         })
         
     </script> -->
+=======
+            close.addEventListener('click', () => {
+                popup.style.display="none";
+            })
+            
+        </script>
+>>>>>>> Stashed changes
 
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>

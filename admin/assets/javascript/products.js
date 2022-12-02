@@ -1,14 +1,51 @@
   let count =1;
   let table = document.querySelector("#sp");
-      (async () => {
-        const response = await fetch(
-          "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham.json"
-        );
-        const data = await response.json();
-        Object.keys(data).forEach((key) => {
-          const row = data[key];
-          console.log(row);
-          console.log(key);
+  let currentPage = 1;
+  let perPage = 5;
+  let totalPage = 0;
+  let item = [];
+  let db = [];
+  async function getData() {
+    const response = await fetch(
+      "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham.json"
+    );
+    const data = await response.json();
+    db = data;
+    item = db.slice(
+      (currentPage - 1) * perPage,
+      (currentPage - 1) * perPage + perPage
+    );
+    console.log(item);
+    render();
+    showPageNumber();
+  }
+  function showPageNumber() {
+    totalPage = db.length / perPage;
+    for (let i = 1; i < totalPage; i++) {
+      document.getElementById(
+        "page"
+      ).innerHTML += `<a onclick="handlePageNumber(${i})">${i}</a>`;
+    }
+  }
+  function handlePageNumber(num) {
+    currentPage = num;
+    item = db.slice(
+      (currentPage - 1) * perPage,
+      (currentPage - 1) * perPage + perPage
+    );
+    render();
+    console.log(item);
+  }
+
+function handlePageNumber(num) {
+    currentPage=num
+    console.log(currentPage);
+}
+      async function render() {
+        Object.keys(item).forEach((key) => {
+
+          const row = item[key];
+          
           if(row){
           table.innerHTML += `
           <tr>
@@ -17,11 +54,11 @@
                 <td>
                     <img src="${row.hinhAnh}" alt="" width="100px" height="100px">
                 </td>
-                <td>${row.gia} VNĐ</td>
-                <td>${row.giamGia}</td>
+                <td>${row.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</td>
+                <td>${row.giamGia} %</td>
                 <td>${row.ngayNhap}</td>
                 <td>${row.soLuong}</td>
-                <td>${row.trangThai == 1 ? '<span class="btn btn-primary">Còn</span>' : '<span class="btn btn-danger">Hết</span>'}</td>
+                <td>${row.trangThai == 1 ? '<span class="btn btn-primary">Còn Hàng</span>' : '<span class="btn btn-danger">Hết Hàng</span>'}</td>
                 <td>
                   <a href="./update-product.html?id=${key}"> <span class="btn btn-info">Sửa</span></a> 
                   <span onclick="xoa('${key}')" class="btn btn-danger btn-del">Xóa</span>
@@ -31,7 +68,7 @@
             `;
           }
         });
-      })();
+      };
 
       const xoa = (id) => {
         console.log(id);
@@ -45,18 +82,5 @@
           window.location.reload();
         })();
       };
-
-      // <td class="product__id">${count++}</td>
-      //       <td class="product__name" style="width: 200px!important">${row.tenSP}</td>
-      //       <td class="product__img img"><img src="${row.hinhAnh}" alt=""></td>
-      //       <td class="product__price">${row.gia} VNĐ</td>
-      //       <td class="text-danger product__discount"> ${row.giamGia} <i class="ti-arrow-down"></i></td>
-      //       <td class="product__date">${row.ngayNhap}</td>
-      //       <td class="product__number">${row.soLuong}</td>
-      //       <td class="product__discription">${row.moTa}</td>
-      //       <td class="product__watch">${row.luotXem}</td>
-      //       <td> <label class="badge badge-warning">${row.trangThai==1?"Còn hàng":"Hết hàng"}</label> </td>
-      //       <td>
-      //           <a href="suasp.html?id=${key}"><button class="badge badge-primary sua button">Sửa</button></a>
-      //           <button class="badge badge-danger xoa button" onclick="xoa('${key}')" >Xóa</button>
-      //       </td>
+      getData();
+      showPageNumber();

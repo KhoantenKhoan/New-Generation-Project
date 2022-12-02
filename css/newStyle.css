@@ -129,6 +129,14 @@
 /* body .popup{
 	background:rgba(0, 0, 0, 0.5);
 } */
+
+/* .all-pop{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 0;
+} */
+
 .popup{
     position: fixed;
     top: 50%;
@@ -138,10 +146,6 @@
 	z-index: 1000;
     /* box-shadow: 20px 17px 20px 0px rgba(0, 0, 0, 0.842); */
 }
-/* 
-.popup::before{
-background: ;
-} */
 
 .contentBox{
     position: relative;
