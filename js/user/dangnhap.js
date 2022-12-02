@@ -39,9 +39,9 @@ function login() {
         e.preventDefault();
 
         if (email.value == '' || password.value == '') {
-            erros.innerHTML ='<span class="erro">Vui lòng điền đẩy đủ thông tin !</span>';
+            toastr.warning('Vui lòng điền đẩy đủ thông tin !');
         } else if (password.value.length < 6 || password.value.length > 30) {
-            erros.innerHTML ='<span class="erro">Mật khẩu vui lòng lớn hơn 6 kí tự !</span>';
+            toastr.warning('Mật khẩu vui lòng lớn hơn 6 kí tự !');
         } else {
             loginMember(email,password);
 
@@ -56,30 +56,26 @@ async function loginMember(email, password) {
     let data = await response.json();
     Object.keys(data).forEach((e) => {
         if (email.value != data[e].email) {
-<<<<<<< Updated upstream
             console.log(data);
             console.log(data[e].email);
-            erros.innerHTML = '<span class="erro">Tài khoản không tồn tại !</span>';
+            toastr.warning('Tài khoản không tồn tại !');
         } else if (password.value != data[e].password) {
             console.log(data[e].password);
-            erros.innerHTML = '<span class="erro">Mật khẩu không đúng !</span>';
-=======
-            erros.innerHTML = '<span class="erro">Tài khoản không tồn tại</span>';
-            toastr.warning("Đăng nhập thành công")
+            toastr.warning('Mật khẩu không đúng !');
+        } else if(localStorage.getItem("checkLoginCart") == '0') {
+            localStorage.setItem("member", JSON.stringify(data[e].email));
+            localStorage.removeItem("checkLoginCart");
+            window.location.href = 'checkout.html';
             
-        } else if (password.value != data[e].matKhau) {
-
-            erros.innerHTML = '<span class="erro">Mật khẩu không đúng</span>';
->>>>>>> Stashed changes
         // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
         //     sessionStorage.setItem("member", email);
         //     sessionStorage.removeItem("checkLoginCart");
         //     window.location.href = 'checkout.html';
 
         } else {
-            erros.innerHTML ='<span class="success">đăng nhập thành công</span>';
-            localStorage.setItem("member", JSON.stringify(data));
-            // window.location.href = 'index.html';
+            toastr.success("Đăng nhập thành công");
+            localStorage.setItem("member", JSON.stringify(data[e].email));
+            window.location.href = 'index.html';
         }
     })
 }
