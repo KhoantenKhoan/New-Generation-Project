@@ -1964,6 +1964,13 @@ Sidebar
 	color: #003049;
 	padding: 14px 30px 12px;
 	background: #F5F5F5;
+	border: 1px solid #002f4975;
+}
+
+.primary-btn.cart-btn:hover{
+	color: #fff;
+	background: #003049;
+	transition: all 1s;
 }
 
 .primary-btn.cart-btn span {

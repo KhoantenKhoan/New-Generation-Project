@@ -53,7 +53,9 @@ let notHave = `
 <div class="row">
 <div class="col-lg-12">
     <div class="shoping__cart__table">
-        <h1>Bạn chưa mua sản phẩm nào !!!</h1>
+        <div class="shoping__cart__text">
+            <h3>Bạn chưa mua sản phẩm nào !!!</h3>
+        </div>
         <div class="shoping__cart__btns">
             <a href="./index.html" class="primary-btn cart-btn">Tiếp tục mua sắp</a>
         </div>
