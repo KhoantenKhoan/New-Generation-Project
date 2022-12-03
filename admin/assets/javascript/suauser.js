@@ -14,7 +14,7 @@ btnluu.onclick = function(){
   sp={
       tenKH:document.querySelector("#tenKH").value.trim(),
       email:document.querySelector("#email").value.trim(),
-      matKhau:document.querySelector("#matKhau").value.trim(),
+      password:document.querySelector("#matKhau").value.trim(),
       hinhAnh:document.querySelector("#hinhAnh").value.trim(),
       diaChi:document.querySelector("#diaChi").value.trim(),
       sdt:document.querySelector("#sdt").value.trim(),
@@ -37,7 +37,7 @@ fetch(url)
 .then(sp  =>{
     document.getElementById('tenKH').value = sp.tenKH;
     document.getElementById('email').value = sp.email;
-    document.getElementById('matKhau').value = sp.matKhau;
+    document.getElementById('matKhau').value = sp.password;
     document.getElementById('hinhAnh').value = sp.hinhAnh;
     document.getElementById('diaChi').value = sp.diaChi;
     document.getElementById("sdt").value = sp.sdt

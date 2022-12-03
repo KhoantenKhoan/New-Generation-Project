@@ -104,15 +104,8 @@ let header = `
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__right">
-                            <div class="header__top__right__auth">
-                                <a href="./login.html"><i class="fa fa-user"></i> Đăng nhập / </a>
-                            </div>
-                            <div class="header__top__right__auth">
-                                <a href="./resigter.html"><i class="fa fa-user"></i> Đăng ký</a>
-                            </div>
-                        </div>
+                    <div class="col-lg-6 col-md-6" id="member">
+                        
                     </div>
                 </div>
             </div>
@@ -151,4 +144,34 @@ document.querySelector("#footer").innerHTML += footer;
 document.querySelector("#humberger").innerHTML += humberger;
 document.querySelector("#header").innerHTML += header;
 
-
+var member = JSON.parse(localStorage.getItem("member"));
+const showLogin = () =>{
+    let mem = document.getElementById("member")
+    if(member){
+        mem.innerHTML=`
+        <div class="header__top__right">
+            <div class="header__top__right__auth">
+                <a href="./userdetail.html"><i class="fa fa-user"></i> Tài khoản / </a>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="" onclick ="signOut()" ><i class="fa fa-sign-out"></i>Đăng xuất</a>
+            </div>
+        </div>
+        `
+    }else{
+        mem.innerHTML=`
+        <div class="header__top__right">
+            <div class="header__top__right__auth">
+                <a href="./login.html"><i class="fa fa-sign-in"></i> Đăng nhập / </a>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="./resigter.html"><i class="fa fa-user"></i> Đăng ký</a>
+            </div>
+        </div>
+        `
+    }
+};
+const signOut = () => {
+        localStorage.removeItem('member');
+}
+showLogin();
