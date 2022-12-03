@@ -37,6 +37,7 @@ function handlePageNumber(num) {
   console.log(item);
 }
 function render() {
+  table.innerHTML=``;
   Object.keys(item).forEach((key) => {
     const row = item[key];
     if (row) {

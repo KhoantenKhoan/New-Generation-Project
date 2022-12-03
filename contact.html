@@ -134,19 +134,28 @@
                     </div>
                 </div>
             </div>
-            <form action="#">
+            <script type="text/javascript">
+                var submitted = false;
+            </script>
+            <iframe id="hidden_iframes" name="hidden_iframes" onload="if(submitted){
+                toastr.success('✔ Cảm ơn bạn đã gửi thông tin . Chúng tôi sẽ liên hệ bạn sớm nhất');
+                var str = ' ✔ Cảm ơn bạn đã gửi thông tin . Chúng tôi sẽ liên hệ bạn sớm nhất';
+                document.getElementById('sss').innerHTML=str;
+            }" style="display: none;"></iframe>
+            <form target="hidden_iframes" onsubmit="submitted=true" method="get" action="https://script.google.com/macros/s/AKfycbwUOAs4t_h6dKQNZ944mZlMXQNtLOyxG-uKeSbqiAFN3zRGupoRsLWr_pIHEaEafRbM2A/exec">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Tên của bạn...">
+                        <input type="text" placeholder="Tên của bạn..." name="name">
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Email của bạn...">
+                        <input type="text" placeholder="Email của bạn..." name="email">
                     </div>
                     <div class="col-lg-12 text-center">
-                        <textarea placeholder="Lời nhắn..."></textarea>
+                        <textarea placeholder="Lời nhắn..." name="mess"></textarea>
                         <button type="submit" class="site-btn">GỬI</button>
                     </div>
                 </div>
+                <div id="sss"></div>
             </form>
         </div>
     </div>
@@ -167,6 +176,7 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="./js/toastr.min.js"></script>
 
     <!-- JS -->
     <script src="js/footAndHead.js"></script>
