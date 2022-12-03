@@ -150,6 +150,10 @@ async function renderComment() {
       document.getElementById('comment').innerHTML += content;
 }
 renderComment();
+let member1 = JSON.parse(localStorage.getItem("member"));
+async function showComment (){
+    
+}
 
 async function showProduct() {
     let params = new URLSearchParams(location.search);

@@ -7,10 +7,10 @@ let btn = document.getElementById("btn-search");
     "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham.json"
   );
   const data = await response.json();
-  btn.onclick = function timSanPham() {
+  search.oninput = function timSanPham() {
     let valueSearch = search.value;
-    // console.log(valueSearch);
-    // console.log(data);
+    console.log(valueSearch);
+    console.log(data);
     let searchData = data.filter((value) => {
       return value.tenSP.toUpperCase().includes(valueSearch.toUpperCase());
     });
@@ -18,9 +18,10 @@ let btn = document.getElementById("btn-search");
     render(searchData);
   };
 })();
-
 function render(array) {
-  for (const [key, value] of Object.entries(array)) {
+  table.innerHTML=``;
+  Object.keys(array).forEach((key) => {
+    const value = array[key];
     if (value && value.trangThai == 1) {
       table.innerHTML += `
             <a href="shop-details.html?id=${value.id - 1}&idDM=${
@@ -39,5 +40,5 @@ function render(array) {
             </a>
               `;
     }
-  }
+  })
 }

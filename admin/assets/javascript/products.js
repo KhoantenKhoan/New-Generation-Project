@@ -42,6 +42,7 @@ function handlePageNumber(num) {
     console.log(currentPage);
 }
       async function render() {
+        table.innerHTML=``;
         Object.keys(item).forEach((key) => {
 
           const row = item[key];
