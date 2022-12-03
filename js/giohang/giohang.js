@@ -64,22 +64,13 @@ function deletecart(id){
             cart.splice(i, 1);
         }
     }
-    localStorage.setItem("cart",JSON.stringify([]));
+    localStorage.removeItem("cart");
     tinhtongtien();
     document.location="../../index.html"
 }
 function deleteAll(){
-    localStorage.setItem("cart",JSON.stringify([]));
-    localStorage.setItem("tientong",0);
+    localStorage.removeItem("cart");
+    localStorage.removeItem("tientong");
     tinhtongtien();
     document.location="../../index.html";
-}
-let soluong = 0;
-if(cart!=null){
-    cart.forEach(item => {
-        soluong += Number(item.soluong);
-    })
-    localStorage.setItem("soluong", soluong);
-}else{
-    localStorage.setItem("soluong", soluong);
 }

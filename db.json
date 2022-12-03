@@ -3919,7 +3919,7 @@
         {
             "id": "1",
             "idKM": "1",
-            "idKH": "1",
+            "idKH": "0",
             "tenKH": "ABC",
             "email": "ABC@gmail.com",
             "diaChi": "ABC",
@@ -3945,11 +3945,11 @@
     ],
     "khachHang": [
         {
-            "id": "1",
+            "id": "0",
             "email": "khoan@gmail.com",
             "password": "777777",
             "tenKH": "Phùng Đăng Khoan",
-            "hinhAnh": "https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/292431259_1213029012785907_2353458235024865946_n.jpg?stp=c0.49.200.200a_dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_ohc=pqC99xo86KEAX_hoTwL&_nc_ht=scontent.fsgn5-11.fna&oh=00_AfAq0GVhK8bhCbWZU8ZnX9OX2WjKsCEQSdZ5GfdF2RsUHA&oe=63804859",
+            "hinhAnh": "https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/292431259_1213029012785907_2353458235024865946_n.jpg?stp=c0.49.200.200a_dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_ohc=_mYtIJL97SQAX_0_6qx&_nc_ht=scontent.fsgn5-11.fna&oh=00_AfAc9uj_w-8o7nD3uyvdYltSVfAxFvrGuGuDyuQmMUeDdQ&oe=638E2019",
             "diaChi": "abc",
             "sdt": "0123456789",
             "vaiTro": "1"
@@ -3987,7 +3987,7 @@
     "binhLuan": [
         {
             "id": "1",
-            "idKH": "1",
+            "idKH": "0",
             "idSP": "1",
             "noiDung": "sp uy tín",
             "ngay": "11/11/2022"

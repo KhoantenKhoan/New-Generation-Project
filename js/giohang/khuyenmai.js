@@ -16,6 +16,7 @@ async function showBrand() {
             <option id="khuyenMai" value="${value.giamGia}">
               ${value.khuyenMai}     |     <span class="discount__number">${value.giamGia}%</span>
             </option>
+            
             `;
         }
       }

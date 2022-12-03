@@ -15,8 +15,8 @@
           <tr>
           <td>${count++}</td>
           <td>${row.tenKH}</td>
-          <td>${row.matKhau}</td>
-          <td class="img"><img src="${row.hinhAnh}" alt=""></td>
+          <td>${row.password}</td>
+          <td class="img"><img src="${row.hinhAnh}" alt="${row.tenKH}"></td>
           <td class="des">${row.diaChi}</td>
           <td>${row.email}</td>
           <td>${row.sdt}</td>
