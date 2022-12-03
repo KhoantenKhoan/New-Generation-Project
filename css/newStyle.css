@@ -275,3 +275,12 @@
     color: green;
 }
 
+.shoping__cart__text{
+    height: 130px;
+    text-align: center;
+}
+
+.shoping__cart__text h3{
+    align-items: center;
+    font-weight: 700;
+}

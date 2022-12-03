@@ -124,7 +124,7 @@ var member = JSON.parse(localStorage.getItem("member"));
             <tr>
                 <td>${count1++}</td>
                 <td>${row2.tenSP}</td>
-                <td><img src="${row2.hinhAnh}" alt="${row2.tenSP}"></td>
+                <td><img style="width: 100px;" src="${row2.hinhAnh}" alt="${row2.tenSP}"></td>
                 <td>${row2.soLuong}</td>
                 <td>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(row2.donGia)}</td>
             </tr>
