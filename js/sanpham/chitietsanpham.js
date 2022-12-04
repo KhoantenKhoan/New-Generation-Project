@@ -35,7 +35,7 @@ const response = await fetch(
                     <span>${product.luotXem} Lượt xem</span>
                 </div>
                 <div class="product__details__price">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(product.gia - (product.gia / product.giamGia))}</div>
-                <p>${product.moTa}</p>
+                <p style="text-align:justify">${product.moTa}</p>
                 <div class="product__details__quantity">
                     <div class="quantity">
                         <div class="pro-qty">
@@ -115,13 +115,10 @@ async function renderComment() {
             for (const [key2, value2] of Object.entries(data2)){
                 // console.log(value1.idSP);
                 // console.log(value1.idSP-"1");
-                if (value1.idSP-"1" == id) {
+                if (value1.idSP == id && value1.idKH == value2.id || key1 == id && value1.idKH == key2) {
                     // console.log(value2);
                     content += `
-                    <div class="card text-dark">
-                        <div class="card-body p-4">
-                            <h4 class="mb-0">Bình luận, đánh giá sản phẩm</h4>
-                            <p class="fw-light mb-4 pb-2">Đánh giá của những người khác</p>
+                    
 
                             <div class="d-flex flex-start">
                                 <img class="rounded-circle shadow-1-strong me-3"
@@ -139,10 +136,7 @@ async function renderComment() {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-
-                        <hr class="my-0" />
-                    </div>
+                        
                 `;
             }
         }
@@ -151,9 +145,37 @@ async function renderComment() {
 }
 renderComment();
 let member1 = JSON.parse(localStorage.getItem("member"));
-async function showComment (){
+
+async function showUser (){
+    let card = document.getElementById("card");
+    
+    if(member1 ){
+        card.innerHTML +=`
+            <div class="card-body p-4">
+                <div class="d-flex flex-start w-100">
+                    <img class="rounded-circle shadow-1-strong me-3"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(21).webp" alt="avatar"
+                        width="65" height="65" />
+                    <div class="w-100 form__comment">
+                        <h5>Để lại đánh giá</h5>
+                        <div class="form-outline">
+                            <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+                        </div>
+                        <div id="binhluan" class="d-flex justify-content-between mt-3">
+                            <button type="button" class="btn btn-primary">
+                                Send <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                                </button>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        `
+    }else{
+        card.innerHTML =``;
+    }
     
 }
+showUser ();
 
 async function showProduct() {
     let params = new URLSearchParams(location.search);
@@ -182,9 +204,7 @@ async function showProduct() {
                             </a>
                                 <ul class="product__item__pic__hover">
                                     <li>
-                                        <a onclick="giohang(${key},'${value.tenSP}',${value.gia - value.gia * (value.giamGia/100)},'${value.hinhAnh}')" href="">
-                                            <i class="fa fa-shopping-cart"></i>
-                                        </a>
+                                    <a  onclick="giohang(${key},'${value.tenSP}',${value.gia - value.gia * (value.giamGia/100)},'${value.hinhAnh}')" ><i class="fa fa-shopping-cart"></i></a>
                                     </li>
                                 </ul>
                             </div>

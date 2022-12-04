@@ -11,7 +11,7 @@ const product = new FireBaseService();
       for (const [key, value] of Object.entries(data)) {
         // console.log(value);
         if (value && value.trangThai== 1 ) {
-          if (value.giamGia > 15) {
+          if (value.giamGia == 20 ) {
             content += `
             <div class="col-lg-3 col-md-4 col-sm-6 mix oranges ${value.idDM}">
                     <div class="featured__item">
