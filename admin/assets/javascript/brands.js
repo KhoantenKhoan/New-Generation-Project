@@ -51,8 +51,8 @@ function render() {
               : '<span class="btn btn-danger">Hết Hàng</span>'
           }</td>
           <td>
-            <a href="update-category.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
-            <button class="badge badge-danger xoa button" onclick="xoasp('${key}')">Xóa</button>
+            <a href="update-category.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
+            <button class="btn btn-danger btn-del" onclick="xoasp('${key}')">Xóa</button>
           </td>
         </tr>
             `;

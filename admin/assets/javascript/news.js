@@ -20,10 +20,10 @@
             <td> 
                 <img src="${row.hinhAnh}" alt="" width="150px" height="150px">
             </td>
-            <td> <label class="badge badge-warning">Hiện</label> </td>
+            <td> <label class="btn btn-primary">Hiện</label> </td>
             <td>
-                <a href="suatb.html?id=${key}"><button class="badge badge-primary sua button">Sửa</button></a>
-                <button class="badge badge-danger xoa button" onclick="xoasp('${key}')">Xóa</button>
+                <a href="suatb.html?id=${key}"><button class="btn btn-info">Sửa</button></a>
+                <button class="btn btn-danger btn-del" onclick="xoasp('${key}')">Xóa</button>
             </td>
         </tr>
             `;}

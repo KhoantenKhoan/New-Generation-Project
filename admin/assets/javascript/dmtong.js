@@ -19,8 +19,8 @@
           ${row.trangThai=="1"?'<span class="btn btn-primary">Còn Hàng</span>' : '<span class="btn btn-danger">Hết Hàng</span>'}
           </td>
           <td>
-            <a href="suadanhmuc.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
-            <button class="badge badge-danger xoa button" onclick="xoasp('${key}')">Xóa</button>
+            <a href="suadanhmuc.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
+            <button class="btn btn-danger btn-del" onclick="xoasp('${key}')">Xóa</button>
           </td>
         </tr>
             `;}

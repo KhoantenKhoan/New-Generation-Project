@@ -16,10 +16,10 @@
           <td>${count++}</td>
           <td>${row.khuyenMai}</td>
           <td>${row.giamGia}</td>
-          <td> <label class="badge badge-warning">${row.trangThai==1?"Còn hạn":"Hết hạn"}</label> </td>
+          <td> <label class="btn btn-primary">${row.trangThai==1?"Còn hạn":"</span class='btn btn-warning'>Hết hạn</span>"}</label> </td>
           <td>
-            <a href="update-khuyenmai.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
-            <button class="badge badge-danger xoa button" onclick="xoa('${key}')">Xóa</button>
+            <a href="update-khuyenmai.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
+            <button class="btn btn-danger btn-del" onclick="xoa('${key}')">Xóa</button>
           </td>
         </tr>
             `;}

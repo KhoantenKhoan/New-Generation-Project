@@ -13,7 +13,7 @@ fetch(url)
         
         <td>
             
-            <button class="badge badge-danger xoa button" onclick="xoasp('${cat.id}')">Xóa</button>
+            <button class="btn btn-danger btn-del" onclick="xoasp('${cat.id}')">Xóa</button>
         </td>
     </tr>
 		`;

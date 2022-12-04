@@ -687,6 +687,7 @@ ol {
 	display: flex;
 	align-items: center;
 	padding-left: 75px;
+	margin-top: 90px;
 }
 
 .hero__text span {
@@ -2662,7 +2663,7 @@ Sidebar
 }
 
 .footer__widget ul {
-	width: 50%;
+	/* width: 50%; */
 	float: left;
 }
 
@@ -2672,8 +2673,13 @@ Sidebar
 
 .footer__widget ul li a {
 	color: #000;
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 32px;
+}
+
+.footer__widget ul li a:hover{
+	font-weight: 700;
+	color: #003049;
 }
 
 .footer__widget p {
@@ -2945,11 +2951,18 @@ Sidebar
 	.shoping__discount form input {
 		width: 240px;
 	}
+
+	.featured__item__pic a img {
+		width: 80%;
+	}
 }
 
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.featured__item__pic a img {
+		width: 80%;
+	}
 	.hero__categories {
 		margin-bottom: 30px;
 	}
@@ -3173,6 +3186,9 @@ Sidebar
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.featured__item__pic a img {
+		width: 92%;
+	}
 	.hero__categories {
 		margin-bottom: 30px;
 	}
@@ -3431,6 +3447,9 @@ Sidebar
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.featured__item__pic a img {
+		width: 80%;
+	}
 	.hero__search__form form .hero__search__categories {
 		display: none;
 	}

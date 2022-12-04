@@ -1,9 +1,9 @@
 let footer = `
 <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 border-cover">
                     <div class="footer__about">
-                        
+                        <h5>Thông tin</h5>
                         <ul>
                             <li>Địa chỉ: Lô 24 CVPM Quang Trung, P.Tân Chánh Hiệp, Q.12, TP.HCM</li>
                             <li>SĐT: +08 390 8585</li>
@@ -11,9 +11,9 @@ let footer = `
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                <div class="col-lg-3 col-md-6 col-sm-6 offset-lg-1 border-cover">
                     <div class="footer__widget">
-                        <h6>Hữu ích</h6>
+                        <h5>Hữu ích</h5>
                         <ul>
                             <li><a href="#">Chúng tôi là ai</a></li>
                             <li><a href="#">Dịch vụ của chúng tôi</a></li>
@@ -22,7 +22,7 @@ let footer = `
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 offset-lg-1 border-cover">
                     <div class="footer__widget">
                         <div class="footer__about__logo">
                             <a href="./index.html"><img src="img/logo.png" alt=""></a>
