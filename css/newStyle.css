@@ -284,3 +284,25 @@
     align-items: center;
     font-weight: 700;
 }
+
+.border-cover{
+    border: 1px solid #0006;
+    border-radius: 10px;
+}
+.col-lg-4.col-md-12.offset-lg-1.border-cover{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer__about h5,
+.footer__widget h5{
+    padding-top: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* @media only screen and (min-width: 992px) {
+	.offset-lg-1 {
+		margin-left: 4% !important;
+	}
+} */

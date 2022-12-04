@@ -17,8 +17,8 @@
           <td>${row.ngay}</td>
           <td>${row.noiDung}</td>
           <td>
-            <a href="update-cmt.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
-            <button class="badge badge-danger xoa button" onclick="xoa('${key}')">Xóa</button>
+            <a href="update-cmt.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
+            <button class="btn btn-danger btn-del" onclick="xoa('${key}')">Xóa</button>
           </td>
         </tr>
             `;}

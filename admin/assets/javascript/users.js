@@ -20,10 +20,10 @@
           <td class="des">${row.diaChi}</td>
           <td>${row.email}</td>
           <td>${row.sdt}</td>
-          <td> <label class="badge badge-warning">${row.vaiTro==0?'<span class="btn btn-primary">Khách hàng</span>' : '<span class="btn btn-danger">Admin</span>'}</label> </td>
+          <td> <label>${row.vaiTro==0?'<span class="btn btn-primary">Khách hàng</span>' : '<span class="btn btn-danger">Admin</span>'}</label> </td>
           <td>
-            <a href="update-user.html?id=${key}"><button  class="badge badge-primary sua button">Sửa</button></a>
-            <button class="badge badge-danger xoa button" onclick="xoa('${key}')">Xóa</button>
+            <a href="update-user.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
+            <button class="btn btn-danger btn-del" onclick="xoa('${key}')">Xóa</button>
           </td>
         </tr>
             `;}

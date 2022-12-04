@@ -19,10 +19,10 @@
           <td>${row.ngayDH}</td>
           <td class="des">${row.diaChi}</td>
           <td>${row.sdt}</td>
-          <td> <label class="badge badge-warning">${row.trangThaiDH}</label> </td>
+          <td> <label class="btn btn-warning">${row.trangThaiDH}</label> </td>
           <td>
-            <a href="update-donhang.html?id=${key}&idDH=${row.id}"><button  class="badge badge-primary sua button">Sửa</button></a>
-            <button class="badge badge-danger xoa button" onclick="xoa('${key}')">Xóa</button>
+            <a href="update-donhang.html?id=${key}&idDH=${row.id}"><button  class="btn btn-info">Sửa</button></a>
+            <button class="btn btn-danger btn-del" onclick="xoa('${key}')">Xóa</button>
           </td>
         </tr>
             `;}
