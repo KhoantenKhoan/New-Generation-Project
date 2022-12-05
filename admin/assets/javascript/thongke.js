@@ -1,4 +1,23 @@
 const labels = ['January','February','March','April','May','June','July','August','September','October'];
+(async () => {
+    let w20 = [{}];
+    const response = await fetch(
+      "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/sanPham.json"
+    );
+    const data1 = await response.json();
+    Object.keys(data1).forEach((key) => {
+        const row = data1[key];
+        for (let i = 1; i < data1.length; i++) {
+            if (row) {
+                // console.log(row.luotXem = 99);
+                // console.log(row.luotXem = 99);
+                  if(row.luotXem == 20){
+                          w20 += row; 
+                          console.log(w20);
+                        }
+            }
+             return i++;
+        }
 const data = {
     labels: labels,
     datasets: [
@@ -43,6 +62,6 @@ var result = Object.keys(obj).map((key) => {
     return number
     }
 });
-console.log(result);
-
-
+// console.log(result);
+});
+})();

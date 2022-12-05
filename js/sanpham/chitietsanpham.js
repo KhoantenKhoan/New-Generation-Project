@@ -3,9 +3,9 @@ const product = new FireBaseService();
 const product2 = new FireBaseService();
 const comment = new FireBaseService();
 const member = new FireBaseService();
-(async () => {
 let params = new URLSearchParams(location.search);
 let id_item = params.get("id");
+(async () => {
 
 var table = document.querySelector("#product_detail");
           
@@ -118,8 +118,6 @@ async function renderComment() {
                 if (value1.idSP == id && value1.idKH == value2.id || key1 == id && value1.idKH == key2) {
                     // console.log(value2);
                     content += `
-                    
-
                             <div class="d-flex flex-start">
                                 <img class="rounded-circle shadow-1-strong me-3"
                                     src="${value2.hinhAnh}" alt="avatar"
@@ -136,6 +134,7 @@ async function renderComment() {
                                     </p>
                                 </div>
                             </div>
+                            <br>
                         
                 `;
             }
@@ -144,38 +143,7 @@ async function renderComment() {
       document.getElementById('comment').innerHTML += content;
 }
 renderComment();
-let member1 = JSON.parse(localStorage.getItem("member"));
 
-async function showUser (){
-    let card = document.getElementById("card");
-    
-    if(member1 ){
-        card.innerHTML +=`
-            <div class="card-body p-4">
-                <div class="d-flex flex-start w-100">
-                    <img class="rounded-circle shadow-1-strong me-3"
-                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(21).webp" alt="avatar"
-                        width="65" height="65" />
-                    <div class="w-100 form__comment">
-                        <h5>Để lại đánh giá</h5>
-                        <div class="form-outline">
-                            <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
-                        </div>
-                        <div id="binhluan" class="d-flex justify-content-between mt-3">
-                            <button type="button" class="btn btn-primary">
-                                Send <i class="fas fa-long-arrow-alt-right ms-1"></i>
-                                </button>
-                                </div>
-                    </div>
-                </div>
-            </div>
-        `
-    }else{
-        card.innerHTML =``;
-    }
-    
-}
-showUser ();
 
 async function showProduct() {
     let params = new URLSearchParams(location.search);
