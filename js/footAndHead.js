@@ -120,7 +120,7 @@ let header = `
                                 </div>
                             </div>
             </div>
-            <div class="humberger__open">
+            <div class="humberger__open" id="humberger__open">
                 <i class="fa fa-bars"></i>
             </div>
         </div>
