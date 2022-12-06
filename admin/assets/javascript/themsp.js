@@ -27,7 +27,11 @@ btnluu.onclick = function(){
   }
   fetch(url, options).then(res => res.json())
   .then(data =>{
-    document.location="product.html";
+    toastr.success("Thêm thành công!");
+    setTimeout(function () {
+      
+      document.location="product.html";
+    },1000)
   })
 }
 

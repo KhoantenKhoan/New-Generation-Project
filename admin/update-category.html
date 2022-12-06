@@ -14,6 +14,7 @@
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/toastr.min.css">
     <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/css/newstyle.css" rel="stylesheet" type="text/css">
@@ -22,7 +23,7 @@
 
 
 <body class="fixed-left">
-
+    
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -32,22 +33,22 @@
 
     <!-- Begin page -->
     <div id="wrapper">
-
+        
         <!-- ========== Left Sidebar Start ========== -->
         <div class="left side-menu" id="leftSibar">
             
         </div>
         <!-- Left Sidebar End -->
-
+        
         <!-- Start right Content here -->
-
+        
         <div class="content-page">
             <!-- Start content -->
             <div class="content">
-
+                
                 <!-- Top Bar Start -->
                 <div class="topbar" id="topBar">
-
+                    
                 </div>
                 <!-- Top Bar End -->
                 <div class="page-content-wrapper">
@@ -55,15 +56,15 @@
                         <div class="col-lg-12">
                             <div class="card m-b-30">
                                 <div class="card-body">
-
-
+                                    
+                                    
                                     <h4 class="mt-0 header-title">Sửa sản phẩm</h4>
                                     <div class="form">
                                         <div class="form-group">
                                             <label>Tên danh mục tổng</label>
                                             <select name="category" id="dmt" class="form-control">
                                                 
-
+                                                
                                             </select>
                                         </div>
                                         <div class="form-group">
@@ -72,9 +73,9 @@
 
                                         </div>
                                         <label for="" class="m-r-15">Trạng thái: </label>
-                                            <div id="div_anHien">
-                                                
-                                            </div>
+                                        <div id="div_anHien">
+                                            
+                                        </div>
                                         <div class="form-group">
                                             <div>
                                                 <button id="btnluu" type="submit" class="btn btn-primary waves-effect waves-light btn-update">
@@ -82,13 +83,13 @@
                                             </button>
                                                 <a href="">
                                                     <button type="reset" class="btn btn-secondary waves-effect m-l-5">
-                                                Cancel
+                                                        Cancel
                                                     </button>
                                                 </a>
                                             </div>
                                         </div>
-                                        </d>
-                                    </div>
+                                    </d>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -99,11 +100,11 @@
                 <!-- content -->
             </div>
             <!-- End Right content here -->
-
+            
         </div>
         <!-- END wrapper -->
 
-
+        
         <!-- jQuery  -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -115,7 +116,8 @@
         <script src="assets/js/waves.js"></script>
         <script src="assets/js/jquery.nicescroll.js"></script>
         <script src="assets/js/jquery.scrollTo.min.js"></script>
-
+        <script src="../js/toastr.min.js"></script>
+        
         <!-- skycons -->
         <script src="assets/plugins/skycons/skycons.min.js"></script>
 

@@ -22,7 +22,11 @@ btnluu.onclick = function(){
   }
   fetch(url, options).then(res => res.json())
   .then(data =>{
-    document.location="category.html";
+    toastr.success("Thêm thành công!");
+    setTimeout(function () {
+      document.location="category.html";
+      
+    },1000)
   })
 }
 var table1 = document.querySelector("#dmt");
