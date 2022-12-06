@@ -50,12 +50,6 @@ let leftSibar = `
                             </a>
                         </li>
 
-                        <li>
-                            <a href="thongBao.html" class="waves-effect">
-                                <i class="dripicons-meter"></i>
-                                <span> Thông báo <span class="badge badge-success badge-pill float-right"></span></span>
-                            </a>
-                        </li>
 
                         <li>
                         <a href="khuyenmai.html" class="waves-effect">
