@@ -36,7 +36,10 @@
     fetch(url,{method:"delete"})
     .then(res => res.json())
     .then(data => {
-      alert("Đã xoá!");
-      document.location="thongBao.html";
+      toastr.success("Xóa thành công!");
+      setTimeout(function () {
+      
+        document.location="thongBao.html";
+      },1000)
     })
   }

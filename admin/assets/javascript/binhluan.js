@@ -8,8 +8,8 @@
         const data = await response.json();
         Object.keys(data).forEach((key) => {
           const row = data[key];
-          console.log(row);
-          console.log(key);
+          // console.log(row);
+          // console.log(key);
           if(row){
           table.innerHTML += `
           <tr>
@@ -34,6 +34,10 @@
               method: "DELETE",
             }
           );
-          window.location.reload();
+          toastr.success("Xóa thành công!");
+          setTimeout(function () {
+            window.location.reload();
+      
+          },1000)
         })();
       };

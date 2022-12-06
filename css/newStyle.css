@@ -107,6 +107,7 @@
     box-shadow: 0 0 10px #000;
     border-radius: 10px;
     padding: 20px 0;
+    height: 90%;
 }
 
 .hero__search__phone.col-lg-3.box_icon {

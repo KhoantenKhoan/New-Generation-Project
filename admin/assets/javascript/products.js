@@ -19,12 +19,17 @@
     render();
     showPageNumber();
   }
+  // <li class="page-item"><a class="page-link" onclick="handlePageNumber(${i})" >${i}</a></li>
   function showPageNumber() {
     totalPage = db.length / perPage;
     for (let i = 1; i < totalPage; i++) {
       document.getElementById(
         "page"
-      ).innerHTML += `<a onclick="handlePageNumber(${i})">${i}</a>`;
+        ).innerHTML += `
+        
+        <a class="btn btn-outline-primary btn_page" onclick="handlePageNumber(${i})">${i}</a>
+
+      `;
     }
   }
   function handlePageNumber(num) {
@@ -80,7 +85,11 @@ function handlePageNumber(num) {
               method: "DELETE",
             }
           );
-          window.location.reload();
+          toastr.success("Xóa thành công!");
+          setTimeout(function () {
+      
+            window.location.reload();
+          },1000)
         })();
       };
       getData();

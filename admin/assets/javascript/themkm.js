@@ -20,6 +20,10 @@ btnluu.onclick = function(){
   }
   fetch(url, options).then(res => res.json())
   .then(data =>{
-    document.location="khuyenmai.html";
+    toastr.success("Thêm thành công!");
+    setTimeout(function () {
+      
+      document.location="khuyenmai.html";
+    },1000)
   })
 }

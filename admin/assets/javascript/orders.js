@@ -38,6 +38,10 @@
               method: "DELETE",
             }
           );
-          window.location.reload();
+          toastr.success("Xóa thành công!");
+          setTimeout(function () {
+      
+            window.location.reload();
+          },1000)
         })();
       };

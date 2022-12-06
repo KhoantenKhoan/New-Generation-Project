@@ -7,7 +7,7 @@ btnluu.onclick = function(){
     for (var i = 0; i < check.length; i++) {
       if (check[i].checked === true) {
         anHien = check[i].value;
-        console.log(anHien);
+        // console.log(anHien);
       }
     }
 
@@ -27,7 +27,10 @@ btnluu.onclick = function(){
   }
   fetch(url, options).then(res => res.json())
   .then(data =>{
-    document.location="member.html";
+    toastr.success("Sửa thành công!");
+    setTimeout(function () {
+      document.location="member.html";
+    },1000)
   })
 }
 
@@ -42,10 +45,10 @@ fetch(url)
     document.getElementById('diaChi').value = sp.diaChi;
     document.getElementById("sdt").value = sp.sdt
     document.getElementById('div_anHien').innerHTML = `
-    <label class="btn btn-outline-success waves-effect waves-light m-r-10">
+    <label class="btn btn-outline-danger waves-effect waves-light m-r-10">
     <input type="radio" name="anHien" value="1" class="anHien" ${sp.trangThai=="1" ? "checked" :""}>admin
     </label>
-    <label class="btn btn-outline-danger waves-effect waves-light">
+    <label class="btn btn-outline-primary waves-effect waves-light">
     <input type="radio" name="anHien" value="0" class="anHien" ${sp.trangThai!="1" ? "checked" :""}>user
     </label>  
     `;
