@@ -1703,6 +1703,7 @@ Sidebar
 	padding: 16px 28px 14px;
 	margin-right: 6px;
 	margin-bottom: 5px;
+	cursor: pointer;
 }
 
 .product__details__text .heart-icon {
