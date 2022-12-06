@@ -16,6 +16,8 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/table.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
 
 </head>
 
@@ -68,148 +70,8 @@
                         </div>
                         <!-- end row -->
 
-                        <div class="row">
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card mini-stat m-b-30">
-                                    <div class="p-3 bg-primary text-white">
-                                        <div class="mini-stat-icon">
-                                            <i class="mdi mdi-cube-outline float-right mb-0"></i>
-                                        </div>
-                                        <h6 class="text-uppercase mb-0">New Orders</h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="border-bottom pb-4">
-                                            <span class="badge badge-success"> +11% </span> <span class="ml-2 text-muted">From previous period</span>
-                                        </div>
-                                        <div class="mt-4 text-muted">
-                                            <div class="float-right">
-                                                <p class="m-0">Last : 1325</p>
-                                            </div>
-                                            <h5 class="m-0">1456<i class="mdi mdi-arrow-up text-success ml-2"></i></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card mini-stat m-b-30">
-                                    <div class="p-3 bg-primary text-white">
-                                        <div class="mini-stat-icon">
-                                            <i class="mdi mdi-account-network float-right mb-0"></i>
-                                        </div>
-                                        <h6 class="text-uppercase mb-0">New Users</h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="border-bottom pb-4">
-                                            <span class="badge badge-success"> +22% </span> <span class="ml-2 text-muted">From previous period</span>
-                                        </div>
-                                        <div class="mt-4 text-muted">
-                                            <div class="float-right">
-                                                <p class="m-0">Last : 3426</p>
-                                            </div>
-                                            <h5 class="m-0">3567<i class="mdi mdi-arrow-up text-success ml-2"></i></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card mini-stat m-b-30">
-                                    <div class="p-3 bg-primary text-white">
-                                        <div class="mini-stat-icon">
-                                            <i class="mdi mdi-tag-text-outline float-right mb-0"></i>
-                                        </div>
-                                        <h6 class="text-uppercase mb-0">Average Price</h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="border-bottom pb-4">
-                                            <span class="badge badge-danger"> -02% </span> <span class="ml-2 text-muted">From previous period</span>
-                                        </div>
-                                        <div class="mt-4 text-muted">
-                                            <div class="float-right">
-                                                <p class="m-0">Last : 15.8</p>
-                                            </div>
-                                            <h5 class="m-0">14.5<i class="mdi mdi-arrow-down text-danger ml-2"></i></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card mini-stat m-b-30">
-                                    <div class="p-3 bg-primary text-white">
-                                        <div class="mini-stat-icon">
-                                            <i class="mdi mdi-cart-outline float-right mb-0"></i>
-                                        </div>
-                                        <h6 class="text-uppercase mb-0">Total Sales</h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="border-bottom pb-4">
-                                            <span class="badge badge-success"> +10% </span> <span class="ml-2 text-muted">From previous period</span>
-                                        </div>
-                                        <div class="mt-4 text-muted">
-                                            <div class="float-right">
-                                                <p class="m-0">Last : 14256</p>
-                                            </div>
-                                            <h5 class="m-0">15234<i class="mdi mdi-arrow-up text-success ml-2"></i></h5>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xl-8">
-                                <div class="card m-b-30">
-                                    <div class="card-body">
-                                        <h4 class="mt-0 header-title">Email Sent</h4>
-
-                                        <ul class="list-inline widget-chart m-t-20 text-center">
-                                            <li>
-                                                <h4 class=""><b>3652</b></h4>
-                                                <p class="text-muted m-b-0">Marketplace</p>
-                                            </li>
-                                            <li>
-                                                <h4 class=""><b>5421</b></h4>
-                                                <p class="text-muted m-b-0">Last week</p>
-                                            </li>
-                                            <li>
-                                                <h4 class=""><b>9652</b></h4>
-                                                <p class="text-muted m-b-0">Last Month</p>
-                                            </li>
-                                        </ul>
-
-                                        <div id="morris-area-example" style="height: 300px"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="card m-b-30">
-                                    <div class="card-body">
-                                        <h4 class="mt-0 header-title">Revenue</h4>
-
-                                        <ul class="list-inline widget-chart m-t-20 text-center">
-                                            <li>
-                                                <h4 class=""><b>5248</b></h4>
-                                                <p class="text-muted m-b-0">Marketplace</p>
-                                            </li>
-                                            <li>
-                                                <h4 class=""><b>321</b></h4>
-                                                <p class="text-muted m-b-0">Last week</p>
-                                            </li>
-                                            <li>
-                                                <h4 class=""><b>964</b></h4>
-                                                <p class="text-muted m-b-0">Last Month</p>
-                                            </li>
-                                        </ul>
-                                        <div id="morris-bar-example" style="height: 300px"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
+                        <canvas id="canvas"></canvas>
+                       
                     </div>
                     <!-- container fluid -->
 
@@ -256,6 +118,7 @@
     <script src="assets/js/app.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="./assets/javascript/auth.js" type="module"></script>
+    <Script src="assets/javascript/thongke.js"></Script>
     
 
 </body>
