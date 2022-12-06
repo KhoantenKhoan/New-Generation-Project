@@ -31,7 +31,7 @@ function render(array) {
                   <img class="img-search" src="${value.hinhAnh}" alt="">
               </div>
               <div class="latest-product__item__text">
-                  <h4>${value.tenSP.toUpperCase()}</h4>
+                  <h4>${value.tenSP.toUpperCase().substring(0,49)}</h4>
                   <h4 style="color:red;">${new Intl.NumberFormat("vi-VN", {
                     style: "currency",
                     currency: "VND",

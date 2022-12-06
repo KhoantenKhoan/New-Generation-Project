@@ -4,7 +4,7 @@ if (cart) cart.forEach( (sp,index) => {
     <tr>
         <td class="shoping__cart__item">
             <img src="${sp.hinhAnh}" alt="">
-            <h5>${sp.tenSP}</h5>
+            <h5>${sp.tenSP.substring(0,49)}...</h5>
         </td>
         <td class="shoping__cart__price">
         ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫
@@ -58,15 +58,17 @@ tinhtongtien();
 
 function deletecart(id){
     let cart = JSON.parse(localStorage.getItem('cart'));
-    toastr.success("Xóa giỏ hàng thành công");
     for (let i = 0; i < cart.length; i++) {
         if (cart[i].id == id) {
             cart.splice(i, 1);
+            console.log(cart.splice(i, 1));
+            console.log(cart);
+            toastr.success("Xóa giỏ hàng thành công");
+            localStorage.removeItem("cart");
+            tinhtongtien();
+            // document.location="../../index.html"
         }
     }
-    localStorage.removeItem("cart");
-    tinhtongtien();
-    document.location="../../index.html"
 }
 function deleteAll(){
     localStorage.removeItem("cart");

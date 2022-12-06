@@ -1,4 +1,5 @@
 var table = document.querySelector("#khachHang");
+
 var member = JSON.parse(localStorage.getItem("member"));
 (async () => {
     const response = await fetch(
@@ -28,6 +29,10 @@ var member = JSON.parse(localStorage.getItem("member"));
                 <img src="${row.hinhAnh}" alt="avatar"
                 class="rounded-circle img-fluid" style="width: 150px;">
                 <h5 class="my-3">${row.tenKH}</h5>
+                <div id="admin">
+                    ${row.vaiTro == 1?`<p class="text-muted mb-0 text-align-center btn btn-primary " ><a href="admin/index.html" style="color:white;">Admin</a></p>`:""}
+                    
+                </div>
             </div>
             </div>
         </div>
@@ -41,6 +46,7 @@ var member = JSON.parse(localStorage.getItem("member"));
                 <div class="col-sm-9">
                     <p class="text-muted mb-0">${row.tenKH}</p>
                 </div>
+                
                 </div>
                 <hr>
                 
@@ -70,6 +76,7 @@ var member = JSON.parse(localStorage.getItem("member"));
                 <div class="col-sm-9">
                     <p class="text-muted mb-0">${row.diaChi}</p>
                 </div>
+                
                 </div>
             </div>
             </div>
@@ -96,42 +103,55 @@ var member = JSON.parse(localStorage.getItem("member"));
         </div>
         </div>
         `;}
+        
+    });
+    Object.keys(data).forEach((key) =>{
+        const row = data[key];
         let count = 1;
         Object.keys(data1).forEach((key1) =>{
+            let donhang =document.getElementById("dh");
             const row1 = data1[key1];
-            if(row1.idKH == key) {
-                document.getElementById("dh").innerHTML += `
-            <tr >
-                <td>${count++}</td>
-                <td>${key1}</td>
-                <td>${row1.ghiChuKH}</td>
-                <td>${row1.ngayDH}</td>
-                <td>${row1.trangThaiDH}</td>
-                <td>
-                <button type="button" class="btn btn-primary primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"> Chi tiết </button>
-                </td>
-                <td>
-                <button type="button" class="btn btn-danger danger"> Hủy đơn </button>
-                </td>
-            </tr>
-            `
-        }
+            if(row.email == member && row1.idKH == key) {
+                donhang.innerHTML +=`
+                <tr >
+                    <td>${count++}</td>
+                    <td>${key1}</td>
+                    <td>${row1.ghiChuKH}</td>
+                    <td>${row1.ngayDH}</td>
+                    <td>${row1.trangThaiDH}</td>
+                    <td>
+                    <button type="button" class="btn btn-primary primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"> Chi tiết </button>
+                    </td>
+                    <td>
+                    <button type="button" class="btn btn-danger danger"> Hủy đơn </button>
+                    </td>
+                </tr>
+                `;
+            }else{
+                
+            }
+    });
+    });
+    Object.keys(data).forEach((key) =>{
+        const row = data[key];
+    Object.keys(data1).forEach((key1) =>{
+        const row1 = data1[key1];
         let count1 =1;
         Object.keys(data2).forEach((key2) =>{
             const row2 = data2[key2];
-            if(row2.idDH == key1 || row2.idDH == row1.id)
+            if(row.email == member &&  row2.idDH == key1 || row.email == member && row2.idDH == row1.id)
             document.getElementById("ct").innerHTML += `
             <tr>
                 <td>${count1++}</td>
-                <td>${row2.tenSP}</td>
+                <td>${row2.tenSP.toUpperCase()}</td>
                 <td><img style="width: 100px;" src="${row2.hinhAnh}" alt="${row2.tenSP}"></td>
                 <td>${row2.soLuong}</td>
                 <td>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(row2.donGia)}</td>
             </tr>
             `;
-        })
+        });
     });
-    });
+});
     })();
 //   <div class="row change_password" id="change">
 //                 <form class="forms-sample">

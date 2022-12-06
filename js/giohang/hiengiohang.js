@@ -23,7 +23,7 @@ let row = `
     <div class="row">
     <div class="col-lg-12">
         <div class="shoping__cart__btns">
-            <a href="./index.html" class="primary-btn cart-btn">Tiếp tục mua sắp</a>
+            <a href="./index.html" class="primary-btn cart-btn">Tiếp tục mua sắm</a>
         </div>
     </div>
     <div class="col-lg-6">
@@ -44,7 +44,7 @@ let row = `
                 <li>Giảm giá <span id="giamgia"></span></li>
                 <li>Tổng <span id="tientong"></span></li>
             </ul>
-            <a href="./checkout.html" class="primary-btn">Đi đến thanh toán</a>
+            <a href="./checkout.html" class="primary-btn">Thanh toán</a>
         </div>
     </div>
     </div>

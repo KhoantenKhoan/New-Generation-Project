@@ -39,7 +39,7 @@ if (cart) cart.forEach( (sp,index) => {
   document.querySelector("#sanpham").innerHTML += `
         <li>
             <div class="checkout__order__name">
-                ${sp.tenSP} x ${sp.soluong}
+                ${sp.tenSP.toUpperCase().substring(0,15)}... x ${sp.soluong}
             </div>
             <div class="checkout_order_total">
                 <span class="tien" style="display: none;">
