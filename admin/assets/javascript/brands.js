@@ -21,10 +21,10 @@ async function getData() {
 }
 function showPageNumber() {
   totalPage = db.length / perPage;
-  for (let i = 1; i < totalPage; i++) {
+  for (let i = 1; i <= totalPage; i++) {
     document.getElementById(
       "page"
-    ).innerHTML += `<a onclick="handlePageNumber(${i})">${i}</a>`;
+    ).innerHTML += `<a class="btn btn-outline-primary btn_page" onclick="handlePageNumber(${i})">${i}</a>`;
   }
 }
 function handlePageNumber(num) {

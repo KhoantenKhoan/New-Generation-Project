@@ -111,10 +111,11 @@ async function renderComment() {
     let content = ``;
 
     if (data1, data2) {
+        console.log(id);
         for (const [key1, value1] of Object.entries(data1)) 
             for (const [key2, value2] of Object.entries(data2)){
-                // console.log(value1.idSP);
-                // console.log(value1.idSP-"1");
+                console.log(key1
+                    );
                 if (value1.idSP == id && value1.idKH == value2.id || key1 == id && value1.idKH == key2) {
                     // console.log(value2);
                     content += `
