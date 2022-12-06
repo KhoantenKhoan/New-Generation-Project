@@ -19,7 +19,7 @@ const product = new FireBaseService();
                             <img src="${value.hinhAnh}" alt="">
                         </div>
                         <div class="latest-product__item__text">
-                            <h6>${value.tenSP}</h6>
+                            <h6>${value.tenSP.toUpperCase().substring(0,49)}</h6>
                             <span>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value.gia - value.gia * (value.giamGia/100))} VNĐ</span>
                         </div>
                     </a>

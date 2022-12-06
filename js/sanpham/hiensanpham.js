@@ -26,7 +26,7 @@ const product = new FireBaseService();
 
                           <div class="featured__item__text">
                             <div class="featured__item_name">
-                              <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a></h6>
+                              <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase().substring(0,49)}</a></h6>
                             </div>
                             <div class="featured__item_old_price">
                               <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>

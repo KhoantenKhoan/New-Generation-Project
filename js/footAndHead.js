@@ -158,6 +158,8 @@ const showLogin = () =>{
     }
 };
 const signOut = () => {
-        localStorage.removeItem('member');
+        // localStorage.removeItem('member');
+        window.location.href = 'index.html';
+        // document.location="index.html";
 }
 showLogin();

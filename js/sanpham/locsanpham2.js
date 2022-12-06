@@ -33,7 +33,7 @@ if (data , data1) {
                         </div>
                         <div class="product__item__text">
                             <div class="product__item__name">
-                              <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase()}</a></h6>
+                              <h6><a href="shop-details.html?id=${key}&idDM=${value.idDM}">${(value.tenSP).toUpperCase().substring(0,49)}</a></h6>
                             </div>
                             <div class="product__item__old_price">
                                 <p style="text-decoration: line-through;">${value.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</p>
