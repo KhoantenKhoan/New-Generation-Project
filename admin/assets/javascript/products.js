@@ -22,7 +22,7 @@
   // <li class="page-item"><a class="page-link" onclick="handlePageNumber(${i})" >${i}</a></li>
   function showPageNumber() {
     totalPage = db.length / perPage;
-    for (let i = 1; i < totalPage; i++) {
+    for (let i = 1; i <= totalPage; i++) {
       document.getElementById(
         "page"
         ).innerHTML += `
@@ -42,10 +42,6 @@
     console.log(item);
   }
 
-function handlePageNumber(num) {
-    currentPage=num
-    console.log(currentPage);
-}
       async function render() {
         table.innerHTML=``;
         Object.keys(item).forEach((key) => {
