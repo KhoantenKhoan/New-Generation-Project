@@ -6,19 +6,20 @@
     Version: 1.0
     Created: Colorlib
 ---------------------------------------------------------  */
+
 'use strict';
 
 (function ($) {
-    
+
     /*------------------
-    Preloader
+        Preloader
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
-        
+
         /*------------------
-        Gallery filter
+            Gallery filter
         --------------------*/
         $('.featured__controls li').on('click', function () {
             $('.featured__controls li').removeClass('active');
@@ -29,15 +30,15 @@
             var mixer = mixitup(containerEl);
         }
     });
-    
+
     /*------------------
-    Background Set
+        Background Set
     --------------------*/
     $('.set-bg').each(function () {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
     });
-    
+
     //Humberger Menu
     $(".humberger__open").on('click', function () {
         $(".humberger__menu__wrapper").addClass("show__humberger__menu__wrapper");
