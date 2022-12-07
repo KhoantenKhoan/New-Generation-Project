@@ -8,6 +8,8 @@ let render = `
         </div>    
 `
 var checkMember = JSON.parse(localStorage.getItem("member"));
-if(checkMember){
+if(checkMember == null){
     member.innerHTML += render;
+}else{
+    member.innerHTML =``;
 }

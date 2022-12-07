@@ -162,6 +162,5 @@ const signOut = () => {
         localStorage.removeItem('member');
         toastr.success("Đăng xuất thành công!");
         window.location.reload();
-
 }
 showLogin();
