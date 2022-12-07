@@ -66,9 +66,9 @@ function register() {
                 diaChi: " ",
                 vaiTro: "0"
             }
+            
             insertRegister(data);
-            toastr.success("Đăng ký thành công");
-            window.location.href = 'login.html';
+            
 
         }
     })
@@ -76,6 +76,8 @@ function register() {
 
 async function insertRegister(data) {
     let response = await Auth.post('khachHang', data);
+    toastr.success("Đăng ký thành công");
+            window.location.href = 'login.html';
 }
 
 register();
