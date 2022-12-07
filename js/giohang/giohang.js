@@ -59,16 +59,19 @@ tinhtongtien();
 function deletecart(id){
     let cart = JSON.parse(localStorage.getItem('cart'));
     for (let i = 0; i < cart.length; i++) {
+        
+        console.log(cart[i]);
         if (cart[i].id == id) {
-            cart.splice(i, 1);
-            console.log(cart.splice(i, 1));
-            console.log(cart);
-            toastr.success("Xóa giỏ hàng thành công");
+            let remove = cart.splice(i, 1);
+            // console.log(cart.splice(i, 1));
+            // console.log(remove);
+        //    if(remove == cart[i]) console.log('a');
             localStorage.removeItem("cart");
             tinhtongtien();
             // document.location="../../index.html"
         }
     }
+
 }
 function deleteAll(){
     localStorage.removeItem("cart");
