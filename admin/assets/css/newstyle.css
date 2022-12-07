@@ -22,3 +22,15 @@ table thead{
 .btn_page{
     margin: 5px 0;
 }
+
+.topbar,
+button.button-menu-mobile.open-left.waves-effect,
+.topbar-left.d-none.d-lg-block,
+.navbar-custom{
+    background: #003049 !important;
+}
+.btn-primary:hover,
+.btn-primary{
+    background: #003049 !important;
+    border: 1px solid #003049 !important;
+}

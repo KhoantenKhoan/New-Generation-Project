@@ -1,5 +1,5 @@
 let footer = `
-<div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 border-cover">
                     <div class="footer__about">
@@ -110,7 +110,7 @@ let header = `
                         <ul>
                             <li class="active"><a class="nav__link" href="./index.html">Trang chủ</a></li>
                             <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Sản phẩm</a></li>
-                            <li><a class="nav__link" href="./shop-grid.html?idDMT=1">Về Chúng tôi</a></li>
+                            <li><a class="nav__link" href="./about.html">Về Chúng tôi</a></li>
                             <li><a class="nav__link" href="./contact.html">Liên hệ</a></li>
                         </ul>
                     </nav>
@@ -138,7 +138,7 @@ const showLogin = () =>{
         mem.innerHTML=`
             <div class="header__top__right">
                 <div class="header__top__right__auth">
-                    <a href="./userdetail.html"><i class="fa fa-user"></i> Tài khoản / </a>
+                    <a href="./userdetail.html"><i class="fa fa-user"></i>${member} / </a>
                 </div>
                 <div class="header__top__right__auth">
                     <a href="" onclick ="signOut()" ><i class="fa fa-sign-out"></i>Đăng xuất</a>
@@ -159,8 +159,9 @@ const showLogin = () =>{
     }
 };
 const signOut = () => {
-        // localStorage.removeItem('member');
-        window.location.href = 'index.html';
-        // document.location="index.html";
+        localStorage.removeItem('member');
+        toastr.success("Đăng xuất thành công!");
+        window.location.reload();
+
 }
 showLogin();

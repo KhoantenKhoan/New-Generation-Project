@@ -15,7 +15,7 @@
           <tr>
           <td>${count++}</td>
           <td>${row.ngay}</td>
-          <td>${row.noiDung}</td>
+          <td style="width: 650px">${row.noiDung}</td>
           <td>
             <a href="update-cmt.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
             <button class="btn btn-danger btn-del" onclick="xoa('${key}')">Xóa</button>
