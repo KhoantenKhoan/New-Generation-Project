@@ -58,24 +58,20 @@ tinhtongtien();
 
 function deletecart(id){
     let cart = JSON.parse(localStorage.getItem('cart'));
+    console.log(cart);
     for (let i = 0; i < cart.length; i++) {
-        
-        console.log(cart[i]);
         if (cart[i].id == id) {
-            let remove = cart.splice(i, 1);
-            // console.log(cart.splice(i, 1));
-            // console.log(remove);
-        //    if(remove == cart[i]) console.log('a');
-            localStorage.removeItem("cart");
-            tinhtongtien();
-            // document.location="../../index.html"
-        }
+            cart.splice(i, 1);
+        };
     }
-
-}
-function deleteAll(){
-    localStorage.removeItem("cart");
-    localStorage.removeItem("tientong");
+    localStorage.setItem("cart",JSON.stringify(cart));
+    toastr.warning("Xoá sản phẩm ở giỏ hàng thành công!");
     tinhtongtien();
-    document.location="../../index.html";
+        setTimeout(document.location="../../index.html",10000)
 }
+// function deleteAll(){
+//     localStorage.removeItem("cart");
+//     localStorage.removeItem("tientong");
+//     tinhtongtien();
+//     document.location="../../index.html";
+// }
