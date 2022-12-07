@@ -311,3 +311,11 @@
 .open{
     display: none;
 }
+
+.bg-primary{
+    background: #003049 !important;
+}
+
+.container-fluid.bg-primary.bg-icon.mt-5.py-6{
+    padding: 10px;
+}
