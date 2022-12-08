@@ -19,7 +19,6 @@ var member = JSON.parse(localStorage.getItem("member"));
 
     Object.keys(data).forEach((key) => {
       const row = data[key];
-      console.log(member != null);
       if(row && row.email == member){
             if(member != null){
                 table.innerHTML += `
@@ -81,7 +80,7 @@ var member = JSON.parse(localStorage.getItem("member"));
                             <p class="mb-0">Họ và Tên</p>
                         </div>
                         <div class="col-sm-9">
-                            <p class="text-muted mb-0"><a class="btn btn-primary btn-sm" href="./userchange.html">Chỉnh sửa thông tin</a><a class="btn btn-secondary btn-sm" href="./passchange.html">Đổi mật khẩu</a></p>
+                            <p class="text-muted mb-0"><a class="btn btn-primary btn-sm" href="./userchange.html?id=${key}">Chỉnh sửa thông tin</a><a class="btn btn-secondary btn-sm" href="./passchange.html?id=${key}">Đổi mật khẩu</a></p>
                         </div>
                         </div>
                         <hr>
