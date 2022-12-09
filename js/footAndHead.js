@@ -39,38 +39,24 @@ let footer = `
             </div>
         </div>
 `;
-
 let humberger = `
-<div class="humberger__menu__logo">
+        <div class="humberger__menu__logo">
             <a href="#"><img src="img/logo.png" alt=""></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                <li><a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i></a></li>
             </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
         </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="img/language.png" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Vietnames</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
-            <div class="header__top__right__auth">
-                <a href="./login.html"><i class="fa fa-user"></i> Đăng nhập</a>
-            </div>
+        <div class="humberger__menu__widget" id="mobi_member">
+            
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.html">Trang chủ</a></li>
                 <li><a href="./shop-grid.html">Sản phẩm</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./blog.html">Tin tức</a></li>
+                <li><a href="./contact.html">Về chúng tôi</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -134,6 +120,7 @@ document.querySelector("#header").innerHTML += header;
 var member = JSON.parse(localStorage.getItem("member"));
 const showLogin = () =>{
     let mem = document.getElementById("member")
+    let mobi = document.getElementById("mobi_member");
     if(member){
         mem.innerHTML=`
             <div class="header__top__right">
@@ -145,6 +132,16 @@ const showLogin = () =>{
                 </div>
             </div>
         `
+        mobi.innerHTML = `
+            <div class="header__top__right">
+                <div class="header__top__right__auth">
+                    <a style="color:#000;" href="./userdetail.html"><i class="fa fa-user"></i>${member} / </a>
+                </div>
+                <div class="header__top__right__auth">
+                    <a style="color:#000;" href="" onclick ="signOut()" ><i class="fa fa-sign-out"></i>Đăng xuất</a>
+                </div>
+            </div>
+        `
     }else{
         mem.innerHTML=`
         <div class="header__top__right">
@@ -153,6 +150,16 @@ const showLogin = () =>{
             </div>
             <div class="header__top__right__auth">
                 <a href="./resigter.html"><i class="fa fa-user"></i> Đăng ký</a>
+            </div>
+        </div>
+        `
+        mobi.innerHTML = `
+        <div class="header__top__right">
+            <div class="header__top__right__auth">
+                <a style="color:#000;" href="./login.html"><i class="fa fa-sign-in"></i> Đăng nhập / </a>
+            </div>
+            <div class="header__top__right__auth">
+                <a style="color:#000;" href="./resigter.html"><i class="fa fa-user"></i> Đăng ký</a>
             </div>
         </div>
         `
