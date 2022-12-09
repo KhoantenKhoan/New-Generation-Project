@@ -64,7 +64,7 @@ let notHave = `
 </div>
 `
 var cart = JSON.parse(localStorage.getItem("cart"));
-if(cart != null && cart != [null]){
+if(cart != null && cart.length >0){
     document.querySelector("#cart").innerHTML += row;
 }else{
     document.querySelector("#cart").innerHTML += notHave;

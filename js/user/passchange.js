@@ -11,8 +11,8 @@ var member = JSON.parse(localStorage.getItem("member"));
 
     Object.keys(data).forEach((key) => {
       const row = data[key];
+      if(member != null){
       if(row && row.email == member){
-            if(member != null){
                 table.innerHTML += `
                 <div class="row">
                 <div class="col-lg-4">
@@ -63,14 +63,14 @@ var member = JSON.parse(localStorage.getItem("member"));
                 </div>
                 </div>
                 `;
-            }else{
-                table.innerHTML = `
-                    <div style="text-align: center;">
-                        <h3>Bạn cần phải đăng nhập!</h3>
-                        <a class="btn btn-primary" href="index.html">Về trang chủ</a>
-                    </div>    
-                `
             }
+        }else{
+            table.innerHTML = `
+                <div style="text-align: center;">
+                    <h3>Bạn cần phải đăng nhập!</h3>
+                    <a class="btn btn-primary" href="index.html">Về trang chủ</a>
+                </div>    
+            `
         }
     });
     btnluu = document.querySelector("#btnluu");

@@ -36,13 +36,7 @@ const response = await fetch(
                 </div>
                 <div class="product__details__price">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(product.gia - (product.gia / product.giamGia))}</div>
                 <p style="text-align:justify">${product.moTa}</p>
-                <div class="product__details__quantity">
-                    <div class="quantity">
-                        <div class="pro-qty">
-                            <input type="number" value="1">
-                        </div>
-                    </div>
-                </div>
+                
                 <a id="addToCart" onclick="giohang(${id_item},'${product.tenSP}',${product.gia - (product.gia / product.giamGia)},'${product.hinhAnh}')" class="primary-btn text-white">Thêm vào giỏ hàng</a>
                 <ul>
                     <li><b>Tình trạng</b> <span>${product.trangThai=="1"?"Còn hàng":"Hết hàng"}</span></li>
@@ -113,7 +107,7 @@ async function renderComment() {
     if (data1, data2) {
         for (const [key1, value1] of Object.entries(data1)) 
             for (const [key2, value2] of Object.entries(data2)){
-                if (value1.idSP == id && value1.idKH == value2.id || key1 === id && value1.idKH === key2) {
+                if (value1.idSP === id && value1.idKH === value2.id || value1.idSP  === id && value1.idKH === key2) {
                     // console.log(value2);
                     content += `
                             <div class="d-flex flex-start">
