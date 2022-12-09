@@ -117,7 +117,7 @@ var member = JSON.parse(localStorage.getItem("member"));
           },1000)
         })
         }else{
-            toastr.wanning("2 mật khẩu không khớp");
+            toastr.warning("2 mật khẩu không khớp");
         }
     }
 })();

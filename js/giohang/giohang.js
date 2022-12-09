@@ -66,6 +66,7 @@ function deletecart(id){
     toastr.warning("Xoá sản phẩm ở giỏ hàng thành công!");
     tinhtongtien();
         setTimeout(window.location.reload(),10000)
+
 }
 // function deleteAll(){
 //     localStorage.removeItem("cart");

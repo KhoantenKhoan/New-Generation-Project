@@ -319,3 +319,11 @@
 .container-fluid.bg-primary.bg-icon.mt-5.py-6{
     padding: 10px;
 }
+
+div#mobi_member .header__top__right{
+    text-align: center;
+}
+
+.humberger__menu__cart{
+    text-align: center;
+}
