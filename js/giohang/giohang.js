@@ -14,7 +14,6 @@ if (cart) cart.forEach( (sp,index) => {
                 <div class="pro-qty">
                     <input value="${sp.soluong}" type="number" onchange="tinhtien(${sp.gia},this.value, ${index})" >
                 </div>
-                
             </div>
         </td>
         <td class="shoping__cart__total"  >
@@ -58,7 +57,6 @@ tinhtongtien();
 
 function deletecart(id){
     let cart = JSON.parse(localStorage.getItem('cart'));
-    console.log(cart);
     for (let i = 0; i < cart.length; i++) {
         if (cart[i].id == id) {
             cart.splice(i, 1);
@@ -67,7 +65,8 @@ function deletecart(id){
     localStorage.setItem("cart",JSON.stringify(cart));
     toastr.warning("Xoá sản phẩm ở giỏ hàng thành công!");
     tinhtongtien();
-        setTimeout(document.location="../../index.html",1000)
+        setTimeout(window.location.reload(),10000)
+
 }
 // function deleteAll(){
 //     localStorage.removeItem("cart");

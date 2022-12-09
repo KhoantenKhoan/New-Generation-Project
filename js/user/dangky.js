@@ -34,7 +34,7 @@ const validateEmail = (email) => {
 };
 
 function register() {
-    $(document).on('click', '#dangky', function(e) {
+    $(document).on('click', '#dangky',async function(e) {
         e.preventDefault();
         let fullname = $('#fullname').val().trim();
         let email = $('#email').val().trim();
@@ -46,31 +46,42 @@ function register() {
         console.log(phone);
         console.log(password);
         // let hashpassword = sha256(password);
-        if (fullname == '' || email == '' || password == '') {
-            toastr.warning("Vui lòng điền đầy đủ thông tin")
-        } else if (!validateEmail(email)) {
-            toastr.warning("Email không đúng định dạng")
-        }else if(phone == ''){
-            toastr.warning( "Nhập số điện thoại");
-        } else if (password.length < 6 || password.length > 30) {
-            toastr.warning("Mật khẩu từ 6 tới 30 kí tự")
-        } else if (!(password === repassword)) {
-            toastr.warning("2 mật khẩu không khớp");
-        } else {
-            let data = {
-                tenKH: fullname,
-                password: password,
-                email: email,
-                sdt: phone,
-                hinhAnh: " ",
-                diaChi: " ",
-                vaiTro: "0"
+        // let response = await Auth.getAll('khachHang');
+        // let data = await response.json();
+        //     Object.keys(data).forEach((i) => {
+            
+            if (fullname == '' || email == '' || password == '') {
+                toastr.warning("Vui lòng điền đầy đủ thông tin")
+            } else if (!validateEmail(email)) {
+                toastr.warning("Email không đúng định dạng")
+            }else if(phone == ''){
+                toastr.warning( "Nhập số điện thoại");
+            } else if (password.length < 6 || password.length > 30) {
+                toastr.warning("Mật khẩu từ 6 tới 30 kí tự")
+            } else if (!(password === repassword)) {
+                toastr.warning("2 mật khẩu không khớp");
             }
-            
-            insertRegister(data);
-            
+            //  else if (email === data[i].email) {
+            //     console.log(data);
+            //     console.log(data[i].email);
+            //     toastr.warning('Tài khoản đã tồn tại !');
+            //     window.location.reload();
+            // }else
+            {
+                let data = {
+                    tenKH: fullname,
+                    password: password,
+                    email: email,
+                    sdt: phone,
+                    hinhAnh: " ",
+                    diaChi: " ",
+                    vaiTro: "0"
+                }
+                insertRegister(data);
+                
 
-        }
+            }
+        // })
     })
 }
 
