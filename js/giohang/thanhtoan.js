@@ -3,8 +3,10 @@ var member = JSON.parse(localStorage.getItem("member"));
 function checkMemberExist() {
     if(localStorage.getItem("member") == null){
         localStorage.setItem('checkLoginCart', 0);
-        toastr.warning('Bạn phải đăng nhập mới được thanh toán!')
-        window.location.href = './login.html';
+        toastr.warning('Bạn phải đăng nhập mới được thanh toán!');
+        setTimeout(function () {
+            window.location.href = './login.html';
+        },1000)
     }
 }
 
