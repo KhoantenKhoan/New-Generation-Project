@@ -15,7 +15,7 @@ let footer = `
                     <div class="footer__widget">
                         <h5>Hữu ích</h5>
                         <ul>
-                            <li><a href="#">Chúng tôi là ai</a></li>
+                            <li><a href="./about.html">Chúng tôi là ai</a></li>
                             <li><a href="shop-grid.html?idDMT=2">Sản phẩm của chúng tôi</a></li>
                             <li><a href="shoping-cart.html">Giỏ hàng của bạn</a></li>
                             <li><a href="resigter.html">Đăng ký tài khoản</a></li>

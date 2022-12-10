@@ -33,7 +33,7 @@ var member = JSON.parse(localStorage.getItem("member"));
                         <div class="card-body">
                         <div class="row g-3">
                             <div class="col-12">
-                                <label for="password" class="form-label">Mật khẩu củ</label>
+                                <label for="password" class="form-label">Mật khẩu cũ</label>
                                 <input type="password" class="form-control" id="matKhau">
                             </div>
                             <div class="col-md-6">
