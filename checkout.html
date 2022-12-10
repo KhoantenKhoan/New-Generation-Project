@@ -146,18 +146,22 @@
                                 </p>
                                 <div class="checkout__input__checkbox">
                                     <label>
+                                        Thanh toán trực tiếp
+                                        <input type="radio" name="phuongThucTT" id="phuongThucTT" value="1" checked >
+                                        <span class="checkmark"></span>
+                                        <br>
+                                        <p>Thanh toán khi shipper đến giao hàng</p>
+                                    </label>
+                                </div>
+                                <!-- <div class="checkout__input__checkbox">
+                                    <label>
                                         Chuyển khoản
                                         <input type="radio" name="phuongThucTT"  id="phuongThucTT" value="0">
                                         <span class="checkmark"></span>
+                                        <br>
+                                    <p>Hình thức thanh toán online đang được phát triển</p>
                                     </label>
-                                </div>
-                                <div class="checkout__input__checkbox">
-                                    <label>
-                                        Thanh toán trực tiếp
-                                        <input type="radio" name="phuongThucTT" id="phuongThucTT" value="1">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </div>
+                                </div> -->
                                 <button id="btn-datHang" class="site-btn">Thanh toán</button>
                             </div>
                         </div>
@@ -185,6 +189,7 @@
     
     <!-- JS -->
     <script src="js/footAndHead.js"></script>
+    <script src="./js/toastr.min.js"></script>
     <script src="./js/giohang/khuyenmai.js" defer type="module"></script>
     <Script src="./js/giohang/thanhtoan.js"></Script>
     <script src="js/main.js"></script>

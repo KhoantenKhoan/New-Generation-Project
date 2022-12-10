@@ -46,10 +46,10 @@ fetch(url)
     document.getElementById("sdt").value = sp.sdt
     document.getElementById('div_anHien').innerHTML = `
     <label class="btn btn-outline-danger waves-effect waves-light m-r-10">
-    <input type="radio" name="anHien" value="1" class="anHien" ${sp.trangThai=="1" ? "checked" :""}>admin
+    <input type="radio" name="anHien" value="1" class="anHien" ${sp.vaiTro=="1" ? "checked" :""}>admin
     </label>
     <label class="btn btn-outline-primary waves-effect waves-light">
-    <input type="radio" name="anHien" value="0" class="anHien" ${sp.trangThai!="1" ? "checked" :""}>user
+    <input type="radio" name="anHien" value="0" class="anHien" ${sp.vaiTro!="1" ? "checked" :""}>user
     </label>  
     `;
 })
