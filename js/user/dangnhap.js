@@ -29,13 +29,10 @@
     const signIn = document.querySelector("#login");
     const email = document.querySelector("#email");
     const password = document.querySelector("#password");
-    let erros = document.getElementById("erros");
-    // let hashpassword = sha256(password);
 
  
 function login() {
     signIn.addEventListener('click', function(e) {
-        // alert("123")
         e.preventDefault();
 
         if (email.value == '' || password.value == '') {
@@ -51,7 +48,6 @@ function login() {
 
 
 async function loginMember(email, password) {
-    // console.log(localStorage.getItem("checkLoginCart"));
     let response = await Auth.getAll('khachHang');
     let data = await response.json();
     Object.keys(data).forEach((e) => {
@@ -66,12 +62,6 @@ async function loginMember(email, password) {
             localStorage.setItem("member", JSON.stringify(data[e].email));
             localStorage.removeItem("checkLoginCart");
             window.location.href = 'checkout.html';
-            
-        // } else if(sessionStorage.getItem("checkLoginCart") == '0') {
-        //     sessionStorage.setItem("member", email);
-        //     sessionStorage.removeItem("checkLoginCart");
-        //     window.location.href = 'checkout.html';
-
         } else {
             toastr.success("Đăng nhập thành công");
             localStorage.setItem("member", JSON.stringify(data[e].email));
