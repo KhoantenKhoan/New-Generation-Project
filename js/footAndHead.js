@@ -54,9 +54,9 @@ let humberger = `
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.html">Trang chủ</a></li>
-                <li><a href="./shop-grid.html">Sản phẩm</a></li>
-                <li><a href="./blog.html">Tin tức</a></li>
-                <li><a href="./contact.html">Về chúng tôi</a></li>
+                <li><a href="./shop-grid.html?idDMT=1">Sản phẩm</a></li>
+                <li><a href="./about.html">Về chúng tôi</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
