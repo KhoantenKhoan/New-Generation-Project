@@ -54,7 +54,7 @@ async function loginMember(email, password) {
         if (email.value != data[e].email) {
             console.log(data);
             console.log(data[e].email);
-            toastr.warning('Tài khoản không tồn tại !');
+            // toastr.warning('Tài khoản không tồn tại !');
         } else if (password.value != data[e].password) {
             console.log(data[e].password);
             toastr.warning('Mật khẩu không đúng !');

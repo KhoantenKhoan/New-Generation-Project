@@ -10,12 +10,13 @@ async function getData() {
     "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/danhMuc.json"
   );
   const data = await response.json();
-  db = data;
+  
+  db =  Object.values(data);
+  console.log(db);
   item = db.slice(
     (currentPage - 1) * perPage,
     (currentPage - 1) * perPage + perPage
   );
-  console.log(item);
   render();
   showPageNumber();
 }
