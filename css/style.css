@@ -2779,7 +2779,7 @@ Sidebar
 }
 
 .contact__widget h4 {
-	color: #fff;
+	color: #000;
 	font-weight: 700;
 	margin-bottom: 6px;
 	margin-top: 18px;
@@ -2964,6 +2964,20 @@ Sidebar
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.breadcrumb__text h2 {
+		font-size: 12px !important;
+	}
+	a.btn.btn-lg.btn-secondary.rounded-pill.py-3.px-5 {
+		font-size: 16px;
+	}
+	h1.display-5.text-white.mb-3{
+		font-size: 50px;
+	}
+
+	.register__form,
+	.login__form{
+		padding: 50px 0;
+	}
 	.featured__item__pic a img {
 		width: 80%;
 	}
@@ -3190,14 +3204,40 @@ Sidebar
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.breadcrumb__text h2 {
+		font-size: 12px !important;
+	}
+	a.btn.btn-lg.btn-secondary.rounded-pill.py-3.px-5 {
+		font-size: 16px;
+	}
+	.col-md-4.text-md-end.wow.fadeIn {
+		padding: 20px 0;
+	}
+	h1.display-5.text-white.mb-3{
+		font-size: 3rem;
+		font-weight: 700;
+	}
+	.register__form,
+	.login__form{
+		padding: 50px 0;
+	}
+	.product__item{
+		height: 94% !important;
+	}
 	.featured__item__pic a img {
 		width: 100%;
 	}
 	.hero__categories {
 		margin-bottom: 30px;
 	}
+	.hero__item {
+		height: 200px;
+	}
 	.hero__search {
-		margin-bottom: 30px;
+		height: 300px;
+	}
+	.hero__text h2 {
+		font-size: 18px;
 	}
 	.hero__search__form {
 		width: 100%;
@@ -3452,6 +3492,23 @@ Sidebar
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.breadcrumb__text h2 {
+		font-size: 12px !important;
+	}
+	.col-md-4.text-md-end.wow.fadeIn {
+		padding: 20px 0;
+	}
+	h1.display-5.text-white.mb-3{
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.register__form,
+	.login__form{
+		padding: 20px 0;
+	}
+	.product__item{
+		height: 94% !important;
+	}
 	.featured__item__pic a img {
 		width: 80%;
 	}
