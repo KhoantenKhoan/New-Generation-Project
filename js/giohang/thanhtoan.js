@@ -9,7 +9,9 @@ function checkMemberExist() {
         },1000)
     }
 }
-
+    let km = 0;
+    let khuyenmai = document.getElementById("km");
+    let maKhuyenMai = document.getElementById("khuyenMai");
 checkMemberExist();
 
 (async () => {
@@ -18,7 +20,7 @@ checkMemberExist();
       );
       const data = await response.json();
       const response1 = await fetch(
-        "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/khachHang.json"
+        "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/khuyenMai.json"
       );
       const data1 = await response1.json();
       Object.keys(data).forEach((key) => {
@@ -31,10 +33,18 @@ checkMemberExist();
             document.getElementById("idKH").value = key
         }
       })
-      Object.keys(data1).forEach((key1) => {
-        const row1 = data1[key1];
-        document.getElementById("idKM").value = key1
-      })
+      khuyenmai.onclick = function KhuyenMai() {
+        km = khuyenmai.value.trim();
+        Object.keys(data1).forEach((key1) => {
+            const row1 = data1[key1];
+            if(row1.giamGia == km && km){
+                console.log(key1);
+                document.getElementById("idKM").value = key1
+            }
+          })
+        tinhtongtien()
+    };
+    
 })();
 
 if (cart) cart.forEach( (sp,index) => {
@@ -54,13 +64,8 @@ if (cart) cart.forEach( (sp,index) => {
         </li>
   `
 })
-    let km = 0;
-    let khuyenmai = document.getElementById("km")
-    let maKhuyenMai = document.getElementById("khuyenMai")
-    khuyenmai.onclick = function KhuyenMai() {
-        km = khuyenmai.value.trim();
-        tinhtongtien()
-    };
+    
+    
     tienTT = tongtien - (km != 0 ?(tongtien * (km/100)):0);
     function tinhtongtien(){
         arrTien = document.getElementsByClassName("tien");
@@ -107,7 +112,7 @@ document.getElementById("btn-datHang").onclick = function() {
         "ngayDH": new Date().toISOString().slice(0,10),
         "trangThaiDH": "Chờ xác nhận"
     }
-    toastr.success("Đặt hàng thành công");
+    
     url = "https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/donHang.json";
     options = {
         method: "POST",
@@ -116,9 +121,10 @@ document.getElementById("btn-datHang").onclick = function() {
     }
     fetch(url,options).then( res => res.json())
     .then(data =>{
-        console.log(data);
+        toastr.success("Đặt hàng thành công");
+        // console.log(data);
         maDH = data.name;
-        console.log(maDH);
+        // console.log(maDH);
         luuChiTietDonHang(maDH);
     })
 }

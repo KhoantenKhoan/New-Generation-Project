@@ -41,10 +41,10 @@ function register() {
         let phone = $('#phone').val().trim();
         let password = $('#password').val().trim();
         let repassword = $('#repassword').val().trim();
-        console.log(fullname);
-        console.log(email);
-        console.log(phone);
-        console.log(password);
+        // console.log(fullname);
+        // console.log(email);
+        // console.log(phone);
+        // console.log(password);
         // let hashpassword = sha256(password);
         // let response = await Auth.getAll('khachHang');
         // let data = await response.json();

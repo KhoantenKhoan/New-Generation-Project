@@ -20,7 +20,7 @@ async function showUser (){
                     <div class="w-100 form__comment">
                         <h5>Để lại đánh giá</h5>
                         <div class="form-outline">
-                            <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+                            <textarea class="form-control" required id="textAreaExample" rows="4"></textarea>
                         </div>
                         <div id="binhluan" class="d-flex justify-content-between mt-3">
                             <button type="button" id="btn-luu" class="btn btn-primary">
