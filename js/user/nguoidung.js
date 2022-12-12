@@ -147,27 +147,29 @@ var member = JSON.parse(localStorage.getItem("member"));
             }
     });
     });
-    Object.keys(data).forEach((key) =>{
-        const row = data[key];
-    Object.keys(data1).forEach((key1) =>{
-        const row1 = data1[key1];
-        let count1 =1;
-        Object.keys(data2).forEach((key2) =>{
-            const row2 = data2[key2];
-            if(row.email == member &&  row2.idDH == key1 || row.email == member && row2.idDH == row1.id)
-            document.getElementById("ct").innerHTML += `
-            <tr>
-                <td>${count1++}</td>
-                <td>${row2.tenSP.toUpperCase().substring(0,15)}...</td>
-                <td><img style="width: 100px;" src="${row2.hinhAnh}" alt="${row2.tenSP}"></td>
-                <td>${row2.soLuong}</td>
-                <td>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(row2.donGia)}</td>
-            </tr>
-            `;
+        Object.keys(data).forEach((key) =>{
+            const row = data[key];
+        Object.keys(data1).forEach((key1) =>{
+            const row1 = data1[key1];
+            let count1 =1;
+            Object.keys(data2).forEach((key2) =>{
+                const row2 = data2[key2];
+                if(row2.idDH === key1 && row.email === member && row1.idKH == key || row2.idDH === row1.id && row.email === member && row1.idKH == key){
+                document.getElementById("ct").innerHTML += `
+                <tr>
+                    <td>${count1++}</td>
+                    <td>${key1.substring(0,10)}...</td>
+                    <td>${row2.tenSP.toUpperCase().substring(0,15)}...</td>
+                    <td><img style="width: 100px;" src="${row2.hinhAnh}" alt="${row2.tenSP}"></td>
+                    <td>${row2.soLuong}</td>
+                    <td>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(row2.donGia)}</td>
+                </tr>
+                `;}
+            });
         });
-    });
-});
+        });
     })();
+   
 //   <div class="row change_password" id="change">
 //                 <form class="forms-sample">
 //                     <div class="form-group">
