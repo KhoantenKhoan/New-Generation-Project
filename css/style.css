@@ -1945,7 +1945,7 @@ Sidebar
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__quantity .pro-qty {
-	width: 120px;
+	width: 40px;
 	height: 40px;
 }
 
@@ -3510,7 +3510,7 @@ Sidebar
 		height: 94% !important;
 	}
 	.featured__item__pic a img {
-		width: 80%;
+		width: 100%;
 	}
 	.hero__search__form form .hero__search__categories {
 		display: none;
@@ -3555,6 +3555,15 @@ Sidebar
 	}
 	.blog__details__hero__text h2 {
 		font-size: 24px;
+	}
+	.shoping__cart__table table tr th{
+		font-size: 15px;
+	}
+	.shoping__cart__table table tbody tr td.shoping__cart__total,
+	.shoping__cart__table table tbody tr td.shoping__cart__quantity,
+	.shoping__cart__table table tbody tr td.shoping__cart__price,
+	.shoping__cart__table table tbody tr td h5{
+		font-size: 12px;
 	}
 }
 
