@@ -130,8 +130,8 @@ var member = JSON.parse(localStorage.getItem("member"));
                 donhang.innerHTML +=`
                 <tr >
                     <td>${count++}</td>
-                    <td>${key1.substring(0,10)}...</td>
-                    <td>${row1.ghiChuKH.substring(0,10)}...</td>
+                    <td>${key1.substring(0,5)}...</td>
+                    <td>${row1.ghiChuKH.substring(0,5)}...</td>
                     <td>${row1.ngayDH}</td>
                     <td>${row1.trangThaiDH}</td>
                     <td>
@@ -158,8 +158,8 @@ var member = JSON.parse(localStorage.getItem("member"));
                 document.getElementById("ct").innerHTML += `
                 <tr>
                     <td>${count1++}</td>
-                    <td>${key1.substring(0,10)}...</td>
-                    <td>${row2.tenSP.toUpperCase().substring(0,15)}...</td>
+                    <td>${key1.substring(0,5)}...</td>
+                    <td>${row2.tenSP.toUpperCase().substring(0,10)}...</td>
                     <td><img style="width: 100px;" src="${row2.hinhAnh}" alt="${row2.tenSP}"></td>
                     <td>${row2.soLuong}</td>
                     <td>${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(row2.donGia)}</td>
