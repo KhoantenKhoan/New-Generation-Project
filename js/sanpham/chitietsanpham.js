@@ -121,7 +121,7 @@ async function renderComment() {
                                             ${value1.ngay}
                                         </p>
                                     </div>
-                                    <p class="mb-0" style="color:dark;">
+                                    <p class="mb-0" style="color:black;">
                                         ${value1.noiDung}
                                     </p>
                                 </div>

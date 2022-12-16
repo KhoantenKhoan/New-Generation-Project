@@ -29,10 +29,10 @@ let footer = `
                             <a href="./index.html"><img src="img/logo.png" alt=""></a>
                         </div>
                         <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="https://www.youtube.com/channel/UCyylAY439qgZ47M6ISz_ZAA"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/channel/UCyylAY439qgZ47M6ISz_ZAA"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCyylAY439qgZ47M6ISz_ZAA"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCyylAY439qgZ47M6ISz_ZAA"><i class="fa fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
