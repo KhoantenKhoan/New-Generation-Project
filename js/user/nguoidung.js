@@ -87,17 +87,17 @@ var member = JSON.parse(localStorage.getItem("member"));
                     </div>
                     </div>
                     <div class="row order_detail">
-                    <table class="table table-bordered">
+                    <table class="table table-bordered user_order">
                         <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>ID đơn hàng</th>
-                            <th>Ghi chú</th>
-                            <th>Ngày đặt hàng</th>
-                            <th>Trạng thái</th>
-                            <th>Chi tiết</th>
-                            <th>Hành động</th>
-                        </tr>
+                            <tr>
+                                <th>#</th>
+                                <th>ID đơn hàng</th>
+                                <th>Ghi chú</th>
+                                <th>Ngày đặt hàng</th>
+                                <th>Trạng thái</th>
+                                <th>Chi tiết</th>
+                                <th>Hành động</th>
+                            </tr>
                         </thead>
                         <tbody id="dh">
                         
