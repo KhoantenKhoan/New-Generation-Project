@@ -227,17 +227,18 @@
     height: 40px;
     background: #f3f3f3 url(/img/close.png);
     background-repeat: no-repeat;
-    background-size: 10px;
+    background-size: 20px;
     background-position: center;
     cursor: pointer;
     border-radius: 50%;
     z-index: 10;
+	box-shadow: 0 0 4px;
     /* transform: translate(-50%, -50%); */
 }
 
-/* .close:hover{
-    background: #ff4d54 url(/img/close.png);
-} */
+.close:hover{
+    /* background: #ff4d54  */
+}
 
 /* Search */
 .search{

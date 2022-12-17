@@ -2964,6 +2964,24 @@ Sidebar
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.popup {
+		position: fixed;
+		top: 50%;
+		left: 60% !important;
+	}
+	.contentBox{
+		width: 80% !important;
+		height: 60% !important;
+	}
+	.contentBox .img-popup{
+		padding: 0 10px;
+	}
+	.contentBox .content h3{
+		font-size: 17px;
+	}
+	.contentBox .content h2{
+		font-size: 17px !important;
+	}
 	.breadcrumb__text h2 {
 		font-size: 12px !important;
 	}
@@ -3204,6 +3222,29 @@ Sidebar
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.contentBox .img-popup img {
+		position: relative;
+		max-width: 200px !important;
+		z-index: 1;
+	}
+	.popup {
+		position: fixed;
+		top: 50%;
+		left: 60% !important;
+	}
+	.contentBox{
+		width: 80% !important;
+		height: 60% !important;
+	}
+	.contentBox .img-popup{
+		padding: 0 10px;
+	}
+	.contentBox .content h3{
+		font-size: 17px;
+	}
+	.contentBox .content h2{
+		font-size: 17px !important;
+	}
 	.breadcrumb__text h2 {
 		font-size: 12px !important;
 	}
@@ -3488,10 +3529,65 @@ Sidebar
 		overflow: hidden;
 	}
 }
+@media only screen and (max-width: 575px) {
+	.contentBox .img-popup img {
+		position: relative;
+		max-width: 200px !important;
+		z-index: 1;
+	}
+	.popup {
+		position: fixed;
+		top: 50%;
+		left: 66% !important;
+	}
+	.contentBox{
+		width: 70% !important;
+		height: 60% !important;
+	}
+	.contentBox .img-popup{
+		padding: 0 10px;
+	}
+	.contentBox .content h3{
+		font-size: 17px;
+	}
+	.contentBox .content h2{
+		font-size: 17px !important;
+	}
+}
 
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.contentBox .content a {
+		padding: 5px 10px !important;
+	}
+	.contentBox .img-popup img {
+		position: relative;
+		max-width: 150px !important;
+		z-index: 1;
+	}
+	.popup {
+		position: fixed;
+		top: 50%;
+		left: 78% !important;
+	}
+	.contentBox{
+		width: 60% !important;
+		height: 60% !important;
+	}
+	.contentBox .img-popup{
+		height: 300px !important;
+		padding: 0 10px;
+	}
+	.contentBox .content{
+		height: 300px !important;
+	}
+	.contentBox .content h3{
+		font-size: 13px;
+	}
+	.contentBox .content h2{
+		font-size: 16px !important;
+	}
 	.user_order thead tr th{
 		font-size: 10px;
 	}
@@ -3601,6 +3697,43 @@ Sidebar
 }
 
 @media only screen and (max-width: 290px) {
+	.close {
+		width: 20px !important;
+		height: 20px !important;
+		background-size: 15px !important;
+		box-shadow: 0 0 4px;
+	}
+	.contentBox .content a {
+		padding: 5px 10px !important;
+		font-size: 12px;
+	}
+	.contentBox .img-popup img {
+		position: relative;
+		max-width: 120px !important;
+		z-index: 1;
+	}
+	.popup {
+		position: fixed;
+		top: 50%;
+		left: 107% !important;
+	}
+	.contentBox{
+		width: 45% !important;
+		height: 60% !important;
+	}
+	.contentBox .img-popup{
+		height: 250px !important;
+		padding: 0 10px;
+	}
+	.contentBox .content{
+		height: 250px !important;
+	}
+	.contentBox .content h3{
+		font-size: 13px;
+	}
+	.contentBox .content h2{
+		font-size: 16px !important;
+	}
 	.owl-carousel .owl-item img{
 		margin: 0 20% !important;
 	}
