@@ -11,12 +11,13 @@
         Object.keys(data).forEach((key) => {
           const row = data[key];
           if(row){
+            const d = new Date(`${row.ngayDH}`);
           table.innerHTML += `
           <tr>
           <td>${count++}</td>
           <td>${row.tenKH}</td>
           <td>${row.email}</td>
-          <td>${row.ngayDH}</td>
+          <td>${d.getDate() + '/' + d.getMonth() + '/' +  d.getFullYear()}</td>
           <td class="des">${row.diaChi}</td>
           <td>${row.sdt}</td>
           <td> <label class="btn btn-warning">${row.trangThaiDH}</label> </td>

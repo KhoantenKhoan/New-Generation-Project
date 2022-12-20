@@ -10,11 +10,11 @@
           const row = data[key];
           // console.log(row);
           // console.log(key);
-          if(row){
+          if(row){const d = new Date(`${row.ngay}`);
           table.innerHTML += `
           <tr>
           <td>${count++}</td>
-          <td>${row.ngay}</td>
+          <td>${d.getDate() + '/' + d.getMonth() + '/' +  d.getFullYear()}</td>
           <td style="width: 650px">${row.noiDung}</td>
           <td>
             <a href="update-cmt.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
