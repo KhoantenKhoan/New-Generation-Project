@@ -48,7 +48,7 @@
 
           const row = item[key];
           
-          if(row){
+          if(row){const d = new Date(`${row.ngayNhap}`);
           table.innerHTML += `
           <tr>
                 <td>${count++}</td>
@@ -58,7 +58,7 @@
                 </td>
                 <td>${row.gia.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫</td>
                 <td>${row.giamGia} %</td>
-                <td>${row.ngayNhap}</td>
+                <td>${d.getDate() + '/' + d.getMonth() + '/' +  d.getFullYear()}</td>
                 <td>${row.soLuong}</td>
                 <td>${row.trangThai == 1 ? '<span class="btn btn-primary">Còn Hàng</span>' : '<span class="btn btn-danger">Hết Hàng</span>'}</td>
                 <td>
