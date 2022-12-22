@@ -105,10 +105,12 @@ async function renderComment() {
     let content = ``;
 
     if (data1, data2) {
+        
         for (const [key1, value1] of Object.entries(data1)) 
             for (const [key2, value2] of Object.entries(data2)){
                 if (value1.idSP === id && value1.idKH === value2.id || value1.idSP  === id && value1.idKH === key2) {
                     // console.log(value2);
+                    const d = new Date(`${value1.ngay}`);
                     content += `
                             <div class="d-flex flex-start">
                                 <img class="rounded-circle shadow-1-strong me-3"
@@ -118,7 +120,7 @@ async function renderComment() {
                                     <h6 class="fw-bold mb-1">${value2.tenKH}</h6>
                                     <div class="d-flex align-items-center mb-3">
                                         <p class="mb-0">
-                                            ${value1.ngay}
+                                        ${d.getDate() + '/' + d.getMonth() + '/' +  d.getFullYear()}
                                         </p>
                                     </div>
                                     <p class="mb-0" style="color:black;">
