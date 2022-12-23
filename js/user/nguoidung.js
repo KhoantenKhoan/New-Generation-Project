@@ -127,12 +127,13 @@ var member = JSON.parse(localStorage.getItem("member"));
             let donhang =document.getElementById("dh");
             const row1 = data1[key1];
             if(row.email == member && row1.idKH == key) {
+                const d = new Date(`${row1.ngayDH}`);
                 donhang.innerHTML +=`
                 <tr >
                     <td>${count++}</td>
                     <td>${key1.substring(0,5)}...</td>
                     <td>${row1.ghiChuKH.substring(0,5)}...</td>
-                    <td>${row1.ngayDH}</td>
+                    <td>${d.getDate() + '/' + d.getMonth() + '/' +  d.getFullYear()}</td>
                     <td>${row1.trangThaiDH}</td>
                     <td>
                     <button type="button" class="btn btn-primary primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"> Chi tiết </button>

@@ -49,6 +49,8 @@
 
 .featured__item__pic a img{
     border-radius: 10px;
+    height: 243px;
+    width: 100%;
 }
 
 .product__item__name,
