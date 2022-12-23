@@ -7,7 +7,7 @@ if (cart) cart.forEach( (sp,index) => {
             <h5>${sp.tenSP.substring(0,49)}...</h5>
         </td>
         <td class="shoping__cart__price">
-        ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫
+        ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫
         </td>
         <td class="shoping__cart__quantity">
             <div class="quantity">
@@ -17,7 +17,8 @@ if (cart) cart.forEach( (sp,index) => {
             </div>
         </td>
         <td class="shoping__cart__total"  >
-                <div class="tien">  ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')} ₫	</div>
+                <div class="hidden" style="display:none">${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '')}</div>
+                <div class="tien">  ${sp.gia.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₫	</div>
             
         </td>
         <td class="shoping__cart__item__close">
@@ -29,7 +30,8 @@ if (cart) cart.forEach( (sp,index) => {
 })
 function tinhtien(gia, soluong, i){
     let tien = gia*soluong;
-    document.getElementsByClassName("tien")[i].innerText = (tien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '') + " ₫";
+    document.getElementsByClassName("tien")[i].innerText = (tien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.') + " ₫";
+    document.getElementsByClassName("hidden")[i].innerText = (tien).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '');
     tinhtongtien();
 }
     let km = 0;
@@ -40,7 +42,7 @@ function tinhtien(gia, soluong, i){
         tinhtongtien()
     };
 function tinhtongtien(){
-    arrTien = document.getElementsByClassName("tien");
+    arrTien = document.getElementsByClassName("hidden");
     tongtien=0;
     for(let t of arrTien){
         // console.log(t);
