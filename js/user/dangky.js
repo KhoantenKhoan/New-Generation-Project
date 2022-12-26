@@ -51,15 +51,20 @@ function register() {
         //     Object.keys(data).forEach((i) => {
             
             if (fullname == '' || email == '' || password == '') {
-                toastr.warning("Vui lòng điền đầy đủ thông tin")
+                toastr.warning("Vui lòng điền đầy đủ thông tin");
+                end;
             } else if (!validateEmail(email)) {
-                toastr.warning("Email không đúng định dạng")
-            }else if(phone == ''){
-                toastr.warning( "Nhập số điện thoại");
+                toastr.warning("Email không đúng định dạng");
+                end;
+            }else if(phone == '' || phone.length < 10 || phone.length >11){
+                toastr.warning( "Số điện thoại là 11 số");
+                end;
             } else if (password.length < 6 || password.length > 30) {
                 toastr.warning("Mật khẩu từ 6 tới 30 kí tự")
+                end;
             } else if (!(password === repassword)) {
                 toastr.warning("2 mật khẩu không khớp");
+                end;
             }
             //  else if (email === data[i].email) {
             //     console.log(data);
