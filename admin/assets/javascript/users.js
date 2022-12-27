@@ -15,7 +15,6 @@
           <tr>
           <td>${count++}</td>
           <td style="text-overflow: ellipsis; font-size: 12px">${row.tenKH}</td>
-          <td>${row.password}</td>
           <td class="img"><img src="${row.hinhAnh}" alt="${row.tenKH}"></td>
           <td style="text-overflow: ellipsis;" class="des">${row.diaChi}</td>
           <td>${row.email}</td>
