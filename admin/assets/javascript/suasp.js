@@ -13,6 +13,7 @@ btnluu.onclick = function(){
     sp={
       idDMT : document.querySelector("#dmt").value.trim(),
       idDM : document.querySelector("#dm").value.trim(),
+      id : document.querySelector("#id").value.trim(),
       tenSP: document.querySelector("#ten").value.trim(),
       moTa: document.querySelector("#mota").value.trim(),
       hinhAnh: document.querySelector("#hinh").value.trim(),
@@ -53,6 +54,7 @@ fetch(url)
 .then(sp  =>{
     document.getElementById("dmt").value= sp.idDMT,
     document.getElementById("dm").value= sp.idDM,
+    document.getElementById("id").value= sp.id,
     document.getElementById('ten').value = sp.tenSP;
     document.getElementById('mota').value = sp.moTa;
     document.getElementById('hinh').value = sp.hinhAnh;

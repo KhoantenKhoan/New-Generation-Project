@@ -42,6 +42,7 @@ function render() {
   Object.keys(item).forEach((key) => {
     const row = item[key];
     if (row) {
+      dell = Number.parseFloat(row.id);
       table.innerHTML += `
           <tr>
           <td> ${count++}</td>
@@ -52,8 +53,8 @@ function render() {
               : '<span class="btn btn-danger">Hết Hàng</span>'
           }</td>
           <td>
-            <a href="update-category.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
-            <button class="btn btn-danger btn-del" onclick="xoasp('${key}')">Xóa</button>
+            <a href="update-category.html?id=${dell-1}"><button  class="btn btn-info">Sửa</button></a>
+            <button class="btn btn-danger btn-del" onclick="xoasp('${dell-1}')">Xóa</button>
           </td>
         </tr>
             `;

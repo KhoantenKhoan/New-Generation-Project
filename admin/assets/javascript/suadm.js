@@ -13,6 +13,7 @@ btnluu.onclick = function(){
   }
   sp={
     tenDM: document.querySelector("#ten").value.trim(),
+    id: document.querySelector("#id").value.trim(),
     idDMT : document.querySelector("#dmt").value.trim(),
     trangThai : anHien
   }
@@ -36,6 +37,7 @@ fetch(url)
 .then(sp  =>{
     document.getElementById('ten').value = sp.tenDM;
     document.getElementById("dmt").value= sp.idDMT,
+    document.getElementById("id").value= sp.id,
     document.getElementById('div_anHien').innerHTML = `
     <label class="btn btn-outline-success waves-effect waves-light m-r-10">
     <input type="radio" name="anHien" value="1" class="anHien" ${sp.trangThai=="1" ? "checked" :""}>Còn hàng
