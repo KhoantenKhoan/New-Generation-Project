@@ -48,7 +48,10 @@
 
           const row = item[key];
           
-          if(row){const d = new Date(`${row.ngayNhap}`);
+          if(row){
+            const d = new Date(`${row.ngayNhap}`);
+          dell = Number.parseFloat(row.id);
+
           table.innerHTML += `
           <tr>
                 <td>${count++}</td>
@@ -62,8 +65,8 @@
                 <td>${row.soLuong}</td>
                 <td>${row.trangThai == 1 ? '<span class="btn btn-primary">Còn Hàng</span>' : '<span class="btn btn-danger">Hết Hàng</span>'}</td>
                 <td>
-                  <a href="./update-product.html?id=${key}"> <span class="btn btn-info">Sửa</span></a> 
-                  <span onclick="xoa('${key}')" class="btn btn-danger btn-del">Xóa</span>
+                  <a href="./update-product.html?id=${dell-1}"> <span class="btn btn-info">Sửa</span></a> 
+                  <span onclick="xoa('${dell-1}')" class="btn btn-danger btn-del">Xóa</span>
                 </td>
           </tr>
                 
