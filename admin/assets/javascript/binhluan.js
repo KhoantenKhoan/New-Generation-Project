@@ -17,7 +17,7 @@
           <td>${d.getDate() + '/' + d.getMonth() + '/' +  d.getFullYear()}</td>
           <td style="width: 650px">${row.noiDung}</td>
           <td>
-            <a href="update-cmt.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
+            
             <button class="btn btn-danger btn-del" onclick="xoa('${key}')">Xóa</button>
           </td>
         </tr>
@@ -41,3 +41,4 @@
           },1000)
         })();
       };
+      // <a href="update-cmt.html?id=${key}"><button  class="btn btn-info">Sửa</button></a>
