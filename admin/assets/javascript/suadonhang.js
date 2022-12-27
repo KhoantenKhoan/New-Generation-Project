@@ -5,6 +5,9 @@ btnluu.onclick = function(){
   url=`https://silkroad-project-28d19-default-rtdb.asia-southeast1.firebasedatabase.app/donHang/${id}.json`;
   dh={
       tenKH:document.querySelector("#tenKH").value.trim(),
+      id:document.querySelector("#id").value.trim(),
+      idKH:document.querySelector("#idKH").value.trim(),
+      idKM:document.querySelector("#idKM").value.trim(),
       email:document.querySelector("#email").value.trim(),
       ngayDH:document.querySelector("#ngayDH").value.trim(),
       diaChi:document.querySelector("#diaChi").value.trim(),
@@ -34,6 +37,9 @@ fetch(url)
 .then(res => res.json())
 .then(dh  =>{
     document.getElementById('tenKH').value = dh.tenKH;
+    document.getElementById('id').value = dh.id;
+    document.getElementById('idKH').value = dh.idKH;
+    document.getElementById('idKM').value = dh.idKM;
     document.getElementById('email').value = dh.email;
     document.getElementById('ngayDH').value = dh.ngayDH;
     document.getElementById('diaChi').value = dh.diaChi;
